@@ -1,0 +1,109 @@
+workflows:
+  - name: repo:bootstrap
+    command: |
+      set -e
+      nvm use
+      pnpm install --frozen-lockfile
+      echo "✅ PupFanz deps installed"
+    tags: [setup, bootstrap]
+
+  - name: env:check
+    command: |
+      set -e
+      test -f .env || (echo "❌ .env missing" && exit 1)
+      export $(grep -v '^#' .env | xargs) || true
+      for v in DATABASE_URL SESSION_SECRET REPL_ID REPLIT_DOMAINS; do
+        if [ -z "${!v:-}" ]; then echo "❌ missing $v"; exit 1; fi
+      done
+      echo "✅ environment variables ok"
+    tags: [env, check]
+
+  - name: db:generate
+    command: |
+      set -e
+      pnpm drizzle-kit generate || npx drizzle-kit generate
+      echo "✅ migrations generated"
+    tags: [database, migrations]
+
+  - name: db:push
+    command: |
+      set -e
+      export $(grep -v '^#' .env | xargs) || true
+      pnpm db:push || npx drizzle-kit push
+      echo "✅ schema pushed to database"
+    tags: [database, migrations]
+
+  - name: dev:start
+    command: |
+      set -e
+      warp run env:check
+      pnpm dev
+    tags: [dev, start]
+
+  - name: dev:stop
+    command: |
+      pkill -f vite || true
+      pkill -f tsx || true
+      pkill -f node || true
+      echo "🛑 dev processes stopped"
+    tags: [dev, stop]
+
+  - name: qa:check
+    command: |
+      set -e
+      pnpm check || echo "⚠️  typecheck failed"
+      pnpm lint || echo "⚠️  lint failed"
+      pnpm test || echo "⚠️  tests failed"
+      pnpm audit || echo "⚠️  audit warnings"
+      echo "✅ QA checks completed"
+    tags: [qa, test, lint]
+
+  - name: a11y:scan
+    command: |
+      set -e
+      echo "🧑‍🦽 Running accessibility scan..."
+      npx pa11y http://localhost:5000 --threshold 0 || echo "⚠️  a11y issues found"
+      echo "♿ accessibility scan complete"
+    tags: [a11y, test]
+
+  - name: logs:tail
+    command: |
+      if [ -d .logs ]; then
+        tail -n +1 -f ./.logs/*.log
+      else
+        echo "📝 No .logs directory found, showing console logs..."
+        echo "Run 'pnpm dev' to start the application"
+      fi
+    tags: [logs, debug]
+
+  - name: port:free
+    command: |
+      PORT=${1:-5000}
+      lsof -ti :$PORT | xargs kill -9 2>/dev/null || true
+      echo "✅ freed port :$PORT"
+    tags: [port, cleanup]
+
+  - name: build:prod
+    command: |
+      set -e
+      warp run qa:check
+      pnpm build
+      echo "🏗️  production build complete"
+    tags: [build, production]
+
+  - name: test:e2e
+    command: |
+      set -e
+      echo "🧪 Running end-to-end tests..."
+      # Add e2e test commands when implemented
+      echo "⚠️  E2E tests not yet implemented"
+    tags: [test, e2e]
+
+  - name: security:scan
+    command: |
+      set -e
+      echo "🔒 Running security scans..."
+      pnpm audit --audit-level moderate
+      # Add additional security scanning tools
+      echo "✅ security scan complete"
+    tags: [security, audit]

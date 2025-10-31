@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* PupFanz Brand Colors */
+  --pf-volt: hsl(78, 100%, 54%); /* #A3FF12 */
+  --pf-cobalt: hsl(217, 91%, 60%); /* #2563EB */
+  --pf-tangerine: hsl(24, 100%, 50%); /* #FF7A00 */
+  --pf-ink: hsl(240, 10%, 3.9%); /* #0A0A0B */
+  --pf-graphite: hsl(240, 8%, 7%); /* #121214 */
+  --pf-snow: hsl(210, 25%, 95%); /* #F5F7FA */
+  --pf-mist: hsl(220, 14%, 82%); /* #C9D0D6 */
+
+  /* Semantic Colors */
+  --success: hsl(142, 76%, 36%); /* #22C55E */
+  --warning: hsl(38, 92%, 50%); /* #F59E0B */
+  --error: hsl(0, 84%, 60%); /* #EF4444 */
+
+  /* Base Theme */
+  --background: var(--pf-ink);
+  --foreground: var(--pf-snow);
+  --card: var(--pf-graphite);
+  --card-foreground: var(--pf-snow);
+  --popover: var(--pf-graphite);
+  --popover-foreground: var(--pf-snow);
+  --primary: var(--pf-volt);
+  --primary-foreground: var(--pf-ink);
+  --secondary: var(--pf-cobalt);
+  --secondary-foreground: var(--pf-snow);
+  --muted: var(--pf-mist);
+  --muted-foreground: var(--pf-mist);
+  --accent: var(--pf-tangerine);
+  --accent-foreground: var(--pf-ink);
+  --destructive: var(--error);
+  --destructive-foreground: var(--pf-snow);
+  --border: hsl(240, 6%, 15%); /* #26262A */
+  --input: var(--pf-graphite);
+  --ring: var(--pf-cobalt);
+
+  /* Sidebar */
+  --sidebar: var(--pf-graphite);
+  --sidebar-foreground: var(--pf-snow);
+  --sidebar-primary: var(--pf-volt);
+  --sidebar-primary-foreground: var(--pf-ink);
+  --sidebar-accent: var(--pf-graphite);
+  --sidebar-accent-foreground: var(--pf-volt);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--pf-cobalt);
+
+  /* Typography */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+
+  /* Spacing & Effects */
+  --radius: 12px;
+  --shadow-volt-glow: 0 0 16px rgba(163, 255, 18, 0.15);
+  --shadow-volt-strong: 0 0 24px rgba(163, 255, 18, 0.25);
+  
+  /* Neon text effects */
+  --text-neon-primary: 0 0 3px rgba(163, 255, 18, 0.6), 0 0 6px rgba(163, 255, 18, 0.4), 0 0 9px rgba(163, 255, 18, 0.25), 0 0 12px rgba(163, 255, 18, 0.1);
+  --text-neon-secondary: 0 0 3px rgba(37, 99, 235, 0.6), 0 0 6px rgba(37, 99, 235, 0.4), 0 0 9px rgba(37, 99, 235, 0.25);
+  --text-neon-accent: 0 0 3px rgba(255, 122, 0, 0.6), 0 0 6px rgba(255, 122, 0, 0.4), 0 0 9px rgba(255, 122, 0, 0.25);
+
+  /* Gradients */
+  --gradient-pack: linear-gradient(135deg, var(--pf-volt) 0%, var(--pf-cobalt) 60%, #00E5FF 100%);
+  --gradient-trail: linear-gradient(90deg, var(--pf-volt), var(--pf-tangerine));
+  --gradient-moonyard: radial-gradient(1100px 520px at 70% -8%, rgba(37, 99, 235, 0.25) 0%, #0A0A0B 60%);
+  --gradient-pack-ghost: linear-gradient(135deg, rgba(163, 255, 18, 0.15) 0%, rgba(37, 99, 235, 0.15) 60%, rgba(0, 229, 255, 0.1) 100%);
+}
+
+.dark {
+  /* Dark mode is default for PupFanz */
+  --background: var(--pf-ink);
+  --foreground: var(--pf-snow);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground font-sans antialiased;
+    font-family: var(--font-sans);
+    background: transparent;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  /* PupFanz specific components */
+  .pack-gradient {
+    background: var(--gradient-pack);
+  }
+
+  .trail-gradient {
+    background: var(--gradient-trail);
+  }
+
+  .moonyard-bg {
+    background: var(--gradient-moonyard);
+  }
+
+  .volt-glow {
+    box-shadow: var(--shadow-volt-glow);
+  }
+
+  .volt-strong {
+    box-shadow: var(--shadow-volt-strong);
+  }
+
+  /* Neon typography classes */
+  .neon-text-primary {
+    color: var(--pf-volt);
+    text-shadow: var(--text-neon-primary);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+
+  .neon-text-secondary {
+    color: var(--pf-cobalt);
+    text-shadow: var(--text-neon-secondary);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+
+  .neon-text-accent {
+    color: var(--pf-tangerine);
+    text-shadow: var(--text-neon-accent);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+
+  .neon-heading {
+    color: var(--pf-volt);
+    text-shadow: var(--text-neon-primary);
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* Button variants */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground font-semibold rounded-lg transition-all duration-200;
+    box-shadow: var(--shadow-volt-glow);
+    text-shadow: var(--text-neon-primary);
+    letter-spacing: 0.05em;
+  }
+
+  .btn-primary:hover {
+    background: var(--gradient-trail);
+    box-shadow: var(--shadow-volt-strong);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground font-medium rounded-lg transition-colors;
+  }
+
+  .btn-secondary:hover {
+    background-color: hsl(var(--secondary) / 0.9);
+  }
+
+  /* Pack-specific animations */
+  @keyframes bounce-subtle {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+
+  @keyframes glow-pulse {
+    0% { box-shadow: 0 0 20px rgba(163, 255, 18, 0.3); }
+    100% { box-shadow: 0 0 40px rgba(163, 255, 18, 0.6); }
+  }
+
+  @keyframes pack-howl {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .animate-bounce-subtle {
+    animation: bounce-subtle 2s infinite;
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 2s ease-in-out infinite alternate;
+  }
+
+  .animate-pack-howl {
+    background-size: 200% 200%;
+    animation: pack-howl 3s ease infinite;
+  }
+
+  /* Safety badges */
+  .safety-badge {
+    @apply inline-flex items-center px-2 py-1 text-xs font-medium rounded-full;
+  }
+
+  .safety-badge-verified {
+    @apply bg-green-100 text-green-700 dark:bg-green-900/20 dark:text-green-400;
+  }
+
+  .safety-badge-consent {
+    background-color: hsl(var(--secondary) / 0.2);
+    color: hsl(var(--secondary-foreground));
+  }
+
+  .safety-badge-aftercare {
+    background-color: hsl(var(--accent) / 0.2);
+    color: hsl(var(--accent-foreground));
+  }
+
+  /* Pack energy styling */
+  .pack-energy {
+    @apply transform transition-all duration-200 hover:-translate-y-1;
+  }
+
+  .pack-card {
+    @apply bg-card border border-border rounded-xl transition-all duration-200;
+  }
+
+  .pack-card:hover {
+    border-color: hsl(var(--primary) / 0.3);
+    box-shadow: var(--shadow-volt-glow);
+  }
+
+  /* Content grid for media */
+  .content-grid {
+    @apply grid gap-2;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .content-preview {
+    @apply aspect-square rounded-lg flex items-center justify-center;
+    background: var(--gradient-pack-ghost);
+  }
+
+  /* Chat interface styling */
+  .chat-message {
+    @apply max-w-xs lg:max-w-md rounded-lg p-3;
+  }
+
+  .chat-message-received {
+    @apply bg-background border border-border;
+  }
+
+  .chat-message-sent {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  /* Form controls with pack theming */
+  .form-input {
+    @apply w-full px-4 py-3 bg-background border border-border rounded-lg 
+           focus:ring-2 focus:ring-primary focus:border-primary 
+           transition-colors text-foreground;
+  }
+
+  .form-select {
+    @apply w-full px-4 py-3 bg-background border border-border rounded-lg 
+           focus:ring-2 focus:ring-primary focus:border-primary 
+           transition-colors text-foreground;
+  }
+
+  .form-textarea {
+    @apply w-full px-4 py-3 bg-background border border-border rounded-lg 
+           focus:ring-2 focus:ring-primary focus:border-primary 
+           transition-colors text-foreground resize-none;
+  }
+
+  /* Tab styling */
+  .tab-active {
+    @apply border-b-3 border-primary text-foreground;
+    border-bottom-width: 3px;
+  }
+
+  .tab-inactive {
+    @apply border-b border-border text-muted hover:text-foreground transition-colors;
+    border-bottom-width: 1px;
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  /* Upload zone styling */
+  .upload-zone {
+    @apply border-2 border-dashed border-border rounded-xl p-12 text-center 
+           hover:border-primary/50 transition-colors cursor-pointer;
+  }
+
+  .upload-zone-active {
+    @apply border-primary bg-primary/5;
+  }
+}
+
+@layer utilities {
+  .text-gradient-pack {
+    background: var(--gradient-pack);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-pack-howl {
+    background: var(--gradient-pack);
+  }
+
+  .bg-trail-mix {
+    background: var(--gradient-trail);
+  }
+
+  .bg-moonyard {
+    background: var(--gradient-moonyard);
+  }
+}
