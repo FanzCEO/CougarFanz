@@ -1,0 +1,462 @@
+{
+  "feature_id": "content-strategy",
+  "feature_name": "Content Strategy & Planning",
+  "description": "AI knowledge base for strategic content planning, calendar management, batching workflows, and sustainable creator success",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "platform": "CougarFanz",
+  "qa_pairs": [
+    {
+      "id": "qa_strategy_001",
+      "question": "How do I create a content calendar?",
+      "question_variations": [
+        "Content calendar setup",
+        "Plan my content",
+        "Content scheduling",
+        "How to organize content",
+        "Content planning system",
+        "Editorial calendar"
+      ],
+      "answer": "**Create Your Content Calendar:**\n\n**Step 1: Choose Your Tool**\n\n**[Platform] Built-in Scheduler:**\n- Settings → Content → **Scheduler**\n- Upload and schedule posts\n- Auto-publish at set times\n- Best for platform-specific scheduling\n\n**External Tools:**\n- **Google Calendar** (Free, visual)\n- **Trello** (Kanban board format)\n- **Notion** (Database views)\n- **Excel/Sheets** (Simple spreadsheet)\n\n**Step 2: Define Posting Frequency**\n\n**Recommended:**\n- Minimum: 5-7 posts/week\n- Ideal: 1-2 posts/day (7-14/week)\n\n**Example Schedule (7 posts/week):**\n- Monday: Main content (polished)\n- Tuesday: Casual update\n- Wednesday: Main content\n- Thursday: Engagement (poll/Q&A)\n- Friday: Main content\n- Saturday: Casual/BTS\n- Sunday: Week preview\n\n**Step 3: Create Weekly Themes**\n\n**Theme by Day:**\n- **Monday:** Motivation Monday\n- **Tuesday:** Teaser Tuesday\n- **Wednesday:** Q&A Wednesday\n- **Thursday:** Throwback Thursday\n- **Friday:** Feature Friday\n- **Saturday:** Saturday Special\n- **Sunday:** Sunday Funday\n\n**Step 4: Plan 30 Days Ahead**\n\n**Monthly Template:**\n```\nMONTH: November\nGOAL: 150 subscribers / $1,200 revenue\n\nWEEK 1:\n- Mon: New photoshoot\n- Tue: BTS from shoot\n- Wed: Q&A session\n- Thu: Throwback to first post\n- Fri: Premium content\n- Sat: Casual selfie\n- Sun: Week ahead preview\n\nWEEK 2-4: [continue planning]\n\nCONTENT SHOOTS:\n- Nov 3: Beach photoshoot\n- Nov 10: Studio session\n- Nov 17: Outdoor adventure\n```\n\n**Step 5: Color Code Content**\n\n**Visual System:**\n- 🔴 Red: Main content (high production)\n- 🟡 Yellow: Casual content\n- 🟢 Green: Engagement\n- 🔵 Blue: PPV content\n- 🟣 Purple: Promotional\n\n**Step 6: Use Post Scheduler**\n\n**Schedule Posts:**\n1. Create post (upload, caption)\n2. Click **\"Schedule\"** instead of \"Post Now\"\n3. Choose date/time\n4. Auto-publishes\n\n**Benefits:**\n- Post at optimal times (even if asleep)\n- Maintain consistency when busy\n- Plan week's content in one session\n- Reduce daily stress\n\n**Best Times to Post:**\n- Morning: 7-9 AM\n- Lunch: 12-2 PM (good engagement)\n- Evening: 7-10 PM (highest engagement)\n- Late night: 10 PM-12 AM\n\nCheck **Dashboard → Analytics → Best Times** for YOUR audience\n\n**Pro Tip:** Plan 30 days ahead, batch create weekly, schedule daily. This system gives you a content buffer (safety net) and reduces daily stress. You'll never scramble for what to post!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Open Post Scheduler",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        },
+        {
+          "label": "View Best Posting Times",
+          "action": "navigate",
+          "target": "/dashboard/analytics?tab=best_times"
+        },
+        {
+          "label": "Content Calendar Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#creating-a-content-calendar"
+        }
+      ],
+      "related_questions": ["qa_strategy_002", "qa_strategy_003"],
+      "tags": ["calendar", "planning", "schedule", "organization", "content"]
+    },
+    {
+      "id": "qa_strategy_002",
+      "question": "What is content batching and how do I do it?",
+      "question_variations": [
+        "Content batching",
+        "Batch create content",
+        "Create multiple posts at once",
+        "Efficient content creation",
+        "Content production workflow",
+        "Batch shooting"
+      ],
+      "answer": "**Content Batching: Work Smarter, Not Harder**\n\n**What is Batching:**\n\nCreating multiple pieces of content in one focused session rather than daily.\n\n**Example:**\n- 1 photoshoot = 10-15 posts\n- 1 afternoon (3-4 hours) = 2 weeks of content\n- Shoot once, post for weeks\n\n**Benefits:**\n\n**Time Efficiency:**\n- ✅ Setup once, shoot multiple outfits/angles\n- ✅ Reduce daily setup/breakdown time\n- ✅ Stay in creative flow\n- ✅ 3-4 hours = 2 weeks of content\n\n**Quality:**\n- ✅ Focused creative energy\n- ✅ Better planning\n- ✅ Consistent aesthetic\n\n**Mental Health:**\n- ✅ Reduced daily pressure\n- ✅ Clear boundaries\n- ✅ Less stress\n\n**Content Batching Workflow:**\n\n**Sunday (3-4 hours):**\n\n**Hour 1: Planning**\n- Review content calendar\n- Prepare outfits, props, locations\n- Check equipment (charged, working)\n- Create shot list\n\n**Hours 2-3: Shooting**\n- Photoshoot: 30-50 photos\n- Multiple outfits (3-5)\n- Various angles/poses\n- Different settings\n\n**Hour 4: Organization**\n- Download to computer\n- Basic editing/selection\n- Choose best 15-20 shots\n- Organize into folders\n\n**Monday-Saturday:**\n- Post scheduled content (5 min/day)\n- Engage with fans (1 hour/day)\n- No content creation needed\n- Focus on growth & interaction\n\n**Batching Strategies:**\n\n**Photo Batching:**\n\n**Single Location, Multiple Looks:**\n- Same background\n- 3-5 different outfits\n- Quick changes\n- 20-30 photos = 10-15 posts\n\n**Multiple Locations, One Look:**\n- Same outfit\n- 3-5 different spots\n- Variety in backgrounds\n- Drive/walk to locations\n\n**Outfit Change Speedrun:**\n- Set up camera/lighting once\n- Quick outfit changes\n- 10 outfits in 2 hours\n- 50+ photos\n\n**Video Batching:**\n\n**Single Session, Multiple Topics:**\n- Set up good lighting once\n- Record 5-10 short clips\n- Different topics/angles\n- 1 hour = 10 videos\n\n**Shot List Example:**\n\n```\nSHOOT: Beach Sunset\nDATE: Sunday 4-7 PM\n\nOUTFIT 1: Blue Dress\n- Wide shot on beach\n- Close-up face\n- Twirling shot\n- Sitting on sand\n- Walking toward camera\n\nOUTFIT 2: White Swimsuit\n- Standing in water\n- Sunset silhouette\n- Back view\n- Side profile\n- Candid laugh\n\nOUTFIT 3: Casual Beach\n- Playing in waves\n- Walking shoreline\n- Collecting shells\n- Natural moments\n```\n\n**Batching Best Practices:**\n\n**1. Prepare Everything in Advance**\n- ✅ Outfits laid out\n- ✅ Props ready\n- ✅ Location confirmed\n- ✅ Equipment charged\n- ✅ Shot list printed\n\n**2. Shoot 5:1 Ratio**\n- Shoot 50 photos → Use 10 best\n- Better to have options\n- Select highest quality\n\n**3. Create Content Buffer**\n- Always stay 1-2 weeks ahead\n- 14 posts scheduled\n- Safety net for emergencies\n\n**4. Batch Similar Tasks**\n- All photography one day\n- All editing next day\n- All caption writing same session\n- All scheduling at once\n\n**Organization System:**\n\n```\nContent Library/\n├── Raw/\n│   └── 2025-11-17_Beach_Shoot/\n├── Edited/\n│   ├── Ready_to_Post/\n│   └── Posted/\n└── Videos/\n    └── Raw_Clips/\n```\n\n**Pro Tip:** Batch create on Sunday, schedule for the week, spend Monday-Saturday just engaging with fans. This sustainable workflow prevents burnout and maintains quality. One focused creative session beats scrambling daily!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Schedule Content Batch",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        },
+        {
+          "label": "View Batching Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#content-batching--workflows"
+        }
+      ],
+      "related_questions": ["qa_strategy_001", "qa_strategy_007"],
+      "tags": ["batching", "workflow", "efficiency", "productivity", "content creation"]
+    },
+    {
+      "id": "qa_strategy_003",
+      "question": "How do I come up with content ideas?",
+      "question_variations": [
+        "Content ideas",
+        "What to post",
+        "Running out of ideas",
+        "Content inspiration",
+        "What content to create",
+        "Brainstorming content"
+      ],
+      "answer": "**Never Run Out of Content Ideas:**\n\n**1. Create Content Idea Bank**\n\n**Use Notes App:**\n- Title: \"Content Ideas\"\n- Add whenever inspiration strikes\n- Organize by category\n- Pull from list when planning\n\n**Categories:**\n- Photoshoot concepts\n- Video ideas\n- Behind-the-scenes\n- Q&A topics\n- Tutorials\n- Personal stories\n- Challenges/trends\n\n**2. Analyze Your Top Posts**\n\nDashboard → Analytics → **Top Performing**\n\n**Ask:**\n- What do top posts have in common?\n- Similar themes?\n- Specific aesthetics?\n- Times of day?\n- Do MORE of what works!\n\n**3. Survey Your Subscribers**\n\n**Ask directly:**\n- \"What content do you want to see?\"\n- \"Which idea interests you most?\" (poll)\n- \"Any requests?\"\n\n**Fans tell you exactly what they want!**\n\n**4. 50 Quick Content Ideas:**\n\n**Photo/Video:**\n1. Professional photoshoot\n2. Behind-the-scenes getting ready\n3. Day in the life\n4. Morning/night routine\n5. Workout session\n6. Cooking/meal prep\n7. Outfit of the day\n8. Try-on haul\n9. Before & after\n10. Different angles same outfit\n\n**Engagement:**\n11. Ask me anything Q&A\n12. This or that polls\n13. Caption this photo\n14. Vote on tomorrow's content\n15. Get to know me\n16. Fan question responses\n17. Would you rather?\n18. Rate my outfits 1-10\n19. Guess the location\n20. Fill in the blank\n\n**Behind-the-Scenes:**\n21. Setting up shoot\n22. Bloopers/outtakes\n23. Equipment tour\n24. Editing process\n25. Workspace tour\n26. Photoshoot prep\n27. Hair & makeup\n28. Outfit selection\n29. Location scouting\n30. Planning session\n\n**Educational:**\n31. Tips for [your niche]\n32. How-to tutorial\n33. Common mistakes\n34. Beginner's guide\n35. Product recommendations\n36. Favorite resources\n37. Lessons learned\n38. Advice for followers\n39. Myth-busting\n40. Industry insights\n\n**Personal:**\n41. Childhood photos\n42. Fun facts about me\n43. What I'm grateful for\n44. Goals and dreams\n45. Challenges overcome\n46. Favorite things\n47. Pet content\n48. Travel adventures\n49. Hobbies\n50. Milestone celebrations\n\n**5. Follow Trends**\n\n**Adapt Trending:**\n- TikTok trends\n- Instagram Reels trends\n- Seasonal themes\n- Holidays\n- Pop culture\n\n**6. Content Repurposing**\n\n**One Shoot, Multiple Posts:**\n- Different angles\n- Different edits\n- Close-ups vs wide shots\n- Color vs black & white\n- Outtakes as separate posts\n\n**7. Real Life Moments**\n\n**Document Your Life:**\n- Interesting locations\n- Outfits you wear\n- Activities you do\n- Turn ordinary into content\n\n**8. Listen to Fan Requests**\n\n**Comments/Messages:**\n- Note repeated requests\n- \"Can you do [X]?\"\n- Create what fans ask for\n- Guaranteed engagement\n\n**Monthly Brainstorm (30 min):**\n\n**Step 1: Review Last Month**\n- What worked?\n- What didn't?\n- Fan feedback?\n\n**Step 2: List 50+ Ideas**\n- Don't filter initially\n- Quantity first\n- Write everything down\n\n**Step 3: Categorize**\n- Main content (polished)\n- Casual updates\n- Engagement posts\n- PPV premium\n\n**Step 4: Prioritize**\n- Top 30 for this month\n- Assign to calendar dates\n- Plan shoots needed\n\n**Inspiration Sources:**\n\n**Daily Life:**\n- Every activity = potential content\n- \"How can I film this?\"\n- Document interesting moments\n\n**Other Creators:**\n- Not copying, but learning\n- What's working in your niche?\n- Unique angle you can take?\n\n**Fan Interactions:**\n- Questions they ask\n- Topics they mention\n- Content they engage with most\n\n**Pro Tip:** Keep your phone's notes app as your \"idea capture\" tool. Whenever you have an idea (shower, driving, random moment), immediately add it to your list. By month-end, you'll have 50+ ideas without even trying!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "View Top Posts",
+          "action": "navigate",
+          "target": "/dashboard/analytics?tab=top_content"
+        },
+        {
+          "label": "Create Poll for Ideas",
+          "action": "navigate",
+          "target": "/content/upload?type=poll"
+        },
+        {
+          "label": "Content Ideas Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#content-ideation--inspiration"
+        }
+      ],
+      "related_questions": ["qa_strategy_004", "qa_strategy_005"],
+      "tags": ["ideas", "inspiration", "brainstorming", "creativity", "content"]
+    },
+    {
+      "id": "qa_strategy_004",
+      "question": "What's the ideal content mix?",
+      "question_variations": [
+        "Content balance",
+        "Types of content to post",
+        "Content strategy mix",
+        "Content variety",
+        "Content ratio",
+        "Content distribution"
+      ],
+      "answer": "**The 60-30-10 Content Mix Rule:**\n\n**60% Main Content (Polished)**\n\nProfessional, high-quality content that delivers subscription value.\n\n**Examples:**\n- Professional photoshoots (5-10 photos)\n- Edited videos (1-5 minutes)\n- Planned content with themes\n- High production value\n\n**Posting:** 4-5 times per week\n\n**Why 60%:** Core value, justifies subscription price, what fans primarily pay for.\n\n**30% Casual Content (Authentic)**\n\nRelatable, personal content that builds connection.\n\n**Examples:**\n- Daily selfies\n- Quick video clips (30 sec)\n- Text updates with photo\n- Behind-the-scenes moments\n- \"Good morning\" posts\n- Outtakes\n\n**Posting:** 2-3 times per week\n\n**Why 30%:** Shows your real personality, builds parasocial connection, approachable.\n\n**10% Engagement Content (Interactive)**\n\nContent designed to spark conversation and community.\n\n**Examples:**\n- Polls (\"This or that?\")\n- Q&A sessions\n- Contests (\"Best comment wins!\")\n- Fan questions\n- \"Ask me anything\"\n- Community challenges\n\n**Posting:** 1 time per week\n\n**Why 10%:** Builds community, increases engagement, learns what fans want.\n\n**Weekly Schedule Example (7 posts):**\n\n**Monday:** Main - Professional photoshoot\n**Tuesday:** Casual - Selfie + question\n**Wednesday:** Main - Video content\n**Thursday:** Engagement - Poll\n**Friday:** Main - Premium photoshoot\n**Saturday:** Casual - Behind-the-scenes\n**Sunday:** Casual - Week ahead preview\n\n**Mix:** 3 main (43%) / 3 casual (43%) / 1 engagement (14%)\n\n*Close to 60/30/10 goal*\n\n**PPV Strategy (Separate from Mix):**\n\n**80/20 Rule for PPV:**\n- 80% included in subscription (free)\n- 20% premium PPV content (extra charge)\n\n**Example (10 posts/week):**\n- 8 posts: Included free\n- 2 posts: PPV ($5-$25 unlock)\n\n**What to Offer as PPV:**\n- Extended photo sets (20-30 photos)\n- Longer videos (10-15 min)\n- Exclusive themes\n- Ultra-premium content\n- Special requests\n\n**Don't PPV everything!** Subscription should feel valuable on its own.\n\n**Content Type Breakdown:**\n\n**Photos vs Videos:**\n- 70% photos (easier to create)\n- 30% videos (higher engagement)\n\n**Solo vs Interactive:**\n- 90% you creating content\n- 10% fan interaction/engagement\n\n**Planned vs Spontaneous:**\n- 80% planned (from calendar)\n- 20% spontaneous (current moments)\n\n**Quality Levels:**\n\n**High Production (60%):**\n- Professional camera or high-quality phone\n- Good lighting setup\n- Edited/curated\n- 30+ min preparation\n\n**Medium Quality (30%):**\n- Phone camera\n- Natural lighting\n- Minimal editing\n- 10 min preparation\n\n**Quick Content (10%):**\n- Phone selfie\n- No editing\n- 2 min to create\n- Authenticity over perfection\n\n**Balance is Key:**\n\n**Too Much Main Content (90%):**\n- ⚠️ Feels distant/impersonal\n- ⚠️ High production stress\n- ⚠️ Unsustainable\n- ⚠️ Less authentic connection\n\n**Too Much Casual (90%):**\n- ⚠️ Low perceived value\n- ⚠️ \"Why am I paying for selfies?\"\n- ⚠️ Higher churn\n- ⚠️ Can't justify price increases\n\n**Right Balance (60/30/10):**\n- ✅ Perceived value (main content)\n- ✅ Personal connection (casual)\n- ✅ Community engagement\n- ✅ Sustainable for creator\n- ✅ Fans feel it's worth price\n\n**Pro Tip:** Track your content mix monthly. If you're posting 90% casual selfies, your subscription value perception drops and churn increases. If you're posting 90% high-production content, you'll burn out. The 60/30/10 mix is sustainable AND valuable!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Content Analytics",
+          "action": "navigate",
+          "target": "/dashboard/analytics?tab=content_types"
+        },
+        {
+          "label": "Plan Content Mix",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        },
+        {
+          "label": "Content Mix Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#content-mix-strategy"
+        }
+      ],
+      "related_questions": ["qa_strategy_003", "qa_strategy_005"],
+      "tags": ["content mix", "strategy", "balance", "variety", "ratio"]
+    },
+    {
+      "id": "qa_strategy_005",
+      "question": "How do I avoid creator burnout?",
+      "question_variations": [
+        "Prevent burnout",
+        "Creator burnout",
+        "Feeling burned out",
+        "Too stressed creating content",
+        "Exhausted from posting",
+        "Sustainable content creation"
+      ],
+      "answer": "**Avoid Creator Burnout:**\n\n**Warning Signs of Burnout:**\n\n- 😰 Dreading content creation\n- 😩 Procrastinating on posts\n- 😔 Lost creative spark\n- 😫 Feeling obligated, not excited\n- 🤯 Constant stress about content\n- 😴 Exhausted despite rest\n\n**If you recognize 3+ signs, take action NOW.**\n\n**Prevention Strategies:**\n\n**1. Sustainable Posting Schedule**\n\n**Don't Overcommit:**\n- 1-2 posts/day is PLENTY\n- Don't promise daily if you can't sustain\n- Better: 5-7 quality posts/week\n- Consistency > Quantity\n\n**2. Content Batching (Most Important!)**\n\n**Reduce Daily Pressure:**\n- Create week's content in ONE day (Sunday)\n- Other 6 days: Just post scheduled content + engage\n- Clear separation: Creative time vs Operational time\n- No daily \"What do I post?\" stress\n\n**3. Set Clear Boundaries**\n\n**Work Hours:**\n- Define work hours (e.g., 10 AM - 4 PM)\n- No work after [time]\n- One day off per week (no posting)\n- Protect personal time\n\n**Phone/Computer:**\n- Turn off notifications after hours\n- Separate work/personal apps\n- \"Do Not Disturb\" mode evenings\n\n**4. Build Content Buffer**\n\n**Always Stay Ahead:**\n- 7-14 posts scheduled in advance\n- Safety net for bad days\n- Sick? Content still posts\n- Burnout prevention buffer\n\n**5. Take Breaks**\n\n**You're Allowed Days Off:**\n- 1 day off per week minimum\n- Post \"Throwback Thursday\" (archive content)\n- Or just don't post - fans understand!\n- Mental health > 1 missed post\n\n**Vacation:**\n- Plan 3-7 day breaks quarterly\n- Announce to subscribers\n- Schedule content ahead\n- Fully disconnect\n\n**6. Vary Your Content**\n\n**Prevent Boredom:**\n- Try new themes monthly\n- Explore new locations\n- Experiment with styles\n- Keep it fresh for YOU\n- If you're bored, fans are too\n\n**7. Delegate & Automate**\n\n**What to Automate:**\n- Post scheduling (use scheduler)\n- Welcome messages (auto-send)\n- FAQ responses (templates)\n\n**What to Delegate (If Budget Allows):**\n- Photo editing ($10-50/session)\n- Caption writing\n- Social media management\n- Video editing\n\n**Even $50/month for editing = worth it**\n\n**8. Connect with Other Creators**\n\n**Community Support:**\n- Join creator Discord/groups\n- Share experiences\n- \"You're not alone\"\n- Learn coping strategies\n- Accountability partners\n\n**9. Remember Your Why**\n\n**Why Did You Start?**\n- Financial freedom?\n- Creative expression?\n- Independence?\n- Write it down\n- Re-read when struggling\n\n**10. Quality Over Quantity**\n\n**Permission to Post Less:**\n- 5 great posts > 10 mediocre posts\n- Fans prefer quality\n- Sustainable long-term\n- You matter more than post count\n\n**Burnout Recovery (If Already Burned Out):**\n\n**Step 1: Take a Break**\n- 3-7 days off minimum\n- Announce to subscribers:\n  \"Taking a short break to recharge! Back [date] with fresh content 💕\"\n- Fans will understand\n- Give yourself permission\n\n**Step 2: Evaluate**\n- What caused burnout?\n- Posting too much?\n- No boundaries?\n- Not enjoying content?\n- Identify root cause\n\n**Step 3: Make Changes**\n- Reduce posting frequency (7 → 5 posts/week)\n- Implement batching\n- Set firm boundaries\n- Change content style if needed\n\n**Step 4: Return Gradually**\n- Start at 50% normal pace\n- Slowly increase\n- Monitor how you feel\n- Adjust as needed\n\n**Sustainable Schedule Example:**\n\n**Sunday (3-4 hours):**\n- Batch create week's content\n- Edit and schedule posts\n- Plan next week\n\n**Monday-Friday (1 hour/day):**\n- Engage with fans\n- Respond to comments/messages\n- Monitor analytics\n\n**Saturday:**\n- DAY OFF\n- No content work\n- Rest and recharge\n\n**Total:** 8-9 hours/week (sustainable!)\n\n**Red Flags - Stop Immediately:**\n\n🚩 **Physical symptoms** (anxiety, insomnia, headaches)\n🚩 **Depression** or loss of enjoyment\n🚩 **Relationships suffering**\n🚩 **Health declining**\n🚩 **Constant dread**\n\n**If experiencing these: Take 1-2 week break. Reevaluate if this is sustainable. Your health > content.**\n\n**Pro Tip:** Prevention is easier than recovery. Implement content batching and boundaries NOW, before burnout hits. One focused 4-hour Sunday session beats grinding 2 hours daily. Protect your mental health - it's your most valuable asset!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Schedule Content Batch",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        },
+        {
+          "label": "View Batching Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#content-batching--workflows"
+        },
+        {
+          "label": "Burnout Prevention Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#avoiding-creator-burnout"
+        }
+      ],
+      "related_questions": ["qa_strategy_002", "qa_strategy_006"],
+      "tags": ["burnout", "mental health", "sustainability", "wellness", "stress"]
+    },
+    {
+      "id": "qa_strategy_006",
+      "question": "Should I focus on quality or quantity?",
+      "question_variations": [
+        "Quality vs quantity",
+        "How many posts",
+        "Content quality",
+        "Post frequency vs quality",
+        "Better to post more or better",
+        "Content standards"
+      ],
+      "answer": "**Quality vs. Quantity: Finding Balance**\n\n**The Answer: Both Matter, But Differently at Different Stages**\n\n**For New Creators (Month 1-3):**\n\n**Priority: QUANTITY (Consistency)**\n\n**Why:**\n- Build posting habit\n- Learn what works\n- Show commitment\n- Algorithm favors active accounts\n- Momentum matters\n\n**Target:**\n- 7-10 posts/week minimum\n- Quality: \"Good enough\" is fine\n- Don't obsess over perfection\n- Ship it!\n\n**Minimum Quality:**\n- ✅ In focus\n- ✅ Adequate lighting\n- ✅ Appropriate content\n- ✅ No glaring errors\n\n**Not Required Yet:**\n- Professional camera (phone OK!)\n- Studio lighting (natural light works)\n- Perfect editing (basic is fine)\n- Professional models (be yourself!)\n\n**For Established Creators (Month 4-6):**\n\n**Priority: BALANCE**\n\n**Why:**\n- Subscribers expect value\n- Quality justifies price\n- But consistency still critical\n- Find sustainable middle ground\n\n**Target:**\n- 7 posts/week\n- 60% good/high quality\n- 40% casual/authentic\n- Mix polished + real\n\n**For Growing Creators (Month 7+):**\n\n**Priority: QUALITY (With Consistency)**\n\n**Why:**\n- Justify price increases\n- Stand out from competition\n- Build premium brand\n- Retain subscribers long-term\n\n**Target:**\n- 7-14 posts/week\n- Higher production value\n- Professional aesthetic\n- Maintain frequency\n\n**The Quality-Quantity Matrix:**\n\n**High Quality + High Quantity:**\n- 🏆 IDEAL (but demanding)\n- Top-tier creators\n- Requires experience or team\n- Sustainable with batching\n\n**High Quality + Low Quantity:**\n- ⚠️ RISK: Inconsistency\n- Amazing content, but infrequent\n- Fans may lose interest\n- Hard to maintain momentum\n- Revenue suffers\n\n**Low Quality + High Quantity:**\n- ⚠️ RISK: Low value perception\n- Lots of mediocre content\n- \"Why am I paying for selfies?\"\n- Higher churn rate\n- Can't justify price increases\n\n**Low Quality + Low Quantity:**\n- ❌ AVOID at all costs\n- Worst of both worlds\n- Recipe for failure\n- Rapid decline\n\n**The 80/20 Rule:**\n\n**80% of results from 20% of effort**\n\n**Apply to Content:**\n- Don't spend 3 hours editing one photo\n- Good lighting + decent composition = 80% there\n- Last 20% of \"perfect\" takes 80% of time\n- Diminishing returns\n\n**Good > Perfect**\n**Done > Perfect**\n\n**Practical Quality Guidelines:**\n\n**Level 1: Minimum Acceptable**\n- Phone camera\n- Natural lighting\n- No editing\n- In focus, well-framed\n- **Time:** 5-10 minutes\n- **Use for:** Casual content (30% of posts)\n\n**Level 2: Good Quality**\n- Good phone camera or basic DSLR\n- Planned lighting\n- Basic editing (brightness, contrast)\n- Composed shots\n- **Time:** 20-30 minutes\n- **Use for:** Regular content (50% of posts)\n\n**Level 3: High Quality**\n- Professional camera or high-end phone\n- Setup lighting\n- Full editing (color grade, retouching)\n- Multiple angles, carefully composed\n- **Time:** 1-2 hours\n- **Use for:** Main content (20% of posts)\n\n**Mix All Three Levels!**\n\n**What Subscribers Actually Want:**\n\n**Research Shows:**\n1. **Consistency** (post regularly) - Most Important\n2. **Variety** (mix of content types)\n3. **Authenticity** (real you, not fake perfect)\n4. **Quality** (good enough to enjoy)\n\n**Consistency > Quality > Perfection**\n\n**Common Mistakes:**\n\n**Perfectionism:**\n- Spend weeks on one post\n- Never ship content\n- Analysis paralysis\n- Miss momentum\n\n**Solution:** Set time limits\n- Max 1 hour per post\n- When time's up, ship it\n- Iterate and improve over time\n\n**All Casual Content:**\n- Daily selfies only\n- Low perceived value\n- \"I can see this on Instagram for free\"\n- Subscription feels not worth it\n\n**Solution:** Mix in polished content\n- 60% planned/professional\n- Show you put effort in\n\n**How to Improve Over Time:**\n\n**Month 1-3:**\n- Focus on consistency\n- Post daily, learn basics\n- Experiment with what works\n\n**Month 4-6:**\n- Invest in one quality improvement\n- Better lighting ($20 ring light)\n- Or basic editing skills\n- Or composition study\n\n**Month 7-12:**\n- Add another improvement\n- Better camera or editing software\n- Learn color grading\n- Develop signature style\n\n**Gradual improvement > sudden perfection**\n\n**Pro Tip:** The perfect post you never publish makes $0. The \"good enough\" post you publish today makes money and teaches you what works. Ship content consistently, track what performs best, and slowly raise your quality standards. Your 100th post will naturally be better than your 1st - that's the goal!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Content Analytics",
+          "action": "navigate",
+          "target": "/dashboard/analytics"
+        },
+        {
+          "label": "Quality Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#quality-vs-quantity"
+        }
+      ],
+      "related_questions": ["qa_strategy_004", "qa_strategy_005"],
+      "tags": ["quality", "quantity", "standards", "content", "perfection"]
+    },
+    {
+      "id": "qa_strategy_007",
+      "question": "How far ahead should I plan content?",
+      "question_variations": [
+        "Content planning timeline",
+        "How far to plan ahead",
+        "Planning horizon",
+        "Content buffer",
+        "Advance planning",
+        "Schedule how far"
+      ],
+      "answer": "**Content Planning Timeline:**\n\n**Short Answer: Plan 30 days, schedule 7-14 days ahead**\n\n**Detailed Breakdown:**\n\n**30-Day Plan (Monthly Calendar)**\n\n**Why 30 Days:**\n- See full month at a glance\n- Plan around holidays/events\n- Balance content variety\n- Identify content shoots needed\n- Set monthly goals\n\n**What to Plan:**\n- General themes per week\n- Special dates (holidays, milestones)\n- Content shoots (photoshoot days)\n- PPV content timing\n- Promotions or launches\n\n**Not Detailed:**\n- Don't write every caption\n- Don't select every photo\n- Just themes and structure\n- Flexibility for spontaneity\n\n**14-Day Schedule (Content Buffer)**\n\n**Why 14 Days:**\n- Safety net for life emergencies\n- Reduce daily stress\n- Maintain consistency even when sick\n- Allow for spontaneous life\n\n**What to Schedule:**\n- Actual posts uploaded\n- Captions written\n- Publish times set\n- Auto-publish enabled\n\n**Fully Ready:**\n- Photos selected and edited\n- Videos uploaded\n- Everything prepared\n- Just auto-publishes\n\n**7-Day Minimum (Essential Buffer)**\n\n**Absolute Minimum:**\n- Next 7 days always scheduled\n- Never fall below this\n- Week's content ready\n- Can focus on engagement\n\n**If You Drop Below 7:**\n- ⚠️ Scramble mode\n- ⚠️ Daily stress\n- ⚠️ Quality suffers\n- ⚠️ Inconsistency risk\n\n**Planning by Experience Level:**\n\n**New Creator (Month 1-3):**\n- **Plan:** 7 days ahead\n- **Schedule:** 3-5 days ahead\n- Still learning what works\n- Need flexibility\n- Don't overthink\n\n**Established (Month 4-6):**\n- **Plan:** 14 days ahead\n- **Schedule:** 7 days ahead\n- Know what works\n- Consistent style\n- Building buffer\n\n**Experienced (Month 7+):**\n- **Plan:** 30 days ahead\n- **Schedule:** 14 days ahead\n- Systems in place\n- Sustainable workflow\n- Maximum efficiency\n\n**Ideal Weekly Workflow:**\n\n**Sunday (Planning & Batching Day):**\n\n**Morning (1 hour):**\n- Review next 2 weeks' plan\n- Finalize this week's content\n- Check what's already scheduled\n\n**Afternoon (3-4 hours):**\n- Batch create content (photoshoot)\n- Record videos\n- Multiple outfits/themes\n\n**Evening (1-2 hours):**\n- Edit and select best content\n- Write captions\n- Schedule for next 7-14 days\n- Fill any gaps\n\n**Monday-Saturday:**\n- Content auto-publishes\n- Engage with fans (1 hour/day)\n- No content creation needed\n- Monitor performance\n\n**Content Buffer Benefits:**\n\n**Safety Net:**\n- ✅ Sick day? Content still posts\n- ✅ Emergency? Covered\n- ✅ Vacation? Scheduled ahead\n- ✅ Burnout? Buffer gives breathing room\n\n**Consistency:**\n- ✅ Never miss post days\n- ✅ Fans expect regularity\n- ✅ Algorithm favors consistency\n- ✅ Reliability builds trust\n\n**Quality:**\n- ✅ Time to create good content\n- ✅ No rush jobs\n- ✅ Can be thoughtful\n- ✅ Better planning\n\n**Mental Health:**\n- ✅ Reduced daily stress\n- ✅ No \"What do I post?\" panic\n- ✅ Clear boundaries\n- ✅ Sustainable long-term\n\n**How Far is TOO Far?**\n\n**30+ Days Scheduled:**\n\n**Risks:**\n- ⚠️ Lose spontaneity\n- ⚠️ Can't adapt to trends\n- ⚠️ Might change plans\n- ⚠️ Current events make content dated\n- ⚠️ Inflexible\n\n**Exception:** Vacation\n- OK to schedule 2-4 weeks if you'll be gone\n- Announce: \"Taking a break, scheduled content posting!\"\n- Return to 14-day buffer after\n\n**Balancing Planning & Spontaneity:**\n\n**80% Planned:**\n- From content calendar\n- Batched and scheduled\n- Reliable baseline\n\n**20% Spontaneous:**\n- Current trends\n- Real-time moments\n- Fan requests\n- Timely content\n\n**Example:**\n- 7 posts/week planned\n- 1-2 posts/week spontaneous\n- Replace scheduled if needed\n- Or post extra\n\n**Building Your Buffer:**\n\n**Week 1: Start Small**\n- Goal: 3 days ahead\n- Create and schedule Monday-Wednesday\n- Build confidence\n\n**Week 2: Increase**\n- Goal: 5 days ahead\n- Monday-Friday scheduled\n- Getting easier\n\n**Week 3: Full Week**\n- Goal: 7 days ahead\n- Full week scheduled\n- Comfortable rhythm\n\n**Week 4+: Ideal State**\n- Goal: 14 days ahead\n- Two weeks scheduled\n- Sustainable system\n- Less stress\n\n**Maintaining the Buffer:**\n\n**Every Sunday:**\n1. Check buffer (how many days ahead?)\n2. If below 14, batch create content\n3. Fill next 7-14 days\n4. Stay ahead\n\n**Never Let It Drop:**\n- If below 7 days: Priority!\n- Batch create immediately\n- Rebuild buffer\n- Don't let it slip\n\n**Pro Tip:** The magic number is 14 days. When you always have 2 weeks scheduled ahead, content creation becomes a weekly focused task instead of daily stress. You'll create better content, engage more authentically with fans, and avoid burnout. Aim for 14-day buffer - it changes everything!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Scheduled Posts",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        },
+        {
+          "label": "Create Content Calendar",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#creating-a-content-calendar"
+        }
+      ],
+      "related_questions": ["qa_strategy_001", "qa_strategy_002"],
+      "tags": ["planning", "buffer", "timeline", "scheduling", "advance"]
+    },
+    {
+      "id": "qa_strategy_008",
+      "question": "How do I test and optimize my content?",
+      "question_variations": [
+        "Content testing",
+        "A/B testing content",
+        "Improve content performance",
+        "Optimize posts",
+        "Test what works",
+        "Content experimentation"
+      ],
+      "answer": "**Test & Optimize Your Content:**\n\n**What to Test:**\n\n**1. Posting Time**\n- Morning (7-9 AM)\n- Lunch (12-2 PM)\n- Evening (7-10 PM)\n- Late night (10 PM-12 AM)\n- Which gets most engagement?\n\n**2. Content Type**\n- Photos vs videos\n- Single photo vs photo sets\n- Short videos vs longer videos\n- Which performs best?\n\n**3. Themes**\n- Different aesthetics\n- Various topics\n- Content styles\n- Outfit types\n- Locations\n\n**4. Captions**\n- Long vs short\n- With vs without questions\n- Storytelling vs direct\n- Emojis vs text only\n\n**5. Engagement Tactics**\n- Polls vs Q&A\n- Contests vs regular posts\n- Different CTAs\n\n**A/B Testing Method:**\n\n**Rule: Test ONE Variable at a Time**\n\n**Example: Testing Posting Time**\n\n**Week 1: Morning Posts (8 AM)**\n- Same type of content\n- Same themes\n- Same quality\n- Track metrics\n\n**Week 2: Evening Posts (8 PM)**\n- Same type of content\n- Same themes\n- Same quality\n- Track metrics\n\n**Compare:**\n- Engagement rate\n- Comment count\n- View rate\n- Tips received\n\n**Conclusion:**\n- Evening posts got 40% more engagement\n- Decision: Post at 8 PM going forward\n\n**Next Test:** Try 7 PM vs 9 PM to optimize further\n\n**Analyzing Results:**\n\n**Dashboard → Analytics**\n\n**Key Metrics:**\n\n**1. Engagement Rate**\nFormula: (Likes + Comments) ÷ Subscribers × 100\n\n**Track:**\n- Per post\n- Identify patterns\n- What hits 30%+ engagement?\n\n**2. View Rate**\nFormula: Views ÷ Total Subscribers × 100\n\n**Track:**\n- Which content gets 80%+ views?\n- Which gets under 50%?\n- Do more of high-view content\n\n**3. Revenue per Post**\n\n**Track:**\n- Tips received\n- PPV sales\n- Which content drives $$$?\n- Do more of revenue-generating content\n\n**4. Retention Impact**\n\n**Warning Signs:**\n- Post → Spike in cancellations?\n- Certain content type = churn?\n- Avoid content that causes cancellations\n\n**Monthly Optimization Process:**\n\n**Step 1: Identify Top 10 Posts (Last 30 Days)**\n\nDashboard → Analytics → **Top Performing**\n\n**Sort by:**\n- Highest engagement rate\n- Most revenue\n- Best retention\n\n**Step 2: Find Common Themes**\n\n**Ask:**\n- Similar content type?\n- Specific aesthetic?\n- Particular topics?\n- Posting time pattern?\n- Caption style?\n- Question at end?\n\n**Example Findings:**\n- \"All top posts were evening (7-9 PM)\"\n- \"Videos outperformed photos 2:1\"\n- \"Behind-the-scenes got 3x engagement\"\n- \"Posts with polls got most comments\"\n\n**Step 3: Replicate Success**\n\n**Create More:**\n- Similar content to top posts\n- Use same posting times\n- Apply same formulas\n- Double down on what works\n\n**Reduce:**\n- Content that underperforms\n- Times with low engagement\n- Themes fans don't respond to\n\n**Step 4: Test New Ideas**\n\n**Carefully Experiment:**\n- Try 1-2 new things per week\n- Don't abandon what works\n- 80% proven, 20% experimental\n- Measure results\n\n**Step 5: Iterate**\n\n**Continuous Improvement:**\n- Never stop optimizing\n- Monthly reviews\n- Track trends over time\n- Adapt to changes\n\n**Content Testing Calendar:**\n\n**Week 1: Test Posting Time**\n- Post Type A at 8 AM daily\n- Measure engagement\n\n**Week 2: Test Same at Different Time**\n- Post Type A at 8 PM daily\n- Compare to Week 1\n\n**Week 3: Test Content Type**\n- Photos at optimal time (from Week 1-2)\n- Measure engagement\n\n**Week 4: Test Alternative Content**\n- Videos at optimal time\n- Compare to Week 3\n\n**Week 5: Test Caption Style**\n- Long captions with winner from above\n- Measure engagement\n\n**Continue...**\n\n**Tools for Tracking:**\n\n**Spreadsheet Template:**\n```\nDate | Content Type | Time | Engagement % | Views | Revenue | Notes\n11/17 | Photo set | 8PM | 32% | 145 | $42 | BTS content\n11/18 | Video | 8PM | 45% | 178 | $67 | Tutorial\n11/19 | Poll | 12PM | 52% | 132 | $12 | High eng!\n```\n\n**Monthly Summary:**\n- Average engagement by type\n- Best posting times\n- Top-performing themes\n- Revenue drivers\n\n**Common Findings from Testing:**\n\n**Posting Time:**\n- Evening (7-10 PM) usually wins\n- Lunch (12-2 PM) second best\n- Early morning (6-8 AM) third\n- Late night varies by audience\n\n**Content Type:**\n- Videos usually 20-30% higher engagement than photos\n- Behind-the-scenes content outperforms staged\n- Polls/Q&A get most comments\n- But photos are easier to create (balance needed)\n\n**Caption Length:**\n- Medium (50-100 words) performs best\n- Too short (under 20 words) feels low-effort\n- Too long (200+ words) people don't read\n- ALWAYS include question at end\n\n**PPV Pricing:**\n- $5-$10 converts best (volume)\n- $15-$25 for premium (lower volume, high value)\n- Above $30 rarely sells unless ultra-premium\n- Test pricing 20% up/down\n\n**Red Flags (Stop Immediately):**\n\n**If Content Causes:**\n- 🚩 Spike in cancellations\n- 🚩 Negative comments\n- 🚩 Drop in engagement\n- 🚩 Subscriber complaints\n\n**Action:** Stop that content type, analyze why, adjust\n\n**Pro Tip:** Keep a \"winners log\" - document your top 20 posts of all time with notes on what made them work. When you're stuck or planning content, reference this log. Your best content leaves clues for creating more wins. Test systematically, track religiously, optimize ruthlessly!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "View Content Analytics",
+          "action": "navigate",
+          "target": "/dashboard/analytics"
+        },
+        {
+          "label": "Top Performing Posts",
+          "action": "navigate",
+          "target": "/dashboard/analytics?tab=top_content"
+        },
+        {
+          "label": "Testing Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#content-testing--optimization"
+        }
+      ],
+      "related_questions": ["qa_strategy_009", "qa_strategy_010"],
+      "tags": ["testing", "optimization", "A/B testing", "analytics", "performance"]
+    },
+    {
+      "id": "qa_strategy_009",
+      "question": "What's evergreen vs timely content?",
+      "question_variations": [
+        "Evergreen content",
+        "Timely content",
+        "Content types",
+        "Permanent vs temporary content",
+        "Long-lasting content",
+        "Trending content"
+      ],
+      "answer": "**Evergreen vs. Timely Content:**\n\n**Evergreen Content (60-70% of Content)**\n\n**Definition:**\nContent that remains relevant indefinitely.\n\n**Examples:**\n- Tutorial content (\"How to...\")\n- Tips and advice (\"5 ways to...\")\n- Educational posts\n- Personal stories\n- Transformation content\n- \"About me\" content\n- FAQ responses\n- Workout routines (if fitness)\n- Recipe tutorials (if cooking)\n- Skill demonstrations\n\n**Benefits:**\n- ✅ Can repost anytime\n- ✅ Always relevant\n- ✅ Compounds value over time\n- ✅ New subscribers see value immediately\n- ✅ Reusable asset\n- ✅ Timeless appeal\n\n**Example Evergreen Posts:**\n\n**Fitness Creator:**\n- \"My 10-minute morning routine\"\n- \"How I meal prep for the week\"\n- \"Best exercises for [body part]\"\n- \"My transformation story\"\n\n**Can be reposted in 3 months, 6 months, 1 year - still valuable!**\n\n**Timely Content (30-40% of Content)**\n\n**Definition:**\nContent relevant to specific time, event, or trend.\n\n**Examples:**\n- Holiday content (Christmas, Halloween, Valentine's)\n- Seasonal themes (Summer vibes, Fall colors, Winter cozy)\n- Current trends (TikTok trends, viral challenges)\n- Pop culture references (current movies, events)\n- Time-sensitive promotions (\"This week only!\")\n- Current events (tasteful, relevant ones)\n- \"Today's...\" or \"This week's...\" posts\n\n**Benefits:**\n- ✅ High immediate engagement\n- ✅ Feels current and fresh\n- ✅ Rides trending waves\n- ✅ FOMO (fear of missing out)\n- ✅ Topical relevance\n- ✅ Shows you're active/aware\n\n**Example Timely Posts:**\n\n**Halloween:**\n- \"My Halloween costume reveal!\"\n- \"Spooky photoshoot 🎃\"\n- \"Halloween special discount\"\n\n**Only relevant for ~2 weeks in October**\n\n**The Right Balance:**\n\n**60% Evergreen / 40% Timely**\n\n**Why:**\n- Evergreen builds lasting value\n- New subscribers see valuable back catalog\n- Content library appreciates over time\n- But timely keeps things fresh\n- Shows you're current\n- Engages with cultural moments\n\n**Monthly Content Mix Example:**\n\n**30 Posts in November:**\n\n**Evergreen (18 posts):**\n- 10 professional photo sets (standard content)\n- 5 tutorial/educational posts\n- 3 personal story posts\n\n**Timely (12 posts):**\n- 4 Thanksgiving-themed posts\n- 3 Black Friday promotion posts\n- 2 Fall season posts\n- 2 current trend posts\n- 1 monthly milestone post\n\n**Building Evergreen Library:**\n\n**Create Once, Use Forever:**\n\n**Core Content Pieces:**\n1. \"About Me\" intro video\n2. \"My Story\" post\n3. \"Day in My Life\" vlog\n4. \"Behind the Scenes\" tour\n5. \"How I Create Content\" tutorial\n6. \"Tips for [Your Niche]\" guide\n7. \"My Favorite Products\" recommendations\n8. \"Q&A Compilation\" (common questions)\n9. \"Transformation Journey\" (if applicable)\n10. \"What Subscribers Get\" explainer\n\n**Film Once, Repost Strategically:**\n- Every 3-6 months\n- New subscribers haven't seen it\n- Still provides value\n- Minimal additional work\n- Edit/update slightly if needed\n\n**Repurposing Evergreen Content:**\n\n**One Evergreen Shoot = Multiple Uses:**\n\n**Example: \"My Morning Routine\" Video**\n\n**First Post (Today):**\n- Full video with detailed explanation\n- Caption: \"My 10-min morning routine 🌅\"\n\n**Second Use (3 months later):**\n- Clips from same video\n- \"Morning routine update!\"\n- Slightly different angle\n\n**Third Use (6 months later):**\n- Behind-the-scenes of filming that routine\n- \"How I film my morning routine\"\n\n**Fourth Use (9 months later):**\n- Still frames from video\n- Photo set: \"Morning vibes ☕\"\n\n**One shoot = 4+ posts over time!**\n\n**Timely Content Strategy:**\n\n**Plan Ahead:**\n\n**Annual Calendar:**\n- January: New Year/resolutions\n- February: Valentine's Day\n- March: Spring/St Patrick's\n- April: Easter/Spring\n- May: Summer preview\n- June: Pride/Summer\n- July: Summer/4th of July (US)\n- August: Back to school vibes\n- September: Fall begins\n- October: Halloween\n- November: Thanksgiving\n- December: Christmas/New Year's\n\n**Create 2-4 Weeks Early:**\n- Halloween content in early October\n- Christmas content in early December\n- Capitalize on anticipation\n- Don't wait until the day of\n\n**Trend Riding:**\n\n**How to Adapt Trends:**\n\n**TikTok Trend:**\n- See trending sound/format\n- Adapt to your niche\n- Create within 3-7 days (window of relevance)\n- Post while trend is hot\n\n**Example:**\n- Trend: \"Get Ready With Me\" format\n- Your version: \"Get ready for my photoshoot\"\n- Shows behind-the-scenes\n- Timely (current trend) + Evergreen (BTS is always relevant)\n\n**Best of Both Worlds!**\n\n**Mistakes to Avoid:**\n\n**100% Timely:**\n- ❌ Content quickly becomes dated\n- ❌ Back catalog has no value\n- ❌ New subscribers see old, irrelevant posts\n- ❌ Constant pressure to stay current\n\n**100% Evergreen:**\n- ❌ Feels stale, generic\n- ❌ \"Could have been posted anytime\"\n- ❌ Misses cultural moments\n- ❌ Less immediate engagement\n\n**Pro Tip:** Build a library of 50+ evergreen posts in your first 3 months. This becomes your foundation - content you can repost strategically. Layer timely content (holidays, trends, current events) on top monthly. New subscribers binge your evergreen library, while existing subscribers enjoy fresh timely content. Best of both!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Plan Evergreen Content",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        },
+        {
+          "label": "Content Strategy Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#evergreen-vs-timely-content"
+        }
+      ],
+      "related_questions": ["qa_strategy_003", "qa_strategy_010"],
+      "tags": ["evergreen", "timely", "content types", "trends", "seasonal"]
+    },
+    {
+      "id": "qa_strategy_010",
+      "question": "How do I plan seasonal content?",
+      "question_variations": [
+        "Seasonal planning",
+        "Holiday content",
+        "Seasonal content strategy",
+        "Plan for holidays",
+        "Christmas content",
+        "Seasonal themes"
+      ],
+      "answer": "**Plan Seasonal Content:**\n\n**Why Seasonal Content Works:**\n\n**Benefits:**\n- ✅ High engagement (timely relevance)\n- ✅ Fans expect it (cultural moments)\n- ✅ Fresh, varied content\n- ✅ Promotional opportunities\n- ✅ Shows you're active/current\n- ✅ Creates FOMO\n\n**Annual Content Calendar:**\n\n**January:**\n- 🎊 New Year (resolutions, fresh start)\n- ❄️ Winter content\n- 💪 \"New year, new you\" themes\n- 🎯 Goal-setting posts\n\n**February:**\n- ❤️ Valentine's Day (love, romance, self-love)\n- 🌹 Roses, hearts, red/pink themes\n- 💝 Special offers for couples or singles\n\n**March:**\n- 🌸 Spring begins\n- ☘️ St. Patrick's Day (green themes)\n- 🌷 Spring flowers, renewal\n\n**April:**\n- 🐰 Easter (pastels, bunnies, eggs)\n- 🌼 Spring in full bloom\n- 🌧️ April showers theme\n- 😄 April Fool's (fun content)\n\n**May:**\n- 👩 Mother's Day\n- 🇺🇸 Memorial Day (US)\n- ☀️ Summer preview\n- 🌻 Outdoor content\n\n**June:**\n- 🏳️‍🌈 Pride Month\n- 👨 Father's Day\n- ☀️ Summer solstice\n- 🏖️ Beach content, vacation vibes\n\n**July:**\n- 🎆 Independence Day (US)\n- 🏖️ Peak summer\n- ⛱️ Outdoor adventures\n- 🌊 Water content\n\n**August:**\n- 📚 Back-to-school vibes\n- 🌅 Late summer content\n- ✈️ Vacation themes\n- 🍉 Summer fruits\n\n**September:**\n- 🍂 Fall begins\n- 🍁 Autumn colors\n- 👨‍⚖️ Labor Day (US)\n- 🍎 Harvest themes\n\n**October:**\n- 🎃 Halloween (costumes, spooky)\n- 👻 Horror themes\n- 🍂 Peak fall colors\n- 🕷️ Creepy content\n\n**November:**\n- 🦃 Thanksgiving\n- 🍂 Gratitude content\n- 🛍️ Black Friday promotions\n- 🍁 Cozy fall vibes\n\n**December:**\n- 🎄 Christmas\n- 🕎 Hanukkah\n- 🎅 Holiday themes\n- 🎆 New Year's Eve\n- ⭐ Year in review\n- ❄️ Winter wonderland\n\n**Planning Timeline:**\n\n**Create 2-4 Weeks Early:**\n\n**Example: Halloween**\n- Plan: Early September\n- Shoot: Mid-September\n- Post: October 1-31\n- Benefit: Capitalize on full buildup, not just the day\n\n**Seasonal Content Ideas:**\n\n**Summer (June-August):**\n\n**Themes:**\n- Beach photoshoots\n- Poolside content\n- Outdoor adventures\n- Vacation vibes\n- Light, airy aesthetic\n- Bikinis, sundresses\n- Sunset shoots\n- Water activities\n\n**Colors:** Bright, sunny, blues, yellows, whites\n\n**Fall (September-November):**\n\n**Themes:**\n- Autumn leaves\n- Cozy sweaters\n- Pumpkin patches\n- Apple orchards\n- Warm tones\n- Indoor coziness\n- Flannel shirts\n- Coffee shop vibes\n\n**Colors:** Orange, brown, burgundy, mustard yellow\n\n**Winter (December-February):**\n\n**Themes:**\n- Snow content (if applicable)\n- Holiday celebrations\n- Cozy indoor shoots\n- Fireplace vibes\n- Winter fashion\n- Hot cocoa themes\n- Blankets and warmth\n- Sparkly/festive\n\n**Colors:** White, silver, gold, red, green, navy\n\n**Spring (March-May):**\n\n**Themes:**\n- Flowers and nature\n- Bright colors\n- Outdoor shoots\n- Fresh starts\n- Renewal themes\n- Rain gear (cute umbrellas)\n- Garden settings\n- Light, flowing fabrics\n\n**Colors:** Pastels, pink, lavender, mint green, yellow\n\n**Holiday-Specific Content:**\n\n**Halloween (October):**\n\n**Content Ideas:**\n1. Costume reveals (multiple costumes = multiple posts)\n2. Sexy costume photoshoots\n3. Spooky-themed sets\n4. Pumpkin patch visits\n5. Halloween makeup tutorials\n6. \"Trick or treat\" themed PPV\n7. Horror movie watch-along streams\n8. Haunted house adventures\n\n**Posting Schedule:**\n- Oct 1-15: Build anticipation\n- Oct 16-30: Multiple costume reveals\n- Oct 31: Grand finale costume\n\n**Christmas (December):**\n\n**Content Ideas:**\n1. Holiday lingerie shoots\n2. Gift unwrapping videos\n3. Christmas tree decorating\n4. Ugly sweater theme\n5. Santa's helper costume\n6. Hot cocoa cozy content\n7. Gift guide for fans\n8. Year-in-review post\n9. New Year's goals\n10. Countdown to midnight\n\n**Posting Schedule:**\n- Dec 1-14: Holiday preparation/decorating\n- Dec 15-24: Christmas buildup\n- Dec 25: Christmas day special\n- Dec 26-30: Holiday relaxation\n- Dec 31: New Year's Eve\n\n**Seasonal Promotions:**\n\n**Bundle with Seasons:**\n\n**Summer Sale:**\n- \"☀️ Summer Special: 40% off all PPV!\"\n- \"Beach vibes bundle: 3 sets for $25\"\n- Limited time (June-August)\n\n**Black Friday:**\n- \"🛍️ Black Friday: 50% off subscription!\"\n- \"First 100 subscribers: $4.99 (normally $9.99)\"\n- Creates urgency\n\n**Valentine's Day:**\n- \"❤️ Valentine's Special: Send you OR your partner a gift!\"\n- Custom content for couples\n- Romantic themed PPV\n\n**Seasonal Content Strategy:**\n\n**30% of Monthly Content Should Be Seasonal**\n\n**Example November (30 posts):**\n- 21 evergreen/regular posts (70%)\n- 9 seasonal posts (30%):\n  - 4 Thanksgiving-themed\n  - 3 Black Friday promotions\n  - 2 Fall aesthetic posts\n\n**Don't Overdo It:**\n- Too much holiday content feels forced\n- Balance with regular content\n- Not everyone celebrates every holiday\n- Keep it fun, not obligatory\n\n**Multi-Cultural Awareness:**\n\n**Be Inclusive:**\n- Not everyone celebrates Christmas\n- Consider Hanukkah, Kwanzaa\n- Generic \"happy holidays\"\n- Or focus on seasonal (winter) vs religious\n\n**Respect:**\n- Avoid cultural appropriation\n- Sensitive to different traditions\n- When in doubt, keep it general\n\n**Pro Tip:** Create a \"Seasonal Content Bank\" - shoot all 4 seasons' content in one year and save for future years. Beach content shot in July 2025 can be reposted in July 2026. Fall leaves from October 2025 work in October 2026. Build a library of seasonal content you can reuse annually with minimal additional work!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Plan Seasonal Content",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        },
+        {
+          "label": "Seasonal Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-strategy.md#seasonal-content-planning"
+        }
+      ],
+      "related_questions": ["qa_strategy_009", "qa_strategy_003"],
+      "tags": ["seasonal", "holidays", "planning", "calendar", "themes"]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "no_scheduled_content",
+      "trigger_name": "No Scheduled Posts",
+      "message": "⚠️ **You have no posts scheduled**\n\nStay ahead by scheduling content in advance!\n\n**Benefits:**\n- Never miss a post day\n- Reduce daily stress\n- Post at optimal times\n\n**Goal:** 7-14 days scheduled ahead\n\n[Schedule Posts Now] [Learn Batching]",
+      "condition": {
+        "metrics": {
+          "scheduled_posts_count": 0,
+          "days_since_last_post": {
+            "less_than": 2
+          }
+        }
+      },
+      "priority": "high",
+      "display_type": "banner",
+      "dismissible": true,
+      "cooldown_days": 3
+    },
+    {
+      "trigger_id": "content_buffer_low",
+      "trigger_name": "Content Buffer Running Low",
+      "message": "⚠️ **Only {days} days of content scheduled**\n\nYour buffer is running low! Time to batch create.\n\n**Recommended:** 7-14 days scheduled ahead\n\n[Batch Content Now] [View Batching Guide]",
+      "condition": {
+        "metrics": {
+          "days_of_content_scheduled": {
+            "less_than": 5
+          }
+        }
+      },
+      "priority": "medium",
+      "display_type": "alert",
+      "dismissible": true,
+      "cooldown_days": 2
+    },
+    {
+      "trigger_id": "low_content_variety",
+      "trigger_name": "Content Lacks Variety",
+      "message": "💡 **Mix up your content!**\n\nLast 10 posts were all {content_type}.\n\n**Try adding:**\n- Different content types\n- Engagement posts (polls, Q&A)\n- Behind-the-scenes\n- Variety increases engagement!\n\n[Content Mix Guide]",
+      "condition": {
+        "metrics": {
+          "content_type_diversity_score": {
+            "less_than": 30
+          },
+          "posts_last_7_days": {
+            "greater_than": 5
+          }
+        }
+      },
+      "priority": "low",
+      "display_type": "tip",
+      "dismissible": true,
+      "cooldown_days": 14
+    },
+    {
+      "trigger_id": "seasonal_content_reminder",
+      "trigger_name": "Seasonal Content Suggestion",
+      "message": "🎃 **{holiday} is coming in {days} days!**\n\nTime to create seasonal content!\n\n**Ideas:**\n- Holiday-themed photoshoots\n- Seasonal promotions\n- Festive content\n\nPlan 2-4 weeks ahead for best results.\n\n[Seasonal Planning Guide]",
+      "condition": {
+        "time": {
+          "upcoming_holiday": true,
+          "days_until_holiday": {
+            "between": [14, 30]
+          }
+        }
+      },
+      "priority": "low",
+      "display_type": "suggestion",
+      "dismissible": true,
+      "show_once_per_holiday": true
+    },
+    {
+      "trigger_id": "content_performance_insight",
+      "trigger_name": "Content Performance Insight",
+      "message": "📊 **Your {content_type} posts are performing great!**\n\nAverage engagement: {engagement_rate}% (above average!)\n\n**Suggestion:** Create more {content_type} content\n\n[View Analytics] [Content Strategy Tips]",
+      "condition": {
+        "metrics": {
+          "content_type_performance": {
+            "above_average": true,
+            "min_sample_size": 5
+          }
+        }
+      },
+      "priority": "low",
+      "display_type": "insight",
+      "dismissible": true,
+      "cooldown_days": 30
+    }
+  ],
+  "common_errors": [],
+  "related_features": [
+    "content-upload",
+    "dashboard-analytics",
+    "subscription-management",
+    "fan-engagement",
+    "getting-started"
+  ],
+  "glossary": [
+    {
+      "term": "Content Batching",
+      "definition": "Creating multiple pieces of content in one focused session rather than daily, improving efficiency and reducing stress"
+    },
+    {
+      "term": "Content Calendar",
+      "definition": "Planning tool showing scheduled content over weeks/months, helping organize posting strategy"
+    },
+    {
+      "term": "Content Buffer",
+      "definition": "Reserve of pre-created, scheduled content (typically 7-14 days ahead) that maintains consistency during emergencies"
+    },
+    {
+      "term": "60-30-10 Rule",
+      "definition": "Content mix strategy: 60% main polished content, 30% casual authentic content, 10% engagement interactive content"
+    },
+    {
+      "term": "Evergreen Content",
+      "definition": "Content that remains relevant indefinitely and can be reposted months or years later"
+    },
+    {
+      "term": "Timely Content",
+      "definition": "Content relevant to specific time, event, or trend (holidays, seasons, current events)"
+    },
+    {
+      "term": "A/B Testing",
+      "definition": "Testing one variable at a time (posting time, content type, etc.) to optimize performance"
+    }
+  ],
+  "integration_points": {
+    "pages": [
+      "/content/scheduler",
+      "/content/upload",
+      "/dashboard/analytics",
+      "/content/calendar"
+    ],
+    "components": [
+      "ContentCalendar",
+      "PostScheduler",
+      "ContentBatchUploader",
+      "AnalyticsDashboard",
+      "ContentMixAnalyzer"
+    ],
+    "apis": [
+      "/api/content/schedule",
+      "/api/content/batch-upload",
+      "/api/analytics/content-performance",
+      "/api/content/calendar"
+    ]
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "feature_id": "content-moderation",
+  "feature_name": "Content Moderation & Safety",
+  "version": "1.0.0",
+  "last_updated": "2025-11-16",
+  "platforms": ["all"],
+  "user_types": ["creator", "fan", "admin"],
+  "qa_pairs": [
+    {
+      "id": "qa_mod_001",
+      "question": "How does content moderation work?",
+      "question_variations": [
+        "What is content moderation?",
+        "How is my content reviewed?",
+        "Content review process",
+        "Moderation system explained",
+        "How do you moderate content?",
+        "Content approval process"
+      ],
+      "answer": "Our moderation system uses two layers:\n\n**1. Automated AI Scanning (Instant)**\n- Every upload is scanned automatically\n- Detects prohibited content, age verification, malware\n- 95% of content is auto-approved within seconds\n\n**2. Human Review (1-24 hours)**\n- Handles flagged content and user reports\n- Reviews edge cases and appeals\n- Makes final decisions on policy violations\n\n**What happens to your content:**\n1. Upload → AI scans (10-60 seconds)\n2. If approved → Goes live immediately\n3. If flagged → Human review (1-24 hours)\n4. If reported → Priority human review\n\n**Check your status:** Dashboard → Content Health\n\nMost creators see 95%+ auto-approval rates. Content that follows guidelines rarely needs human review.",
+      "confidence_score": 0.97,
+      "tags": ["moderation", "review-process", "scanning", "approval"],
+      "related_qa_ids": ["qa_mod_002", "qa_mod_003"],
+      "suggested_actions": [
+        {
+          "label": "View Content Guidelines",
+          "action": "navigate",
+          "url": "/guidelines"
+        },
+        {
+          "label": "Check My Content Health",
+          "action": "navigate",
+          "url": "/dashboard/content-health"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_002",
+      "question": "What content is prohibited?",
+      "question_variations": [
+        "What can't I post?",
+        "Prohibited content list",
+        "What violates guidelines?",
+        "Banned content",
+        "What will get me banned?",
+        "Content restrictions"
+      ],
+      "answer": "**ZERO TOLERANCE (Immediate ban):**\n\n❌ **Minors (Under 18)**\n- Any content featuring anyone under 18\n- Age roleplay depicting minors\n- Reported to NCMEC if detected\n\n❌ **Non-Consensual Content**\n- Revenge porn\n- Hidden cameras/voyeurism\n- Deepfakes without consent\n\n❌ **Illegal Activities**\n- Bestiality, necrophilia, incest\n- Drug use or sales\n- Real violence or harm\n\n❌ **Hate & Harassment**\n- Hate speech\n- Doxxing\n- Threats of violence\n\n❌ **Fraud**\n- Impersonation\n- Stolen content\n- Scams\n\n**ALLOWED (with proper tagging):**\n✅ Adult content (18+)\n✅ LGBTQ+ content\n✅ Nudity and sexual content\n✅ Fetish content (with warnings)\n✅ Consensual BDSM/roleplay\n\n**When in doubt:** Use Pre-Upload Checker (Settings → Content Tools) to scan before posting.",
+      "confidence_score": 0.99,
+      "tags": ["prohibited", "banned", "guidelines", "rules", "policies"],
+      "related_qa_ids": ["qa_mod_001", "qa_mod_004"],
+      "suggested_actions": [
+        {
+          "label": "Read Full Guidelines",
+          "action": "navigate",
+          "url": "/guidelines"
+        },
+        {
+          "label": "Use Pre-Upload Checker",
+          "action": "navigate",
+          "url": "/settings/content-tools"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_003",
+      "question": "My content is under review. How long will it take?",
+      "question_variations": [
+        "How long does review take?",
+        "When will my content be approved?",
+        "Review timeline",
+        "Content stuck in review",
+        "Waiting for moderation",
+        "Review time estimate"
+      ],
+      "answer": "Review times depend on priority:\n\n**Automated Scanning:** 10-60 seconds (most content)\n\n**Manual Review Times:**\n- **Critical:** 1-4 hours (illegal content reports)\n- **High Priority:** 4-12 hours (policy violations)\n- **Normal:** 12-24 hours (new creator uploads)\n- **Low Priority:** 24-48 hours (appeals, reclassifications)\n\n**Why might review take longer?**\n- High volume times (weekends, holidays)\n- Complex content requiring thorough review\n- Multiple reports requiring investigation\n- Edge cases needing senior moderator approval\n\n**Check your status:**\nDashboard → Content Health → \"In Review\" tab\n\n**If it's been >72 hours:**\nContact support with your Content ID - something may be stuck in the queue.\n\n**Pro Tip:** New creators see longer review times for their first 5 uploads. After building good standing, most content auto-approves instantly.",
+      "confidence_score": 0.96,
+      "tags": ["review-time", "waiting", "pending", "timeline"],
+      "related_qa_ids": ["qa_mod_001", "qa_mod_007"],
+      "suggested_actions": [
+        {
+          "label": "Check Review Status",
+          "action": "navigate",
+          "url": "/dashboard/content-health?tab=in-review"
+        },
+        {
+          "label": "Contact Support",
+          "action": "navigate",
+          "url": "/support"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_004",
+      "question": "How do I appeal a moderation decision?",
+      "question_variations": [
+        "Appeal content removal",
+        "Contest moderation decision",
+        "Disagree with strike",
+        "How to appeal?",
+        "Challenge content rejection",
+        "File an appeal"
+      ],
+      "answer": "You can appeal any moderation decision within 30 days:\n\n**How to Appeal:**\n\n1. **Go to:** Support → Appeals → \"File New Appeal\"\n\n2. **Gather Evidence:**\n   - ID verification of all participants\n   - Signed consent forms\n   - Screenshots or metadata\n   - Previous approvals of similar content\n\n3. **Submit Appeal Form:**\n   - Content ID (from original notice)\n   - Detailed explanation (factual, not emotional)\n   - Upload supporting evidence\n\n4. **Wait for Review:** 3-5 business days\n\n5. **Receive Decision:** (Final, no secondary appeals)\n\n**Appeal Outcomes:**\n- ✅ **Granted:** Content restored, strike removed\n- ⚠️ **Partially Granted:** Approved with changes\n- ❌ **Denied:** Original decision stands\n\n**Tips for Strong Appeals:**\n- Be factual and specific\n- Provide evidence, not emotion\n- Reference specific guideline sections\n- Admit mistakes if applicable\n- Respectful tone improves outcomes\n\n**Appeal Success Rate:** ~35% of appeals are fully or partially granted when proper evidence is provided.",
+      "confidence_score": 0.97,
+      "tags": ["appeals", "contest", "challenge", "dispute"],
+      "related_qa_ids": ["qa_mod_005", "qa_mod_006"],
+      "suggested_actions": [
+        {
+          "label": "File an Appeal",
+          "action": "navigate",
+          "url": "/support/appeals"
+        },
+        {
+          "label": "View Appeal Guidelines",
+          "action": "open_help",
+          "help_id": "appeal-process"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_005",
+      "question": "What is a strike and how does it affect my account?",
+      "question_variations": [
+        "Account strikes explained",
+        "What happens with strikes?",
+        "Strike system",
+        "How many strikes before ban?",
+        "Strike penalties",
+        "Strikes on my account"
+      ],
+      "answer": "Strikes are formal policy violations on your account.\n\n**Strike Levels:**\n\n**1st Strike:**\n- Warning issued\n- Content removed\n- 7-day posting restrictions\n- Strike expires in 90 days\n\n**2nd Strike:**\n- 7-day account suspension\n- All monetization paused\n- Strike expires in 90 days\n- Requires re-verification to return\n\n**3rd Strike:**\n- Permanent account termination\n- All content deleted\n- Earnings forfeited (if TOS violations)\n- Cannot create new account\n\n**How to Avoid Strikes:**\n✓ Read and follow Community Guidelines\n✓ Verify all participants are 18+ with ID\n✓ Get written consent from everyone\n✓ Use Pre-Upload Checker for risky content\n✓ Tag content accurately\n✓ Respond professionally to warnings\n\n**Strike Expiration:**\nStrikes automatically expire after 90 days of good standing (no new violations).\n\n**Check Your Strikes:**\nDashboard → Content Health → \"Account Standing\"\n\n**Can I Remove a Strike?**\n- Only through successful appeal\n- Deleting content doesn't remove strikes\n- Good behavior for 90 days = auto-expiration",
+      "confidence_score": 0.98,
+      "tags": ["strikes", "penalties", "violations", "account-standing"],
+      "related_qa_ids": ["qa_mod_004", "qa_mod_006"],
+      "suggested_actions": [
+        {
+          "label": "View My Strikes",
+          "action": "navigate",
+          "url": "/dashboard/content-health?tab=strikes"
+        },
+        {
+          "label": "Read Guidelines",
+          "action": "navigate",
+          "url": "/guidelines"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_006",
+      "question": "Someone reported my content. What happens now?",
+      "question_variations": [
+        "My content was reported",
+        "User reported my post",
+        "Content report received",
+        "What happens after report?",
+        "Reported content process",
+        "Someone flagged my content"
+      ],
+      "answer": "When your content is reported:\n\n**Immediate Action:**\n1. Content is **temporarily hidden** (protection measure)\n2. You receive notification with report reason\n3. Content enters **priority review queue**\n\n**Review Process (12-24 hours):**\n- Human moderator reviews content + report\n- Checks against Community Guidelines\n- Reviews any context you provide\n- Makes decision\n\n**Possible Outcomes:**\n\n✅ **Report Dismissed (70% of reports)**\n- No violation found\n- Content restored immediately\n- No penalty to your account\n- Reporter may face consequences if malicious\n\n⚠️ **Warning Issued**\n- Minor violation found\n- Content may stay down\n- No strike (first-time minor issue)\n- Future similar content will be watched\n\n❌ **Strike Issued**\n- Policy violation confirmed\n- Content removed permanently\n- Strike added to account\n- Penalties apply based on strike count\n\n**You Can Respond:**\nReports → Active Reports → Submit Response\n- Provide context and evidence\n- Explain why content is compliant\n- Attach consent forms, IDs, etc.\n\n**False Reports:**\nDon't worry - we track report accuracy. Users who repeatedly file false reports face penalties themselves.",
+      "confidence_score": 0.96,
+      "tags": ["reports", "flagged", "user-reports", "complaints"],
+      "related_qa_ids": ["qa_mod_003", "qa_mod_005"],
+      "suggested_actions": [
+        {
+          "label": "View Active Reports",
+          "action": "navigate",
+          "url": "/reports/active"
+        },
+        {
+          "label": "Submit Response",
+          "action": "navigate",
+          "url": "/reports/respond"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_007",
+      "question": "How do I use the Pre-Upload Checker?",
+      "question_variations": [
+        "Pre-upload scan",
+        "Check content before posting",
+        "Content checker tool",
+        "Scan before upload",
+        "Pre-upload moderation",
+        "Test content safety"
+      ],
+      "answer": "The Pre-Upload Checker scans your content BEFORE you post it publicly:\n\n**How to Use:**\n\n1. Go to **Settings → Content Tools → Pre-Upload Checker**\n2. Click **\"Choose File\"** or drag & drop\n3. Wait for scan (10-60 seconds)\n4. Review results:\n   - ✅ **\"Likely to be approved\"** - Safe to upload\n   - ⚠️ **\"May require review\"** - Will need manual review\n   - ❌ **\"Likely to be rejected\"** - Fix issues first\n\n**What It Checks:**\n- Age verification (faces appear 18+)\n- Prohibited content detection\n- Copyright/fingerprint matching\n- Malware/file safety\n- Recommended content tags\n\n**Example Results:**\n```\n✅ Age Verification: All faces appear 18+\n✅ Content Policy: No violations\n⚠️ Recommended Tags: Add \"Fetish\", \"18+\"\n✅ File Safety: Clean\n\nRecommendation: Approved for upload\n```\n\n**Benefits:**\n- Avoid wasting time on content that will be rejected\n- Get tagging suggestions before posting\n- Catch issues early (lighting making someone look young, etc.)\n- Test borderline content risk-free\n\n**Pro Tip:** Use this for all \"risky\" or edgy content to avoid strikes. It's the same AI that scans real uploads!",
+      "confidence_score": 0.95,
+      "tags": ["pre-upload", "checker", "scanner", "testing", "preview"],
+      "related_qa_ids": ["qa_mod_001", "qa_mod_002"],
+      "suggested_actions": [
+        {
+          "label": "Open Pre-Upload Checker",
+          "action": "navigate",
+          "url": "/settings/content-tools/pre-upload-checker"
+        },
+        {
+          "label": "Watch Tutorial",
+          "action": "open_tutorial",
+          "tutorial_id": "pre-upload-checker"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_008",
+      "question": "How do I verify age for content participants?",
+      "question_variations": [
+        "Age verification process",
+        "Prove participants are 18+",
+        "ID verification for models",
+        "How to verify age?",
+        "Model age verification",
+        "18+ verification"
+      ],
+      "answer": "Age verification is MANDATORY for all people appearing in your content:\n\n**For Yourself (Creator):**\n1. Settings → Verification → Upload Government ID\n2. Selfie verification (hold ID next to face)\n3. Approval within 24-48 hours\n4. Blue checkmark on profile when approved\n\n**For Other Participants (Models/Co-Stars):**\n\n**Option 1: Platform Verification (Recommended)**\n- Have them create account and verify ID\n- When collaborating, their verified status carries over\n- Safest method legally\n\n**Option 2: Manual Verification (Keep Records)**\n1. Collect government-issued ID (photo)\n2. Verify ID appears legitimate\n3. Keep copy on file for 7 years minimum\n4. Photo of them holding ID next to face (same day as shoot)\n5. Upload to our system: Content → Upload → \"Add Participant IDs\"\n\n**Required Information:**\n- Full legal name\n- Date of birth (must be 18+)\n- Government-issued photo ID (driver's license, passport, state ID)\n- Clear, unobscured photo of face\n\n**Best Practices:**\n- Verify BEFORE filming, not after\n- Keep both digital and physical copies\n- Get written consent forms in addition to ID\n- For professional shoots, use model release forms\n- When in doubt, verify via platform (safest)\n\n**Legal Requirement:**\nU.S. law (18 U.S.C. § 2257) requires keeping records of all performers' ages. Failure to comply can result in criminal charges.",
+      "confidence_score": 0.99,
+      "tags": ["age-verification", "id-verification", "18+", "models", "participants"],
+      "related_qa_ids": ["qa_mod_002", "qa_mod_009"],
+      "suggested_actions": [
+        {
+          "label": "Start Verification",
+          "action": "navigate",
+          "url": "/settings/verification"
+        },
+        {
+          "label": "Learn About 2257 Compliance",
+          "action": "open_help",
+          "help_id": "2257-compliance"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_009",
+      "question": "What is a consent form and do I need one?",
+      "question_variations": [
+        "Do I need consent forms?",
+        "Model release forms",
+        "Consent documentation",
+        "Proof of consent",
+        "Release forms for content",
+        "How to get consent?"
+      ],
+      "answer": "Consent forms protect you legally and prove all participants agreed to filming and distribution.\n\n**Do You Need Consent Forms?**\n\n✅ **YES, for:**\n- Content featuring other people\n- Collaborations with other creators\n- Hiring models or performers\n- Any adult content with participants\n- Roleplay or fetish content\n\n❌ **NO, for:**\n- Solo content (just yourself)\n- No other identifiable people in video/photo\n\n**What Consent Forms Should Include:**\n\n1. **Participant Information**\n   - Full legal name\n   - Date of birth\n   - Contact information\n\n2. **Content Details**\n   - Date of filming/shoot\n   - Type of content (photo, video, live stream)\n   - General description of activities\n\n3. **Rights Granted**\n   - Permission to film/photograph\n   - Permission to distribute/sell content\n   - Platform(s) where content will appear\n   - Duration of rights (typically perpetual)\n\n4. **Compensation (if applicable)**\n   - Payment amount or revenue share\n   - Payment terms\n\n5. **Signatures**\n   - Participant signature + date\n   - Your signature + date\n   - Witness signature (optional but recommended)\n\n**Where to Get Forms:**\n- Download our template: Settings → Legal → Model Release Form\n- Consult attorney for custom forms\n- Online legal services (LegalZoom, etc.)\n\n**Best Practices:**\n- Sign BEFORE filming\n- Keep original + digital copy for 7+ years\n- Record verbal consent on camera at start of shoot\n- Allow participants to withdraw consent (remove content if requested)\n- For professional work, have witness present\n\n**Upload to Platform:**\nContent Upload → \"Participant Consent Forms\" → Attach PDF/photo\n\nThis protects you if content is ever reported or disputed!",
+      "confidence_score": 0.97,
+      "tags": ["consent", "consent-forms", "model-release", "legal", "documentation"],
+      "related_qa_ids": ["qa_mod_008", "qa_mod_002"],
+      "suggested_actions": [
+        {
+          "label": "Download Consent Form Template",
+          "action": "download",
+          "file_url": "/legal/model-release-template.pdf"
+        },
+        {
+          "label": "Learn More About Consent",
+          "action": "open_help",
+          "help_id": "consent-best-practices"
+        }
+      ]
+    },
+    {
+      "id": "qa_mod_010",
+      "question": "How do I report content or users?",
+      "question_variations": [
+        "How to report someone?",
+        "Report inappropriate content",
+        "Flag a user",
+        "Report violations",
+        "How to flag content?",
+        "Submit a report"
+      ],
+      "answer": "Report content or users that violate our policies:\n\n**How to Report Content:**\n\n1. **On the post:** Click ⋮ (three dots) → \"Report\"\n2. **Select reason:**\n   - Illegal content (minors, non-consensual)\n   - Hate speech or harassment\n   - Spam or scam\n   - Copyright violation\n   - Impersonation\n   - Other policy violation\n3. **Add details** (optional but helpful)\n4. **Submit**\n\n**How to Report a User:**\n\n1. **On their profile:** Click ⋮ → \"Report User\"\n2. **Select reason:**\n   - Harassment or bullying\n   - Impersonation\n   - Underage\n   - Spam account\n   - Scam or fraud\n   - Other\n3. **Provide context** and evidence\n4. **Submit**\n\n**What Happens After Reporting:**\n\n- **Immediate:** Content may be auto-hidden if flagged by multiple users\n- **Review:** Trust & Safety team reviews (typically 12-24 hours)\n- **Action:** Content removed and/or user penalized if violation confirmed\n- **Notification:** You'll be informed of action taken (within 48 hours)\n\n**Priority Reports (Reviewed within 4 hours):**\n- Illegal content (CSAM, trafficking, violence)\n- Immediate safety threats\n- Doxxing or sharing personal info\n- Self-harm content\n\n**When to Report:**\n✓ Genuine belief of policy violation\n✓ Illegal or harmful content\n✓ Protecting yourself or others\n\n**When NOT to Report:**\n✗ You simply dislike the content (unsubscribe instead)\n✗ Personal disagreements\n✗ Content is adult but not prohibited\n✗ Trying to silence someone\n\n**False Reporting:**\nRepeated false reports may result in YOUR account being suspended. We track report accuracy.\n\n**Emergency:**\nFor immediate threats of violence or illegal activity, also contact local law enforcement.",
+      "confidence_score": 0.98,
+      "tags": ["reporting", "flag-content", "report-user", "safety", "violations"],
+      "related_qa_ids": ["qa_mod_006"],
+      "suggested_actions": [
+        {
+          "label": "Safety Center",
+          "action": "navigate",
+          "url": "/safety"
+        },
+        {
+          "label": "Contact Trust & Safety",
+          "action": "navigate",
+          "url": "/support/trust-safety"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "first_upload_guidelines",
+      "trigger_name": "First Upload - Guidelines Reminder",
+      "condition": {
+        "page": "/upload",
+        "user_state": {
+          "content_uploaded_count": 0,
+          "account_verified": true
+        }
+      },
+      "message": "📋 Before your first upload: Make sure all participants are verified 18+ and you have consent forms on file. Need help understanding our guidelines?",
+      "action_buttons": [
+        {
+          "label": "Read Guidelines",
+          "action": "navigate",
+          "url": "/guidelines"
+        },
+        {
+          "label": "Download Consent Form",
+          "action": "download",
+          "file_url": "/legal/model-release-template.pdf"
+        },
+        {
+          "label": "I'm Ready",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 10,
+      "frequency": "once",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "content_flagged_warning",
+      "trigger_name": "Content Flagged - Action Required",
+      "condition": {
+        "user_state": {
+          "flagged_content_count": {"$gte": 1},
+          "time_since_flag": {"$lte": 3600}
+        }
+      },
+      "message": "⚠️ Your recent upload has been flagged for review. Check your email for details and respond if needed to speed up the review process.",
+      "action_buttons": [
+        {
+          "label": "View Details",
+          "action": "navigate",
+          "url": "/dashboard/content-health?tab=flagged"
+        },
+        {
+          "label": "Submit Response",
+          "action": "navigate",
+          "url": "/reports/respond"
+        }
+      ],
+      "priority": 9,
+      "frequency": "always",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "strike_warning",
+      "trigger_name": "Strike Received - Account Warning",
+      "condition": {
+        "user_state": {
+          "strikes_count": {"$gte": 1},
+          "time_since_last_strike": {"$lte": 86400}
+        }
+      },
+      "message": "⚠️ You've received a policy strike. Review the guidelines to avoid future violations. 3 strikes = permanent ban.",
+      "action_buttons": [
+        {
+          "label": "View Strike Details",
+          "action": "navigate",
+          "url": "/dashboard/content-health?tab=strikes"
+        },
+        {
+          "label": "File an Appeal",
+          "action": "navigate",
+          "url": "/support/appeals"
+        },
+        {
+          "label": "Read Guidelines",
+          "action": "navigate",
+          "url": "/guidelines"
+        }
+      ],
+      "priority": 10,
+      "frequency": "always",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "pre_upload_checker_suggestion",
+      "trigger_name": "Suggest Pre-Upload Checker",
+      "condition": {
+        "page": "/upload",
+        "user_state": {
+          "content_rejected_count": {"$gte": 2},
+          "pre_upload_checker_used": false
+        }
+      },
+      "message": "💡 You've had 2+ uploads rejected. Use our Pre-Upload Checker to scan content BEFORE posting to avoid future rejections!",
+      "action_buttons": [
+        {
+          "label": "Try Pre-Upload Checker",
+          "action": "navigate",
+          "url": "/settings/content-tools/pre-upload-checker"
+        },
+        {
+          "label": "Watch Tutorial",
+          "action": "open_tutorial",
+          "tutorial_id": "pre-upload-checker"
+        },
+        {
+          "label": "Not Now",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 7,
+      "frequency": "daily_max_1",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "good_standing_celebration",
+      "trigger_name": "90 Days Good Standing Achievement",
+      "condition": {
+        "user_state": {
+          "days_since_last_violation": {"$gte": 90},
+          "strikes_count": 0,
+          "account_age_days": {"$gte": 90}
+        }
+      },
+      "message": "🎉 Congratulations! You've maintained 90 days of good standing. Your previous strikes have expired and your account is in perfect health!",
+      "action_buttons": [
+        {
+          "label": "View Account Health",
+          "action": "navigate",
+          "url": "/dashboard/content-health"
+        },
+        {
+          "label": "Celebrate!",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 5,
+      "frequency": "once_per_90_days",
+      "user_types": ["creator"]
+    }
+  ],
+  "common_errors": [
+    {
+      "error_code": "MOD_ERR_001",
+      "error_message": "Content rejected - Age verification failed",
+      "user_friendly_explanation": "One or more participants in your content appear to be under 18, or age could not be verified.",
+      "solution_steps": [
+        "Ensure all participants are clearly 18+ in appearance",
+        "Upload ID verification for all participants",
+        "Improve lighting if faces appear younger due to shadows",
+        "Add age disclaimer text in video/photo",
+        "If all participants are 18+, file an appeal with ID proof"
+      ]
+    },
+    {
+      "error_code": "MOD_ERR_002",
+      "error_message": "Content rejected - Policy violation",
+      "user_friendly_explanation": "Your content violates one or more Community Guidelines policies.",
+      "solution_steps": [
+        "Check email for specific policy violated",
+        "Review Community Guidelines section cited",
+        "Remove or edit the violating content",
+        "If you believe this is an error, file an appeal with evidence",
+        "Use Pre-Upload Checker before posting similar content"
+      ]
+    },
+    {
+      "error_code": "MOD_ERR_003",
+      "error_message": "Account suspended",
+      "user_friendly_explanation": "Your account has been temporarily or permanently suspended due to policy violations.",
+      "solution_steps": [
+        "Check email for suspension reason and duration",
+        "Review the specific violations listed",
+        "If temporary: Wait for suspension period to end",
+        "If you believe this is an error: File appeal within 5 days",
+        "Do not create new accounts to bypass suspension (results in permanent ban)"
+      ]
+    },
+    {
+      "error_code": "MOD_ERR_004",
+      "error_message": "Content reported - Under review",
+      "user_friendly_explanation": "A user has reported your content for potential policy violation. It's being reviewed by our team.",
+      "solution_steps": [
+        "Content is temporarily hidden during review",
+        "Check your Reports dashboard for details",
+        "Submit a response with context and evidence",
+        "Attach consent forms, ID verification if applicable",
+        "Decision typically within 12-24 hours"
+      ]
+    }
+  ],
+  "contextual_help": {
+    "page_triggers": {
+      "/upload": "Show guidelines reminder and pre-upload checker suggestion",
+      "/dashboard/content-health": "Explain account standing, strikes, and how to improve",
+      "/support/appeals": "Guide on writing effective appeals with evidence",
+      "/guidelines": "Offer interactive quiz or guided tour of policies"
+    },
+    "action_triggers": {
+      "first_upload": "first_upload_guidelines",
+      "content_flagged": "content_flagged_warning",
+      "strike_received": "strike_warning",
+      "upload_after_rejection": "pre_upload_checker_suggestion"
+    }
+  }
+}

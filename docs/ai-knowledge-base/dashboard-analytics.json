@@ -1,0 +1,540 @@
+{
+  "feature_id": "dashboard-analytics",
+  "feature_title": "Dashboard & Analytics",
+  "category": "analytics",
+  "subcategory": "performance-tracking",
+  "version": "1.0",
+  "last_updated": "2025-11-16",
+
+  "keywords": [
+    "dashboard",
+    "analytics",
+    "stats",
+    "statistics",
+    "metrics",
+    "performance",
+    "revenue",
+    "earnings",
+    "fans",
+    "views",
+    "engagement",
+    "insights",
+    "data",
+    "reports",
+    "tracking",
+    "kpi",
+    "growth",
+    "trends"
+  ],
+
+  "contexts": [
+    {
+      "context_id": "dashboard_page",
+      "pages": ["/dashboard", "/creator/dashboard", "/analytics"],
+      "user_types": ["creator"],
+      "priority": "high"
+    }
+  ],
+
+  "quick_facts": {
+    "difficulty": "beginner",
+    "time_to_learn": "5 minutes",
+    "prerequisites": ["Creator account", "Some uploaded content"],
+    "perfect_for": "All creators tracking performance and optimizing strategy"
+  },
+
+  "qa_pairs": [
+    {
+      "id": "qa_dash_001",
+      "question": "Where can I see my earnings?",
+      "question_variations": [
+        "How do I check my revenue?",
+        "Where are my earnings shown?",
+        "How much money have I made?",
+        "Check earnings",
+        "View revenue",
+        "See income",
+        "How do I see how much I've earned?"
+      ],
+      "answer": "Your earnings are displayed on the Dashboard in the Revenue card (top left). It shows your total earnings for the selected time period, plus a growth percentage compared to the previous period. Click the card for a detailed breakdown by revenue source (subscriptions, PPV, tips, etc.).",
+      "detailed_answer": "To see your earnings:\n\n1. Go to Dashboard (main menu or home page)\n2. Look at the Revenue card (top left corner)\n3. Main number shows total earnings for selected period\n4. Green/red arrow shows growth vs. previous period\n5. Click 'View Details' for breakdown:\n   - Subscriptions\n   - Pay-Per-View (PPV)\n   - Tips/Donations\n   - Live stream earnings\n   - Message unlocks\n\nYou can change the time period using the date selector (top right) to see daily, weekly, monthly, or all-time earnings.\n\nNote: Dashboard shows gross revenue. For payout amounts (after fees), go to Payments → Payouts section.",
+      "confidence_score": 0.98,
+      "tags": ["earnings", "revenue", "dashboard", "basic"],
+      "related_articles": [
+        {
+          "title": "Dashboard & Analytics Guide",
+          "url": "/docs/how-to/dashboard-analytics"
+        },
+        {
+          "title": "Payments & Payouts",
+          "url": "/docs/how-to/payments-payouts"
+        }
+      ],
+      "suggested_actions": [
+        {
+          "label": "Go to Dashboard",
+          "action": "navigate",
+          "url": "/dashboard",
+          "icon": "bar-chart"
+        },
+        {
+          "label": "View Payouts",
+          "action": "navigate",
+          "url": "/payouts",
+          "icon": "dollar-sign"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_002",
+      "question": "How many fans do I have?",
+      "question_variations": [
+        "Check fan count",
+        "How many subscribers?",
+        "Active subscribers",
+        "How many people subscribe to me?",
+        "View subscriber count",
+        "How many active fans?"
+      ],
+      "answer": "Your Active Fans count is shown on the Dashboard in the second card. This shows currently subscribed paying fans, plus how many new fans joined recently and your growth rate.",
+      "detailed_answer": "To see your fan count:\n\n1. Dashboard → Active Fans card (top section)\n2. Main number = Current active subscribers\n3. Green number = New fans this week/month\n4. Percentage = Growth rate\n\nClick 'View Details' to see:\n- Fan engagement levels (VIP, regular, at-risk)\n- Top fans by spending\n- Recent joins/cancellations\n- Churn rate\n\n**Fan Metrics Explained:**\n- **Active Fans:** Currently subscribed and paying\n- **New Fans:** Joined in selected period\n- **Churned Fans:** Canceled subscriptions\n- **Net Growth:** New minus churned\n\nFor a detailed fan list with filters and sorting, go to Fans → Fan List.",
+      "confidence_score": 0.97,
+      "tags": ["fans", "subscribers", "count", "dashboard"],
+      "related_articles": [
+        {
+          "title": "Fan Management Guide",
+          "url": "/docs/how-to/fan-management"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_003",
+      "question": "What is engagement rate and why does it matter?",
+      "question_variations": [
+        "Engagement rate meaning",
+        "What does engagement rate mean?",
+        "How is engagement calculated?",
+        "Why is engagement important?",
+        "Good engagement rate",
+        "What's a good engagement rate?"
+      ],
+      "answer": "Engagement rate is the percentage of viewers who interact with your content (likes, comments, tips). It's calculated as (Likes + Comments + Tips) ÷ Total Views. A good rate is 8-15%, excellent is >15%. Higher engagement means your content resonates with fans and signals quality to the algorithm.",
+      "detailed_answer": "**Engagement Rate Formula:**\n(Likes + Comments + Tips) ÷ Total Views × 100 = Engagement %\n\n**Benchmarks:**\n- Excellent: >15%\n- Good: 8-15%\n- Average: 4-8%\n- Needs Work: <4%\n\n**Why It Matters:**\n1. **Algorithm:** Higher engagement = more visibility in feeds\n2. **Revenue:** Engaged fans spend 3x more on average\n3. **Retention:** Engaged fans stay subscribed longer\n4. **Quality Signal:** Shows your content connects with audience\n5. **Growth:** Engaged fans refer new subscribers\n\n**How to Improve:**\n- Post high-quality content\n- Ask questions in descriptions\n- Respond to all comments\n- Create interactive content (polls, Q&As)\n- Post when fans are most active\n- Tease content without revealing everything\n\nFocus on engagement over raw views - 1,000 engaged fans > 10,000 passive viewers.",
+      "confidence_score": 0.96,
+      "tags": ["engagement", "metrics", "analytics"],
+      "suggested_actions": [
+        {
+          "label": "See Engagement Tips",
+          "action": "open_article",
+          "url": "/docs/how-to/fan-engagement"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_004",
+      "question": "How do I see which content performs best?",
+      "question_variations": [
+        "Best performing content",
+        "Top content",
+        "Which posts are most popular?",
+        "See content performance",
+        "Best posts",
+        "Most viewed content",
+        "Highest earning content"
+      ],
+      "answer": "Dashboard → Content Performance section shows your top and bottom performing content. You can sort by views, engagement, or revenue to see what's working best. Click any content to see detailed metrics.",
+      "detailed_answer": "**To see top performing content:**\n\n1. Go to Dashboard\n2. Scroll to Content Performance section\n3. Default shows top 5 posts by views\n4. Change sort to:\n   - Views (popularity)\n   - Engagement Rate (interaction quality)\n   - Revenue (earnings)\n   - Upload Date (recent first)\n\n**For each post you'll see:**\n- Thumbnail\n- Title\n- View count\n- Engagement rate\n- Revenue generated\n- Posted date\n\n**Analysis Tips:**\n1. Look at your top 5 performing posts\n2. Identify common elements:\n   - Topic/theme\n   - Content type (photo/video)\n   - Length (for videos)\n   - Posting time\n   - Price point\n   - Thumbnail style\n3. Create more content with these elements\n4. Test variations to find what resonates\n\n**See Underperformers:**\nToggle to \"Lowest Performing\" to see what's NOT working and learn what to avoid.\n\nFor deeper analysis: Analytics → Content Performance → Advanced View",
+      "confidence_score": 0.97,
+      "tags": ["content", "performance", "analytics"],
+      "related_articles": [
+        {
+          "title": "Content Optimization Guide",
+          "url": "/docs/how-to/content-optimization"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_005",
+      "question": "How often are analytics updated?",
+      "question_variations": [
+        "Analytics update frequency",
+        "Real-time analytics?",
+        "How often does dashboard refresh?",
+        "Are stats real-time?",
+        "Dashboard update time",
+        "When do stats update?"
+      ],
+      "answer": "Most metrics update in real-time (within 5 minutes). Revenue updates every 15 minutes. Complex calculations like LTV and cohort analysis update daily at midnight EST. You can manually refresh anytime by clicking the refresh icon or pressing F5.",
+      "detailed_answer": "**Update Frequencies:**\n\n**Real-time (0-5 minutes):**\n- Fan count\n- Content views\n- Likes and comments\n- Live stream metrics\n- Message counts\n\n**Every 15 minutes:**\n- Revenue totals\n- PPV sales\n- Tips received\n- Subscription changes\n\n**Hourly:**\n- Engagement rates\n- Average view duration\n- Click-through rates\n- Trending content\n\n**Daily (midnight EST):**\n- Lifetime value (LTV)\n- Churn rate\n- Cohort analysis\n- Revenue per fan\n- Comparative metrics\n\n**Weekly:**\n- Industry benchmarks\n- Platform averages\n- Seasonal trends\n\n**Manual Refresh:**\nClick the refresh icon (🔄) or press F5 to update immediately.\n\n**Note:** During high traffic periods, updates may be slightly delayed. If you see unusual data, wait 5-10 minutes and refresh.",
+      "confidence_score": 0.95,
+      "tags": ["updates", "real-time", "frequency"]
+    },
+    {
+      "id": "qa_dash_006",
+      "question": "Can I export my analytics data?",
+      "question_variations": [
+        "Export analytics",
+        "Download data",
+        "Export stats",
+        "Save analytics",
+        "Download report",
+        "Export to Excel",
+        "Get analytics CSV"
+      ],
+      "answer": "Yes! Click 'Export Data' in the top right of any analytics view. Choose your format (CSV, Excel, or PDF) and date range. Great for taxes, personal tracking, or deeper analysis in spreadsheet tools.",
+      "detailed_answer": "**To export analytics:**\n\n1. Go to Dashboard or Analytics\n2. Click 'Export Data' (top right)\n3. Select format:\n   - CSV (for Excel, Google Sheets)\n   - Excel (.xlsx)\n   - PDF (for printing/sharing)\n4. Choose date range\n5. Select metrics to include\n6. Click 'Download'\n\n**What You Can Export:**\n- Revenue by date and source\n- Fan list with engagement data\n- Content performance metrics\n- Transaction history\n- Subscription changes\n- All dashboard metrics\n\n**Use Cases:**\n- **Taxes:** Export annual revenue for tax filing\n- **Analysis:** Use Excel for custom calculations\n- **Tracking:** Keep offline records\n- **Reporting:** Share with manager/team\n- **Comparison:** Compare platforms or periods\n\n**Export Limits:**\n- Maximum 2 years of data per export\n- File size limit: 50MB\n- Format preserved in Excel/CSV\n\n**Tip:** Set up automated weekly exports in Settings → Analytics → Auto-Export to get regular data backups sent to your email.",
+      "confidence_score": 0.96,
+      "tags": ["export", "download", "data"],
+      "suggested_actions": [
+        {
+          "label": "Export Now",
+          "action": "open_modal",
+          "modal": "export_data"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_007",
+      "question": "Why did my revenue suddenly drop?",
+      "question_variations": [
+        "Revenue decreased",
+        "Earnings went down",
+        "Why is revenue lower?",
+        "Lost revenue",
+        "Earnings dropped",
+        "Revenue decline",
+        "Why am I making less money?"
+      ],
+      "answer": "Revenue can drop due to: subscription cancellations, reduced posting frequency, content quality issues, algorithm changes, or increased competition. Check your fan churn rate, recent post performance, and posting consistency. The most common cause is fan cancellations or posting less frequently than before.",
+      "detailed_answer": "**Common Causes of Revenue Decline:**\n\n**1. Fan Churn (Most Common):**\n- Check Dashboard → Fans → Churn Rate\n- If >10% monthly = problem\n- Action: Re-engagement campaign, message at-risk fans\n\n**2. Reduced Posting:**\n- Compare posts this period vs. last period\n- Consistency matters more than volume\n- Action: Return to regular posting schedule\n\n**3. Content Quality/Fit:**\n- Check recent content engagement rates\n- Lower engagement = lower revenue\n- Action: Analyze top performers, create similar content\n\n**4. Pricing Issues:**\n- Too much free content?\n- PPV prices too high?\n- Action: Review pricing strategy\n\n**5. External Factors:**\n- Seasonal trends (holidays, summer)\n- Economy/fan spending power\n- Platform algorithm changes\n- Action: Diversify revenue sources\n\n**Diagnostic Checklist:**\n1. ✅ Check fan count (losing subscribers?)\n2. ✅ Review posting frequency (posting less?)\n3. ✅ Check content engagement (quality decline?)\n4. ✅ Review moderation queue (rejections?)\n5. ✅ Compare to previous successful period\n\n**Recovery Plan:**\n- Post high-value PPV content\n- Run limited-time promotion\n- Message VIP fans personally\n- Create exclusive content\n- Increase posting to 5x/week\n- Re-engage inactive fans\n\nIf decline continues >2 weeks, submit support ticket for account review.",
+      "confidence_score": 0.94,
+      "tags": ["revenue", "decline", "troubleshooting"],
+      "suggested_actions": [
+        {
+          "label": "See Recovery Strategies",
+          "action": "open_article",
+          "url": "/docs/how-to/revenue-recovery"
+        },
+        {
+          "label": "Contact Support",
+          "action": "open_ticket",
+          "url": "/help/tickets/new?category=revenue"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_008",
+      "question": "What's a good churn rate?",
+      "question_variations": [
+        "Churn rate meaning",
+        "What is churn?",
+        "Good churn rate",
+        "Normal churn rate",
+        "Acceptable churn",
+        "How much churn is normal?"
+      ],
+      "answer": "Churn rate is the percentage of fans who cancel subscriptions. Industry average is 5-10% monthly. Below 5% is excellent, 5-10% is good, above 10% needs attention. Lower churn = more stable income.",
+      "detailed_answer": "**Churn Rate Explained:**\n\nChurn Rate = (Canceled Fans ÷ Total Fans at Start) × 100\n\nExample: 100 fans at month start, 8 cancel = 8% churn\n\n**Benchmarks:**\n- **Excellent:** <5% monthly\n- **Good:** 5-10% monthly\n- **Average:** 10-15% monthly\n- **Problem:** >15% monthly\n\n**Why Fans Cancel:**\n1. Lack of new content (40%)\n2. Price vs. value mismatch (25%)\n3. Personal financial reasons (20%)\n4. Found other creators (10%)\n5. Technical issues (5%)\n\n**How to Reduce Churn:**\n\n**Prevention (Best Strategy):**\n- Post consistently (3-5x weekly)\n- Engage with fans regularly\n- Deliver value matching price\n- Mix free and paid content\n- Respond to messages\n- Run fan appreciation events\n\n**Retention Tactics:**\n- Welcome message for new subscribers\n- Exclusive content for long-term fans\n- Loyalty rewards/discounts\n- Monthly Q&As or polls\n- Birthday/anniversary messages\n\n**Win-Back Campaigns:**\n- Email to recently canceled fans\n- Offer 30% off to return\n- \"We miss you\" personalized message\n- New content announcement\n\n**Acceptable Churn:**\nSome churn is normal and healthy. People's interests change, budgets shift. Focus on:\n- Net growth (new fans > churned fans)\n- Lifetime value (how much fans spend before leaving)\n- Keeping VIP fans happy (top 20% = 80% revenue)\n\nA 7% churn rate with 15% new fan acquisition = 8% net growth (good!)",
+      "confidence_score": 0.95,
+      "tags": ["churn", "retention", "fans"],
+      "related_articles": [
+        {
+          "title": "Fan Retention Strategies",
+          "url": "/docs/how-to/fan-retention"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_009",
+      "question": "How do I customize my dashboard?",
+      "question_variations": [
+        "Customize dashboard",
+        "Change dashboard layout",
+        "Rearrange dashboard",
+        "Dashboard settings",
+        "Personalize dashboard",
+        "Move dashboard widgets"
+      ],
+      "answer": "Click 'Customize Dashboard' (gear icon, top right) to enter edit mode. Drag widgets to reorder, resize by dragging corners, add/remove widgets, and choose from preset layouts. Click 'Save' when done.",
+      "detailed_answer": "**To customize your dashboard:**\n\n1. Click gear icon (⚙️) in top right\n2. Select 'Customize Dashboard'\n3. Enter edit mode\n\n**Customization Options:**\n\n**Reorder Widgets:**\n- Click and drag any widget\n- Drop in new position\n- Works on all widgets\n\n**Resize Widgets:**\n- Hover over widget corners\n- Drag to resize\n- Snap to grid for alignment\n\n**Add/Remove Widgets:**\n- Click '+ Add Widget'\n- Choose from catalog:\n  - Revenue (various timeframes)\n  - Fan metrics\n  - Content performance\n  - Messages preview\n  - Quick actions\n  - And more...\n- Click 'X' to remove widgets\n\n**Preset Layouts:**\n- **Creator Mode:** Revenue-focused (default)\n- **Analytics Mode:** Data-heavy, charts\n- **Quick Mode:** Simplified essentials\n- **Mobile Optimized:** For touchscreens\n\n**Tips:**\n- Put most-checked metrics at top\n- Remove widgets you never use\n- Use larger widgets for priority data\n- Save multiple layouts for different needs\n\n**Reset to Default:**\nCustomize → Reset to Default Layout\n\nChanges save automatically when you click 'Done'.",
+      "confidence_score": 0.96,
+      "tags": ["customize", "layout", "dashboard"],
+      "suggested_actions": [
+        {
+          "label": "Customize Now",
+          "action": "navigate",
+          "url": "/dashboard?customize=true"
+        }
+      ]
+    },
+    {
+      "id": "qa_dash_010",
+      "question": "What's the difference between revenue and payout?",
+      "question_variations": [
+        "Revenue vs payout",
+        "Why is payout less than revenue?",
+        "Revenue payout difference",
+        "Why don't numbers match?",
+        "Dashboard vs payout amount"
+      ],
+      "answer": "Revenue (dashboard) is your total gross earnings before platform fees. Payout is the net amount you receive after platform fees (typically 20%) and processing fees are deducted. Also, pending revenue isn't available for payout until cleared (2-7 days).",
+      "detailed_answer": "**Key Differences:**\n\n**Revenue (Dashboard):**\n- Gross earnings (before fees)\n- Includes all transactions\n- Updates every 15 minutes\n- Shows total earning power\n\n**Payout (Available Balance):**\n- Net amount after fees\n- Only cleared transactions\n- What you can withdraw\n- Actual money you receive\n\n**Example Calculation:**\n```\nGross Revenue: $1,000\nPlatform Fee (20%): -$200\nProcessing Fees (3%): -$24\n========================\nNet Payout: $776\n```\n\n**Fee Breakdown:**\n- **Platform Fee:** 20% (standard)\n- **Processing Fees:** 2.9% + $0.30 per transaction\n- **Chargeback Fees:** $15 per chargeback (if applicable)\n\n**Pending vs. Available:**\n- **Pending:** Recently earned, not yet cleared\n- **Clearing Time:** 2-7 days\n- **Available:** Ready for payout\n\n**Where to See:**\n- Revenue: Dashboard → Revenue Card\n- Payout: Payments → Payouts → Available Balance\n\n**Why Track Both:**\n- Revenue shows business growth\n- Payout shows actual take-home\n- Use revenue for goal-setting\n- Use payout for budgeting\n\nFor detailed fee breakdown: Payments → Transaction History → Fee Details",
+      "confidence_score": 0.97,
+      "tags": ["revenue", "payout", "fees"],
+      "related_articles": [
+        {
+          "title": "Payments & Payouts Guide",
+          "url": "/docs/how-to/payments-payouts"
+        },
+        {
+          "title": "Platform Fees Explained",
+          "url": "/docs/help/fees"
+        }
+      ]
+    }
+  ],
+
+  "proactive_triggers": [
+    {
+      "trigger_id": "first_dashboard_visit",
+      "name": "First Dashboard Visit Guide",
+      "condition_text": "First time viewing dashboard",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "page", "operator": "=", "value": "/dashboard"},
+          {"type": "user_stat", "stat": "dashboard_views", "operator": "=", "value": 0}
+        ]
+      },
+      "message": "👋 Welcome to your Dashboard! This is your performance command center. Want a quick tour?",
+      "tone": "friendly",
+      "action_buttons": [
+        {
+          "label": "Start Tour",
+          "action": "start_tutorial",
+          "tutorial_id": "dashboard-tour"
+        },
+        {
+          "label": "Read Guide",
+          "action": "open_article",
+          "url": "/docs/how-to/dashboard-analytics"
+        },
+        {
+          "label": "I'll explore",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 9,
+      "delay_ms": 3000,
+      "frequency": "once"
+    },
+    {
+      "trigger_id": "revenue_goal_achieved",
+      "name": "Revenue Goal Celebration",
+      "condition_text": "Revenue goal achieved",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "event", "event_name": "revenue_goal_achieved"}
+        ]
+      },
+      "message": "🎉 Congratulations! You hit your revenue goal! Keep up the amazing work!",
+      "tone": "celebratory",
+      "action_buttons": [
+        {
+          "label": "Set New Goal",
+          "action": "open_modal",
+          "modal": "set_revenue_goal"
+        },
+        {
+          "label": "Share Success",
+          "action": "open_modal",
+          "modal": "share_milestone"
+        }
+      ],
+      "priority": 10,
+      "delay_ms": 1000,
+      "frequency": "always"
+    },
+    {
+      "trigger_id": "low_engagement_alert",
+      "name": "Low Engagement Warning",
+      "condition_text": "Engagement rate drops below 4%",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "metric", "metric": "engagement_rate", "operator": "<", "value": 4},
+          {"type": "metric_trend", "metric": "engagement_rate", "trend": "declining"}
+        ]
+      },
+      "message": "⚠️ Your engagement rate has dropped below 4%. This might affect your visibility. Need help improving it?",
+      "tone": "helpful",
+      "action_buttons": [
+        {
+          "label": "See Improvement Tips",
+          "action": "open_article",
+          "url": "/docs/how-to/improve-engagement"
+        },
+        {
+          "label": "Analyze Content",
+          "action": "navigate",
+          "url": "/analytics/content"
+        }
+      ],
+      "priority": 7,
+      "delay_ms": 0,
+      "frequency": "weekly"
+    },
+    {
+      "trigger_id": "high_churn_alert",
+      "name": "High Churn Rate Alert",
+      "condition_text": "Churn rate exceeds 10%",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "metric", "metric": "churn_rate", "operator": ">", "value": 10}
+        ]
+      },
+      "message": "📉 Your churn rate is above 10%. Fans are canceling at a higher rate than normal. Want to see retention strategies?",
+      "tone": "urgent",
+      "action_buttons": [
+        {
+          "label": "See Fan Retention Tips",
+          "action": "open_article",
+          "url": "/docs/how-to/fan-retention"
+        },
+        {
+          "label": "View At-Risk Fans",
+          "action": "navigate",
+          "url": "/fans?filter=at_risk"
+        }
+      ],
+      "priority": 8,
+      "delay_ms": 0,
+      "frequency": "weekly"
+    },
+    {
+      "trigger_id": "milestone_celebration",
+      "name": "Milestone Achievement",
+      "condition_text": "Reached fan count milestone",
+      "condition_logic": {
+        "operator": "OR",
+        "conditions": [
+          {"type": "metric_milestone", "metric": "fan_count", "milestones": [100, 500, 1000, 5000, 10000]},
+          {"type": "metric_milestone", "metric": "total_revenue", "milestones": [1000, 5000, 10000, 50000, 100000]}
+        ]
+      },
+      "message": "🎊 Amazing! You've reached a major milestone! This is a big achievement!",
+      "tone": "celebratory",
+      "action_buttons": [
+        {
+          "label": "Share Milestone",
+          "action": "open_modal",
+          "modal": "share_achievement"
+        },
+        {
+          "label": "Set Next Goal",
+          "action": "open_modal",
+          "modal": "set_goal"
+        }
+      ],
+      "priority": 10,
+      "delay_ms": 500,
+      "frequency": "always"
+    }
+  ],
+
+  "contextual_tips": [
+    {
+      "tip_id": "revenue_card_tip",
+      "trigger": "hover:.revenue-card",
+      "message": "💡 Click for detailed revenue breakdown by source!",
+      "position": "tooltip",
+      "auto_dismiss_ms": 5000
+    },
+    {
+      "tip_id": "date_range_tip",
+      "trigger": "click:#date-range-selector",
+      "message": "📅 Compare different time periods to spot trends!",
+      "position": "tooltip",
+      "auto_dismiss_ms": 6000
+    },
+    {
+      "tip_id": "export_tip",
+      "trigger": "hover:#export-button",
+      "message": "📊 Export data for taxes, spreadsheets, or personal tracking!",
+      "position": "tooltip",
+      "auto_dismiss_ms": 5000
+    }
+  ],
+
+  "error_handlers": [
+    {
+      "error_pattern": "Dashboard not loading|Stats not showing|Blank dashboard",
+      "helpful_message": "Dashboard not loading? This is usually a temporary issue or browser cache problem.",
+      "suggested_solutions": [
+        "Refresh the page (F5 or Ctrl/Cmd+R)",
+        "Clear browser cache and cookies",
+        "Try a different browser (Chrome or Firefox recommended)",
+        "Disable ad blockers temporarily",
+        "Check internet connection",
+        "Try incognito/private mode"
+      ],
+      "support_action": {
+        "label": "Still not working? Contact Support",
+        "action": "open_ticket_with_context",
+        "category": "technical_issue"
+      }
+    },
+    {
+      "error_pattern": "Revenue showing 0|No earnings shown|$0 revenue",
+      "helpful_message": "Revenue showing $0? Don't worry - this is usually a temporary sync delay.",
+      "suggested_solutions": [
+        "Wait 5-10 minutes for data sync",
+        "Check 'Pending' revenue section",
+        "Verify in Transactions tab for real-time data",
+        "Earnings take 24-48 hours to fully process",
+        "Refresh the page"
+      ],
+      "support_action": {
+        "label": "Still showing $0 after 48 hours? Get Help",
+        "action": "open_ticket_with_context",
+        "category": "revenue_issue"
+      }
+    }
+  ],
+
+  "related_features": [
+    {
+      "feature_id": "content-upload",
+      "relationship": "complementary",
+      "description": "Upload content and track its performance here"
+    },
+    {
+      "feature_id": "fan-management",
+      "relationship": "complementary",
+      "description": "Deep dive into fan behavior and engagement"
+    },
+    {
+      "feature_id": "revenue-optimization",
+      "relationship": "advanced",
+      "description": "Use analytics to maximize earnings"
+    },
+    {
+      "feature_id": "payments-payouts",
+      "relationship": "complementary",
+      "description": "See how revenue converts to payouts"
+    },
+    {
+      "feature_id": "goal-setting",
+      "relationship": "complementary",
+      "description": "Set and track performance goals"
+    }
+  ],
+
+  "success_metrics": {
+    "completion_rate_target": 0.80,
+    "satisfaction_score_target": 4.5,
+    "time_to_success_target_seconds": 120
+  }
+}

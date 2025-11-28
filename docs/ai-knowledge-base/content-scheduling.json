@@ -1,0 +1,327 @@
+{
+  "feature_id": "content-scheduling",
+  "feature_name": "Content Scheduling",
+  "description": "Comprehensive knowledge base for content scheduling features, including posting strategies, batch content creation, calendar planning, and scheduling workflows.",
+  "last_updated": "2025-01-18",
+  "version": "1.0.0",
+  "platform": "PLATFORM_NAME",
+
+  "qa_pairs": [
+    {
+      "id": "qa_schedule_001",
+      "question": "How do I schedule a post?",
+      "answer": "**Schedule a Post in 3 Steps:**\n\n**Step 1: Create Your Post**\n\n1. Go to your **Creator Dashboard**\n2. Click **Create Post** or **Upload Content**\n3. Add your content (photos, videos, text)\n4. Set subscription tier access\n\n**Step 2: Set Schedule**\n\n1. Instead of \"Post Now,\" click **Schedule Post** or the calendar icon\n2. Select **Date** using the calendar picker\n3. Select **Time** (12-hour or 24-hour format)\n4. Confirm your timezone is correct (e.g., \"PST - Pacific Standard Time\")\n5. Click **Schedule**\n\n**Step 3: Confirmation**\n\nYou'll see: \"✓ Post scheduled for [Date] at [Time]\"\n\nThe post appears in **Dashboard → Scheduled Posts** and will automatically publish at the scheduled time.\n\n**Other Ways to Schedule:**\n\n- **From Drafts**: Dashboard → Drafts → Select draft → Schedule\n- **Bulk Scheduling**: Select multiple posts → Bulk Actions → Schedule\n- **Reschedule Published**: Edit any scheduled post anytime before it goes live\n\n**Important:**\n- You can edit or cancel scheduled posts anytime up to 1 minute before publication\n- You'll receive a notification when your post goes live\n- Posts use the timezone you set when scheduling (double-check when traveling!)\n\n**Time Limits:**\n- Schedule as far as **90 days** in advance\n- Minimum **5 minutes** ahead\n\n**Pro Tip:** Use Calendar View (Dashboard → Scheduled Posts → Calendar) to visualize your entire content schedule at a glance.",
+      "question_variations": [
+        "how to schedule posts",
+        "schedule content in advance",
+        "can I schedule posts ahead of time",
+        "how to auto-post content",
+        "schedule posts for later",
+        "set up automatic posting",
+        "how do I schedule content",
+        "schedule a post for specific time",
+        "can I schedule posts for future dates"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_schedule_002",
+        "qa_schedule_003",
+        "qa_schedule_004"
+      ],
+      "tags": ["scheduling", "posts", "automation", "content-planning", "getting-started"]
+    },
+    {
+      "id": "qa_schedule_002",
+      "question": "When is the best time to schedule posts?",
+      "answer": "**Best Posting Times Based on Platform Data:**\n\n**Weekdays:**\n- **Early morning (6-8 AM)**: Subscribers checking during commute\n- **Lunch hour (12-1 PM)**: Midday browsing\n- **Evening (6-9 PM)**: ⭐ **PEAK ENGAGEMENT TIME**\n- **Late night (10 PM-12 AM)**: Before bed scrolling\n\n**Weekends:**\n- **Late morning (10 AM-12 PM)**: Relaxed weekend browsing\n- **Afternoon (2-4 PM)**: Downtime engagement\n- **Evening (7-10 PM)**: Weekend entertainment time\n\n**But YOUR audience might be different!**\n\n**Find Your Optimal Times:**\n\n1. Go to **Analytics → Engagement**\n2. View **Subscriber Activity Heatmap**\n3. Note when your subscribers are most active\n4. Schedule posts **30 minutes before peak times**\n\n**Why 30 minutes before?** Posts need time to appear in feeds and start getting initial engagement, which boosts visibility.\n\n**Content Type Matters:**\n\n| Content Type | Best Time | Why |\n|-------------|-----------|-----|\n| **Casual photos** | Morning (7-9 AM) | Light browsing time |\n| **Premium videos** | Evening (7-10 PM) | More engagement time |\n| **Polls/Q&As** | Afternoon (3-5 PM) | More interaction time |\n| **Personal stories** | Late night (9-11 PM) | Intimate, relaxed time |\n| **Teaser content** | Midday (12-2 PM) | Builds anticipation |\n\n**Weekly Pattern Example:**\n\n- **Monday**: 7 AM (motivational start to week)\n- **Wednesday**: 8 PM (midweek engagement peak)\n- **Friday**: 9 PM (weekend excitement)\n- **Sunday**: 8 PM (preparing for week ahead)\n\n**Pro Tips:**\n\n- **Test different times** for 2-3 weeks and compare performance\n- **Avoid oversaturated times** (if everyone posts at 6 PM, try 6:30 or 7:15)\n- **Consider time zones**: If you have international subscribers, rotate posting times\n- **Holiday schedules shift**: People browse more during day when off work\n\n**Quick Start:** If you don't have analytics yet, start with **7-9 PM weekdays** and **10 AM-12 PM weekends** – these work well for most creators.",
+      "question_variations": [
+        "best time to post content",
+        "when should I schedule posts",
+        "optimal posting times",
+        "what time do subscribers engage most",
+        "when are subscribers most active",
+        "best day to post content",
+        "when should I post for maximum engagement",
+        "what time gets the most views"
+      ],
+      "confidence_score": 0.98,
+      "related_questions": [
+        "qa_schedule_001",
+        "qa_schedule_003",
+        "qa_schedule_005"
+      ],
+      "tags": ["timing", "engagement", "analytics", "strategy", "optimization"]
+    },
+    {
+      "id": "qa_schedule_003",
+      "question": "How do I manage my scheduled posts?",
+      "answer": "**Managing Your Scheduled Content:**\n\n**View Scheduled Posts:**\n\n**Desktop:**\n1. Go to **Dashboard → Scheduled Posts**\n2. Choose view:\n   - **List View**: All posts in chronological order\n   - **Calendar View**: Visual calendar with post thumbnails\n3. See details: thumbnail, caption preview, date, time, tier\n\n**Mobile App:**\n1. Tap **Menu → Scheduled**\n2. Swipe through upcoming posts\n3. Tap any post for full details\n\n---\n\n**Edit Scheduled Posts:**\n\n1. Click on any scheduled post\n2. Click **Edit**\n3. Make changes:\n   - Update photos, videos, or text\n   - Modify caption or description\n   - Change subscription tier\n   - Adjust price (for PPV content)\n   - **Change date/time**\n4. Click **Save Changes**\n\n**Edit anytime up to 1 minute before scheduled time.**\n\n---\n\n**Reschedule Posts:**\n\n**Quick Method:**\n1. Click scheduled post\n2. Click **Reschedule**\n3. Pick new date/time\n4. Click **Update**\n\n**Drag-and-Drop** (Calendar View):\n1. Switch to Calendar View\n2. Drag post thumbnail to new date/time slot\n3. Confirm new schedule\n\n---\n\n**Cancel Scheduled Posts:**\n\n**Single Post:**\n1. Click the post\n2. Click **Cancel Schedule**\n3. Confirm cancellation\n4. Post moves to **Drafts** (not deleted – you can reschedule later)\n\n**Multiple Posts:**\n1. Select multiple posts (checkboxes)\n2. Click **Bulk Actions → Cancel Schedule**\n3. Confirm\n4. All selected posts move to Drafts\n\n---\n\n**Bulk Management:**\n\nSelect multiple scheduled posts to:\n- **Reschedule all**: Spread posts over different date range\n- **Change tier**: Move all from \"All Subscribers\" to \"VIP Only\"\n- **Cancel all**: Move back to drafts\n- **Delete**: Permanently remove\n\n**Example Use Case:**\n- You scheduled 30 posts for next 7 days (too many!)\n- Select 15 posts → Bulk Actions → Reschedule\n- Spread over 30 days instead (1 per day)\n\n---\n\n**Notifications:**\n\nGet notified when:\n- ✓ Post successfully publishes: \"Your post is now live!\"\n- ⚠ Scheduling fails: \"Post failed to publish - action required\"\n- 📊 Post receives engagement shortly after going live\n\n**Configure Notifications:**\n1. **Settings → Notifications → Scheduled Content**\n2. Toggle:\n   - ☑ Notify when post goes live\n   - ☑ Notify if scheduling fails\n   - ☑ Daily summary of scheduled posts\n   - ☑ Reminder 1 hour before post goes live\n\n---\n\n**Search & Filter:**\n\nFind specific scheduled posts:\n- **Search bar**: Search by caption text or internal title\n- **Filter by tier**: Show only VIP posts, PPV posts, etc.\n- **Filter by date range**: Next 7 days, this month, etc.\n- **Filter by content type**: Photos only, videos only, polls, etc.\n\n---\n\n**Quick Tips:**\n\n- **Use internal titles** for easy searching (e.g., \"Week 3 Monday - Blue outfit - VIP promo\")\n- **Color-code tiers** in Calendar View for quick visual reference\n- **Export schedule** as CSV to review in Excel/Sheets\n- **Set reminders** to review schedule weekly and adjust as needed",
+      "question_variations": [
+        "how to edit scheduled posts",
+        "cancel scheduled post",
+        "reschedule a post",
+        "view my scheduled content",
+        "manage scheduled posts",
+        "change scheduled post time",
+        "delete scheduled post",
+        "find scheduled posts",
+        "modify scheduled content"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_schedule_001",
+        "qa_schedule_004",
+        "qa_schedule_006"
+      ],
+      "tags": ["management", "editing", "canceling", "rescheduling", "organization"]
+    },
+    {
+      "id": "qa_schedule_004",
+      "question": "What's the best content scheduling strategy?",
+      "answer": "**Effective Content Scheduling Strategies:**\n\n**1. Batch Content Creation**\n\nThe most efficient approach for consistent posting:\n\n**Weekly Batch Example:**\n- **Sunday evening**: Plan 7 posts for the week\n- **Monday**: Shoot all content in 2-hour session (photos/videos)\n- **Tuesday**: Edit content and write captions\n- **Wednesday**: Upload and schedule all 7 posts\n- **Rest of week**: Focus on engagement, DMs, comments\n\n**Monthly Batch Example:**\n- **One weekend day/month** (4-6 hours):\n  - Professional photo shoot with multiple setups\n  - Record several short videos\n  - Create 12-16 posts worth of content\n- Schedule everything for the month\n- Add spontaneous posts throughout\n\n**Benefits:**\n- Consistent quality (same lighting, equipment, mindset)\n- Less daily stress and decision fatigue\n- More free time during week/month\n- Cohesive content themes\n\n---\n\n**2. Recommended Posting Frequency**\n\n| Subscriber Count | Posts/Week | Posts/Day |\n|-----------------|------------|----------|\n| 0-100 | 5-7 | 1/day |\n| 100-500 | 7-10 | 1-2/day |\n| 500-1000 | 10-14 | 2/day |\n| 1000-5000 | 14-21 | 2-3/day |\n| 5000+ | 21-35 | 3-5/day |\n\n**Why not more?**\n- Subscriber feed fatigue\n- Lower engagement per post\n- Quality over quantity wins\n\n---\n\n**3. Content Calendar Template**\n\n**Weekly Schedule:**\n\n| Day | Time | Content Type | Tier |\n|-----|------|--------------|------|\n| **Mon** | 7 AM | Motivational + photo | All |\n| **Tue** | 6 PM | Behind-the-scenes video | VIP |\n| **Wed** | 8 PM | Q&A or poll | All |\n| **Thu** | 7 AM | Teaser for weekend | All |\n| **Fri** | 9 PM | Premium photo set | VIP |\n| **Sat** | 11 AM | Personal story/update | All |\n| **Sun** | 8 PM | Exclusive video | Premium |\n\n**Monthly Themes:**\n- **Week 1**: Relationship-building (Q&As, personal stories)\n- **Week 2**: High-value content (photo sets, videos)\n- **Week 3**: Engagement (polls, challenges, games)\n- **Week 4**: Premium exclusives (custom requests, special content)\n\n---\n\n**4. The 70/30 Rule**\n\n**Don't schedule 100% of your content!**\n\n- **70% scheduled**: Core content, planned posts, consistent schedule\n- **30% spontaneous**: Real-time updates, trend responses, surprise posts\n\n**Why?**\n- Keeps page feeling alive and authentic\n- Allows flexibility for current events/trends\n- Shows subscribers you're actively present\n- Creates excitement (\"She just posted!\")\n\n---\n\n**5. Vacation/Travel Strategy**\n\nGoing away? Front-load your schedule:\n\n**1 Week Vacation:**\n- Pre-schedule 7-10 posts (1-1.5/day)\n- Use generic captions (avoid \"Good morning!\" or time-specific text)\n- Schedule engagement posts (polls, questions)\n- Set up auto-responder for DMs\n\n**2+ Weeks Away:**\n- Schedule 2-3 weeks of content\n- Include announcement: \"I'll be traveling but new content drops daily!\"\n- Reduce posting frequency slightly (subscribers understand)\n- Have trusted assistant monitor for issues\n\n---\n\n**6. Seasonal Planning**\n\n**Schedule Holiday Content Early:**\n\nPlan 1-2 weeks ahead for:\n- Valentine's Day (Feb 14)\n- Halloween (Oct 31)\n- Thanksgiving (Nov)\n- Christmas (Dec 25)\n- New Year's (Dec 31)\n- Your birthday\n- Platform anniversary\n\n**Why early?** Enjoy the actual holiday stress-free while pre-scheduled content posts automatically.\n\n---\n\n**7. Test and Optimize**\n\n**A/B Test Posting Times:**\n- **Week 1**: Post daily at 6 PM\n- **Week 2**: Post daily at 8 PM\n- **Week 3**: Post daily at 9 AM\n- **Week 4**: Review Analytics to see which time performed best\n\n**Track Metrics:**\n- Views per post\n- Likes and comments\n- New subscriptions within 24 hours\n- Revenue generated\n\n**Analytics → Engagement** shows performance by posting time.\n\n---\n\n**8. Common Workflows**\n\n**Workflow A: Daily Consistent**\n- Goal: 1 post/day\n- Time: 5-6 hours/week front-loaded\n- Method: Batch create weekly, schedule all at once\n\n**Workflow B: Premium Quality**\n- Goal: 2-3 premium posts/week\n- Time: 1 full day/week\n- Method: High-production content + daily casual posts\n\n**Workflow C: Hybrid**\n- Goal: Consistent base + spontaneous extras\n- Method: Schedule base content 2 weeks ahead, add real-time posts in between\n\n---\n\n**Quick Start Strategy:**\n\n**Week 1:**\n1. Create 7 posts\n2. Schedule 1/day at 7 PM (proven good time)\n3. Monitor engagement\n\n**Week 2:**\n4. Analyze which posts performed best\n5. Create more of that content type\n6. Adjust timing based on analytics\n\n**Week 3+:**\n7. Scale to 2 weeks scheduled in advance\n8. Add spontaneous posts\n9. Refine based on data\n\n**Remember:** Consistency beats perfection. A regular schedule with good content outperforms sporadic posting of \"perfect\" content.",
+      "question_variations": [
+        "content scheduling strategy",
+        "how often should I post",
+        "best posting schedule",
+        "how to plan content calendar",
+        "content posting frequency",
+        "how many posts per week",
+        "scheduling workflow tips",
+        "content planning best practices"
+      ],
+      "confidence_score": 0.98,
+      "related_questions": [
+        "qa_schedule_001",
+        "qa_schedule_002",
+        "qa_schedule_003"
+      ],
+      "tags": ["strategy", "planning", "frequency", "workflows", "optimization"]
+    },
+    {
+      "id": "qa_schedule_005",
+      "question": "My scheduled post didn't publish. What happened?",
+      "answer": "**Troubleshooting Failed Scheduled Posts:**\n\n**Common Causes & Solutions:**\n\n---\n\n**1. Payment Processing Issue** (for PPV content)\n\n**Problem:** Your payment settings aren't configured properly\n\n**Solution:**\n1. Go to **Settings → Payments**\n2. Verify:\n   - Bank account connected and verified\n   - Payment processor active\n   - No pending verification requirements\n3. Fix any issues\n4. Go to **Scheduled Posts** → Find the post (it has ⚠ icon)\n5. Click **Retry Publishing** or reschedule\n\n---\n\n**2. File Size Too Large**\n\n**Problem:** Video exceeded size limit after processing\n\n**Limits:**\n- Photos: 50 MB per file\n- Videos: 5 GB per file, 60 minutes max length\n- Total upload: 10 GB per post\n\n**Solution:**\n1. Download the original video from Scheduled Posts\n2. Re-compress using:\n   - **HandBrake** (free, desktop)\n   - **Video Compressor** apps\n   - Online tools like Clideo\n3. Target: 1080p, H.264 codec, 5-15 Mbps bitrate\n4. Re-upload and reschedule\n\n---\n\n**3. Account Restriction**\n\n**Problem:** Verification pending or policy violation under review\n\n**Solution:**\n1. Check your email for notifications\n2. Go to **Settings → Account Status**\n3. Resolve any pending issues:\n   - Complete ID verification\n   - Respond to policy review\n   - Verify payment information\n4. Once resolved, scheduled posts will auto-retry or you can manually publish\n\n---\n\n**4. Content Policy Violation**\n\n**Problem:** Automated system flagged content during pre-publish scan\n\n**Possible flags:**\n- Prohibited content detected\n- Copyrighted material (music, logos)\n- Terms of service violation\n\n**Solution:**\n1. Check notification for specific reason\n2. Edit post to remove flagged content:\n   - Replace copyrighted music\n   - Remove prohibited items\n   - Adjust caption if needed\n3. Request manual review if you believe it's a mistake\n4. Reschedule once approved\n\n---\n\n**5. Timezone Confusion**\n\n**Problem:** Post scheduled in wrong timezone, so time passed or hasn't come yet\n\n**Example:**\n- You're in PST but account set to EST\n- Scheduled for \"6 PM\" but it used EST time\n- Post published at 3 PM PST (6 PM EST) instead of intended 6 PM PST\n\n**Solution:**\n1. **Settings → Account → Timezone**\n2. Set correct timezone\n3. Review all scheduled posts for correct times\n4. Reschedule any affected posts\n\n**Pro tip:** Enable \"Auto-detect timezone\" if you travel frequently\n\n---\n\n**6. Internet Connection Lost During Upload**\n\n**Problem:** Upload didn't complete before losing connection\n\n**Solution:**\n1. Go to **Dashboard → Drafts**\n2. Find incomplete upload (shows partial progress)\n3. Click **Resume Upload** or delete and re-upload\n4. Wait for \"Upload Complete\" confirmation\n5. Then schedule\n\n**Prevention:** Don't close browser until you see \"✓ Upload complete\"\n\n---\n\n**What Happens When Scheduling Fails:**\n\n1. **Post stays in queue** with ⚠ error icon\n2. **You receive notification**: \"Post failed to publish - action required\"\n3. **Specific error shown** when you click the post\n4. **Post does NOT auto-delete** – you can fix and retry\n\n---\n\n**Checking for Failed Posts:**\n\n**Desktop:**\n1. Go to **Dashboard → Scheduled Posts**\n2. Look for ⚠ icon next to any post\n3. Click to see error details\n\n**Mobile:**\n1. Tap **Menu → Scheduled**\n2. Posts with issues show red badge\n3. Tap for details and fix options\n\n---\n\n**Preventing Future Issues:**\n\n✓ **Always preview** posts before scheduling\n✓ **Test video playback** before uploading\n✓ **Verify payment settings** are active\n✓ **Check account status** regularly\n✓ **Use stable internet** for uploads\n✓ **Don't close browser** until upload completes\n✓ **Double-check timezone** especially when traveling\n✓ **Stay within file size limits** (compress large videos)\n✓ **Review scheduled posts weekly** to catch issues early\n\n---\n\n**Still Having Issues?**\n\n**Contact Support:**\n1. Go to **Settings → Help & Support**\n2. Click **Contact Support**\n3. Choose \"Scheduled Posts Issue\"\n4. Include:\n   - Post ID (shown in error message)\n   - Screenshot of error\n   - When you scheduled it\n   - What content type (photo/video)\n5. Support typically responds within 24 hours\n\n**Emergency Publishing:**\nIf you need the post live immediately:\n1. Cancel the schedule\n2. Post goes to Drafts\n3. Click **Publish Now** (bypasses scheduling)\n4. Manually post at intended time",
+      "question_variations": [
+        "scheduled post failed",
+        "post didn't publish on time",
+        "why didn't my scheduled post go live",
+        "scheduled post not working",
+        "post failed to publish",
+        "scheduled content didn't post",
+        "troubleshoot scheduling issues",
+        "post didn't appear at scheduled time"
+      ],
+      "confidence_score": 0.97,
+      "related_questions": [
+        "qa_schedule_001",
+        "qa_schedule_003",
+        "qa_schedule_006"
+      ],
+      "tags": ["troubleshooting", "errors", "technical-issues", "support", "problem-solving"]
+    },
+    {
+      "id": "qa_schedule_006",
+      "question": "Can I schedule recurring posts?",
+      "answer": "**Yes! Set Up Recurring Scheduled Posts:**\n\n**How to Create Recurring Posts:**\n\n1. Create your post (upload content, write caption)\n2. Click **Schedule**\n3. Set initial date and time\n4. Toggle **Repeat** option (look for repeat icon 🔄)\n5. Choose frequency:\n   - **Daily**\n   - **Weekly** (select specific days: Mon/Wed/Fri)\n   - **Bi-weekly** (every 2 weeks)\n   - **Monthly** (e.g., \"First Monday of each month\" or \"15th of each month\")\n6. Set end condition:\n   - **End date**: Stop repeating after specific date\n   - **After X occurrences**: Stop after 10 posts, 20 posts, etc.\n   - **Repeat indefinitely**: Continues until you manually stop it\n7. Click **Create Recurring Schedule**\n\n---\n\n**Use Cases for Recurring Posts:**\n\n**1. Weekly Check-Ins**\n- **Every Monday at 8 AM**: \"Monday Motivation\" post\n- **Every Friday at 9 PM**: \"Weekend Plans\" update\n- **Every Sunday at 7 PM**: \"Week in Review\" summary\n\n**2. Monthly Events**\n- **First Friday each month**: Live Q&A announcement\n- **15th of each month**: Subscriber appreciation post\n- **Last day of month**: Next month's preview/teaser\n\n**3. Daily Routines**\n- **Every morning at 7 AM**: \"Good morning\" greeting with motivational quote\n- **Every evening at 10 PM**: \"Good night\" post with behind-the-scenes photo\n- **Every afternoon at 3 PM**: Poll or question for engagement\n\n**4. Content Series**\n- **Every Tuesday/Thursday**: \"Fitness Journey\" updates\n- **Every Wednesday**: \"Throwback Wednesday\" older photo reshare\n- **Every weekend**: \"Weekend Exclusive\" premium content\n\n---\n\n**Example Setup: Weekly Monday Motivation**\n\n**Content:** Inspirational quote + workout photo\n\n**Schedule:**\n- Day: Every Monday\n- Time: 7:00 AM\n- Tier: All Subscribers\n- Repeat: Weekly (Mondays)\n- End: After 12 occurrences (3 months)\n\n**Result:** Post automatically publishes every Monday at 7 AM for next 3 months\n\n---\n\n**Managing Recurring Posts:**\n\n**View All Occurrences:**\n1. Go to **Dashboard → Scheduled Posts → Recurring**\n2. See all recurring schedules\n3. Click any to view upcoming dates\n\n**Edit Recurring Schedule:**\n\nYou can edit:\n- **Single occurrence**: Change just one upcoming post\n- **All future occurrences**: Update the series from a specific date forward\n- **Entire series**: Modify the whole recurring schedule\n\n**To edit:**\n1. Click recurring post in Scheduled Posts\n2. Choose edit scope:\n   - \"This occurrence only\"\n   - \"This and all future occurrences\"\n3. Make changes\n4. Save\n\n**Cancel Recurring Schedule:**\n\n**Option 1: Stop All Future Posts**\n1. Click recurring schedule\n2. Click **Stop Recurrence**\n3. Confirm\n4. Already-scheduled posts remain, but no new ones created\n\n**Option 2: Delete Entire Series**\n1. Click recurring schedule\n2. Click **Delete Series**\n3. Confirm\n4. Removes ALL future scheduled posts in the series\n\n---\n\n**Advanced Recurring Options:**\n\n**Custom Intervals:**\n- Every 3 days\n- Every other week\n- Every 2 months\n- First and third Monday of each month\n\n**Multiple Days Weekly:**\n- Monday, Wednesday, Friday at 7 PM\n- Tuesday and Thursday at 6 AM\n- Every weekday (Mon-Fri) at noon\n- Weekends only (Sat-Sun) at 10 AM\n\n**Skip Dates:**\n- Set recurring schedule\n- Manually skip specific dates (holidays, vacations)\n- Click specific occurrence → \"Skip this date\"\n- Recurrence continues after skipped date\n\n---\n\n**Important Notes:**\n\n⚠ **Content is identical** for each recurring post – if you upload a specific photo, that same photo posts each time\n\n**Workaround for varied content:**\n1. Set up recurring **reminder** posts (text-only)\n2. Each occurrence reminds you to add that week's specific content\n3. Or create series of drafts, then bulk schedule at intervals\n\n⚠ **Timezone locks in** when you create recurrence – doesn't auto-adjust if you travel\n\n⚠ **Maximum 100 occurrences** per recurring schedule (platform limit)\n\n⚠ **Subscription tier must stay consistent** – can't alternate between \"All\" and \"VIP\" automatically\n\n---\n\n**Best Practices:**\n\n✓ **Use for consistent branding** (weekly themes, daily greetings)\n✓ **Set end dates** to review and refresh after 3-6 months\n✓ **Test with short series first** (4-5 occurrences) before committing to long-term\n✓ **Combine with unique posts** – recurring should be 20-30% of content, not 100%\n✓ **Review performance** – if recurring posts underperform, adjust or cancel\n✓ **Announce patterns to subscribers**: \"Look for my Monday Motivation post every week!\"\n✓ **Vary content slightly** even in recurring posts (different quotes, photos) by editing individual occurrences\n\n---\n\n**Alternatives to Recurring Schedules:**\n\n**If recurring isn't quite right:**\n\n1. **Content Series**: Upload multiple posts, schedule sequentially (daily, every other day, weekly)\n2. **Bulk Scheduling**: Create 10 similar posts, schedule at regular intervals manually\n3. **Templates**: Save post templates, manually create new post from template weekly\n4. **Calendar Reminders**: Set external reminder to create and post specific content weekly\n\n---\n\n**Recurring vs. Series:**\n\n| Feature | Recurring | Series |\n|---------|-----------|--------|\n| **Same content repeating** | ✓ Yes | ✗ No |\n| **Different content each time** | ✗ No | ✓ Yes |\n| **Automatic posting** | ✓ Yes | ✓ Yes |\n| **Edit individual posts** | ✓ Yes | ✓ Yes |\n| **Best for** | Consistent weekly themes | Multi-part stories |\n\n---\n\n**Quick Setup Example:**\n\n**Goal:** Post \"Good morning!\" every weekday at 7 AM for next month\n\n**Steps:**\n1. Create text post: \"Good morning! ☀️ Hope you have an amazing day!\"\n2. Click **Schedule**\n3. Set: Tomorrow at 7:00 AM\n4. Enable **Repeat**\n5. Choose: **Weekly** → Select Mon, Tue, Wed, Thu, Fri\n6. End: After 20 occurrences (4 weeks × 5 days)\n7. Click **Create Recurring Schedule**\n8. Done! 20 good morning posts automatically scheduled.\n\n**Time saved:** Instead of creating 20 separate posts, you set it up once in 2 minutes.",
+      "question_variations": [
+        "schedule recurring posts",
+        "set up repeating posts",
+        "can I schedule the same post multiple times",
+        "automatic recurring content",
+        "schedule weekly posts",
+        "schedule monthly posts",
+        "repeat post schedule",
+        "schedule same post every week"
+      ],
+      "confidence_score": 0.98,
+      "related_questions": [
+        "qa_schedule_001",
+        "qa_schedule_003",
+        "qa_schedule_004"
+      ],
+      "tags": ["recurring", "automation", "repeating", "weekly-posts", "advanced"]
+    }
+  ],
+
+  "proactive_triggers": [
+    {
+      "trigger_id": "no_scheduled_content",
+      "condition": "account_age > 14_days AND total_scheduled_posts == 0 AND total_posts > 10",
+      "message": "💡 **Try Content Scheduling!**\n\nYou've been posting regularly—great! Want to make it easier?\n\n**Content scheduling lets you:**\n- Create posts in advance\n- Maintain consistency effortlessly\n- Batch create content in one session\n- Never miss a day even when busy\n\n**Quick Start:**\n1. Create a post like normal\n2. Click **Schedule** instead of \"Post Now\"\n3. Pick date and time\n4. Done! Post auto-publishes.\n\n[Schedule Your First Post] [Learn More] [Dismiss]",
+      "priority": "medium",
+      "frequency": "once_per_user",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "inconsistent_posting_pattern",
+      "condition": "days_since_last_post > 5 AND avg_posts_per_week < 3 AND subscriber_count > 50",
+      "message": "📅 **Struggling to Post Consistently?**\n\nWe noticed gaps in your posting schedule. Consistent content = happier subscribers!\n\n**Content scheduling can help:**\n- Create posts when you have time\n- Schedule them to publish automatically\n- Maintain consistent presence\n\n**Popular strategy:** Dedicate 2 hours on Sunday to create and schedule the whole week's content.\n\n**Benefits:**\n- Less daily stress\n- More predictable subscriber engagement\n- Better work-life balance\n\n[Try Scheduling] [See Strategies] [Remind Me Later]",
+      "priority": "high",
+      "frequency": "every_30_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "posting_at_suboptimal_times",
+      "condition": "last_10_posts_avg_engagement < historical_avg_engagement AND posting_outside_peak_hours == true",
+      "message": "⏰ **Boost Engagement with Better Timing!**\n\nYour posts are great, but timing might be hurting engagement.\n\n**Your subscriber activity peaks:**\n- Weekdays: 6-9 PM\n- Weekends: 10 AM-12 PM\n\n**You're currently posting:**\n- [Current average posting time]\n\n**Suggestion:** Schedule posts for peak times even if you create content at different times.\n\n**How:**\n1. Create content whenever convenient\n2. Schedule to publish during peak hours\n3. Enjoy better engagement automatically\n\n[View Analytics] [Schedule Next Post] [Dismiss]",
+      "priority": "medium",
+      "frequency": "every_14_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "many_scheduled_posts_approaching",
+      "condition": "scheduled_posts_next_7_days > 20",
+      "message": "📊 **Heads Up: Heavy Posting Week Ahead**\n\nYou have **[X] posts** scheduled in the next 7 days (avg: 3+ per day).\n\n**This might:**\n- Overwhelm subscriber feeds\n- Reduce per-post engagement\n- Lead to unsubscribes\n\n**Recommendation:** 1-2 posts per day usually performs better.\n\n**Options:**\n1. **Spread content out**: Reschedule some posts over next 2-4 weeks\n2. **Keep schedule**: If this is intentional (special event, launch week)\n3. **Review analytics next week**: See if engagement dropped\n\n[Reschedule Posts] [Keep Schedule] [View Calendar]",
+      "priority": "high",
+      "frequency": "every_7_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "never_used_calendar_view",
+      "condition": "total_scheduled_posts > 15 AND calendar_view_accessed == false",
+      "message": "📅 **Pro Tip: Use Calendar View!**\n\nYou're scheduling lots of content—awesome! But have you tried **Calendar View**?\n\n**It lets you:**\n- See your entire content schedule visually\n- Drag-and-drop to reschedule posts\n- Spot gaps or overcrowded days\n- Plan themed content weeks\n- Export schedule to external calendar\n\n**Try it:**\nDashboard → Scheduled Posts → **Calendar View** (top right)\n\n[Open Calendar View] [Watch Tutorial] [Dismiss]",
+      "priority": "low",
+      "frequency": "once_per_user",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "vacation_mode_opportunity",
+      "condition": "consistent_daily_posting == true AND days_until_next_gap > 90",
+      "message": "✈️ **Planning a Vacation? Schedule Ahead!**\n\nYou've been posting consistently (great job!), but everyone needs a break.\n\n**Before your next vacation:**\nUse content scheduling to keep posts going while you're away.\n\n**Quick Vacation Prep:**\n1. Batch create 1-2 weeks of content\n2. Schedule 1 post per day during your trip\n3. Set up auto-responder for DMs\n4. Enjoy your vacation stress-free!\n\n**Your subscribers stay happy, you stay relaxed.**\n\n[Learn Vacation Scheduling] [Dismiss]",
+      "priority": "low",
+      "frequency": "every_60_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "scheduled_post_failed_recently",
+      "condition": "failed_scheduled_posts_last_7_days > 0",
+      "message": "⚠️ **Scheduled Post Failed to Publish**\n\nWe couldn't publish your scheduled post: \"[Post Title/Caption Preview]\"\n\n**Reason:** [Specific error: file size, payment issue, etc.]\n\n**What to do:**\n1. Go to **Dashboard → Scheduled Posts**\n2. Find the post with ⚠️ icon\n3. Fix the issue (see details below)\n4. Reschedule or publish now\n\n**Common fixes:**\n- Compress large videos\n- Verify payment settings\n- Complete pending account verification\n\n[View Failed Post] [Contact Support] [Dismiss]",
+      "priority": "critical",
+      "frequency": "immediate",
+      "audience": "creators"
+    }
+  ],
+
+  "glossary": [
+    {
+      "term": "Content Scheduling",
+      "definition": "Creating posts in advance and setting them to automatically publish at specific future dates and times."
+    },
+    {
+      "term": "Batch Creation",
+      "definition": "Creating multiple pieces of content in a single session, then scheduling them to publish over an extended period."
+    },
+    {
+      "term": "Calendar View",
+      "definition": "Visual representation of scheduled posts displayed on a calendar, allowing drag-and-drop rescheduling."
+    },
+    {
+      "term": "Recurring Posts",
+      "definition": "Posts that automatically repeat at regular intervals (daily, weekly, monthly) without manual recreation."
+    },
+    {
+      "term": "Peak Engagement Time",
+      "definition": "The hours when subscribers are most active and likely to view, like, and comment on posts."
+    },
+    {
+      "term": "Bulk Scheduling",
+      "definition": "Scheduling multiple posts simultaneously, either spread evenly across a date range or at custom intervals."
+    },
+    {
+      "term": "Internal Title",
+      "definition": "Private label for scheduled posts visible only to the creator, used for organization (e.g., 'Week 3 Monday - Blue Outfit - VIP')."
+    },
+    {
+      "term": "Smart Scheduling",
+      "definition": "AI-powered feature that analyzes subscriber activity and suggests optimal posting times for maximum engagement."
+    },
+    {
+      "term": "Content Series",
+      "definition": "Multiple related posts scheduled sequentially, often numbered or themed (e.g., '30 Days of Summer' or 'Behind the Scenes Week')."
+    },
+    {
+      "term": "Subscriber Activity Heatmap",
+      "definition": "Analytics visualization showing when subscribers are most active, helping identify best posting times."
+    },
+    {
+      "term": "Post Queue",
+      "definition": "The list of all scheduled posts waiting to be automatically published, viewable in Dashboard → Scheduled Posts."
+    },
+    {
+      "term": "Failed Publish",
+      "definition": "When a scheduled post cannot be published at its designated time due to errors (file size, payment issues, etc.)."
+    },
+    {
+      "term": "Timezone Lock",
+      "definition": "Posts publish based on the timezone set when scheduled, not the creator's current location."
+    },
+    {
+      "term": "70/30 Rule",
+      "definition": "Content strategy recommending 70% scheduled posts for consistency and 30% spontaneous posts for authenticity."
+    },
+    {
+      "term": "Vacation Mode",
+      "definition": "Pre-scheduling content to maintain posting consistency while taking time off from active content creation."
+    }
+  ],
+
+  "integration_points": [
+    {
+      "feature": "Analytics & Insights",
+      "connection": "Subscriber Activity Heatmap shows optimal posting times for scheduling content when engagement peaks."
+    },
+    {
+      "feature": "Content Upload & Organization",
+      "connection": "All uploaded content can be saved as drafts and scheduled for future publication instead of posting immediately."
+    },
+    {
+      "feature": "Subscription Tiers & Pricing",
+      "connection": "Scheduled posts can be assigned to specific tiers (All, VIP, Premium) or set as pay-per-view with pricing."
+    },
+    {
+      "feature": "Notification Preferences",
+      "connection": "Creators can configure notifications for when scheduled posts publish, fail, or receive engagement."
+    },
+    {
+      "feature": "Mobile App Features",
+      "connection": "Scheduled posts can be created, edited, and managed from mobile app with full scheduling functionality."
+    },
+    {
+      "feature": "Creator Verification & Badges",
+      "connection": "Account restrictions from pending verification can prevent scheduled posts from publishing until resolved."
+    },
+    {
+      "feature": "Content Moderation & Reporting",
+      "connection": "Scheduled content goes through pre-publish automated scanning; flagged content prevents publication until reviewed."
+    },
+    {
+      "feature": "Post Engagement & Interactions",
+      "connection": "Scheduled posts automatically start collecting likes, comments, and engagement the moment they go live."
+    }
+  ],
+
+  "related_documentation": [
+    "/docs/how-to/content-scheduling.md",
+    "/docs/how-to/content-upload-organization.md",
+    "/docs/how-to/analytics-insights.md",
+    "/docs/how-to/subscription-tiers-pricing.md"
+  ],
+
+  "support_resources": [
+    {
+      "title": "Video Tutorial: Schedule Your First Post",
+      "url": "/help/tutorials/scheduling-basics",
+      "duration": "3 min"
+    },
+    {
+      "title": "Guide: Batch Content Creation Strategies",
+      "url": "/help/guides/batch-content-creation",
+      "type": "article"
+    },
+    {
+      "title": "Best Posting Times by Platform",
+      "url": "/help/guides/optimal-posting-times",
+      "type": "article"
+    }
+  ]
+}

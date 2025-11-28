@@ -1,0 +1,518 @@
+{
+  "feature_id": "custom-requests",
+  "feature_name": "Custom Requests & Wishlists",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "description": "AI knowledge base for custom content requests and wishlist features",
+  "qa_pairs": [
+    {
+      "id": "qa_custom_001",
+      "question": "How do custom requests work?",
+      "question_variations": [
+        "What are custom requests?",
+        "How can I accept custom requests?",
+        "How do I get paid for custom content?",
+        "Can fans request specific content from me?",
+        "How does the custom request feature work?",
+        "What is a custom request?",
+        "How do I enable custom requests?"
+      ],
+      "answer": "**How Custom Requests Work:**\n\n**The Process:**\n\n1. **Fan Submits Request**\n   - Fan describes what they want\n   - Provides their budget\n   - Sets desired delivery timeframe\n\n2. **You Review & Respond**\n   - Receive notification of request\n   - Accept, counter with different price, or decline\n   - Ask clarifying questions if needed\n\n3. **Payment to Escrow**\n   - Once accepted, fan's payment held securely\n   - Protected for both parties\n   - Released when you deliver\n\n4. **Create Content**\n   - Work within agreed deadline\n   - Follow request requirements\n   - Maintain your quality standards\n\n5. **Deliver & Get Paid**\n   - Upload completed content\n   - Fan has 48 hours to review\n   - Payment released to your account\n   - You keep 80%, platform 20%\n\n**To Enable:**\n\nGo to **Settings → Monetization → Custom Requests** and toggle ON. Set your base pricing, delivery times, and content guidelines.\n\n**Revenue Split:** You receive 80% of all custom request payments.\n\n**Common Request Types:**\n- Photo sets: $25-$200+\n- Custom videos: $50-$500+\n- Personalized messages: $10-$100+\n- Other custom content: Your pricing",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/payments-and-payouts.md",
+        "how-to/content-upload.md"
+      ],
+      "tags": ["custom requests", "monetization", "custom content", "pricing", "fan requests"],
+      "suggested_actions": [
+        {
+          "action": "enable_custom_requests",
+          "label": "Enable Custom Requests",
+          "path": "/settings/monetization/custom-requests"
+        },
+        {
+          "action": "view_requests",
+          "label": "View Pending Requests",
+          "path": "/custom-requests/pending"
+        },
+        {
+          "action": "set_pricing",
+          "label": "Set Your Pricing",
+          "path": "/settings/monetization/custom-requests/pricing"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_002",
+      "question": "How should I price my custom requests?",
+      "question_variations": [
+        "What should I charge for custom content?",
+        "How much for custom requests?",
+        "What's a fair price for custom videos?",
+        "How do I set pricing for custom content?",
+        "What should I charge for personalized content?",
+        "How much should custom requests cost?",
+        "What are typical custom request prices?"
+      ],
+      "answer": "**Custom Request Pricing Strategy:**\n\n**Base Calculation:**\n\n```\n(Time Required × Your Hourly Rate) + Complexity + Rush Fee = Total Price\n```\n\n**Sample Pricing Framework:**\n\n**Photo Sets:**\n- 5 photos: $25-$50\n- 10 photos: $50-$100\n- 20+ photos: $100-$200\n- Elaborate setup: +$50-$100\n\n**Videos:**\n- 1 minute: $50-$75\n- 3 minutes: $100-$150\n- 5 minutes: $150-$250\n- 10 minutes: $250-$500\n- Personalization: +$50\n\n**Messages:**\n- Text message: $10-$25\n- Voice message (1 min): $25-$50\n- Video message (1 min): $50-$100\n\n**Premium Add-Ons:**\n- Rush delivery (48hr): +50%\n- Name mentioned: +$20-$50\n- Custom script: +$50-$100\n- Specific outfit: +$25-$50\n- Exclusive rights: +100%\n\n**Pricing Factors:**\n\n1. **Your Time**\n   - Planning: ___ min\n   - Shooting: ___ min\n   - Editing: ___ min\n   - Total × hourly rate\n\n2. **Complexity Level**\n   - Simple: Base price\n   - Moderate: +25-50%\n   - Complex: +50-100%\n\n3. **Delivery Speed**\n   - Standard (5-7 days): Base\n   - Rush (2-4 days): +50%\n   - Express (24-48hr): +100%\n\n4. **Personalization**\n   - Generic: Base price\n   - Name mentions: +$20-$50\n   - Custom script: +$50-$150\n\n**Pro Tips:**\n\n✅ **Don't Undervalue**: Your time and creativity are worth premium pricing\n✅ **Package Tiers**: Create Bronze/Silver/Gold packages\n✅ **Raise Prices**: If you're overwhelmed, prices are too low\n✅ **Loyal Fan Discount**: 10% off for repeat customers\n✅ **Set Minimums**: Don't accept requests below your threshold\n\n**Example Package:**\n\n**Gold Package - $300**\n- 10-minute video\n- Multiple outfit changes\n- Fully custom script\n- Name mentioned throughout\n- 2-day delivery\n- Exclusive rights",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/payments-and-payouts.md",
+        "how-to/content-strategy.md"
+      ],
+      "tags": ["pricing", "custom requests", "monetization", "rates", "packages"],
+      "suggested_actions": [
+        {
+          "action": "set_base_pricing",
+          "label": "Set Base Pricing",
+          "path": "/settings/monetization/custom-requests/pricing"
+        },
+        {
+          "action": "create_packages",
+          "label": "Create Request Packages",
+          "path": "/custom-requests/packages"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_003",
+      "question": "What should I do when I get a custom request?",
+      "question_variations": [
+        "How do I respond to custom requests?",
+        "What do I do with a custom request?",
+        "How do I accept or decline requests?",
+        "Should I accept this custom request?",
+        "How do I handle custom requests?",
+        "What are my options for custom requests?",
+        "Can I negotiate custom request prices?"
+      ],
+      "answer": "**When You Receive a Custom Request:**\n\n**Step 1: Review the Request**\n\nGo to **Dashboard → Custom Requests → Pending**\n\nCheck:\n- ✅ Fan's username and subscriber status\n- ✅ Request description and requirements\n- ✅ Their offered budget\n- ✅ Requested delivery timeframe\n- ✅ Any special requests\n\n**Step 2: Choose Your Response**\n\nYou have 4 options:\n\n**1. ACCEPT** ✅\n- You agree to their price and terms\n- Payment goes to escrow immediately\n- Deadline countdown starts\n- You're committed to deliver\n\n**When to Accept:**\n- Price matches your rates\n- Requirements are clear\n- You can meet deadline\n- Request is within your boundaries\n\n**2. COUNTER OFFER** 💰\n- Propose different price or timeline\n- Explain your pricing (optional)\n- Fan can accept, decline, or counter again\n\n**Example Counter:**\n> \"Thanks for your request! For a 5-minute custom video with the specific outfit and script you mentioned, my rate is $150. I can have this ready within 5 days. Let me know if that works!\"\n\n**When to Counter:**\n- Their budget is too low\n- You need more time\n- Request is more complex than they realize\n\n**3. ASK QUESTIONS** ❓\n- Clarify vague requirements\n- Confirm specific details\n- Ensure you understand fully\n\n**Questions to Ask:**\n- What specific outfits/props?\n- What location/setting?\n- What should I say/do?\n- Any names to mention?\n- Preferred content length?\n- Hard deadline or flexible?\n\n**4. DECLINE** ❌\n- Politely refuse the request\n- Optional: provide reason\n- Suggest alternatives\n\n**When to Decline:**\n- Outside your comfort zone\n- Violates platform rules\n- Price far too low\n- You're at capacity\n- Request makes you uncomfortable\n\n**Polite Decline Template:**\n> \"Thank you for thinking of me! Unfortunately, this type of content isn't something I create. I'd love to work with you on something else - feel free to send another request!\"\n\n**Step 3: Set Clear Expectations**\n\nBefore finalizing:\n- Confirm all requirements\n- Clarify any ambiguity\n- Set realistic delivery date\n- Document everything\n\n**Step 4: Deliver on Time**\n\n- Create quality content\n- Meet all requirements\n- Upload before deadline\n- Include brief message\n- Wait for approval & payment release\n\n**Pro Tips:**\n\n✅ **Respond Within 24 Hours**: Shows professionalism\n✅ **Screenshot Requests**: Protect yourself from scope creep\n✅ **Be Professional**: Even when declining\n✅ **Set Boundaries**: Don't compromise your limits\n✅ **Trust Your Instincts**: It's okay to say no",
+      "confidence_score": 0.98,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/fan-engagement.md"
+      ],
+      "tags": ["custom requests", "workflow", "responding", "accepting", "declining"],
+      "suggested_actions": [
+        {
+          "action": "view_pending_requests",
+          "label": "View Pending Requests",
+          "path": "/custom-requests/pending"
+        },
+        {
+          "action": "set_guidelines",
+          "label": "Set Content Guidelines",
+          "path": "/settings/monetization/custom-requests/guidelines"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_004",
+      "question": "How do I set up a wishlist?",
+      "question_variations": [
+        "What is a wishlist?",
+        "How do wishlists work?",
+        "Can fans buy me gifts?",
+        "How do I enable my wishlist?",
+        "How do I add items to my wishlist?",
+        "Can I link my Amazon wishlist?",
+        "How do I get fans to buy from my wishlist?"
+      ],
+      "answer": "**Setting Up Your Wishlist:**\n\nYour wishlist lets fans purchase gifts for you, creating another revenue stream and deeper fan connection.\n\n**Step 1: Enable Wishlist**\n\n1. Go to **Settings → Monetization → Wishlist**\n2. Click **Enable Wishlist**\n3. Choose integration method:\n\n**Option A: Link External Wishlist**\n- Amazon Wishlist (recommended)\n- Other wishlist platforms\n- Paste your wishlist URL\n- Platform validates link\n\n**Option B: Manual Entry**\n- Add items directly in platform\n- Set item name, price, description\n- Upload item image\n- Easier management\n\n**Step 2: Configure Settings**\n\n**Visibility:**\n- All fans\n- Subscribers only\n- VIP subscribers only\n- Custom tiers\n\n**Notifications:**\n- Email when items purchased\n- In-app notifications\n- Weekly summary\n\n**Thank You Message:**\nAutomate responses:\n> \"Thank you SO much for spoiling me! 💕 I can't wait to use this in my content and show you!\"\n\n**Step 3: Add Strategic Items**\n\n**Variety of Price Points:**\n- Small items: $10-$25 (accessible to all)\n- Medium items: $25-$100 (popular range)\n- Premium items: $100-$500 (serious supporters)\n- Dream items: $500+ (aspirational)\n\n**Content-Related Items:**\n✅ Lighting equipment (\"Better lighting = better content for you!\")\n✅ Costumes/outfits (\"Help me expand my wardrobe!\")\n✅ Props and accessories (\"Let's create amazing content together!\")\n✅ Camera gear (\"Upgrade my content quality!\")\n✅ Workout equipment (\"Support my fitness journey!\")\n\n**Make It Personal:**\n\nFor each item, explain:\n- Why you want it\n- How it benefits your content\n- What fans will see\n\n**Example:**\n> **Ring Light ($45)** - \"This will make my close-up shots even more flattering and professional! You'll notice the difference in every post. 💡✨\"\n\n**Step 4: Promote Your Wishlist**\n\n**In Posts:**\n- \"Help me reach my goal for this camera! 📸\"\n- \"Link in bio if you'd like to spoil me!\"\n- Weekly wishlist reminder posts\n\n**In Messages:**\n- Include in welcome message\n- Mention to engaged subscribers\n- Share when items purchased\n\n**On Profile:**\n- Pin wishlist link in bio\n- Create highlight with wishlist items\n- Add to linktree/all-in-one link\n\n**Step 5: Show Appreciation**\n\n**When Items Are Purchased:**\n\n1. **Send Personal Thank You**\n   - Message the fan immediately\n   - Express genuine gratitude\n   - Promise to feature in content\n\n2. **Post About It**\n   - \"Thank you to [fan name] for this amazing gift!\"\n   - Show item being used\n   - Tag purchaser (with permission)\n\n3. **Deliver on Promise**\n   - Actually use the item in content\n   - Tag the fan in posts featuring it\n   - Create special content with gifted items\n\n**Wishlist Best Practices:**\n\n✅ **Keep It Updated**: Remove purchased items promptly\n✅ **Refresh Regularly**: Add new items seasonally\n✅ **Content-First**: Choose items that improve your content\n✅ **Thank Publicly**: Show appreciation (with permission)\n✅ **Offer Incentives**: \"Buy item over $50, get exclusive content\"\n✅ **Be Genuine**: Only ask for things you actually want\n\n**Incentive Ideas:**\n\n- Buy item $50+: Get 5 exclusive photos\n- Buy outfit: You model it for them first\n- Wishlist buyers: Priority custom requests\n- Gift receiver: Shoutout in next post\n\n**Amazon Wishlist Tips:**\n\n1. **Hide Your Address**: Use Amazon Locker or PO Box\n2. **Add Lots of Items**: Give fans choices\n3. **Update \"Needs\" and \"Wants\"**: Prioritize items\n4. **Set Ship-to Address**: Use privacy options\n5. **Check Regularly**: Mark received items\n\n**Success Example:**\n\n> \"Hey loves! 💕 I've updated my wishlist with some items I need for better content creation. From lighting to outfits to props - every item directly improves what I create for you. Link in bio if you'd like to contribute! Every gift gets a special thank you. 🎁✨\"",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/fan-engagement.md",
+        "how-to/content-strategy.md"
+      ],
+      "tags": ["wishlist", "gifts", "monetization", "amazon wishlist", "fan support"],
+      "suggested_actions": [
+        {
+          "action": "enable_wishlist",
+          "label": "Enable Wishlist",
+          "path": "/settings/monetization/wishlist"
+        },
+        {
+          "action": "add_items",
+          "label": "Add Wishlist Items",
+          "path": "/wishlist/manage"
+        },
+        {
+          "action": "customize_message",
+          "label": "Set Thank You Message",
+          "path": "/settings/monetization/wishlist/messages"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_005",
+      "question": "What if I can't deliver a custom request on time?",
+      "question_variations": [
+        "What happens if I miss a custom request deadline?",
+        "How do I extend a custom request deadline?",
+        "What if I need more time for a custom request?",
+        "Can I get an extension on custom requests?",
+        "What if I can't complete the custom request?",
+        "How do I handle late custom request delivery?",
+        "Will I get refunded if I miss the deadline?"
+      ],
+      "answer": "**If You Can't Meet Your Custom Request Deadline:**\n\n**Step 1: Communicate EARLY** ⚠️\n\n**As soon as you realize you'll be late:**\n\n1. **Message the fan immediately**\n   - Don't wait until deadline passes\n   - Be honest and professional\n   - Explain briefly (don't over-explain)\n\n2. **Provide options**\n   - Extended deadline (specific date)\n   - Partial refund if they prefer\n   - Progress update to show work in progress\n\n**Example Message:**\n> \"Hi! I want to give you an update on your custom request. I'm running a bit behind schedule due to [brief reason - weather/equipment issue/personal emergency]. I can have this ready for you in 2 more days (by [specific date]), or if you prefer, I can process a refund. I'm really sorry for the delay and appreciate your patience! I'm committed to delivering the quality content you deserve. 💕\"\n\n**Step 2: Understand the Consequences**\n\n**If Deadline Is Missed:**\n\n- Fan can request full refund\n- May affect your custom request rating\n- Could impact future request volume\n- Platform may limit your custom request features (repeated violations)\n\n**If Fan Agrees to Extension:**\n\n- Update deadline in system\n- Document the agreement\n- Honor the new deadline\n- Consider small bonus as apology\n\n**Step 3: Offer Compensation**\n\n**Show Good Faith:**\n\n- Add extra content (2-3 bonus photos/extra minute of video)\n- Include additional personalization\n- Offer discount on next request\n- Send exclusive content as apology\n\n**Example:**\n> \"Thanks for being so understanding! To make up for the delay, I'm including 5 bonus photos and a personalized voice message. Your support means everything!\"\n\n**Step 4: Deliver Exceptional Content**\n\n**Make It Worth the Wait:**\n\n- Over-deliver on quality\n- Exceed original requirements\n- Add special touches\n- Include personal note\n\n**Step 5: Learn and Improve**\n\n**Prevent Future Issues:**\n\n1. **Set Realistic Deadlines**\n   - Add buffer time (if you think 3 days, say 5)\n   - Account for unexpected issues\n   - Under-promise, over-deliver\n\n2. **Create Workflow System**\n   - Calendar blocking for custom requests\n   - Production schedule\n   - Reminder notifications\n\n3. **Limit Concurrent Requests**\n   - Max 3-5 at a time\n   - Don't over-commit\n   - Close requests when at capacity\n\n4. **Build Content Buffer**\n   - Work ahead when possible\n   - Complete before deadline\n   - Have backup plan\n\n**Emergency Situations:**\n\n**If True Emergency Occurs:**\n\n- Family emergency\n- Medical issue\n- Natural disaster\n- Equipment failure\n\n**Action Plan:**\n\n1. Message fan immediately\n2. Be honest about situation\n3. Offer full refund\n4. Extend significantly (1-2 weeks)\n5. Contact platform support for help\n\n**Platform Support Message:**\n> \"I have an emergency situation and need help with custom request #[ID]. I've communicated with the fan and offered [refund/extension]. Can you help facilitate this?\"\n\n**Best Practices to Avoid Late Delivery:**\n\n✅ **Set Longer Deadlines**: 7 days instead of 3\n✅ **Work Ahead**: Finish 1-2 days early\n✅ **Calendar Blocking**: Dedicated creation time\n✅ **Quality Check Time**: Build in review time\n✅ **Limit Quantity**: Only accept what you can handle\n✅ **Rush Fee Insurance**: Extra time for discounted requests\n✅ **Backup Plans**: Have contingencies ready\n\n**Communication Templates:**\n\n**Need Extension:**\n> \"Hi [Name]! Quick update on your request. I want to ensure I deliver the quality you deserve, and I need 2 more days to perfect everything. New delivery date: [DATE]. As a thank you for your patience, I'm including [bonus]. Is that okay with you?\"\n\n**Offering Refund:**\n> \"Hi [Name], I'm so sorry but I won't be able to complete your request as planned due to [reason]. I've initiated a full refund which should process within 24-48 hours. I really apologize for any inconvenience. I'd love to work with you in the future when my schedule allows.\"\n\n**Remember:**\n\n- **One late delivery**: Usually forgivable with good communication\n- **Repeated lateness**: Serious impact on reputation and access\n- **No communication**: Worst possible approach\n- **Honest + Early + Solutions**: Best way to handle it\n\n**Prevention is Best:**\nSet deadlines you can comfortably meet, even with unexpected delays!",
+      "confidence_score": 0.98,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/content-strategy.md"
+      ],
+      "tags": ["custom requests", "deadlines", "extensions", "late delivery", "refunds"],
+      "suggested_actions": [
+        {
+          "action": "message_fan",
+          "label": "Message Fan About Delay",
+          "path": "/custom-requests/[id]/messages"
+        },
+        {
+          "action": "request_extension",
+          "label": "Request Deadline Extension",
+          "path": "/custom-requests/[id]/extend"
+        },
+        {
+          "action": "contact_support",
+          "label": "Contact Support",
+          "path": "/help/support"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_006",
+      "question": "What should I include in my custom request guidelines?",
+      "question_variations": [
+        "How do I set boundaries for custom requests?",
+        "What content guidelines should I set?",
+        "What should my custom request rules be?",
+        "How do I tell fans what I won't create?",
+        "What are custom request boundaries?",
+        "How do I set limits on custom content?",
+        "What should my will/won't do list include?"
+      ],
+      "answer": "**Setting Custom Request Guidelines:**\n\nClear guidelines protect you while setting proper expectations for fans.\n\n**Where to Set Guidelines:**\n\n1. **Settings → Monetization → Custom Requests → Guidelines**\n2. **In your profile bio**\n3. **Pinned post about custom requests**\n4. **Auto-response when request submitted**\n\n**Essential Elements:**\n\n---\n\n**1. WHAT YOU WILL CREATE** ✅\n\nBe specific about content types you offer:\n\n**Example:**\n\n✅ **I Create:**\n- Photo sets (solo, cosplay, themed)\n- Custom videos (solo content, POV, roleplay)\n- Personalized messages (text, voice, video)\n- Outfit requests (from my wardrobe or wishlist items)\n- Name mentions (first name only, +$50)\n- Custom scripts and scenarios\n- Specific poses or angles\n- Themed content (holiday, seasonal, fantasy)\n\n**Specify Your Style:**\n- \"Playful and flirty content\"\n- \"Artistic and tasteful nudes\"\n- \"Fitness and lifestyle focused\"\n- \"Glamour and fashion content\"\n\n---\n\n**2. WHAT YOU WON'T CREATE** ❌\n\nBe clear about hard boundaries:\n\n**Example:**\n\n❌ **I Don't Create:**\n- Content with other people (solo only)\n- Extreme or taboo content\n- Anything illegal or violating platform rules\n- Face-showing content (or specify when you will)\n- Specific acts or fetishes (list them)\n- Content involving bodily functions\n- Degrading or humiliating content\n- Meetups or in-person requests\n- [Your specific boundaries]\n\n**Important:**\n- List specific fetishes/acts you won't do\n- Include legal limitations\n- Add platform rule violations\n- Specify personal comfort limits\n\n---\n\n**3. PRICING INFORMATION** 💰\n\n**Transparency Helps:**\n\n**Base Rates:**\n- Photo set (10 photos): Starting at $75\n- Video (per minute): Starting at $50/min\n- Personalized message: Starting at $25\n- Custom script/scenario: +$50-$100\n\n**Add-On Pricing:**\n- Rush delivery (48hr): +50%\n- Name mention: +$25\n- Specific outfit: +$25-$50\n- Exclusive rights: +100%\n\n**Minimum:** \"I accept requests starting at $50\"\n\n---\n\n**4. DELIVERY TIMEFRAMES** ⏰\n\n**Set Clear Expectations:**\n\n- **Standard delivery**: 5-7 business days\n- **Rush delivery**: 3-4 days (+50% fee)\n- **Express delivery**: 24-48 hours (+100% fee)\n- **Current wait time**: \"Currently 5 days\"\n- **When closed**: \"Not accepting requests when this is up\"\n\n---\n\n**5. REVISION POLICY** 🔄\n\n**Prevent Scope Creep:**\n\n**Example:**\n\n\"Price includes one round of minor revisions (color correction, different crop, etc.). Major changes (re-shoot, different outfit, changed concept) require additional fee of 50% of original price.\"\n\n**What's Included:**\n✅ Minor color/lighting adjustments\n✅ Different aspect ratio/crop\n✅ Re-ordering photos/clips\n\n**What's Extra:**\n❌ Re-shooting content\n❌ Major concept changes\n❌ Different outfit/location\n❌ Significant script changes\n\n---\n\n**6. COMMUNICATION EXPECTATIONS** 💬\n\n**Set Response Times:**\n\n- \"I review all requests within 24 hours\"\n- \"Progress updates provided every 2-3 days\"\n- \"Questions answered within 24 hours\"\n- \"Final delivery notification sent upon upload\"\n\n---\n\n**7. REQUIREMENTS FROM FANS** 📋\n\n**What You Need:**\n\n\"For fastest approval, please include:\"\n\n✅ Detailed description of what you want\n✅ Specific outfits, poses, or scenarios\n✅ Any dialogue or words to say\n✅ Name pronunciation (if applicable)\n✅ Preferred delivery date\n✅ Reference images (if helpful)\n\n---\n\n**8. PAYMENT & REFUND POLICY** 💳\n\n**Be Clear:**\n\n- \"Payment held in escrow until delivery\"\n- \"Full refund if I cannot complete request\"\n- \"No refunds once you approve delivered content\"\n- \"Partial refund for significant delays (my discretion)\"\n- \"You own rights to your custom content\"\n\n---\n\n**9. PRIVACY & EXCLUSIVITY** 🔒\n\n**Specify Default:**\n\n**Example 1 (Non-Exclusive):**\n\"By default, custom content may be posted to my feed/page after 30 days. Exclusive rights available for +100% fee (content never shared publicly).\"\n\n**Example 2 (Exclusive):**\n\"All custom content is exclusive to you and will never be posted publicly unless you give permission.\"\n\n**Options:**\n- Exclusive (never posted): +100%\n- 30-day exclusive: +50%\n- 7-day exclusive: +25%\n- Non-exclusive: Base price\n\n---\n\n**10. RESPECT & CONDUCT** 🤝\n\n**Set Tone:**\n\n\"I'm excited to create custom content for you! Please:\"\n\n✅ Be respectful in your requests\n✅ Communicate clearly and politely\n✅ Understand if I decline requests outside my comfort zone\n✅ Don't pressure me to break my boundaries\n\n\"Rude, pushy, or disrespectful behavior will result in declined request and possible blocking.\"\n\n---\n\n**COMPLETE EXAMPLE GUIDELINES:**\n\n```\n🎨 CUSTOM REQUEST GUIDELINES 🎨\n\n✅ I CREATE:\n- Solo photo sets & videos\n- Cosplay & themed content\n- Personalized messages\n- Custom scripts & roleplay\n- Outfit requests\n- Name mentions (+$50)\n\n❌ I DON'T CREATE:\n- Content with others\n- Meetups or in-person\n- [Your specific limits]\n\n💰 PRICING:\n- 10 photos: $75+\n- Video: $50/min\n- Message: $25+\n- Minimum: $50\n\n⏰ DELIVERY:\n- Standard: 5-7 days\n- Rush (3-4 days): +50%\n- Express (48hr): +100%\n\n🔄 REVISIONS:\n- One round of minor edits included\n- Major changes: +50% fee\n\n🔒 EXCLUSIVITY:\n- Default: May post after 30 days\n- Exclusive rights: +100%\n\nQuestions? Message me before requesting!\nI can't wait to create something special for you! 💕\n```\n\n---\n\n**Pro Tips:**\n\n✅ **Update Regularly**: Adjust as you learn\n✅ **Be Specific**: Vague = confusion\n✅ **Stand Firm**: Don't compromise boundaries\n✅ **Be Professional**: Clear but friendly tone\n✅ **Link to Full Guidelines**: Short version in bio, full version in pinned post\n✅ **Include Examples**: Show past work (if appropriate)\n\n**Where to Share:**\n\n1. Profile bio (short version)\n2. Pinned post (full version)\n3. Platform settings (official guidelines)\n4. Welcome message to new subscribers\n5. Auto-response to custom requests\n6. Link in other social media bios",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/profile-and-settings.md"
+      ],
+      "tags": ["custom requests", "guidelines", "boundaries", "policies", "rules"],
+      "suggested_actions": [
+        {
+          "action": "set_guidelines",
+          "label": "Set Custom Request Guidelines",
+          "path": "/settings/monetization/custom-requests/guidelines"
+        },
+        {
+          "action": "edit_bio",
+          "label": "Add to Profile Bio",
+          "path": "/settings/profile/edit"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_007",
+      "question": "How do I handle difficult or inappropriate custom requests?",
+      "question_variations": [
+        "What if someone requests something inappropriate?",
+        "How do I decline uncomfortable requests?",
+        "What if a fan is pushy about custom requests?",
+        "Can I report inappropriate custom requests?",
+        "How do I say no to custom requests?",
+        "What if the request makes me uncomfortable?",
+        "How do I deal with rude custom request messages?"
+      ],
+      "answer": "**Handling Difficult or Inappropriate Custom Requests:**\n\n**Red Flags to Watch For:** 🚩\n\n❌ Requests for illegal content\n❌ Content violating platform rules\n❌ Requests involving minors (in any way)\n❌ Non-consensual content themes\n❌ Extreme violence or harm\n❌ Requests that make you uncomfortable\n❌ Pushy or demanding tone\n❌ Attempts to negotiate way below your rates\n❌ Vague requests that seem suspicious\n❌ Requests to communicate off-platform\n❌ Requests for personal information\n❌ Offers to \"pay more\" for rule violations\n\n---\n\n**Response Strategies:**\n\n**1. IMMEDIATE DECLINE** ❌\n\n**For clearly inappropriate/illegal requests:**\n\n**Action:**\n1. Decline the request\n2. Select \"Inappropriate content\" as reason\n3. Block the user (optional)\n4. Report to platform (if serious violation)\n\n**DO NOT:**\n- Engage in debate\n- Explain in detail\n- Feel guilty\n- Let them negotiate\n\n**Template Response (Optional):**\n> \"This request violates platform guidelines. I'm declining and reporting this conversation.\"\n\n**Or simply:**\n- Decline with no message\n- Block immediately\n- Move on\n\n---\n\n**2. POLITE DECLINE** 🙏\n\n**For requests outside your comfort zone but not illegal:**\n\n**Template 1 - General:**\n> \"Thank you for your interest! This type of content isn't something I create. I appreciate you thinking of me, and I hope you understand. Feel free to send other requests that align with my content style!\"\n\n**Template 2 - Specific to Guidelines:**\n> \"I appreciate your request, but this falls outside my custom request guidelines. You can see what I do create in my pinned post. I'd be happy to work with you on something that fits my content style!\"\n\n**Template 3 - Too Complex/Time-Consuming:**\n> \"Thank you for this detailed request! Unfortunately, this would require more time than I have available right now. If you'd like to simplify the request or discuss alternatives, I'm happy to work with you!\"\n\n---\n\n**3. BOUNDARY REINFORCEMENT** 🛡️\n\n**For pushy fans who won't accept no:**\n\n**First Pushback:**\n> \"I understand you're disappointed, but I don't create this type of content. My boundaries are firm and non-negotiable. I'm happy to discuss other request ideas that align with my guidelines.\"\n\n**Second Pushback:**\n> \"I've explained that I don't create this content. Continuing to pressure me is disrespectful and won't change my answer. Please respect my boundaries or I'll need to block you.\"\n\n**Third Pushback:**\n- Block immediately\n- No further explanation needed\n- Report if harassment continues\n\n**NEVER:**\n- Apologize excessively for your boundaries\n- Justify or over-explain\n- Let them wear you down\n- Feel bad about blocking\n\n---\n\n**4. REPORTING TO PLATFORM** 🚨\n\n**When to Report:**\n\n**ALWAYS Report:**\n- Requests involving illegal content\n- Requests involving minors\n- Harassment or threats\n- Attempts to circumvent platform rules\n- Doxxing or sharing personal info\n- Blackmail or extortion attempts\n\n**How to Report:**\n\n1. **From Request:**\n   - Click request menu (•••)\n   - Select \"Report Request\"\n   - Choose reason\n   - Add details\n   - Submit\n\n2. **From Messages:**\n   - Click message menu\n   - Select \"Report User\"\n   - Provide screenshots\n   - Describe violation\n\n3. **Support Ticket:**\n   - Settings → Help → Report Issue\n   - Select \"Safety Concern\"\n   - Include request ID and screenshots\n   - Platform reviews within 24-48 hours\n\n**What Happens:**\n- Platform reviews the report\n- May remove user or restrict access\n- May contact you for more info\n- Your report is confidential\n- User won't know you reported (usually)\n\n---\n\n**5. DEALING WITH LOWBALL OFFERS** 💰\n\n**When Offer Is Insultingly Low:**\n\n**Option A - Educate:**\n> \"I appreciate your interest! My base rate for custom videos is $50 per minute. For what you're requesting (5 minutes with specific outfit and script), my rate would be $275. If that works for your budget, I'd love to create this for you!\"\n\n**Option B - Counter Without Explanation:**\n- Just counter with your actual rate\n- They can accept or decline\n- Don't justify your pricing\n\n**Option C - Decline:**\nIf they're way off or seem to be lowballing:\n> \"Thank you for your interest, but this doesn't align with my current rates. Best of luck!\"\n\n---\n\n**6. SCOPE CREEP DURING CREATION** 📈\n\n**Fan keeps adding requirements after you accepted:**\n\n**First Addition:**\n> \"I'm happy to add [new element], but that would be additional work beyond our original agreement. I can include it for an additional $[amount], or I can complete the request as originally discussed. Let me know your preference!\"\n\n**Multiple Additions:**\n> \"I notice the request has evolved significantly from what we originally agreed on. I'm going to complete what we initially discussed for the agreed price. If you'd like the additional elements, I can create a new custom request for those. Let's keep this one to the original scope.\"\n\n**If They Insist:**\n> \"I'm going to deliver exactly what we agreed to in the original request. I have it saved and will use that as the guide. If you're unhappy with that, I can offer a refund before I start. Otherwise, I'll proceed with the original agreement.\"\n\n---\n\n**7. PROTECT YOUR SAFETY** 🔐\n\n**Never:**\n\n❌ Share personal information (real name, address, phone)\n❌ Meet fans in person for requests\n❌ Move conversations off-platform\n❌ Accept payment outside platform\n❌ Send content before payment\n❌ Give access to personal social media\n❌ Share identifying location details\n❌ Feel pressured to compromise safety\n\n**Always:**\n\n✅ Keep all communication on-platform\n✅ Use platform payment system only\n✅ Trust your instincts\n✅ Block freely and without guilt\n✅ Report serious violations\n✅ Maintain clear boundaries\n✅ Prioritize your comfort and safety\n\n---\n\n**8. SELF-CARE AFTER DIFFICULT REQUESTS** 💕\n\n**If You Receive Disturbing Request:**\n\n1. **Take a Break**: Step away from platform\n2. **Process Emotions**: Talk to trusted friend/support\n3. **Block & Report**: Take action\n4. **Don't Internalize**: Their behavior isn't about you\n5. **Review Boundaries**: Update guidelines if needed\n6. **Seek Support**: Platform support or community\n\n**Remember:**\n- You don't owe anyone explanation\n- \"No\" is a complete sentence\n- Your comfort > their disappointment\n- Blocking is self-care, not mean\n- You control your content and boundaries\n\n---\n\n**Quick Decision Framework:**\n\n```\nNew Custom Request Received\n        ↓\n   [Evaluate]\n        ↓\n┌───────┴───────┐\n│               │\nIllegal/       Within\nDangerous?     Guidelines?\n│               │\n↓               ↓\nDECLINE        COMFORTABLE?\n+ REPORT       │\n               ┌┴┐\n              │  │\n             Yes No\n              │  │\n              ↓  ↓\n           ACCEPT  POLITE\n                   DECLINE\n```\n\n**Your Safety and Comfort Come First. Always.** 🛡️💕",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/content-moderation.md",
+        "how-to/help-and-support.md"
+      ],
+      "tags": ["custom requests", "safety", "boundaries", "inappropriate", "reporting", "blocking"],
+      "suggested_actions": [
+        {
+          "action": "report_request",
+          "label": "Report Inappropriate Request",
+          "path": "/custom-requests/[id]/report"
+        },
+        {
+          "action": "block_user",
+          "label": "Block User",
+          "path": "/users/[id]/block"
+        },
+        {
+          "action": "contact_support",
+          "label": "Contact Safety Team",
+          "path": "/help/support/safety"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_008",
+      "question": "How can I get more custom request orders?",
+      "question_variations": [
+        "How do I promote my custom requests?",
+        "How do I get fans to order custom content?",
+        "How do I increase custom request sales?",
+        "What's the best way to advertise custom requests?",
+        "How do I market my custom request service?",
+        "How can I make more money from custom requests?",
+        "How do I get more custom request traffic?"
+      ],
+      "answer": "**Increasing Custom Request Orders:**\n\n**1. PROMOTE REGULARLY** 📣\n\n**Post About Custom Requests:**\n\n**Weekly Reminder Post:**\n> \"📬 CUSTOM REQUESTS OPEN! Want something made just for you? From personalized videos to custom photo sets, I love bringing your ideas to life! DM me or use the custom request button. Spots limited! 💕✨\"\n\n**Showcase Example:**\n> \"Just finished an amazing custom request! 🎬 [Show teaser/behind-scenes] I love creating personalized content for you. Custom requests are open - what would you like to see?\"\n\n**Story/Temporary Posts:**\n- \"Taking 3 custom requests this week!\"\n- Poll: \"What type of custom content interests you?\"\n- \"First 2 requests get 20% off!\"\n- Behind-the-scenes of custom content creation\n\n**Frequency:**\n- Mention 2-3 times per week minimum\n- Include in welcome message\n- Pin post about custom requests\n- Add to bio prominently\n\n---\n\n**2. SHOW EXAMPLES (WITH PERMISSION)** 🎨\n\n**Build Interest by Showing:**\n\n✅ **Behind-the-Scenes**: Creating custom content (blur/hide private details)\n✅ **Teaser Clips**: Show quality without revealing full content\n✅ **Setup Shots**: Your custom content workspace\n✅ **Testimonials**: \"Loved my custom video! -Fan\"\n✅ **Before/After**: Request → Delivered content (censored)\n\n**Example Post:**\n> \"Behind the scenes of today's custom video request! 🎬 Love creating personalized content that brings your fantasies to life. Currently accepting new requests - link in bio!\"\n\n**Important:**\n- Get fan permission before sharing anything\n- Protect buyer's privacy (crop names, blur identifiable details)\n- Show your process, not private content\n\n---\n\n**3. CREATE PACKAGES** 📦\n\n**Make Decisions Easy:**\n\nInstead of \"custom requests available,\" offer specific packages:\n\n**BRONZE - $75**\n✨ 3-minute video\n✨ Your choice of outfit (from my wardrobe)\n✨ Personalized greeting\n✨ 5-day delivery\n\n**SILVER - $150** (Most Popular!)\n✨ 5-minute video\n✨ Specific outfit request\n✨ Name mentioned 3x\n✨ Custom scenario\n✨ 3-day delivery\n\n**GOLD - $300** (VIP)\n✨ 10-minute video\n✨ Multiple outfits\n✨ Fully custom script\n✨ Name throughout\n✨ 48-hour delivery\n✨ Exclusive (never posted)\n\n**Why Packages Work:**\n- Removes decision paralysis\n- Clear value proposition\n- Guided price points\n- Easy to promote\n- Professional appearance\n\n---\n\n**4. OFFER INCENTIVES** 🎁\n\n**Limited-Time Promotions:**\n\n📅 **First-Timer Discount**\n> \"First custom request? Get 15% off to try it out!\"\n\n⏰ **Weekend Special**\n> \"Custom requests submitted Fri-Sun get free rush delivery!\"\n\n🎉 **Milestone Celebration**\n> \"Hit 1000 subscribers! Next 5 custom requests get bonus content included!\"\n\n💝 **Loyalty Reward**\n> \"Ordered 3 custom requests? Your 4th is 25% off!\"\n\n🎁 **Bundle Deal**\n> \"Subscribe + order custom request = save $25!\"\n\n⭐ **VIP Subscriber Perk**\n> \"VIP tier subscribers get 20% off all custom requests!\"\n\n---\n\n**5. REDUCE BARRIERS** 🚀\n\n**Make It Easy to Order:**\n\n✅ **Clear Pricing**: No confusion about costs\n✅ **Simple Process**: Explain how it works\n✅ **Quick Response**: Reply to inquiries within 24 hrs\n✅ **Flexible Options**: Multiple price points\n✅ **Template Requests**: Pre-designed options\n✅ **FAQ**: Answer common questions upfront\n\n**In Your Bio:**\n> \"💕 Custom requests available! Photo sets from $75, Videos from $50/min. Click 'Custom Request' button or DM me!\"\n\n**Create Request Templates:**\n\nOffer pre-designed requests fans can choose:\n\n1. **\"Birthday Special\"** - $100\n   - Personalized birthday message video\n   - Happy birthday song\n   - 10 exclusive photos\n\n2. **\"Fantasy Fulfillment\"** - $200\n   - 7-minute custom roleplay\n   - Your scenario choice\n   - Specific outfit\n\n3. **\"Girlfriend Experience\"** - $150\n   - 5 days of daily custom messages\n   - Personal voice notes\n   - Exclusive photos\n\n---\n\n**6. LEVERAGE YOUR BEST FANS** 💎\n\n**Target Your Most Engaged:**\n\n**Identify:**\n- Top tippers\n- Long-time subscribers\n- Frequent message senders\n- High engagement fans\n\n**Personal Outreach:**\n> \"Hey [name]! I'm opening up a few custom request slots this week. I thought of you since you've been such an amazing supporter. Would you be interested in something personalized? I'd love to create something special just for you! 💕\"\n\n**VIP Offers:**\n- Early access to request slots\n- Exclusive pricing for loyal fans\n- First to know about packages\n- Priority delivery\n\n---\n\n**7. CROSS-PROMOTE WITH OTHER CONTENT** 🔄\n\n**Integrate Mentions:**\n\n**In Regular Posts:**\n> \"Love this outfit? You can request custom content in specific outfits! Custom requests are open 📬\"\n\n**After Popular Post:**\n> \"Lots of you loved this post! 💕 Want more like this customized for you? I'm accepting custom requests - imagine this but exactly how YOU want it!\"\n\n**In Messages:**\n- Include custom request info in welcome message\n- Mention when chatting with engaged fans\n- Offer custom content during conversations\n\n---\n\n**8. BUILD SOCIAL PROOF** ⭐\n\n**Show Popularity:**\n\n✅ **Testimonials**: \"Best custom video I've ever ordered! -@fan\"\n✅ **Completion Posts**: \"Just delivered my 50th custom request!\"\n✅ **Waitlist**: \"Closing requests tomorrow - waitlist forming!\"\n✅ **Slots Filling**: \"Only 2 custom request slots left this week!\"\n✅ **Repeat Customers**: \"Thank you to @fan for their 5th custom request!\"\n\n**Scarcity & Urgency:**\n> \"⚠️ Only accepting 5 custom requests this week. 3 slots already taken!\"\n\n---\n\n**9. OPTIMIZE YOUR PRICING** 💰\n\n**Test & Adjust:**\n\n**If Getting Too Many Requests:**\n- Your prices are too low\n- Raise rates by 20-30%\n- Add rush fees\n- Limit slots\n\n**If Getting Too Few Requests:**\n- May be too high for your audience\n- Test 15% discount promo\n- Offer entry-level package\n- Promote more frequently\n\n**Sweet Spot:**\n- Consistent flow of requests\n- Not overwhelmed\n- Making good money per hour\n- Maintaining quality\n\n---\n\n**10. CREATE FOMO** ⏰\n\n**Limited Availability:**\n\n📅 **Schedule Windows**\n> \"Custom requests OPEN Monday-Wednesday only!\"\n\n🔢 **Slot Limits**\n> \"Taking only 5 custom requests per week. First come, first served!\"\n\n⏳ **Countdown**\n> \"Closing custom requests in 24 hours! Get your order in!\"\n\n🎯 **Seasonal**\n> \"Valentine's custom requests available NOW through Feb 10th!\"\n\n---\n\n**11. QUALITY & REPUTATION** ⭐\n\n**Best Long-Term Strategy:**\n\n✅ **Deliver Exceptional Content**: Best advertising is happy customers\n✅ **Meet Deadlines**: Reliability builds trust\n✅ **Exceed Expectations**: Add small bonuses\n✅ **Professional Communication**: Responsive and friendly\n✅ **Honor Commitments**: Do what you say\n\n**This Creates:**\n- Repeat customers (easiest sales)\n- Word-of-mouth referrals\n- Positive reviews\n- Strong reputation\n- More organic requests\n\n---\n\n**12. WISHLIST INTEGRATION** 🎁\n\n**Connect Wishlists to Customs:**\n\n> \"Buy me an outfit from my wishlist, and I'll model it in a custom video just for you! 👗✨\"\n\n> \"Purchase items over $100 from my wishlist and receive a 10-minute custom video featuring that item!\"\n\n---\n\n**Sample Weekly Promotion Schedule:**\n\n**Monday**: \"Custom requests are OPEN for the week! 📬\" [Pin post]\n**Tuesday**: Behind-the-scenes of creating custom content\n**Wednesday**: \"Halfway through the week! 3 request slots still available!\"\n**Thursday**: Showcase completed request (teaser)\n**Friday**: \"Last day to order custom requests this week! Closing tomorrow!\"\n**Saturday**: \"Custom requests CLOSED. Opening again Monday!\"\n**Sunday**: Testimonial or FAQ about custom requests\n\n---\n\n**Success Metrics to Track:**\n\n📊 Monitor:\n- Custom requests per week\n- Conversion rate (views → requests)\n- Average request value\n- Repeat customer rate\n- Revenue from customs vs. subscriptions\n\n🎯 Optimize:\n- Which promotions work best\n- What packages sell most\n- Ideal pricing points\n- Best days to promote\n- Most popular request types\n\n---\n\n**Remember:**\n\n✨ **Consistency**: Regular promotion beats sporadic\n✨ **Quality**: Reputation drives repeat business\n✨ **Visibility**: Fans can't order if they don't know it's available\n✨ **Easy Process**: Remove friction from ordering\n✨ **Value**: Show what makes your customs special\n\n**Custom requests are premium revenue - promote them as premium service!** 💰✨",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/fan-engagement.md",
+        "how-to/content-strategy.md",
+        "how-to/subscription-management.md"
+      ],
+      "tags": ["custom requests", "promotion", "marketing", "sales", "growth", "revenue"],
+      "suggested_actions": [
+        {
+          "action": "create_packages",
+          "label": "Create Request Packages",
+          "path": "/custom-requests/packages/create"
+        },
+        {
+          "action": "create_promo",
+          "label": "Create Promotion",
+          "path": "/custom-requests/promotions/create"
+        },
+        {
+          "action": "edit_bio",
+          "label": "Add to Bio",
+          "path": "/settings/profile/edit"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_009",
+      "question": "Should I offer exclusive vs non-exclusive custom content?",
+      "question_variations": [
+        "What's the difference between exclusive and non-exclusive custom content?",
+        "Can I post custom content publicly?",
+        "Should custom requests be exclusive?",
+        "How much more for exclusive custom content?",
+        "What does exclusive rights mean for custom requests?",
+        "Can I reuse custom content?",
+        "What's exclusive custom content pricing?"
+      ],
+      "answer": "**Exclusive vs. Non-Exclusive Custom Content:**\n\n**Understanding the Difference:**\n\n---\n\n**NON-EXCLUSIVE (Default for Most Creators)** 📢\n\n**What It Means:**\n- You create custom content for the fan\n- Fan receives it first\n- After waiting period (usually 30-90 days), you can post publicly\n- You can reuse in compilations, promotions, etc.\n- Content becomes part of your regular catalog\n\n**Pricing:**\n- Base price\n- More affordable for fans\n- Example: $150 for 5-minute custom video\n\n**Pros for You:**\n✅ Lower price = more orders\n✅ Can repost content later (more value from work)\n✅ Build your public content library\n✅ Use in promotional materials\n✅ Maximize ROI on creation time\n\n**Pros for Fans:**\n✅ More affordable\n✅ Still get personalized content\n✅ Get it first (30+ days before public)\n✅ Good value for budget-conscious fans\n\n**Example Policy:**\n> \"Custom content may be posted to my public feed after 30 days. You receive it exclusively first, then it may become available to all subscribers. For fully exclusive content (never posted), please select exclusive option.\"\n\n---\n\n**EXCLUSIVE (Premium Option)** 🔒\n\n**What It Means:**\n- You create custom content for the fan\n- Content is NEVER posted publicly\n- Only the buyer ever sees it\n- You cannot reuse or repurpose\n- Buyer \"owns\" the right to that content\n\n**Pricing:**\n- Base price + 100-200%\n- Premium tier\n- Example: $300-$450 for same 5-minute video\n\n**Pros for You:**\n✅ Much higher revenue per piece\n✅ Attracts serious buyers\n✅ Shows professionalism\n✅ Premium positioning\n\n**Cons for You:**\n❌ Cannot reuse your work\n❌ Less content for your catalog\n❌ Fewer buyers (higher price)\n\n**Pros for Fans:**\n✅ Truly one-of-a-kind content\n✅ Never shared with anyone else\n✅ Complete privacy\n✅ True custom experience\n✅ Special connection\n\n**Example Policy:**\n> \"Exclusive custom content is created ONLY for you and will never be posted publicly or shared with anyone else. This content is yours alone.\"\n\n---\n\n**RECOMMENDED TIERED APPROACH:**\n\n**Offer Multiple Options:**\n\n**1. Non-Exclusive (Standard)** - Base Price\n- Most popular option\n- Content posted after 30 days\n- More affordable\n- Good for most fans\n\n**Example: $150**\n\n**2. Limited Exclusive (30-Day)** - Base + 50%\n- Content stays private for 30 days\n- Then you can post\n- Middle ground option\n\n**Example: $225**\n\n**3. Fully Exclusive (Never Posted)** - Base + 100%\n- Never posted anywhere\n- Complete exclusivity\n- Premium option\n\n**Example: $300**\n\n---\n\n**How to Structure Your Offering:**\n\n**In Settings:**\n\n```\nCustom Request Options:\n\n☐ Standard Delivery\n   $150 for 5-min video\n   May be posted after 30 days\n\n☐ 30-Day Exclusive\n   $225 for 5-min video\n   Posted after 30 days minimum\n   +50% fee\n\n☑ Fully Exclusive (Recommended)\n   $300 for 5-min video\n   NEVER posted publicly\n   +100% fee\n```\n\n**Let Fans Choose:**\n- Checkbox during request submission\n- Clear pricing for each tier\n- Explain what each means\n\n---\n\n**Which Should YOU Offer?**\n\n**Consider Your Goals:**\n\n**If Building Your Catalog:**\n- Default to non-exclusive\n- Charge premium for exclusive\n- Reuse content to maximize value\n- Build larger content library\n\n**If Maximizing Revenue Per Request:**\n- Encourage exclusive option\n- Higher prices with fewer orders\n- Premium positioning\n- Attract high-value clients\n\n**If Serving Different Fan Segments:**\n- Offer both tiers\n- Let fans self-select\n- Non-exclusive for budget fans\n- Exclusive for premium fans\n\n---\n\n**Pricing Guidelines:**\n\n**Exclusive Content Should Cost:**\n\n- **Minimum +100%** (double base price)\n- **Up to +200%** for truly exclusive content\n- **More for complex requests**\n\n**Why So Much More?**\n\n1. **Lost Opportunity**: Can't reuse content\n2. **Time Value**: Creating content you can only sell once\n3. **Premium Positioning**: Exclusivity is luxury\n4. **Market Rate**: Industry standard for exclusive rights\n\n**Examples:**\n\n| Content Type | Non-Exclusive | Exclusive |\n|--------------|---------------|------------|\n| 10 photos | $75 | $150-$200 |\n| 3-min video | $100 | $200-$300 |\n| 5-min video | $150 | $300-$450 |\n| 10-min video | $300 | $600-$900 |\n\n---\n\n**Best Practices:**\n\n**1. Be Crystal Clear** 💎\n\nState your default policy explicitly:\n\n> \"Unless you purchase exclusive rights, all custom content may be posted to my public feed after 30 days. You will receive it first and exclusively for that period.\"\n\n**2. Get Agreement in Writing** 📝\n\nHave fans acknowledge:\n- [ ] I understand this is non-exclusive\n- [ ] I understand this may be posted after 30 days\n\nOR\n\n- [ ] I am purchasing exclusive rights (+100% fee)\n- [ ] I understand this will NEVER be posted publicly\n\n**3. Track Exclusive Content** 📊\n\nKeep database of:\n- Which content is exclusive\n- Buyer username\n- Date created\n- Never post these pieces\n\n**4. Honor Your Commitments** 🤝\n\nIf you say exclusive:\n- NEVER post it\n- NEVER reuse it\n- NEVER include in compilations\n- NEVER share even clips\n\nYour reputation depends on it.\n\n**5. Set Realistic Timeframes** ⏰\n\nFor non-exclusive:\n- 30 days minimum before posting\n- 60-90 days better (more value for buyer)\n- Notify buyer before posting (courtesy)\n\n---\n\n**Common Questions:**\n\n**Q: Can I change my mind and post exclusive content later?**\n**A:** NO. Exclusive means exclusive. Never break this promise.\n\n**Q: What if fan says they don't mind if I post it?**\n**A:** Get permission in writing within platform. Screenshot it. Then you can post.\n\n**Q: Should name mentions be exclusive only?**\n**A:** Most creators only do name mentions in exclusive content for privacy. Good practice.\n\n**Q: What if I accidentally post exclusive content?**\n**A:** \n1. Remove immediately\n2. Apologize to buyer\n3. Offer full refund\n4. Possibly offer free exclusive content\n5. Learn from mistake\n\n---\n\n**Recommended Approach for New Creators:**\n\n**Start With:**\n\n1. **Default Non-Exclusive**\n   - Build your content catalog\n   - More affordable for fans\n   - Maximize value of your work\n\n2. **Offer Exclusive as Premium Add-On**\n   - +100% fee clearly stated\n   - Available if requested\n   - Positions you as premium\n\n3. **Track Everything**\n   - Spreadsheet of exclusive content\n   - Never accidentally post\n   - Protect your reputation\n\n**As You Grow:**\n\n- Can shift to exclusive-only if demand supports it\n- Can adjust pricing tiers\n- Can create more complex options\n- Can position as luxury service\n\n---\n\n**Sample Policy Statement:**\n\n```\n🎨 CUSTOM CONTENT EXCLUSIVITY 🎨\n\n📢 STANDARD (Non-Exclusive):\n- Base pricing applies\n- You receive content first\n- After 30 days, I may post publicly\n- Great value!\n\n🔒 EXCLUSIVE (+100% fee):\n- NEVER posted anywhere\n- Only you will ever see it\n- Complete privacy\n- Premium experience\n\nYou choose what works for your budget!\nBoth options include same high quality.\n💕\n```\n\n---\n\n**Bottom Line:**\n\n✅ **Offer Both**: Different fans have different budgets and needs\n✅ **Be Clear**: No confusion about terms\n✅ **Price Accordingly**: Exclusive should be 2x+ base price\n✅ **Honor Commitments**: Your reputation is everything\n✅ **Track Carefully**: Never post exclusive content\n\n**Most successful creators offer tiered exclusivity options and let fans choose what fits their budget and needs!** 💰🔒",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/payments-and-payouts.md"
+      ],
+      "tags": ["custom requests", "exclusive", "non-exclusive", "rights", "pricing", "policies"],
+      "suggested_actions": [
+        {
+          "action": "set_exclusivity_options",
+          "label": "Set Exclusivity Options",
+          "path": "/settings/monetization/custom-requests/exclusivity"
+        },
+        {
+          "action": "update_pricing",
+          "label": "Update Pricing Tiers",
+          "path": "/settings/monetization/custom-requests/pricing"
+        }
+      ]
+    },
+    {
+      "id": "qa_custom_010",
+      "question": "How do I organize and manage multiple custom requests at once?",
+      "question_variations": [
+        "How do I juggle multiple custom requests?",
+        "What's the best way to organize custom request workflow?",
+        "How do I track multiple custom orders?",
+        "How many custom requests should I accept at once?",
+        "How do I manage custom request deadlines?",
+        "What's a good system for custom request organization?",
+        "How do I stay organized with custom requests?"
+      ],
+      "answer": "**Managing Multiple Custom Requests:**\n\n**1. SET CAPACITY LIMITS** 🚦\n\n**Determine Your Maximum:**\n\nConsider:\n- Your available time per week\n- Complexity of typical requests\n- Other content obligations\n- Quality standards\n- Burnout prevention\n\n**Recommended Limits:**\n\n**Part-Time Creators:**\n- 2-3 custom requests per week max\n- 1-2 at a time\n- Longer delivery windows (7-10 days)\n\n**Full-Time Creators:**\n- 5-10 custom requests per week\n- 3-5 concurrent\n- Shorter delivery possible (3-5 days)\n\n**Set in Platform:**\n- Settings → Custom Requests → Capacity\n- Auto-close when limit reached\n- Reopens when requests delivered\n\n---\n\n**2. CREATE ORGANIZATION SYSTEM** 📋\n\n**Use Spreadsheet to Track:**\n\n| Request ID | Fan Name | Type | Requirements | Price | Accepted Date | Due Date | Status | Notes |\n|------------|----------|------|--------------|-------|---------------|----------|--------|---------|\n| CR-001 | @user1 | Video | 5min, red dress, name 3x | $200 | Nov 10 | Nov 17 | In Prog | Need to buy red dress |\n| CR-002 | @user2 | Photos | 15 pics, outdoor | $100 | Nov 11 | Nov 18 | Planning | Weather dependent |\n| CR-003 | @user3 | Message | Video msg, birthday | $50 | Nov 12 | Nov 14 | Editing | Almost done |\n\n**Status Levels:**\n- **Pending**: Received, not yet accepted\n- **Planning**: Accepted, preparing to shoot\n- **In Progress**: Actively creating\n- **Editing**: Content created, post-production\n- **Ready**: Completed, ready to deliver\n- **Delivered**: Uploaded to fan\n- **Completed**: Fan approved, payment released\n\n**Tools:**\n- Google Sheets (free, accessible anywhere)\n- Notion (more features, templates)\n- Airtable (database approach)\n- Trello (kanban board style)\n- Simple notebook (physical backup)\n\n---\n\n**3. IMPLEMENT BATCH WORKFLOW** 🎬\n\n**Group Similar Requests:**\n\n**By Content Type:**\n- All photos in one session\n- All videos in another\n- All messages together\n\n**By Location:**\n- Outdoor shoots together\n- Bedroom content in one batch\n- Studio/setup content together\n\n**By Outfit:**\n- All requests with similar outfits\n- Minimize outfit changes\n- Efficiency in setup\n\n**Example Week:**\n\n**Monday**: Accept & plan week's requests\n**Tuesday**: Shoot all photo requests\n**Wednesday**: Shoot all video requests  \n**Thursday**: Edit photos\n**Friday**: Edit videos\n**Weekend**: Deliver all content\n\n**Batching Benefits:**\n- More efficient\n- Less setup/teardown time\n- Better focus\n- Consistent quality\n- Less scattered energy\n\n---\n\n**4. USE CALENDAR BLOCKING** 📅\n\n**Schedule Dedicated Time:**\n\n**Sample Schedule:**\n\n**Monday:**\n- 10am-12pm: Review new requests\n- 2pm-3pm: Plan week's customs\n- 3pm-4pm: Order props/outfits needed\n\n**Tuesday:**\n- 10am-2pm: Photo shoot day (all photo requests)\n- 3pm-5pm: Quick video messages\n\n**Wednesday:**\n- 10am-4pm: Video shoot day (all video requests)\n- Include breaks!\n\n**Thursday:**\n- 10am-2pm: Photo editing\n- 3pm-5pm: Admin/communication\n\n**Friday:**\n- 10am-2pm: Video editing\n- 3pm-5pm: Final reviews, uploading\n\n**Weekend:**\n- Deliver completed requests\n- Rest and recharge\n\n**Use:**\n- Google Calendar\n- Calendar app on phone\n- Set reminders for deadlines\n- Block time like appointments\n\n---\n\n**5. PRIORITIZE BY DEADLINE** ⏰\n\n**Sort Requests:**\n\n**Urgent (1-2 days):**\n- Rush requests (+100% fee)\n- Do these first\n- Clear scheduling\n\n**Important (3-5 days):**\n- Express requests (+50% fee)\n- Second priority\n- Regular attention\n\n**Standard (5-7+ days):**\n- Normal delivery\n- Work into schedule\n- Comfortable pace\n\n**Dashboard View:**\n```\n🔴 DUE TOMORROW:\n- CR-003: Birthday message for @user3\n\n🟡 DUE THIS WEEK:\n- CR-001: Video for @user1 (Due Nov 17)\n- CR-002: Photos for @user2 (Due Nov 18)\n\n🟢 DUE NEXT WEEK:\n- CR-004: Custom set for @user4 (Due Nov 24)\n```\n\n---\n\n**6. COMMUNICATE PROACTIVELY** 💬\n\n**Keep Fans Updated:**\n\n**Upon Acceptance:**\n> \"Thank you for your custom request! I've added it to my production schedule for this week. You can expect delivery by [date]. Excited to create this for you! 💕\"\n\n**Midpoint Update (Optional but Appreciated):**\n> \"Quick update! Your custom request is in progress and on schedule for [date]. Looking forward to showing you the final result!\"\n\n**Before Delivery:**\n> \"Great news! Your custom content is complete and will be delivered today. Check your messages later this evening! 🎬\"\n\n**If Delay:**\n> \"Hi! Quick update - I'm running about a day behind on your request due to [brief reason]. New delivery date is [date]. Thanks for your patience! Adding a little bonus for the wait. 💕\"\n\n**Templates Save Time:**\n- Create message templates\n- Personalize with name/details\n- Use platform's saved messages feature\n\n---\n\n**7. CREATE PRODUCTION CHECKLIST** ✅\n\n**For Each Request:**\n\n**Pre-Production:**\n- [ ] Request accepted & payment in escrow\n- [ ] Requirements clearly understood\n- [ ] All props/outfits available\n- [ ] Location/setup planned\n- [ ] Script written (if applicable)\n- [ ] Calendar time blocked\n\n**Production:**\n- [ ] Equipment ready (camera, lighting, etc.)\n- [ ] Outfit/makeup done\n- [ ] Content created\n- [ ] All requirements met\n- [ ] Backup footage/photos taken\n- [ ] Quick review for quality\n\n**Post-Production:**\n- [ ] Content edited\n- [ ] Color/audio corrected\n- [ ] Requirements double-checked\n- [ ] Quality standard met\n- [ ] Files organized & named\n- [ ] Ready for upload\n\n**Delivery:**\n- [ ] Content uploaded to platform\n- [ ] Delivery message sent\n- [ ] Request marked as delivered\n- [ ] Added to tracking spreadsheet\n- [ ] Waiting for approval\n\n**Completion:**\n- [ ] Fan approved content\n- [ ] Payment released\n- [ ] Thank you message sent\n- [ ] Request archived\n- [ ] Exclusive/non-exclusive tracked\n\n---\n\n**8. AUTOMATE WHERE POSSIBLE** 🤖\n\n**Use Platform Features:**\n\n✅ **Auto-Responses**: Welcome message when request submitted\n✅ **Templates**: Save common messages\n✅ **Reminders**: Platform notifications for deadlines\n✅ **Capacity Limits**: Auto-close when full\n✅ **Pricing Presets**: Package options\n\n**External Tools:**\n- **Zapier**: Automate tracking\n- **IFTTT**: Notifications\n- **Google Forms**: Detailed request intake\n- **Calendly**: Booking system integration\n\n---\n\n**9. MAINTAIN QUALITY CONTROL** ⭐\n\n**Never Sacrifice Quality for Quantity:**\n\n**Review Process:**\n\n1. **Create content**\n2. **Self-review** (fresh eyes)\n3. **Check against requirements**\n4. **Quality standards check**\n5. **Only then deliver**\n\n**Quality Checklist:**\n- [ ] Meets all stated requirements\n- [ ] Good lighting/focus\n- [ ] Clear audio (if video)\n- [ ] Professional editing\n- [ ] No errors or mistakes\n- [ ] Matches my brand quality\n\n**If Quality Isn't There:**\n- Re-shoot if needed\n- Better late + quality than rushed + poor\n- Your reputation depends on it\n\n---\n\n**10. KNOW WHEN TO CLOSE REQUESTS** 🚫\n\n**Close When:**\n\n❌ You're overwhelmed\n❌ Quality is slipping\n❌ Missing deadlines\n❌ Feeling burned out\n❌ Other priorities need focus\n❌ Need a break\n\n**How to Close:**\n\n> \"Custom requests are temporarily CLOSED while I complete current orders. I'll reopen on [date]. Join my watchlist to be notified when I open again!\"\n\n**Don't Feel Guilty:**\n- Better to close than deliver poor quality\n- Better to close than miss deadlines\n- Fans prefer quality over availability\n- Scarcity can increase demand\n\n---\n\n**Sample Organization Workflow:**\n\n**Sunday Evening:**\n- Review week ahead\n- Check custom request queue\n- Plan production schedule\n- Gather needed items\n\n**Monday:**\n- Accept new requests (if capacity allows)\n- Confirm all details\n- Update tracking spreadsheet\n- Send acceptance messages\n\n**Tuesday-Thursday:**\n- Execute production\n- Follow batching strategy\n- Check off checklist items\n- Send progress updates\n\n**Friday:**\n- Final editing\n- Quality reviews\n- Prepare for delivery\n\n**Weekend:**\n- Deliver completed content\n- Respond to feedback\n- Thank customers\n- Plan next week\n\n---\n\n**Red Flags You're Over-Capacity:**\n\n⚠️ Missing deadlines regularly\n⚠️ Quality declining\n⚠️ Feeling constantly stressed\n⚠️ Rush fees becoming standard\n⚠️ Not enjoying creation anymore\n⚠️ Fans complaining about delays\n⚠️ Making careless mistakes\n\n**Solution:**\n- Raise prices (reduces volume, increases profit)\n- Lower capacity limits\n- Extend delivery timeframes\n- Take a break\n- Re-evaluate workflow\n\n---\n\n**Pro Tips:**\n\n✅ **Start Small**: Better to do 2 excellent requests than 5 mediocre ones\n✅ **Build Systems**: Invest time in organization upfront\n✅ **Track Everything**: Data helps you improve\n✅ **Communicate Often**: Prevents problems\n✅ **Batch Whenever Possible**: Huge efficiency gains\n✅ **Protect Your Time**: Block calendar, set boundaries\n✅ **Quality Over Quantity**: Always\n✅ **Review Regularly**: Weekly review of system effectiveness\n\n**Great organization = happier customers + less stress + better content + more money!** 📊✨",
+      "confidence_score": 0.98,
+      "related_articles": [
+        "how-to/custom-requests.md",
+        "how-to/content-strategy.md",
+        "how-to/dashboard-and-analytics.md"
+      ],
+      "tags": ["custom requests", "organization", "workflow", "management", "productivity", "batching"],
+      "suggested_actions": [
+        {
+          "action": "set_capacity",
+          "label": "Set Request Capacity Limit",
+          "path": "/settings/monetization/custom-requests/capacity"
+        },
+        {
+          "action": "view_calendar",
+          "label": "View Request Calendar",
+          "path": "/custom-requests/calendar"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "custom_requests_disabled",
+      "condition": "custom_requests_feature_disabled",
+      "trigger_context": "User viewing custom request settings or monetization page",
+      "message": "💰 **Unlock Custom Requests!**\n\nCustom requests let fans pay premium prices for personalized content made just for them.\n\n**Benefits:**\n- Earn $50-$500+ per request\n- Build deeper fan relationships\n- Get paid BEFORE creating content\n- Fans show you exactly what they want\n\n**Quick Setup:**\n1. Enable custom requests\n2. Set your base pricing\n3. Define your guidelines\n4. Start accepting requests!\n\nReady to start earning premium revenue?",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "enable_custom_requests",
+          "label": "Enable Custom Requests",
+          "path": "/settings/monetization/custom-requests/enable"
+        }
+      ]
+    },
+    {
+      "trigger_id": "no_wishlist_set",
+      "condition": "wishlist_not_configured AND subscriber_count > 50",
+      "trigger_context": "User has subscribers but no wishlist set up",
+      "message": "🎁 **Add a Wishlist!**\n\nYou have {subscriber_count} subscribers but no wishlist set up. Wishlists are an easy way to let fans spoil you!\n\n**Why Add a Wishlist:**\n- Fans buy you gifts\n- Items improve your content quality\n- Show appreciation for fan support\n- No upfront cost to you\n\n**Popular Items:**\n- Lighting equipment\n- Outfits and costumes\n- Props and accessories\n- Camera gear\n\n**Takes 5 minutes to set up!**",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "setup_wishlist",
+          "label": "Set Up Wishlist",
+          "path": "/settings/monetization/wishlist"
+        }
+      ]
+    },
+    {
+      "trigger_id": "first_custom_request",
+      "condition": "new_custom_request_received AND total_custom_requests == 0",
+      "trigger_context": "Creator receives their very first custom request",
+      "message": "🎉 **Your First Custom Request!**\n\nCongratulations! You have your first custom content request.\n\n**What to Do:**\n\n1. **Review the Request**\n   - Read all requirements carefully\n   - Check the budget they offered\n   - Note the delivery timeframe\n\n2. **Decide Your Response**\n   - Accept if price and requirements work\n   - Counter with your price if too low\n   - Ask questions if anything is unclear\n   - Decline if outside your comfort zone\n\n3. **Respond Within 24 Hours**\n   - Shows professionalism\n   - Builds fan trust\n\n**You're in control!** Only accept requests you're comfortable with and that pay fairly for your time.\n\nNeed help deciding?",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "view_request",
+          "label": "View Request Details",
+          "path": "/custom-requests/pending"
+        },
+        {
+          "action": "pricing_guide",
+          "label": "See Pricing Guide",
+          "path": "/help/custom-requests/pricing"
+        }
+      ]
+    },
+    {
+      "trigger_id": "custom_request_deadline_soon",
+      "condition": "active_custom_request_due_within_48_hours",
+      "trigger_context": "Custom request deadline approaching",
+      "message": "⏰ **Custom Request Deadline Approaching!**\n\nYou have {count} custom request(s) due within 48 hours:\n\n{request_list}\n\n**Don't forget to:**\n- Complete the content\n- Review quality\n- Upload before deadline\n- Notify the fan\n\n**Need more time?** Message the fan ASAP to request an extension.\n\n**Pro tip:** Deliver early when possible - it delights fans and builds your reputation!",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "view_due_requests",
+          "label": "View Due Requests",
+          "path": "/custom-requests/due-soon"
+        }
+      ]
+    },
+    {
+      "trigger_id": "low_custom_request_pricing",
+      "condition": "average_custom_request_price < market_average AND total_requests > 10",
+      "trigger_context": "Creator's pricing appears low compared to typical rates",
+      "message": "💡 **Consider Raising Your Prices**\n\nYour average custom request price is ${average_price}, which is below typical market rates.\n\n**Signs Your Prices Are Too Low:**\n- Getting overwhelmed with requests\n- Working too hard for the money\n- Can't keep up with demand\n- Quality suffering from volume\n\n**Typical Market Rates:**\n- Photos (10 pics): $75-$150\n- Video (5 min): $150-$300\n- Custom message: $25-$75\n\n**What Happens When You Raise Prices:**\n- Fewer but higher-quality requests\n- Same or more revenue with less work\n- Attract serious buyers\n- Reduce burnout\n\n**Try:** Raise prices 20-30% and see what happens. You might be surprised!",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "adjust_pricing",
+          "label": "Adjust Pricing",
+          "path": "/settings/monetization/custom-requests/pricing"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Custom Request",
+      "definition": "Personalized content created specifically for an individual fan based on their specifications, paid for upfront"
+    },
+    {
+      "term": "Wishlist",
+      "definition": "A list of items (typically on Amazon or similar platforms) that fans can purchase as gifts for the creator"
+    },
+    {
+      "term": "Escrow",
+      "definition": "Payment system where fan's money is held securely until creator delivers the custom content"
+    },
+    {
+      "term": "Exclusive Content",
+      "definition": "Custom content that will never be posted publicly and remains only for the purchasing fan"
+    },
+    {
+      "term": "Non-Exclusive Content",
+      "definition": "Custom content that may be posted publicly after a waiting period (typically 30-90 days)"
+    },
+    {
+      "term": "Rush Delivery",
+      "definition": "Expedited delivery timeframe (typically 2-4 days) for an additional fee, usually +50% of base price"
+    },
+    {
+      "term": "Express Delivery",
+      "definition": "Very fast delivery (typically 24-48 hours) for premium fee, usually +100% of base price"
+    },
+    {
+      "term": "Counter Offer",
+      "definition": "Proposing a different price or terms than what the fan originally offered"
+    },
+    {
+      "term": "Scope Creep",
+      "definition": "When a fan keeps adding requirements beyond the original request after you've accepted"
+    },
+    {
+      "term": "Revision",
+      "definition": "Changes or edits to custom content after initial delivery"
+    },
+    {
+      "term": "Content Batching",
+      "definition": "Creating multiple pieces of custom content in a single session for efficiency"
+    },
+    {
+      "term": "Personalization",
+      "definition": "Adding specific elements like names, special messages, or custom dialogue to content"
+    }
+  ],
+  "integration_points": [
+    {
+      "feature": "payments-and-payouts",
+      "connection": "Custom request payments follow same payout schedule and 80/20 revenue split as subscriptions"
+    },
+    {
+      "feature": "messaging-system",
+      "connection": "Custom requests generate message threads for communication between creator and fan"
+    },
+    {
+      "feature": "content-upload",
+      "connection": "Completed custom requests are uploaded through content delivery system"
+    },
+    {
+      "feature": "dashboard-and-analytics",
+      "connection": "Custom request revenue and metrics tracked in earnings dashboard"
+    },
+    {
+      "feature": "fan-engagement",
+      "connection": "Custom requests build deeper relationships with most engaged fans"
+    },
+    {
+      "feature": "content-strategy",
+      "connection": "Custom requests inform content strategy by showing what fans want most"
+    },
+    {
+      "feature": "profile-and-settings",
+      "connection": "Custom request availability and guidelines displayed on profile"
+    }
+  ]
+}

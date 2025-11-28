@@ -1,0 +1,494 @@
+{
+  "feature_id": "getting-started",
+  "feature_name": "Getting Started & Onboarding",
+  "description": "AI knowledge base for helping new creators set up accounts, create first posts, and succeed in their first 30 days",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "platform": "CougarFanz",
+  "qa_pairs": [
+    {
+      "id": "qa_start_001",
+      "question": "How do I create an account?",
+      "question_variations": [
+        "Sign up for account",
+        "Create new account",
+        "Register on platform",
+        "How to join",
+        "Account creation",
+        "Sign up process"
+      ],
+      "answer": "**Create Your Creator Account:**\n\n**Step 1: Go to Sign Up Page**\n\nVisit CougarFanz.com/signup\n\n**Step 2: Enter Information**\n\n**Required:**\n- Email address (use one you check regularly)\n- Username (@handle for your profile)\n- Password (strong & unique)\n- Date of birth (must be 18+)\n\n**Username Tips:**\n- Keep it simple and memorable\n- Consistent with other social media\n- Professional (avoid random numbers)\n- Examples: @fitnesswithjane, @chefmike\n\n**Step 3: Verify Email**\n\n1. Check your email inbox\n2. Find email from CougarFanz\n3. Click verification link\n4. Email confirmed!\n\n**Didn't receive email?**\n- Check spam/junk folder\n- Wait 5 minutes\n- Click \"Resend verification email\"\n\n**Step 4: Choose Account Type**\n\nSelect **Creator Account** (not fan account)\n\n**Step 5: Accept Terms**\n\n- Terms of Service\n- Creator Agreement\n- Community Guidelines\n- Must be 18+ to create account\n\n**Click \"Create Account\"**\n\n🎉 **Welcome! Your account is created!**\n\n**Next Steps:**\n1. Set up your profile (photo, banner, bio)\n2. Verify your identity (required for payments)\n3. Set up payment method\n4. Create your first post\n\n**Pro Tip:** Complete your profile within 24 hours of signing up. Accounts with complete profiles get 5x more subscribers!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Complete Profile Setup",
+          "action": "navigate",
+          "target": "/settings/profile"
+        },
+        {
+          "label": "Getting Started Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md"
+        }
+      ],
+      "related_questions": ["qa_start_002", "qa_start_003"],
+      "tags": ["account", "signup", "registration", "getting started", "new user"]
+    },
+    {
+      "id": "qa_start_002",
+      "question": "How do I set up my profile?",
+      "question_variations": [
+        "Profile setup",
+        "Complete my profile",
+        "How to fill out profile",
+        "Profile creation",
+        "Set up creator profile",
+        "Profile configuration"
+      ],
+      "answer": "**Complete Your Creator Profile:**\n\n**Step 1: Upload Profile Photo**\n\nSettings → Profile → **Change Photo**\n\n**Requirements:**\n- Clear face shot\n- Good lighting\n- High quality (min 400×400 pixels)\n- Professional appearance\n\n**Tip:** Profiles with clear face photos get 3x more subscribers!\n\n**Step 2: Add Banner Image**\n\nSettings → Profile → **Change Banner**\n\n**Recommended Size:** 1500×500 pixels\n\n**Ideas:**\n- Branded banner with your name\n- Teaser of your content style\n- Call-to-action: \"Subscribe for exclusive content\"\n\n**Step 3: Write Your Bio**\n\nSettings → Profile → **Bio** (500 chars max)\n\n**Bio Formula:**\n```\n[Your Niche] creator posting [Frequency]\n\nSubscribers get:\n✅ [Benefit 1]\n✅ [Benefit 2]\n✅ [Benefit 3]\n\nSubscribe for [Price] - [Special offer]!\n```\n\n**Example:**\n```\nFitness creator 💪 Daily workouts\n\nSubscribers get:\n✅ Daily exclusive content\n✅ Personal workout plans\n✅ Direct message access\n\nSubscribe for $9.99 - First 50 get 50% off!\n```\n\n**Include:**\n- ✅ Your niche/content type\n- ✅ Posting frequency\n- ✅ What subscribers get\n- ✅ Call-to-action\n- ✅ Current promotion\n\n**Step 4: Add Social Links**\n\nSettings → Profile → **Social Links**\n\n**Connect:**\n- Instagram\n- Twitter/X\n- TikTok\n- YouTube\n- Website\n\n**Cross-promote across platforms!**\n\n**Step 5: Set Display Name**\n\nSettings → Profile → **Display Name**\n\n- Shown on your profile\n- Can include spaces/special characters\n- Example: \"Jane - Fitness Coach\"\n\n**Profile Complete! ✅**\n\n**Next Steps:**\n1. Verify your identity (required for payments)\n2. Set subscription price\n3. Create your first post\n\n**Pro Tip:** Update your bio monthly with current promotions, milestones, or seasonal offers. \"Celebrating 500 subscribers!\" or \"Holiday special: 40% off!\" creates urgency.",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Edit Profile",
+          "action": "navigate",
+          "target": "/settings/profile"
+        },
+        {
+          "label": "Upload Profile Photo",
+          "action": "navigate",
+          "target": "/settings/profile?action=upload_photo"
+        },
+        {
+          "label": "Profile Setup Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#initial-profile-setup"
+        }
+      ],
+      "related_questions": ["qa_start_001", "qa_start_005"],
+      "tags": ["profile", "setup", "bio", "photo", "banner", "configuration"]
+    },
+    {
+      "id": "qa_start_003",
+      "question": "How do I verify my identity?",
+      "question_variations": [
+        "Identity verification",
+        "Verify my account",
+        "ID verification process",
+        "How to get verified",
+        "Upload ID",
+        "Verification requirements"
+      ],
+      "answer": "**Identity Verification (Required for Payments):**\n\n**Why Required:**\n- ✅ Confirms you're 18+ years old\n- ✅ Prevents fraud\n- ✅ Legal compliance\n- ✅ Required to receive payouts\n\n**What You'll Need:**\n\n1. **Government-issued ID:**\n   - Driver's license\n   - Passport\n   - State ID card\n   - Must be current (not expired)\n\n2. **Smartphone or webcam** for selfie\n\n3. **Well-lit area** for clear photos\n\n**Verification Process:**\n\n**Step 1: Navigate to Verification**\n\nSettings → **Verification** → **Verify Identity**\n\n**Step 2: Upload ID Photo**\n\n**Take clear photo of ID:**\n- All four corners visible\n- No glare or shadows\n- All text readable\n- In focus\n\n**Step 3: Take Selfie with ID**\n\n**Hold ID next to your face:**\n- Both face and ID clearly visible\n- Good lighting\n- Face and ID both in focus\n- No sunglasses or hats\n\n**Step 4: Submit**\n\nClick **\"Submit for Verification\"**\n\n**Processing Time:** 1-3 business days\n\n**You'll Receive Email:**\n- ✅ \"Your account is verified!\" - Approved\n- ❌ \"Verification rejected\" - Need to resubmit\n\n**Common Rejection Reasons:**\n\n❌ ID photo not clear/readable\n❌ Selfie doesn't match ID\n❌ ID is expired\n❌ Poor lighting or blurry\n❌ All corners of ID not visible\n\n**If Rejected:**\n\n1. Read rejection email for specific reason\n2. Fix the issue\n3. Take new, clearer photos\n4. Resubmit immediately (no waiting period)\n\n**Tips for Success:**\n\n✅ **Use good lighting** (natural daylight best)\n✅ **Hold phone steady** (no blur)\n✅ **Flat background** (plain wall)\n✅ **Remove glasses** for selfie\n✅ **Show all 4 corners** of ID\n✅ **No glare** on ID (avoid flash)\n\n**Need Help?**\n\nContact support@CougarFanz.com with:\n- Your username\n- Description of issue\n- Attach clear photo of your ID (support will review)\n\n**Pro Tip:** Verify your identity on Day 1! You can't receive payments until verified. Don't wait until your first payout to discover there's an issue. Most verifications are approved within 24 hours.",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Start Verification",
+          "action": "navigate",
+          "target": "/settings/verification"
+        },
+        {
+          "label": "Verification Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#identity-verification"
+        },
+        {
+          "label": "Contact Support",
+          "action": "navigate",
+          "target": "/help/contact"
+        }
+      ],
+      "related_questions": ["qa_start_004", "qa_start_002"],
+      "tags": ["verification", "identity", "ID", "approval", "documents"]
+    },
+    {
+      "id": "qa_start_004",
+      "question": "How do I set up payments?",
+      "question_variations": [
+        "Payment setup",
+        "Add payment method",
+        "How to get paid",
+        "Set up bank account",
+        "Payout settings",
+        "Receive payments"
+      ],
+      "answer": "**Set Up How You'll Receive Earnings:**\n\n**Step 1: Navigate to Payment Settings**\n\nSettings → **Payouts** → **Payment Methods**\n\n**Step 2: Choose Payment Method**\n\n**Bank Transfer (ACH) - USA:**\n- ✅ Direct deposit to bank account\n- ✅ 3-5 business days\n- ✅ No fees\n- ✅ Most common\n\n**Wire Transfer - International:**\n- ✅ Direct to international bank\n- ✅ 5-7 business days\n- ⚠️ May have fees\n- For non-US creators\n\n**PayPal:**\n- ✅ Fast (1-2 days)\n- ⚠️ Small fee (~2%)\n- ✅ Easy setup\n- ✅ International available\n\n**Paxum:**\n- ✅ Popular for adult creators\n- ✅ Fast transfer\n- ✅ Low fees\n- ✅ International\n\n**Step 3: Enter Payment Details**\n\n**For Bank Transfer:**\n- Bank name\n- Account number\n- Routing number\n- Account type (checking/savings)\n\n**For PayPal/Paxum:**\n- Email address linked to account\n\n**Step 4: Verify Payment Method**\n\n**Bank Account:**\n1. We send 2 small test deposits (under $1 each)\n2. Check your bank in 1-3 days\n3. Enter the amounts on CougarFanz\n4. Verified!\n\n**PayPal/Paxum:**\n- Instant verification\n- Confirm email address\n\n**Step 5: Tax Information**\n\nSettings → Payouts → **Tax Information**\n\n**US Creators:**\n- Provide W-9 form\n- Social Security Number or EIN\n- Required for 1099 tax reporting\n\n**International Creators:**\n- Provide W-8BEN form\n- Tax identification number\n- For tax treaty benefits\n\n**Payment Schedule:**\n\n**Payouts Sent Twice Monthly:**\n\n- Earnings from **1st-15th** → Paid on **15th**\n- Earnings from **16th-31st** → Paid on **last day of month**\n\n**Bank Arrival:** 3-5 business days after payout date\n\n**Minimum Payout:** $20\n- If under $20, balance rolls to next payout\n\n**Example:**\n\n- You earn $500 from Nov 1-15\n- Payout sent on Nov 15th\n- Bank receives Nov 18-20th\n\n**Revenue Split:**\n\n- You earn: **80%** of all revenue\n- Platform: 20%\n\n**Track Earnings:**\n\nDashboard → **Revenue**\n\n- See pending earnings\n- Next payout date\n- Payout history\n\n**Pro Tip:** Set up payments on Day 1, even if you haven't earned anything yet. Test the verification process early so there are no delays when you get your first payout!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Set Up Payment",
+          "action": "navigate",
+          "target": "/settings/payouts"
+        },
+        {
+          "label": "Add Bank Account",
+          "action": "navigate",
+          "target": "/settings/payouts?action=add_bank"
+        },
+        {
+          "label": "Payment Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#payment-setup"
+        }
+      ],
+      "related_questions": ["qa_start_003", "qa_start_008"],
+      "tags": ["payments", "payouts", "bank", "setup", "earnings", "money"]
+    },
+    {
+      "id": "qa_start_005",
+      "question": "How do I create my first post?",
+      "question_variations": [
+        "Upload first content",
+        "Make a post",
+        "How to post",
+        "Create content",
+        "Upload photos",
+        "First upload"
+      ],
+      "answer": "**Create Your First Post:**\n\n**Step 1: Click Create Post**\n\nClick **+ Create Post** or **Upload Content** button\n\n**Step 2: Choose Content Type**\n\n**Photo Post:**\n- Upload 1-10 photos\n- Most common\n- Easy to create\n\n**Video Post:**\n- Upload video (up to 5 minutes)\n- Higher engagement\n- More valuable\n\n**Text Post:**\n- Text update with optional image\n- Quick updates/announcements\n\n**Step 3: Upload Content**\n\n**For Photos:**\n1. Click **Upload Photos**\n2. Select 1-10 images from device\n3. Drag to reorder\n4. First image = cover thumbnail\n\n**For Video:**\n1. Click **Upload Video**\n2. Select video file\n3. Wait for upload (progress bar)\n4. Auto-generates thumbnail (or upload custom)\n\n**File Requirements:**\n- Photos: JPG, PNG, GIF (max 50 MB each)\n- Videos: MP4, MOV (max 1 GB, up to 5 min)\n\n**Step 4: Write Caption**\n\n**Good Caption Formula:**\n\n1. **Hook** - Grab attention\n2. **Content** - Describe what it is\n3. **Question** - Engage fans\n\n**Example:**\n```\nExcited to share my first post! 🎉\n\nI'll be posting daily exclusive content including:\n- Behind-the-scenes\n- Exclusive photoshoots\n- Personal updates\n\nWhat type of content do you want to see most? Comment below! 👇\n```\n\n**Always end with a question!**\n- Increases engagement 3-5x\n- Encourages comments\n- Builds community\n\n**Step 5: Set Visibility**\n\n**Who can see this post:**\n\n**Subscribers Only** (Recommended for first post)\n- Only paying subscribers\n- Exclusive content\n- Most common\n\n**Free Preview:**\n- Anyone can see\n- Good for attracting subscribers\n- Use for teasers\n\n**Pay-Per-View (PPV):**\n- Charge extra to unlock ($3-$50)\n- For premium content\n\n**Step 6: Publish**\n\n**Post Now:**\n- Publish immediately\n\n**Schedule for Later:**\n- Choose date/time\n- Auto-publishes\n\n**Click \"Post Now\" for your first post!**\n\n**Step 7: Engage!**\n\n**After posting:**\n- Stay online 30 minutes\n- Respond to comments immediately\n- Like all comments\n- Answer questions\n- Build momentum\n\n🎉 **Congratulations on your first post!**\n\n**What's Next:**\n\n1. **Create 3-5 more posts** (build content library)\n2. **Post daily** for first week\n3. **Promote on social media** (Instagram, Twitter, TikTok)\n4. **Engage with every subscriber**\n5. **Keep momentum going!**\n\n**Pro Tip:** Your first 10 posts set expectations. Post your BEST content first to show subscribers what they're getting. Don't save your best stuff for later - hook them immediately!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Create Post",
+          "action": "navigate",
+          "target": "/content/upload"
+        },
+        {
+          "label": "View Post Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#your-first-post"
+        },
+        {
+          "label": "Content Upload Tips",
+          "action": "open_doc",
+          "target": "/docs/how-to/content-upload.md"
+        }
+      ],
+      "related_questions": ["qa_start_006", "qa_start_007"],
+      "tags": ["post", "upload", "content", "first post", "create"]
+    },
+    {
+      "id": "qa_start_006",
+      "question": "What should I charge for my subscription?",
+      "question_variations": [
+        "Subscription pricing",
+        "How much to charge",
+        "Set subscription price",
+        "What price for subscription",
+        "Pricing strategy",
+        "Subscription fee"
+      ],
+      "answer": "**Setting Your Subscription Price:**\n\n**Recommended for New Creators:**\n\n**$4.99 - $7.99/month** (Best Starting Price)\n\n**Why Start Low:**\n- ✅ Lower barrier to entry\n- ✅ Easier to get first subscribers\n- ✅ Build audience quickly\n- ✅ Prove your value\n- ✅ Can raise price later\n\n**Pricing by Content Quality:**\n\n**$4.99 - $7.99:**\n- Phone selfies/casual content\n- New creator building audience\n- 1-2 posts per week\n\n**$9.99 - $14.99:**\n- Good quality photos/videos\n- Established posting schedule\n- 3-5 posts per week\n- Mix of casual + professional\n\n**$19.99 - $29.99:**\n- Professional quality content\n- Daily posts\n- High engagement\n- Proven track record\n\n**$30+:**\n- Ultra-premium content\n- Multiple daily posts\n- Direct interaction\n- Celebrity/influencer status\n\n**Pricing by Posting Frequency:**\n\n- **Daily posts:** $12.99 - $19.99\n- **3-5x per week:** $9.99\n- **1-2x per week:** $4.99 - $7.99\n\n**Your First Month Strategy:**\n\n**Recommended:** Start at **$4.99 or $7.99**\n\n**Month 1:** $4.99 - Build base (target 50-100 subscribers)\n**Month 2-3:** $7.99 - Prove consistency\n**Month 4-6:** $9.99 - Established value\n**Month 7+:** $12.99+ - Premium pricing\n\n**Launch Promotion:**\n\n**Create Urgency:**\n\n\"Subscribe now for $4.99!\n\nRegular price: $9.99\nFirst 100 subscribers: $4.99 (50% off)\n\nLimited time offer!\"\n\n**How to Set Price:**\n\n1. Settings → Subscriptions → **Pricing**\n2. Enter monthly price\n3. **Save**\n\n**How to Create Promotion:**\n\n1. Settings → Subscriptions → **Promotions**\n2. Create discount code or limited offer\n3. Set discount percentage\n4. Set limit (first 100 subscribers)\n5. Set expiration date\n6. **Save**\n\n**Update your bio:**\n\"First 100 subscribers get 50% off!\"\n\n**When to Raise Price:**\n\n**Raise Price After:**\n- ✅ 100+ posts created\n- ✅ 3 months consistent posting\n- ✅ 100+ subscribers\n- ✅ High engagement rate\n\n**How to Raise:**\n\n1. **Announce 1 week early:** \"Price increasing to $9.99 next week!\"\n2. **Grandfather existing subscribers:** They keep current price (loyalty)\n3. **New subscribers:** Pay new price\n4. **Raise gradually:** $2-3 increases every 3 months\n\n**Revenue Examples:**\n\n**At $4.99:**\n- 50 subscribers = $249.50 → You earn ~$200/month\n- 100 subscribers = $499 → You earn ~$400/month\n\n**At $9.99:**\n- 100 subscribers = $999 → You earn ~$800/month\n- 200 subscribers = $1,998 → You earn ~$1,600/month\n\n**At $14.99:**\n- 300 subscribers = $4,497 → You earn ~$3,600/month\n- 500 subscribers = $7,495 → You earn ~$6,000/month\n\n**Pro Tip:** Start at $4.99 to build your first 50-100 subscribers quickly. Once you have social proof (subscriber count) and 50+ posts, raise to $7.99. Price increases are easier to justify when you've proven consistent value. New subscribers don't know your old price!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Set Subscription Price",
+          "action": "navigate",
+          "target": "/settings/subscriptions"
+        },
+        {
+          "label": "Create Promotion",
+          "action": "navigate",
+          "target": "/settings/subscriptions?tab=promotions"
+        },
+        {
+          "label": "Pricing Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#setting-your-subscription-price"
+        }
+      ],
+      "related_questions": ["qa_start_007", "qa_start_008"],
+      "tags": ["pricing", "subscription", "price", "fees", "charges", "money"]
+    },
+    {
+      "id": "qa_start_007",
+      "question": "How do I get my first subscribers?",
+      "question_variations": [
+        "Get subscribers",
+        "Find first fans",
+        "Promote my profile",
+        "Attract subscribers",
+        "Grow subscriber count",
+        "Marketing strategy"
+      ],
+      "answer": "**Get Your First Subscribers:**\n\n**1. Optimize Your CougarFanz Profile**\n\n**Settings → Privacy:**\n- ✅ Allow search engines: ON\n- ✅ Appear in recommendations: ON\n- Public profile (not private)\n\n**Complete Profile:**\n- ✅ Professional profile photo\n- ✅ Eye-catching banner\n- ✅ Compelling bio with call-to-action\n- ✅ Social links added\n\n**2. Cross-Promote on Social Media**\n\n**Instagram:**\n- Link in bio to CougarFanz profile\n- Post teasers (crop/blur exclusive content)\n- Stories: \"Link in bio for full version\"\n- Reels promoting exclusive content\n\n**Twitter/X:**\n- Pin tweet with CougarFanz link\n- Daily teaser posts\n- Engage with community\n- Hashtags: #creator #exclusive\n\n**TikTok:**\n- \"Full version on CougarFanz\"\n- Behind-the-scenes teasers\n- Trending sounds\n- Link in bio\n\n**Reddit:**\n- Find relevant subreddits\n- Check self-promotion rules\n- Participate first, promote second\n- Share teasers with link\n\n**3. Post Free Previews on CougarFanz**\n\n**Strategy:**\n- 2-3 FREE posts per week\n- Public (anyone can see)\n- Teasers of subscriber content\n\n**Example:**\n- Cropped/blurred version of exclusive photo\n- Caption: \"Subscribe to see full version! Only $4.99\"\n- First 30 seconds of exclusive video\n\n**4. Create 5-10 Posts Before Promoting**\n\n**Why:**\n- Shows you're serious\n- Gives value preview\n- Social proof (content library)\n- Visitors see active account\n\n**Don't:** Promote empty profile with 0 posts\n\n**5. Set Competitive Pricing**\n\n**First Month:** $4.99 or $7.99\n- Low barrier to entry\n- Easy conversion\n- Build base quickly\n\n**Add Promotion:**\n\"First 100 subscribers: 50% off!\"\n- Creates urgency\n- Drives sign-ups\n\n**6. Engage with Target Audience**\n\n**On Social Media:**\n- Comment on related posts\n- Engage with similar creators\n- Join relevant groups\n- Be helpful, build presence\n\n**On CougarFanz:**\n- Comment on other creators' posts\n- Engage authentically\n- Build relationships\n- Cross-promote\n\n**7. Consistency is Key**\n\n**First Week:**\n- Post 1-2 times DAILY on CougarFanz\n- Promote DAILY on social media\n- Engage with EVERY interaction\n\n**Why:**\n- Algorithm favors active accounts\n- Shows reliability\n- Builds momentum\n\n**8. Use Platform Features**\n\n**Make Profile Discoverable:**\n- Complete all profile sections\n- Use relevant keywords in bio\n- Add location (if relevant)\n- Tag content appropriately\n\n**9. Collaborate with Other Creators**\n\n**Shoutout-for-Shoutout:**\n- Find creators similar size/niche\n- \"Check out @creator!\"\n- Cross-promote\n- Win-win growth\n\n**10. Be Patient but Persistent**\n\n**Week 1 Goal:** 10-25 subscribers\n**Week 2 Goal:** 25-50 subscribers\n**Week 3 Goal:** 50-75 subscribers\n**Week 4 Goal:** 75-100 subscribers\n\n**If slower:** Keep going! Some niches take longer.\n\n**Quick Wins:**\n\n**Day 1:**\n- Tell friends/followers you joined\n- Post 3 teasers on social media\n- Expect: 5-10 subscribers (from existing followers)\n\n**Day 2-7:**\n- Daily posts on CougarFanz\n- Daily social media promotion\n- Engage heavily\n- Expect: 1-3 new subscribers daily\n\n**Week 2:**\n- Momentum building\n- Word of mouth starting\n- Expect: 3-5 new subscribers daily\n\n**Common Mistakes:**\n\n❌ **Empty profile with no posts**\n❌ **Pricing too high ($20+ as beginner)**\n❌ **Not promoting on social media**\n❌ **Giving up after 1 week**\n❌ **Inconsistent posting**\n❌ **Not engaging with subscribers**\n\n**Pro Tip:** Your first 10 subscribers are the hardest. After that, momentum builds. Focus on giving those first 10 subscribers AMAZING experiences - engage heavily, respond to everything, make them feel special. They'll become your advocates and help you grow!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Optimize Profile",
+          "action": "navigate",
+          "target": "/settings/profile"
+        },
+        {
+          "label": "Create Free Preview Post",
+          "action": "navigate",
+          "target": "/content/upload"
+        },
+        {
+          "label": "Promotion Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#promoting-your-profile"
+        }
+      ],
+      "related_questions": ["qa_start_006", "qa_start_009"],
+      "tags": ["subscribers", "growth", "promotion", "marketing", "first fans"]
+    },
+    {
+      "id": "qa_start_008",
+      "question": "When will I get my first payout?",
+      "question_variations": [
+        "First payment",
+        "When do I get paid",
+        "Payout schedule",
+        "First earnings",
+        "Payment timing",
+        "When money arrives"
+      ],
+      "answer": "**Your First Payout:**\n\n**Payment Schedule:**\n\n**Payouts Sent Twice Monthly:**\n\n📅 **1st-15th earnings** → Paid on **15th of month**\n📅 **16th-31st earnings** → Paid on **last day of month**\n\n**Bank Arrival:** 3-5 business days after payout date\n\n**Example Timeline:**\n\n**You Get First Subscriber on Nov 5th:**\n\n- Nov 5-15: You earn $50\n- Nov 15: Payout initiated\n- Nov 18-20: Money in your bank account\n\n**You Get First Subscriber on Nov 18th:**\n\n- Nov 18-30: You earn $75\n- Nov 30: Payout initiated\n- Dec 3-5: Money in your bank account\n\n**Minimum Payout Amount:**\n\n**$20 minimum**\n- If you earn under $20, it rolls to next payout\n- No fees or penalties\n- Accumulates until you reach $20\n\n**Example:**\n- Period 1: Earn $15 → Rolls over\n- Period 2: Earn $10 → Total $25 → Paid out!\n\n**Revenue Split:**\n\n**You earn: 80%**\n**Platform: 20%**\n\n**Example:**\n- Subscriber pays: $9.99\n- You earn: $7.99 (80%)\n- Platform fee: $2.00 (20%)\n\n**Requirements Before First Payout:**\n\n**Must Complete:**\n- ✅ Identity verification (approved)\n- ✅ Payment method added\n- ✅ Payment method verified\n- ✅ Tax information submitted\n\n**If Not Complete:**\n- Earnings held until requirements met\n- Complete ASAP to avoid delays\n\n**Track Your Earnings:**\n\nDashboard → **Revenue**\n\n**See:**\n- Current period earnings\n- Pending payout amount\n- Next payout date\n- Payout history\n- Projected monthly earnings\n\n**First Month Earnings Expectations:**\n\n**Conservative (25 subscribers @ $4.99):**\n- Gross: $124.75\n- Your 80%: ~$100\n- Timeline: 30-45 days to first payout\n\n**Good (50 subscribers @ $7.99):**\n- Gross: $399.50\n- Your 80%: ~$320\n- Timeline: 15-30 days to first payout\n\n**Great (100 subscribers @ $9.99):**\n- Gross: $999\n- Your 80%: ~$800\n- Timeline: 15-30 days to first payout\n\n**Payout Methods & Speed:**\n\n**Bank Transfer (ACH):**\n- 3-5 business days\n- No fees\n- Most common\n\n**PayPal:**\n- 1-2 business days\n- Small fee (~2%)\n- Faster option\n\n**Wire Transfer (International):**\n- 5-7 business days\n- May have fees\n- For non-US\n\n**Paxum:**\n- 2-3 business days\n- Low fees\n- Popular option\n\n**What Counts as Earnings:**\n\n**Included in Payouts:**\n- ✅ Subscription fees (80%)\n- ✅ PPV purchases (80%)\n- ✅ Tips (80%)\n- ✅ Paid messages (80%)\n- ✅ Private stream fees (80%)\n\n**Monthly 1099 Reporting (US):**\n- Platform reports earnings to IRS\n- You receive 1099 tax form in January\n- Track earnings for taxes\n\n**Common Issues:**\n\n**\"Why didn't I get paid?\"**\n\nCheck:\n- ❓ Earned less than $20 minimum?\n- ❓ Identity verification pending?\n- ❓ Payment method not verified?\n- ❓ Tax info not submitted?\n- ❓ Payout date hasn't arrived yet?\n\n**\"Payment is late\"**\n\n- Allow 3-5 business days after payout date\n- Check spam/junk for email notification\n- Verify payment method is correct\n- Contact bank to confirm no holds\n\n**Pro Tip:** Set up all payment requirements (verification, payment method, tax info) on Day 1, even before your first subscriber. This ensures no delays when you hit your first payout. Nothing worse than waiting for earnings because of missing paperwork!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Earnings",
+          "action": "navigate",
+          "target": "/dashboard/revenue"
+        },
+        {
+          "label": "Check Payout Settings",
+          "action": "navigate",
+          "target": "/settings/payouts"
+        },
+        {
+          "label": "Complete Verification",
+          "action": "navigate",
+          "target": "/settings/verification"
+        },
+        {
+          "label": "Payment Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/payments-and-payouts.md"
+        }
+      ],
+      "related_questions": ["qa_start_004", "qa_start_006"],
+      "tags": ["payout", "payment", "earnings", "money", "first payment", "schedule"]
+    },
+    {
+      "id": "qa_start_009",
+      "question": "What should I do in my first 30 days?",
+      "question_variations": [
+        "First month checklist",
+        "30 day plan",
+        "Getting started checklist",
+        "First month strategy",
+        "30 day roadmap",
+        "Beginner checklist"
+      ],
+      "answer": "**Your First 30 Days Roadmap:**\n\n**Week 1: Foundation (Days 1-7)**\n\n**Days 1-2:**\n- ✅ Create account\n- ✅ Verify email\n- ✅ Complete profile (photo, banner, bio, social links)\n- ✅ Start identity verification\n- ✅ Set up payment method\n- ✅ Create 5-10 initial posts\n- ✅ Set subscription price ($4.99-$7.99)\n\n**Days 3-4:**\n- ✅ Promote on Instagram (link in bio)\n- ✅ Promote on Twitter/X\n- ✅ Promote on TikTok\n- ✅ Post 1-2 times daily on CougarFanz\n- ✅ Respond to ALL engagement\n\n**Days 5-7:**\n- ✅ Continue daily posting (1-2x)\n- ✅ Daily social media promotion\n- ✅ Send welcome message to each new subscriber\n- ✅ Engage with every comment\n- ✅ Get first 10-25 subscribers\n\n**Week 1 Goal: 10-25 subscribers**\n\n**Week 2: Growth (Days 8-14)**\n\n**Daily Tasks:**\n- ✅ Post 1-2 times on CougarFanz\n- ✅ Promote on social media daily\n- ✅ Respond to all engagement within 24 hours\n- ✅ Personal message to each new subscriber\n\n**Additional:**\n- ✅ Create first PPV content (test $5-$10)\n- ✅ Run first poll or Q&A\n- ✅ Post 2-3 free public teasers\n- ✅ Analyze which content performs best\n- ✅ Identity verification approved ✓\n\n**Week 2 Goal: 25-50 subscribers**\n\n**Week 3: Optimization (Days 15-21)**\n\n**Daily Tasks:**\n- ✅ Maintain posting consistency\n- ✅ Engage with every subscriber\n- ✅ Social media promotion\n\n**Additional:**\n- ✅ Review analytics (what content works?)\n- ✅ Post at optimal times (check analytics)\n- ✅ Create content calendar for Week 4\n- ✅ Reach out to 5 creators for collaboration\n- ✅ Run first contest/giveaway\n- ✅ Mix content types (photos, videos, text)\n\n**Week 3 Goal: 50-75 subscribers**\n\n**Week 4: Momentum (Days 22-30)**\n\n**Daily Tasks:**\n- ✅ Consistent posting (1-2x daily)\n- ✅ High engagement with fans\n- ✅ Social media promotion\n\n**Additional:**\n- ✅ Celebrate first month milestone!\n- ✅ Thank subscribers (mass message)\n- ✅ Review first month performance\n- ✅ Plan Month 2 content strategy\n- ✅ Consider first price increase (announce if doing)\n- ✅ Set Month 2 goals\n- ✅ Request feedback from top fans\n\n**Week 4 Goal: 75-100 subscribers**\n\n**Daily Schedule (Example):**\n\n**Morning (30 min):**\n- Check overnight messages/comments\n- Respond to all\n- Post morning teaser on social media\n\n**Afternoon (20 min):**\n- Create/schedule content\n- Respond to new engagement\n- Social media check-in\n\n**Evening (30 min):**\n- Post main content on CougarFanz\n- Engage with first comments immediately\n- Thank new subscribers\n- Plan next day's content\n\n**30-Day Success Metrics:**\n\n**Subscribers:**\n- Minimum: 50 subscribers\n- Good: 75-100 subscribers\n- Great: 100-150 subscribers\n- Excellent: 150+ subscribers\n\n**Content Created:**\n- Minimum: 30 posts (1/day)\n- Good: 40-50 posts\n- Great: 60+ posts (2/day)\n\n**Engagement Rate:**\n- Target: 20%+\n- Great: 30%+\n- Excellent: 40%+\n\n**Revenue (First Month):**\n- Conservative: $200-$400\n- Good: $400-$800\n- Great: $800-$1,500\n- Excellent: $1,500+\n\n**Essential Habits to Build:**\n\n**1. Daily Posting**\n- Non-negotiable\n- Builds expectations\n- Keeps subscribers engaged\n\n**2. Immediate Engagement**\n- Respond within 24 hours\n- Builds loyalty\n- Increases retention\n\n**3. Social Media Promotion**\n- Daily teasers\n- Consistent messaging\n- Cross-platform presence\n\n**4. Analytics Review**\n- Weekly check-ins\n- What's working?\n- Double down on success\n\n**5. Fan Appreciation**\n- Thank subscribers\n- Acknowledge support\n- Build relationships\n\n**Month 1 Checklist:**\n\n**Account Setup:**\n- ✅ Profile complete\n- ✅ Identity verified\n- ✅ Payment method verified\n- ✅ Tax info submitted\n\n**Content:**\n- ✅ 30+ posts created\n- ✅ Mix of content types\n- ✅ Consistent posting schedule\n- ✅ First PPV content tested\n\n**Growth:**\n- ✅ 50-100 subscribers\n- ✅ Social media presence\n- ✅ Cross-promotion active\n- ✅ Free teasers posted\n\n**Engagement:**\n- ✅ 80%+ comment response rate\n- ✅ Personal subscriber messages\n- ✅ Community building\n- ✅ High engagement rate\n\n**Pro Tip:** The first 30 days set the foundation for long-term success. Stay consistent even when growth feels slow. Most creators who quit do so in the first month. Those who push through typically see exponential growth in months 2-3. Your future self will thank you for not giving up!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Dashboard",
+          "action": "navigate",
+          "target": "/dashboard"
+        },
+        {
+          "label": "Create Post",
+          "action": "navigate",
+          "target": "/content/upload"
+        },
+        {
+          "label": "30-Day Checklist",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#first-30-days-checklist"
+        }
+      ],
+      "related_questions": ["qa_start_005", "qa_start_007"],
+      "tags": ["checklist", "30 days", "first month", "getting started", "roadmap"]
+    },
+    {
+      "id": "qa_start_010",
+      "question": "What are common beginner mistakes?",
+      "question_variations": [
+        "Mistakes to avoid",
+        "What not to do",
+        "Common errors",
+        "Beginner pitfalls",
+        "Things to avoid",
+        "Mistakes new creators make"
+      ],
+      "answer": "**Common Beginner Mistakes (And How to Avoid Them):**\n\n**Mistake #1: Inconsistent Posting**\n\n**Problem:**\n- Post 10 times Week 1\n- 2 times Week 2\n- Nothing Week 3\n- Fans lose interest & cancel\n\n**Solution:**\n- ✅ Set sustainable schedule (5-7 posts/week)\n- ✅ Use post scheduler\n- ✅ Batch create content\n- ✅ Consistency > Perfection\n\n**Mistake #2: Pricing Too High**\n\n**Problem:**\n- $19.99/month with 0 posts\n- No track record\n- Hard to get subscribers\n- Slow/no growth\n\n**Solution:**\n- ✅ Start at $4.99-$7.99\n- ✅ Build to 50-100 subscribers\n- ✅ Prove consistent value\n- ✅ Raise price gradually\n\n**Mistake #3: Ignoring Engagement**\n\n**Problem:**\n- Post and disappear\n- Don't respond to comments\n- Don't send messages\n- Fans feel ignored → Cancel\n\n**Solution:**\n- ✅ Respond to 80%+ of comments\n- ✅ Send welcome message to new subscribers\n- ✅ Personal thank-yous\n- ✅ Build relationships\n\n**Mistake #4: Too Much PPV**\n\n**Problem:**\n- Everything is pay-per-view\n- Subscription feels like paywall\n- Fans frustrated\n- High churn rate\n\n**Solution:**\n- ✅ 80% included in subscription\n- ✅ 20% PPV for premium content\n- ✅ Balance value\n- ✅ Don't nickel-and-dime\n\n**Mistake #5: Incomplete Profile**\n\n**Problem:**\n- No profile photo\n- Empty bio\n- No banner\n- Looks unprofessional\n\n**Solution:**\n- ✅ Complete ALL profile sections\n- ✅ Professional photos\n- ✅ Clear value proposition in bio\n- ✅ Social links added\n\n**Mistake #6: No Promotion**\n\n**Problem:**\n- \"Build it and they will come\"\n- Wait for subscribers\n- No social media presence\n- Zero growth\n\n**Solution:**\n- ✅ Active daily promotion\n- ✅ All social platforms\n- ✅ Teasers and previews\n- ✅ Engage in communities\n\n**Mistake #7: Quitting Too Soon**\n\n**Problem:**\n- Expect overnight success\n- Quit after 2 weeks\n- \"It's not working\"\n- Give up before momentum builds\n\n**Solution:**\n- ✅ Give it 90 days minimum\n- ✅ Consistent effort required\n- ✅ Growth compounds over time\n- ✅ Success takes patience\n\n**Mistake #8: Copy-Paste Responses**\n\n**Problem:**\n- \"Thanks\" to every comment\n- No personalization\n- Fans feel like a number\n- Generic engagement\n\n**Solution:**\n- ✅ Use fan's name\n- ✅ Reference their specific comment\n- ✅ Ask follow-up questions\n- ✅ Genuine interaction\n\n**Mistake #9: Empty Launch**\n\n**Problem:**\n- Promote profile with 0 posts\n- Nothing for subscribers to see\n- Bad first impression\n- Instant regret subscriptions\n\n**Solution:**\n- ✅ Create 5-10 posts FIRST\n- ✅ Then promote\n- ✅ Give value immediately\n- ✅ Show what they're getting\n\n**Mistake #10: Forgetting Verification**\n\n**Problem:**\n- Wait until first payout to verify\n- Identity verification takes days\n- Payment delayed\n- Frustration\n\n**Solution:**\n- ✅ Verify identity on Day 1\n- ✅ Set up payment on Day 1\n- ✅ Submit tax info immediately\n- ✅ No delays when you earn\n\n**Mistake #11: No Content Calendar**\n\n**Problem:**\n- Post whatever, whenever\n- No plan or strategy\n- Inconsistent quality\n- Run out of ideas\n\n**Solution:**\n- ✅ Plan content weekly\n- ✅ Batch create content\n- ✅ Schedule posts\n- ✅ Mix content types\n\n**Mistake #12: Comparing to Top Creators**\n\n**Problem:**\n- \"They have 10,000 subscribers, I only have 10\"\n- Discouragement\n- Unrealistic expectations\n- Give up\n\n**Solution:**\n- ✅ Compare to YOUR progress\n- ✅ Celebrate small wins\n- ✅ Top creators took years\n- ✅ Focus on your journey\n\n**Mistake #13: No Call-to-Action**\n\n**Problem:**\n- Posts with no engagement prompts\n- No questions\n- Passive audience\n- Low engagement\n\n**Solution:**\n- ✅ End every post with a question\n- ✅ Ask for opinions\n- ✅ Create polls\n- ✅ Encourage interaction\n\n**Mistake #14: Ignoring Analytics**\n\n**Problem:**\n- Don't check what's working\n- Repeat failed strategies\n- Miss opportunities\n- No optimization\n\n**Solution:**\n- ✅ Weekly analytics review\n- ✅ Identify top content\n- ✅ Double down on success\n- ✅ Stop what doesn't work\n\n**Mistake #15: Burning Out**\n\n**Problem:**\n- Post 3x daily for 1 week\n- Exhausted by Week 2\n- Quality drops\n- Quit\n\n**Solution:**\n- ✅ Set sustainable pace\n- ✅ 1-2 posts/day is plenty\n- ✅ Use scheduler\n- ✅ Batch content creation\n\n**Pro Tip:** Every successful creator made these mistakes. The difference? They learned and adjusted. Don't beat yourself up - recognize the mistake, fix it, and keep going. Your future success is built on lessons learned from early mistakes!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "View Best Practices",
+          "action": "open_doc",
+          "target": "/docs/how-to/getting-started.md#best-practices-for-new-creators"
+        },
+        {
+          "label": "Check Analytics",
+          "action": "navigate",
+          "target": "/dashboard/analytics"
+        },
+        {
+          "label": "Create Content Calendar",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        }
+      ],
+      "related_questions": ["qa_start_009", "qa_start_007"],
+      "tags": ["mistakes", "errors", "pitfalls", "avoid", "tips", "beginner"]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "welcome_new_creator",
+      "trigger_name": "Welcome New Creator",
+      "message": "👋 **Welcome to CougarFanz!**\n\nLet's get you set up for success!\n\n**Quick Checklist:**\n☐ Complete profile (photo, banner, bio)\n☐ Verify identity (required for payments)\n☐ Set subscription price\n☐ Create first 5-10 posts\n☐ Promote on social media\n\n[Complete Setup] [View Getting Started Guide]",
+      "condition": {
+        "user_state": {
+          "account_age_hours": {
+            "less_than": 24
+          },
+          "is_creator": true,
+          "profile_complete": false
+        }
+      },
+      "priority": "high",
+      "display_type": "modal",
+      "dismissible": true,
+      "show_once": true
+    },
+    {
+      "trigger_id": "incomplete_profile_day3",
+      "trigger_name": "Profile Still Incomplete",
+      "message": "⚠️ **Your profile is incomplete**\n\nCreators with complete profiles get 5x more subscribers!\n\n**Still Missing:**\n{missing_items}\n\n[Complete Profile Now]",
+      "condition": {
+        "user_state": {
+          "account_age_days": {
+            "greater_than": 3
+          },
+          "profile_complete": false
+        }
+      },
+      "priority": "high",
+      "display_type": "banner",
+      "dismissible": true,
+      "cooldown_days": 2
+    },
+    {
+      "trigger_id": "no_posts_week1",
+      "trigger_name": "No Posts After Week 1",
+      "message": "📸 **Ready to create your first post?**\n\nYou've been here {days} days with no posts yet.\n\n**Getting started is easy:**\n1. Click \"Create Post\"\n2. Upload photo or video\n3. Write caption\n4. Publish!\n\n[Create First Post] [View Tutorial]",
+      "condition": {
+        "user_state": {
+          "account_age_days": {
+            "greater_than": 7
+          },
+          "total_posts": 0
+        }
+      },
+      "priority": "high",
+      "display_type": "alert",
+      "dismissible": true,
+      "show_once": true
+    },
+    {
+      "trigger_id": "verification_pending",
+      "trigger_name": "Identity Verification Reminder",
+      "message": "🔒 **Don't forget to verify your identity!**\n\nRequired to receive payments. Takes 5 minutes.\n\n**You'll need:**\n- Government ID\n- Selfie with ID\n\n**Processing:** 1-3 business days\n\n[Start Verification Now]",
+      "condition": {
+        "user_state": {
+          "account_age_days": {
+            "greater_than": 2
+          },
+          "identity_verified": false,
+          "total_posts": {
+            "greater_than": 3
+          }
+        }
+      },
+      "priority": "medium",
+      "display_type": "banner",
+      "dismissible": true,
+      "cooldown_days": 3
+    },
+    {
+      "trigger_id": "first_subscriber_celebration",
+      "trigger_name": "First Subscriber!",
+      "message": "🎉 **Congratulations on your first subscriber!**\n\nThis is just the beginning!\n\n**Next steps:**\n- Send them a welcome message\n- Respond to their comments\n- Keep posting consistently\n- Promote on social media\n\nYou're on your way!\n\n[View Growth Tips]",
+      "condition": {
+        "metrics": {
+          "total_subscribers": 1,
+          "previous_total_subscribers": 0
+        }
+      },
+      "priority": "medium",
+      "display_type": "celebration",
+      "dismissible": true,
+      "show_once": true
+    }
+  ],
+  "common_errors": [],
+  "related_features": [
+    "profile-and-settings",
+    "content-upload",
+    "subscription-management",
+    "payments-and-payouts",
+    "help-and-support"
+  ],
+  "glossary": [
+    {
+      "term": "Creator Account",
+      "definition": "Account type that allows posting content and earning money from subscribers"
+    },
+    {
+      "term": "Identity Verification",
+      "definition": "Process of confirming your identity with government ID - required for receiving payments"
+    },
+    {
+      "term": "Subscription Price",
+      "definition": "Monthly fee subscribers pay to access your exclusive content"
+    },
+    {
+      "term": "PPV (Pay-Per-View)",
+      "definition": "Premium content that requires additional payment beyond subscription to unlock"
+    },
+    {
+      "term": "Payout",
+      "definition": "Payment of your earnings sent to your bank account or payment method"
+    },
+    {
+      "term": "Revenue Split",
+      "definition": "You earn 80% of all revenue, platform takes 20%"
+    },
+    {
+      "term": "Free Preview Post",
+      "definition": "Public post visible to everyone (non-subscribers) used to attract new subscribers"
+    }
+  ],
+  "integration_points": {
+    "pages": [
+      "/signup",
+      "/settings/profile",
+      "/settings/verification",
+      "/settings/payouts",
+      "/content/upload",
+      "/settings/subscriptions",
+      "/dashboard"
+    ],
+    "components": [
+      "OnboardingWizard",
+      "ProfileSetupForm",
+      "VerificationFlow",
+      "PaymentSetup",
+      "FirstPostWizard",
+      "SubscriptionPricingForm"
+    ],
+    "apis": [
+      "/api/auth/signup",
+      "/api/profile/setup",
+      "/api/verification/submit",
+      "/api/payouts/setup",
+      "/api/content/create",
+      "/api/subscriptions/set-price"
+    ]
+  }
+}

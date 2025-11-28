@@ -1,0 +1,344 @@
+{
+  "feature_id": "promotions-discounts",
+  "feature_name": "Promotions & Discounts",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "description": "AI knowledge base for promotional campaigns and discount strategies",
+  "qa_pairs": [
+    {
+      "id": "qa_promo_001",
+      "question": "How do I create a promotion or discount?",
+      "question_variations": [
+        "How do I offer a discount?",
+        "How do I run a sale?",
+        "How do I create a promo code?",
+        "How do I set up promotions?",
+        "Can I offer discounts to subscribers?",
+        "How do I do a Black Friday sale?",
+        "How do I create promotional pricing?"
+      ],
+      "answer": "**Create a Promotion:**\n\n**Step 1: Access Promotions**\n\n1. Go to **Settings → Monetization → Promotions**\n2. Click **Create New Promotion**\n3. Choose promotion type\n\n**Step 2: Configure Your Promotion**\n\n```\nPromotion Name: Black Friday Sale\n(Internal reference only)\n\nType:\n☑ Percentage Discount (25%, 50%, etc.)\n☐ Fixed Amount ($5 off, $10 off)\n☐ Free Trial (7 days, 14 days)\n\nDiscount Amount: 50%\n\nApply To:\n☑ Monthly Subscription ($25 → $12.50)\n☑ 3-Month Bundle\n☐ Annual Subscription\n\nDuration:\n☐ First month only\n☑ Applies to billing period\n☐ Ongoing\n\nUsage Limits:\n☐ Unlimited\n☑ Limited to: 100 uses\n☐ One per user\n```\n\n**Step 3: Set Schedule**\n\n```\nStart: Nov 24, 2025 at 12:00 AM\nEnd: Nov 27, 2025 at 11:59 PM\n\n☑ Auto-activate at start\n☑ Auto-deactivate at end\n```\n\n**Step 4: Create Promo Code (Optional)**\n\n```\nPromo Code: BLACKFRIDAY50\n\nOR\n\nAutomatic discount (no code needed)\n```\n\n**Step 5: Set Up Messaging**\n\n```\nButton Text: \"Subscribe 50% OFF!\"\nBanner: [Upload 1200x300px image]\nDescription: \"Limited time Black Friday deal!\"\n```\n\n**Step 6: Launch**\n\n- Preview your promotion\n- Review settings\n- Click **Launch Promotion**\n- Announce to followers!\n\n---\n\n**Common Promotion Types:**\n\n**1. New Subscriber Discount**\n- 50% off first month\n- Lowers barrier to entry\n- Great for growth\n\n**2. Seasonal Sale**\n- Holiday/event based\n- 30-50% off\n- Limited time (48-72 hours)\n\n**3. Free Trial**\n- 7 days free\n- Then full price\n- Great conversion tool\n\n**4. Flash Sale**\n- 24 hours only\n- 50-75% off\n- Creates urgency\n\n**5. Loyalty Reward**\n- Long-term subscriber discount\n- 25% off renewal\n- Appreciation gesture\n\n---\n\n**Pro Tips:**\n\n✅ **Create urgency**: Time-limited works best\n✅ **Simple messaging**: \"50% OFF - 48 hours only\"\n✅ **Promote heavily**: Social media, stories, posts\n✅ **Track results**: Monitor signups and retention\n✅ **Follow up**: Welcome new promotional subscribers\n✅ **Don't overdo it**: 70% full price, 30% promotional\n\n**Revenue Note:**\n\nYou earn 80% of discounted price. Example:\n- Regular: $25 → You earn $20\n- 50% off: $12.50 → You earn $10\n- But: New subscriber who stays = long-term value!\n\n**Best Time for Promotions:**\n\n- Launching (first 30 days)\n- Growing (0-100 subscribers)\n- Seasonal events (Black Friday, holidays)\n- Slow periods (need momentum)\n- Milestones (celebrate with fans)",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/promotions-and-discounts.md",
+        "how-to/subscription-management.md",
+        "how-to/content-strategy.md"
+      ],
+      "tags": ["promotions", "discounts", "sales", "promo codes", "pricing"],
+      "suggested_actions": [
+        {
+          "action": "create_promotion",
+          "label": "Create New Promotion",
+          "path": "/settings/monetization/promotions/create"
+        },
+        {
+          "action": "view_active_promos",
+          "label": "View Active Promotions",
+          "path": "/settings/monetization/promotions"
+        }
+      ]
+    },
+    {
+      "id": "qa_promo_002",
+      "question": "What discount percentage should I offer?",
+      "question_variations": [
+        "How much discount should I give?",
+        "What's a good discount amount?",
+        "Is 50% off too much?",
+        "Should I do 25% or 50% off?",
+        "What discount works best?",
+        "How much should I discount my subscription?",
+        "What's the best promotion percentage?"
+      ],
+      "answer": "**Choosing the Right Discount Amount:**\n\n**Discount Strategy by Goal:**\n\n---\n\n**25-30% OFF** - Mild Discount\n\n**Best For:**\n- Established creators (200+ subscribers)\n- Loyalty rewards\n- Gentle promotions\n- Testing the waters\n\n**When to Use:**\n- Rewarding long-term fans\n- Off-season promotions\n- Low-risk testing\n- Maintaining brand value\n\n**Expected Results:**\n- 5-8% conversion rate\n- Higher quality subscribers\n- Better retention (80%+)\n- Less revenue impact\n\n---\n\n**40-50% OFF** - Moderate Discount ⭐ Most Popular\n\n**Best For:**\n- Growing creators (50-200 subs)\n- Seasonal promotions\n- Balanced approach\n- Most versatile\n\n**When to Use:**\n- Black Friday/major sales\n- Monthly promotions\n- New creator launch\n- Standard growth strategy\n\n**Expected Results:**\n- 8-12% conversion rate\n- Good subscriber quality\n- 70-75% retention\n- Sweet spot for most creators\n\n**Why It Works:**\n- Big enough to motivate action\n- Small enough to be sustainable\n- Psychological \"half-price\" appeal\n- Industry standard\n\n---\n\n**60-75% OFF** - Deep Discount\n\n**Best For:**\n- New creators (0-50 subs)\n- Aggressive growth\n- First month only\n- Building initial base\n\n**When to Use:**\n- Account launch (first 30 days)\n- Desperate for growth\n- Building from zero\n- Flash sales\n\n**Expected Results:**\n- 10-15% conversion\n- More price-shoppers\n- 60-70% retention\n- Attracts bargain hunters\n\n**Caution:**\n- May attract low-quality subs\n- Can devalue your brand\n- Hard to sustain\n- Use sparingly\n\n---\n\n**80%+ OFF** - Extreme Discount\n\n**Best For:**\n- First month only (then full price)\n- Very limited use\n- Specific campaigns\n- Last resort\n\n**When to Use:**\n- $25 sub becomes $5 for month 1\n- Extreme new account launch\n- Win-back desperate attempts\n- Bundle with other offers\n\n**Expected Results:**\n- 15-20% conversion\n- High churn (50%+ cancel)\n- Attracts freebie seekers\n- Rarely profitable\n\n**Warning:**\n- Can damage brand permanently\n- Trains fans to expect low prices\n- Hard to convert to full price\n- Use only if desperate\n\n---\n\n**FREE TRIAL** - No Discount, Just Free Period\n\n**Best For:**\n- Confident in content quality\n- Strong back catalog\n- Premium positioning\n- Quality over quantity\n\n**Typical Lengths:**\n- 3 days: Quick test\n- 7 days: Most popular ⭐\n- 14 days: Generous\n- 30 days: Very generous\n\n**Expected Results:**\n- 40-60% convert to paid\n- Higher quality subscribers\n- 75-85% retention after conversion\n- No revenue during trial\n\n**Best When:**\n- You have 50+ posts already\n- Content is exceptional\n- Want committed subscribers\n- Can afford delayed revenue\n\n---\n\n**RECOMMENDED APPROACH BY STAGE:**\n\n**Brand New (0-50 subs):**\n```\nWeek 1-2: Free 7-day trial\nWeek 3-4: 50% off first month\nMonth 2: 40% off\nMonth 3+: Full price with occasional 30% off sales\n```\n\n**Growing (50-200 subs):**\n```\nRegular price: Most of the time\nPromotions: 40-50% off\nFrequency: Monthly or seasonal\nDuration: 48-72 hours\n```\n\n**Established (200+ subs):**\n```\nRegular price: 90% of the time\nPromotions: 25-30% off\nFrequency: Major holidays only (4-6 times/year)\nDuration: 24-48 hours\n```\n\n---\n\n**COMBINATION STRATEGIES:**\n\n**Tiered Discounts:**\n```\nGOOD: 1 month - 40% off\nBETTER: 3 months - 50% off ⭐\nBEST: 6 months - 60% off\n```\nGuides fans to commit longer.\n\n**First Month Special:**\n```\nFirst Month: 75% off ($6.25)\nThen: Full price ($25/month)\n```\nExtreme hook, then full value.\n\n**Progressive Discount:**\n```\nDay 1-2: 40% off\nDay 3-4: 50% off\nDay 5-7: 60% off (final day)\n```\nRewards early action but builds urgency.\n\n---\n\n**DATA-DRIVEN DECISION:**\n\n**Test and Measure:**\n\n1. **Try 30% off** → Track signups & retention\n2. **Try 50% off** → Compare results\n3. **Analyze:**\n   - Which had better conversion?\n   - Which had better retention?\n   - Which had better ROI?\n4. **Use the winner** for future promotions\n\n**Key Question:**\n\n> \"Would you rather have 100 subscribers at 50% off (50 stay) or 50 subscribers at 25% off (40 stay)?\"\n\nDo the math:\n- Option 1: 50 retained × $20 = $1,000/month\n- Option 2: 40 retained × $18.75 = $750/month\n\nBut factor in:\n- Engagement quality\n- Long-term retention\n- Your capacity\n\n---\n\n**THE SWEET SPOT:**\n\n**For Most Creators: 40-50% OFF**\n\n✅ Big enough to motivate action\n✅ Small enough to be sustainable  \n✅ Balances growth and revenue\n✅ Attracts quality subscribers\n✅ Industry standard\n✅ Easy to promote (\"half price!\")\n✅ Good retention rates\n✅ Positive long-term ROI\n\n**Remember:**\n\nThe \"right\" discount depends on:\n- Your subscriber count\n- Your content quality\n- Your growth goals\n- Your competition\n- Your brand positioning\n- Time of year\n- Promotion frequency\n\n**Test, measure, optimize!** 📊",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/promotions-and-discounts.md",
+        "how-to/subscription-management.md"
+      ],
+      "tags": ["discounts", "pricing", "percentage", "strategy", "optimization"],
+      "suggested_actions": [
+        {
+          "action": "create_promotion",
+          "label": "Create Promotion",
+          "path": "/settings/monetization/promotions/create"
+        },
+        {
+          "action": "view_analytics",
+          "label": "View Promotion Analytics",
+          "path": "/analytics/promotions"
+        }
+      ]
+    },
+    {
+      "id": "qa_promo_003",
+      "question": "When should I run promotions?",
+      "question_variations": [
+        "Best time for promotions",
+        "When should I offer discounts?",
+        "When to run sales?",
+        "Promotion calendar",
+        "When to do Black Friday sale?",
+        "How often should I run promotions?",
+        "Seasonal promotion timing"
+      ],
+      "answer": "**Strategic Promotion Timing:**\n\n**SEASONAL CALENDAR:**\n\n---\n\n**JANUARY** 🎆\n**New Year Special**\n\n- **When**: Jan 1-7\n- **Discount**: 40-50% off\n- **Why**: New Year's resolutions, holiday gift money, fresh starts\n- **Messaging**: \"New Year, New Content\"\n- **Expected**: High signups, good retention\n\n---\n\n**FEBRUARY** 💕\n**Valentine's Day**\n\n- **When**: Feb 12-16 (weekend around V-Day)\n- **Discount**: 30-40% off\n- **Why**: Romance/intimacy themed\n- **Messaging**: \"Treat yourself this Valentine's\"\n- **Expected**: Moderate signups, themed content opportunity\n\n---\n\n**MARCH/APRIL** 🌸\n**Spring Break / Tax Refund Season**\n\n- **When**: Mid-March through early April\n- **Discount**: 40% off\n- **Why**: Spring break energy, tax refund money\n- **Messaging**: \"Spring into Something New\"\n- **Expected**: Good timing for disposable income\n\n---\n\n**MAY** 🇺🇸\n**Memorial Day Weekend**\n\n- **When**: Memorial Day weekend (last Mon in May)\n- **Discount**: 40-50% off\n- **Why**: 3-day weekend, early summer vibes\n- **Messaging**: \"Kick Off Summer Sale\"\n- **Expected**: 3-day flash sale works well\n\n---\n\n**JUNE** ☀️\n**Summer Kickoff**\n\n- **When**: First week of June\n- **Discount**: 50% off\n- **Why**: Summer body motivation, vacation planning\n- **Messaging**: \"Hot Summer Deal\"\n- **Expected**: Strong performance, seasonal content\n\n---\n\n**JULY** 🎆\n**Independence Day (US) / Canada Day**\n\n- **When**: July 1-4 weekend\n- **Discount**: 40% off\n- **Why**: Holiday weekend, celebrations\n- **Messaging**: \"Fireworks Sale\" / \"Freedom to Subscribe\"\n- **Expected**: 72-hour flash sale\n\n---\n\n**AUGUST** 📚\n**Back to School**\n\n- **When**: Mid-late August\n- **Discount**: 30-40% off  \n- **Why**: Last summer hurrah, routine returning\n- **Messaging**: \"End of Summer Special\"\n- **Expected**: Good for college-age audience\n\n---\n\n**SEPTEMBER** 🍂\n**Labor Day / Fall Launch**\n\n- **When**: Labor Day weekend + mid-Sept\n- **Discount**: 40% off\n- **Why**: Back to routine, fresh start feeling\n- **Messaging**: \"Fall Into Something New\"\n- **Expected**: Re-engagement works well\n\n---\n\n**OCTOBER** 🎃\n**Halloween**\n\n- **When**: Last week of October\n- **Discount**: 50% off\n- **Why**: Costume content, fun themed promotion\n- **Messaging**: \"Spooky Good Deal\" / \"Treat Yourself\"\n- **Expected**: Week-long, very creative opportunity\n\n---\n\n**NOVEMBER** 🛍️\n**BLACK FRIDAY / CYBER MONDAY** ⭐ BIGGEST\n\n- **When**: Black Friday through Cyber Monday (4 days)\n- **Discount**: 50-70% off\n- **Why**: Biggest shopping days of year\n- **Messaging**: \"Black Friday Exclusive\" / \"Cyber Monday Blowout\"\n- **Expected**: 3-5x normal signup rate, highest volume\n\n**Strategy:**\n```\nBlack Friday: 50% off\nWeekend: 60% off\nCyber Monday: 70% off (final hours)\n```\n\n---\n\n**DECEMBER** 🎄\n**Holiday Season**\n\n- **When**: Early Dec + week before Christmas\n- **Discount**: 30-50% off\n- **Why**: Gift subscriptions, holiday spirit, end-of-year\n- **Messaging**: \"Holiday Gift Special\" / \"Give the Gift of...\"\n- **Expected**: Gift subscriptions popular\n\n**12 Days Strategy:**\n```\nDec 13-24: Different deal each day\nBuilds anticipation\nMultiple chances to convert\n```\n\n---\n\n**PERSONAL TIMING:**\n\n**Your Birthday Month** 🎂\n- **Discount**: 30-50% off\n- **Why**: Personal connection, celebration\n- **Messaging**: \"Birthday Month Special - Celebrate with me!\"\n- **Expected**: Fans want to celebrate with you\n\n**Your Anniversary** 📅\n- **When**: Platform join date anniversary\n- **Discount**: 25-40% off\n- **Why**: Milestone celebration\n- **Messaging**: \"1 Year Anniversary Sale - Thank you!\"\n- **Expected**: Gratitude-based marketing works\n\n---\n\n**STRATEGIC TIMING:**\n\n**Account Launch (First 30 Days):**\n```\nWeek 1: Free 7-day trial\nWeek 2-3: 50% off first month\nWeek 4: \"Last chance\" 40% off\nMonth 2: Full price\n```\n\n**Growth Phase (0-100 subs):**\n- Monthly promotions\n- 48-72 hour flash sales\n- 40-50% off\n- Build momentum\n\n**Established (200+ subs):**\n- Quarterly or less (4-6 times/year)\n- Major holidays only\n- 25-30% off\n- Maintain value\n\n---\n\n**DAY OF WEEK TIMING:**\n\n**Best Days to Launch:**\n- **Friday**: Starts weekend, people have time to enjoy\n- **Thursday**: Preview weekend\n- **Monday**: Paycheck timing (some people)\n\n**Best Days to End:**\n- **Sunday Night**: Weekend ending urgency\n- **Monday Night**: \"Last chance before week starts\"\n\n**Avoid:**\n- Starting Tuesday/Wednesday (mid-week slump)\n- Major news events (distraction)\n\n---\n\n**TIME OF DAY:**\n\n**Launch Time:**\n- **12:01 AM**: Maximize full 24/48/72 hours\n- **9:00 AM**: Morning scroll time\n- **8:00 PM**: Evening engagement peak\n\n**Reminder Posts:**\n- **Morning** (9-11 AM): Breakfast scroll\n- **Lunch** (12-2 PM): Lunch break\n- **Evening** (7-10 PM): Peak engagement\n- **Late Night** (11 PM-12 AM): Final push\n\n---\n\n**FREQUENCY GUIDELINES:**\n\n**Too Frequent:**\n❌ Weekly promotions = Your content loses value\n❌ Constant discounts = That's your real price\n❌ Year-round sales = No urgency\n\n**Good Balance:**\n✅ 70% full price\n✅ 30% promotional\n✅ Clear promotional windows\n✅ Return to full price between\n\n**Recommended Annual Schedule:**\n```\n4-6 MAJOR PROMOTIONS:\n- New Year\n- Summer Kickoff\n- Halloween\n- Black Friday\n- Holiday Season\n- Your Birthday/Anniversary\n\n6-8 MINOR PROMOTIONS:\n- Flash sales (24-48 hours)\n- Seasonal touchpoints\n- Milestone celebrations\n- Sporadic surprises\n\nTOTAL: 10-14 promotional periods per year\n30% promotional, 70% full price ✅\n```\n\n---\n\n**WHEN NOT TO RUN PROMOTIONS:**\n\n**Avoid Promotions When:**\n\n❌ **You're at capacity**: Can't handle more subs\n❌ **Strong organic growth**: Don't need it\n❌ **Content quality issues**: Fix content first\n❌ **During regular week**: No special reason\n❌ **Too soon after last one**: Trains bargain shopping\n❌ **Major competitor drama**: Wait for dust to settle\n❌ **Platform policy changes**: Uncertainty period\n\n---\n\n**COMPETITIVE TIMING:**\n\n**Counter-Programming:**\n- When competitors run sales, you might too\n- Or: Position as premium (no discount)\n- Monitor your niche's patterns\n\n**First Mover Advantage:**\n- Be first in your niche with Black Friday\n- Set the standard\n- Capture early shoppers\n\n---\n\n**EMERGENCY TIMING:**\n\n**When You Need Quick Cash:**\n- Flash 24-hour sale\n- 50-60% off\n- \"Emergency\" framing rarely needed\n- \"Flash sale\" sounds better\n\n**Slow Period Recovery:**\n- Lost subscribers?\n- No growth in weeks?\n- Strategic 48-hour promotion\n- Restart momentum\n\n---\n\n**PRO TIMING TIPS:**\n\n✅ **Plan ahead**: Create annual calendar\n✅ **Combine with content**: Halloween sale + costume content\n✅ **Watch patterns**: Learn when YOUR audience buys\n✅ **Test timing**: Try different days/times\n✅ **Create rhythm**: Fans anticipate your sales\n✅ **Don't overthink**: Better to run promotion than not\n✅ **Stay flexible**: Adjust based on results\n\n**Remember:** The best time for a promotion is when you have great content to offer and a strategic reason to discount! 📅✨",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/promotions-and-discounts.md",
+        "how-to/content-strategy.md"
+      ],
+      "tags": ["promotions", "timing", "calendar", "seasonal", "strategy"],
+      "suggested_actions": [
+        {
+          "action": "create_promotion",
+          "label": "Create Seasonal Promotion",
+          "path": "/settings/monetization/promotions/create"
+        },
+        {
+          "action": "view_calendar",
+          "label": "View Promotion Calendar",
+          "path": "/settings/monetization/promotions/calendar"
+        }
+      ]
+    },
+    {
+      "id": "qa_promo_004",
+      "question": "Will running promotions hurt my long-term revenue?",
+      "question_variations": [
+        "Are discounts bad for my business?",
+        "Will promotions devalue my content?",
+        "Do sales hurt long-term earnings?",
+        "Should I avoid discounting?",
+        "Will fans expect discounts always?",
+        "Is it better to never discount?",
+        "Promotion impact on revenue"
+      ],
+      "answer": "**Promotions vs Long-Term Revenue:**\n\n**SHORT ANSWER:**\n\n✅ **Strategic promotions INCREASE long-term revenue**\n❌ **Constant discounting DECREASES long-term revenue**\n\nThe key is balance and strategy.\n\n---\n\n**THE MATH:**\n\n**Scenario 1: No Promotions Ever**\n```\nMonth 1: 10 new subs × $25 = $250 → You earn $200\nMonth 2: 8 new subs × $25 = $200 → You earn $160\nMonth 3: 5 new subs × $25 = $125 → You earn $100\n\nTotal new subs: 23\nTotal earned (3 months): $460\nRetention: 85% (high quality)\n\nAfter 3 months:\n- Active subs: ~20\n- Monthly recurring: $400/month\n```\n\n**Scenario 2: Strategic Promotions**\n```\nMonth 1: \n  - Week 1-2: 30 subs at 50% off ($12.50) = $375 → $300\n  - Week 3-4: 15 full price ($25) = $375 → $300\n  \nMonth 2: (Flash sale weekend)\n  - 40 subs at 40% off ($15) = $600 → $480\n  - 10 full price = $250 → $200\n  \nMonth 3: (Mostly full price)\n  - 5 subs at 30% off ($17.50) = $87.50 → $70\n  - 20 full price = $500 → $400\n\nTotal new subs: 120\nTotal earned (3 months): $1,750\nRetention: 70% (slightly lower quality)\n\nAfter 3 months:\n- Active subs: ~84 (120 × 70%)\n- Monthly recurring: $1,680/month\n```\n\n**Result:**\n- **4× more subscribers**\n- **4× more monthly revenue**\n- Even with lower retention, far ahead\n\n---\n\n**WHEN PROMOTIONS HURT:**\n\n**❌ Constant Discounting**\n\n**Problem:**\n```\nYou run 50% off every single week.\nFans learn to NEVER pay full price.\n\"I'll just wait for the sale.\"\n\nEffective price: $12.50 (not $25)\nYour brand: \"Discount creator\"\n```\n\n**Impact:**\n- Fans wait for discounts\n- No urgency\n- Devalued content\n- Race to bottom\n- Unsustainable\n\n**❌ Discount Without Quality**\n\n**Problem:**\n```\n80% off but content is poor.\nSubscribers join, see low quality, leave.\nHigh churn, bad reviews.\n```\n\n**Impact:**\n- Money lost on discount\n- No retention\n- Damaged reputation  \n- Wasted effort\n\n**❌ Deep Discounts, Full Price Shock**\n\n**Problem:**\n```\nMonth 1: $5 (80% off)\nMonth 2: $25 (full price)\nSubscriber: \"WHAT?! 5× price increase!\"\nCancels immediately.\n```\n\n**Impact:**\n- High churn after discount\n- Feels like bait-and-switch\n- Angry subscribers\n- Poor retention\n\n---\n\n**WHEN PROMOTIONS HELP:**\n\n**✅ Strategic, Time-Limited**\n\n**Approach:**\n```\n70% of year: Full price ($25)\n30% of year: Promotions (40-50% off)\n\nClear windows:\n- Black Friday sale\n- Summer special  \n- Holiday promotion\n- Your birthday\n\nBetween sales: Full price only\n```\n\n**Impact:**\n- Urgency works (\"limited time!\")\n- Fans can't wait (might miss it)\n- Full price valued\n- Sustainable growth\n\n**✅ Promotion + Exceptional Value**\n\n**Approach:**\n```\n50% off first month + deliver 2× value\n- Welcome message\n- Bonus content\n- Extra engagement\n- Over-deliver\n\nResult: They WANT to stay at full price\n```\n\n**Impact:**\n- High retention (75%+)\n- Happy subscribers\n- Good reviews\n- Referrals\n- Long-term value\n\n**✅ Growth Phase Tool**\n\n**Approach:**\n```\nMonths 1-3: Aggressive promotions (50% off)\nGoal: Build base to 100 subscribers\n\nMonths 4-6: Moderate (30% off occasionally)  \nGoal: Stabilize at 200 subscribers\n\nMonths 7+: Rare promotions (25% off)\nGoal: Premium positioning\n```\n\n**Impact:**\n- Fast initial growth\n- Momentum builds\n- Transition to premium\n- Sustainable long-term\n\n---\n\n**THE LONG-TERM MATH:**\n\n**Subscriber Lifetime Value (LTV):**\n\n**Full Price Subscriber:**\n```\nSubscription: $25/month\nYour cut: $20/month\nAvg retention: 8 months\nLTV: $160\n```\n\n**Promotional Subscriber (50% off month 1):**\n```\nMonth 1: $12.50 → You earn $10\nMonths 2-7: $25/month → You earn $20/month\nAvg retention: 7 months (slightly lower)\nLTV: $10 + ($20 × 6) = $130\n```\n\n**Analysis:**\n- Promo subscriber LTV: $130\n- Full price subscriber LTV: $160\n- Difference: $30\n\n**BUT:**\n- Promotion converts 10% vs 3% without\n- 3× more promotional subscribers\n- Total revenue: Far higher\n\n**Example:**\n- 100 visitors, 3% convert = 3 subs × $160 = $480\n- 100 visitors, 10% convert = 10 subs × $130 = $1,300\n\n**Promotions win by nearly 3× even with lower LTV!**\n\n---\n\n**RETENTION COMPARISON:**\n\n**Common Misconception:**\n> \"Promotional subs always cancel.\"\n\n**Reality:**\n\n```\nFull Price Retention:\n- Month 2: 85%\n- Month 6: 60%\n- Month 12: 40%\n\nPromotional Retention (if you deliver value):\n- Month 2: 75%\n- Month 6: 50%\n- Month 12: 35%\n\nDifference: Only 10-15% lower\nBut 3-4× more subscribers!\n```\n\n**Key Insight:**\nQuality content retains promotional subscribers almost as well as full-price ones.\n\n---\n\n**DEVALUATION VS GROWTH:**\n\n**❌ Devaluation Pattern:**\n```\nWeek 1: 50% off\nWeek 2: 40% off  \nWeek 3: 30% off\nWeek 4: 60% off\nRepeat forever...\n\nResult: \"This creator is always on sale\"\nBrand: Cheap, desperate\n```\n\n**✅ Growth Pattern:**\n```\nWeeks 1-4: Full price\nWeek 5: \"Black Friday! 48 hours only! 50% off!\"\nWeeks 6-10: Full price\nWeek 11: \"Flash sale! 24 hours! 40% off!\"\nWeeks 12-16: Full price\n\nResult: \"This creator rarely discounts!\"\nBrand: Premium, strategic\n```\n\n---\n\n**PSYCHOLOGICAL IMPACT:**\n\n**Premium Positioning:**\n\n**Strategy:**\n```\n\"My subscription is $25/month.\nI offer exclusive discounts 3-4 times per year.\nIf you want to wait, you might catch a sale.\nOr subscribe now at full price - worth every penny!\"\n```\n\n**Fan Perception:**\n- High value content\n- Fair pricing\n- Sales are bonuses, not expected\n- FOMO drives action\n\n**vs. Bargain Positioning:**\n\n**Strategy:**\n```\n\"Subscribe now! Always on sale!\nNever pay full price!\nConstant discounts!\"\n```\n\n**Fan Perception:**\n- Must be cheap content\n- Real price is the sale price\n- No urgency to act\n- Devalued brand\n\n---\n\n**THE BALANCE:**\n\n**Healthy Promotion Strategy:**\n\n```\n📅 ANNUAL BREAKDOWN:\n\n365 days per year\n\nFull Price: 250 days (68%)\nPromotional: 115 days (32%)\n\nPromotion Windows:\n- 8-10 promotions\n- 1-7 days each\n- Strategic timing\n- Clear start/end\n\nResult:\n- Premium brand maintained\n- Growth opportunities\n- Urgency effective\n- Sustainable revenue\n```\n\n---\n\n**LONG-TERM SUCCESS FACTORS:**\n\n**What Actually Matters:**\n\n1. **Content Quality**: Top factor (60%)\n2. **Engagement**: Building relationships (20%)\n3. **Consistency**: Regular posting (10%)\n4. **Value Delivery**: Meeting expectations (10%)\n\n**Pricing Strategy**: Only 5-10% of retention\n\nIf content is great:\n- Promotional subs stay\n- Full price subs stay\n- Both are happy\n\nIf content is poor:\n- Promotional subs leave\n- Full price subs leave  \n- Price doesn't matter\n\n---\n\n**FINAL ANSWER:**\n\n**Will promotions hurt long-term revenue?**\n\n**NO - if done strategically:**\n✅ Time-limited (30% of year)\n✅ Clear windows (not constant)\n✅ Backed by quality content\n✅ Good retention focus\n✅ Strategic growth tool\n\n**YES - if done poorly:**\n❌ Constant discounting\n❌ Poor content quality\n❌ No retention effort\n❌ Price shoppers only\n❌ Desperate positioning\n\n**The Truth:**\n\n> Strategic promotions are growth tools that increase your total subscriber base. Even with slightly lower retention, the math overwhelmingly favors smart promotional use.\n>\n> The real danger isn't promotions - it's poor content and constant discounting.\n\n**Best Practice:**\n\nRun 8-12 strategic promotions per year (30% of time) + deliver exceptional value = Long-term revenue growth! 📈✨",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/promotions-and-discounts.md",
+        "how-to/subscription-management.md",
+        "how-to/content-strategy.md"
+      ],
+      "tags": ["promotions", "revenue", "long-term", "strategy", "retention", "ROI"],
+      "suggested_actions": [
+        {
+          "action": "view_analytics",
+          "label": "View Retention Analytics",
+          "path": "/analytics/retention"
+        },
+        {
+          "action": "create_strategy",
+          "label": "Plan Promotion Strategy",
+          "path": "/settings/monetization/promotions/calendar"
+        }
+      ]
+    },
+    {
+      "id": "qa_promo_005",
+      "question": "How do I track if my promotions are working?",
+      "question_variations": [
+        "How do I measure promotion success?",
+        "Promotion analytics",
+        "How to track promo code performance?",
+        "Are my discounts working?",
+        "Promotion ROI",
+        "How to analyze promotion results?",
+        "Tracking promotion effectiveness"
+      ],
+      "answer": "**Tracking Promotion Performance:**\n\n**KEY METRICS TO MONITOR:**\n\n---\n\n**1. SIGNUP METRICS** 📊\n\n**Total New Subscriptions:**\n```\nPromotion: Black Friday 50% OFF\nDuration: Nov 24-27 (4 days)\n\nNew Subs: 147\nAverage daily rate: 37/day\n(vs normal: 5/day)\n\n7× increase during promotion ✅\n```\n\n**Conversion Rate:**\n```\nProfile views: 1,200\nPromo clicks: 485\nNew subs: 147\n\nConversion rate: 12.3%\n(147 ÷ 1,200)\n\nvs normal: 3.5%\n\n3.5× better conversion ✅\n```\n\n**Promo Code Usage:**\n```\nCode: BLACKFRIDAY50\nUses: 123 of 147 (84%)\n\nDirect link: 24 (16%)\nOrganic: 0 (all used promo)\n\nCode clearly drove sales ✅\n```\n\n---\n\n**2. REVENUE METRICS** 💰\n\n**Gross Revenue:**\n```\nPromo Revenue: $1,837.50\n(147 subs × $12.50 discounted)\n\nYour Earnings: $1,470\n(80% of $1,837.50)\n```\n\n**vs Full Price Equivalent:**\n```\nIf sold at $25: $3,675\nActual at $12.50: $1,837.50\n\nRevenue reduction: $1,837.50\n(Short-term cost of promotion)\n```\n\n**Month 2+ Revenue (Key Metric):**\n```\nRetention: 78% (114/147 stayed)\n\nMonth 2 recurring:\n114 × $25 = $2,850\nYou earn: $2,280/month\n\nBreak-even: Month 1\nProfit: Months 2-8+ 🎉\n```\n\n**Lifetime Value:**\n```\nAverage retention: 7 months\n\nPromo sub LTV:\nMonth 1: $10 (discounted)\nMonths 2-7: $20 × 6 = $120\nTotal LTV: $130\n\nvs\n\nAcquisition cost: $10 revenue lost\nROI: $120 profit (12× return) ✅\n```\n\n---\n\n**3. RETENTION METRICS** 📈\n\n**30-Day Retention:**\n```\nDay 1: 147 subs\nDay 30: 114 subs\n\nRetention: 78%\n\nvs normal subs: 85%\n\nGood! (70%+ is healthy) ✅\n```\n\n**90-Day Retention:**\n```\nDay 1: 147 subs\nDay 90: 91 subs\n\nRetention: 62%\n\nvs normal: 70%\n\nSlightly lower but acceptable ✅\n```\n\n**Churn Rate:**\n```\nCancellations month 1: 33 (22%)\nCancellations month 2: 15 (13%)\nCancellations month 3: 8 (9%)\n\nChurn stabilizing - good sign ✅\n```\n\n---\n\n**4. ENGAGEMENT METRICS** 💬\n\n**Message Activity:**\n```\nPromo subs avg messages: 3.2/month\nFull price subs: 4.1/month\n\nSlightly lower but engaged ✅\n```\n\n**Content Interaction:**\n```\nPromo subs:\n- Likes per post: 8.5\n- Comments: 2.1\n- Unlock PPV: 15%\n\nvs Full Price:\n- Likes: 11.2\n- Comments: 3.4\n- PPV: 22%\n\nLower but still valuable ✅\n```\n\n**Tips Received:**\n```\nPromo subs tipping: 12%\nFull price subs: 18%\n\nSome promotional subs become tippers ✅\n```\n\n---\n\n**5. COST METRICS** 💸\n\n**Revenue Lost:**\n```\nFull price potential: $3,675\nActual revenue: $1,837.50\n\nDiscount cost: $1,837.50\n(Opportunity cost)\n```\n\n**Cost Per Acquisition (CPA):**\n```\nDiscount cost: $1,837.50\nNew subscribers: 147\n\nCPA: $12.50 per subscriber\n\nvs\n\nOrganic CPA: $0 but 5 subs/day\nPromo CPA: $12.50 but 37 subs/day\n\nWorth it for growth ✅\n```\n\n**ROI Calculation:**\n```\nInvestment: $1,837.50 (revenue lost)\n\nReturns (retained subs × 6 months):\n114 subs × $20/month × 6 months = $13,680\n\nROI: 645% 🎉\n($13,680 ÷ $1,837.50 - 1)\n```\n\n---\n\n**TRACKING TOOLS:**\n\n**Platform Dashboard:**\n\n```\nGo to: Analytics → Promotions\n\nView:\n- Active promotions\n- Historical performance\n- Comparison charts\n- Revenue impact\n- Retention curves\n```\n\n**Promo Code Tracking:**\n\n```\nEach code shows:\n- Total uses\n- Revenue generated\n- Conversion rate\n- Most common source\n- Time distribution\n```\n\n**Example Dashboard:**\n```\n📊 PROMO CODE: BLACKFRIDAY50\n\nUses: 123 / 200 limit\nRevenue: $1,537.50\nConversion: 12.3%\nTop source: Instagram (45%)\nPeak hour: 8-10 PM\n\nRetention (30d): 78%\nRetention (90d): 62%\nAvg LTV: $130\n```\n\n---\n\n**COMPARISON TRACKING:**\n\n**A/B Test Results:**\n\n**Test: 30% vs 50% discount**\n\n```\nPromo A: 30% OFF\n- Signups: 45\n- Retention: 82%\n- LTV: $145\n- ROI: 450%\n\nPromo B: 50% OFF\n- Signups: 147\n- Retention: 78%\n- LTV: $130  \n- ROI: 645%\n\nWinner: Promo B ✅\n(More total revenue despite lower LTV)\n```\n\n---\n\n**SPREADSHEET TRACKING:**\n\n**Create Promotion Log:**\n\n| Date | Name | Discount | Duration | Code | Signups | Revenue | Retention | LTV | ROI | Notes |\n|------|------|----------|----------|------|---------|---------|-----------|-----|-----|-------|\n| Nov 24 | Black Fri | 50% | 4 days | BF50 | 147 | $1,837 | 78% | $130 | 645% | Best ever |\n| Oct 31 | Halloween | 40% | 7 days | SPOOKY | 82 | $1,230 | 80% | $140 | 512% | Good |\n| Aug 15 | Summer | 30% | 3 days | SUM30 | 34 | $595 | 85% | $150 | 310% | Small |\n\n**Track over time to see patterns!**\n\n---\n\n**SUCCESS INDICATORS:**\n\n**Good Promotion:**\n✅ Signups: 3-5× normal rate\n✅ Conversion: 8-15%+\n✅ Retention: 70%+ at 30 days\n✅ Engagement: Active subscribers\n✅ ROI: 300%+ over 6 months\n✅ Positive feedback from subscribers\n\n**Poor Promotion:**\n❌ Signups: Under 2× normal\n❌ Conversion: Under 5%\n❌ Retention: Under 50% at 30 days\n❌ Engagement: Minimal interaction\n❌ ROI: Under 100%\n❌ High churn, complaints\n\n---\n\n**ONGOING MONITORING:**\n\n**Week 1 After Promotion:**\n- Check initial retention\n- Thank new subscribers\n- Engage actively\n- Deliver value\n\n**Month 1:**\n- Track 30-day retention\n- Calculate preliminary ROI\n- Note engagement patterns\n- Address any issues\n\n**Month 3:**\n- Final retention assessment\n- Long-term value calculation\n- Compare to benchmarks\n- Decide on future promotions\n\n**Month 6:**\n- True LTV known\n- ROI finalized\n- Use data for planning\n- Optimize future promotions\n\n---\n\n**QUESTIONS TO ASK:**\n\n**After Every Promotion:**\n\n1. **Did it work?**\n   - More subs than expected?\n   - Revenue goals met?\n\n2. **What was the cost?**\n   - Revenue sacrificed worth it?\n   - ROI positive?\n\n3. **Quality of subscribers?**\n   - Are they engaging?\n   - Are they staying?\n\n4. **What can improve?**\n   - Better discount amount?\n   - Different timing?\n   - More promotion?\n\n5. **Would I run it again?**\n   - Same format?\n   - Different approach?\n\n---\n\n**OPTIMIZATION LOOP:**\n\n```\n1. RUN PROMOTION\n   ↓\n2. TRACK RESULTS\n   ↓\n3. ANALYZE DATA\n   ↓\n4. IDENTIFY WINS/LOSSES\n   ↓\n5. ADJUST NEXT PROMOTION\n   ↓\n6. REPEAT\n```\n\n**Each promotion gets better!**\n\n---\n\n**PRO TIPS:**\n\n✅ **Track everything**: Can't improve what you don't measure\n✅ **Compare promotions**: Learn what works best\n✅ **Focus on retention**: Signups don't matter if they cancel\n✅ **Calculate true ROI**: Include 6+ months of value\n✅ **Test variables**: Discount%, duration, timing\n✅ **Use unique codes**: Track different traffic sources\n✅ **Monitor engagement**: Not just numbers, but quality\n✅ **Learn and iterate**: Each promo is a lesson\n\n**The goal: Maximize subscribers × retention × lifetime value!** 📊✨",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/promotions-and-discounts.md",
+        "how-to/dashboard-and-analytics.md"
+      ],
+      "tags": ["promotions", "analytics", "tracking", "ROI", "metrics", "performance"],
+      "suggested_actions": [
+        {
+          "action": "view_promo_analytics",
+          "label": "View Promotion Analytics",
+          "path": "/analytics/promotions"
+        },
+        {
+          "action": "export_data",
+          "label": "Export Promotion Data",
+          "path": "/analytics/promotions/export"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "no_promotions_created",
+      "condition": "account_age > 30_days AND total_promotions == 0 AND subscriber_count < 100",
+      "trigger_context": "Creator has never run a promotion and growth is slow",
+      "message": "💡 **Have You Considered Running a Promotion?**\n\nYou've been creating for {days} days and haven't run any promotions yet.\n\n**Why Try a Promotion:**\n\n- Attract new subscribers faster\n- Build initial momentum\n- Test different pricing strategies\n- Grow from {current_subs} subscribers\n\n**Suggested First Promotion:**\n\n🎯 **New Creator Special**\n- 50% off for 72 hours\n- Creates urgency\n- Lowers barrier to entry\n- Typical results: 20-50 new subscribers\n\n**After 100 subscribers:**\nYou can reduce discount frequency and amount, but early promotions help build your base!\n\n**Quick Start:**\n1. Create 50% off promotion\n2. Set 48-72 hour duration\n3. Announce on all social media\n4. Track results\n\nWould you like to create your first promotion?",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "create_first_promotion",
+          "label": "Create First Promotion",
+          "path": "/settings/monetization/promotions/create"
+        },
+        {
+          "action": "learn_more",
+          "label": "Learn About Promotions",
+          "path": "/help/promotions"
+        }
+      ]
+    },
+    {
+      "trigger_id": "promotion_ending_soon",
+      "condition": "active_promotion_ending_within_24_hours",
+      "trigger_context": "Active promotion ending soon",
+      "message": "⏰ **Your Promotion Ends in {hours} Hours!**\n\n**Promotion:** {promo_name}\n**Ends:** {end_time}\n\n**Current Performance:**\n- Signups: {signup_count}\n- Revenue: ${revenue}\n- Uses remaining: {uses_remaining}\n\n**Final Push Recommendations:**\n\n📱 **Post Reminder:**\n\"⚠️ LAST CHANCE! {discount}% OFF ends in {hours} hours! Link in bio!\"\n\n📧 **Email Followers:**\nSend final reminder to email list\n\n📣 **Social Stories:**\nPost countdown in Instagram/TikTok stories\n\n💬 **DM Engaged Fans:**\nPersonal reminder to people who viewed but didn't subscribe\n\n**Pro Tip:**\nFinal 6-12 hours often see surge in conversions. Make noise!\n\nGood luck with the final push! 🚀",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "view_promotion",
+          "label": "View Promotion Details",
+          "path": "/settings/monetization/promotions/{id}"
+        },
+        {
+          "action": "extend_promotion",
+          "label": "Extend Promotion",
+          "path": "/settings/monetization/promotions/{id}/extend"
+        }
+      ]
+    },
+    {
+      "trigger_id": "low_promotion_performance",
+      "condition": "active_promotion_running AND signups_below_expected",
+      "trigger_context": "Promotion underperforming expectations",
+      "message": "📊 **Your Promotion May Be Underperforming**\n\n**Promotion:** {promo_name}\n**Expected signups:** {expected}\n**Actual signups:** {actual}\n**Time remaining:** {time_left}\n\n**Possible Issues:**\n\n1. **Not enough promotion?**\n   - Post more frequently\n   - Use all social channels\n   - DM engaged followers\n\n2. **Discount too small?**\n   - Current: {discount}%\n   - Consider: Increase to 50%\n   - Or: Add bonus content\n\n3. **Messaging unclear?**\n   - Make offer more obvious\n   - Add countdown timer\n   - Emphasize savings\n\n4. **Wrong timing?**\n   - Weekday vs weekend\n   - Competing events\n   - Holiday timing\n\n**Quick Fixes:**\n\n✅ Post 3-4× today about the promotion\n✅ Add urgency (\"Only X hours left!\")\n✅ Show what they get (content preview)\n✅ Testimonial from happy subscriber\n✅ Consider extending if needed\n\nWant help analyzing what might be wrong?",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "view_analytics",
+          "label": "View Detailed Analytics",
+          "path": "/analytics/promotions/{id}"
+        },
+        {
+          "action": "adjust_promotion",
+          "label": "Adjust Promotion",
+          "path": "/settings/monetization/promotions/{id}/edit"
+        }
+      ]
+    },
+    {
+      "trigger_id": "constant_promotions_warning",
+      "condition": "promotions_running > 80_percent_of_last_90_days",
+      "trigger_context": "Creator running promotions too frequently",
+      "message": "⚠️ **You're Running Too Many Promotions**\n\nYou've had active promotions for {percentage}% of the last 90 days.\n\n**Why This Matters:**\n\n**Problems with Constant Discounting:**\n- Fans learn to wait for sales\n- Your content appears devalued\n- No urgency to act\n- Lower long-term revenue\n- \"Discount creator\" reputation\n\n**Recommended Balance:**\n✅ 70% full price\n✅ 30% promotional\n\n**Your Current:**\n❌ {full_price_percentage}% full price\n❌ {promo_percentage}% promotional\n\n**Action Steps:**\n\n1. **End current promotion** when scheduled\n2. **Wait 2-4 weeks** before next one\n3. **Return to full price** in between\n4. **Make promotions events** (Black Friday, holidays)\n5. **Create urgency** with limited windows\n\n**Remember:**\n\nRare promotions create excitement and urgency.\nConstant discounts become your expected price.\n\n**Your content is valuable!** Price it that way most of the time. 💎",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "view_promo_calendar",
+          "label": "Review Promotion Calendar",
+          "path": "/settings/monetization/promotions/calendar"
+        },
+        {
+          "action": "pause_promotions",
+          "label": "Pause All Promotions",
+          "path": "/settings/monetization/promotions/pause-all"
+        }
+      ]
+    },
+    {
+      "trigger_id": "seasonal_promotion_reminder",
+      "condition": "approaching_major_holiday AND no_promotion_scheduled",
+      "trigger_context": "Major sales holiday approaching without planned promotion",
+      "message": "🎯 **{holiday} is Coming - Plan Your Promotion!**\n\n**{holiday}** is in {days} days - one of the biggest sales periods of the year!\n\n**Why {holiday} Matters:**\n\n{holiday_specific_messaging}\n\n**Recommended Promotion:**\n\n**Discount:** 50% off\n**Duration:** {recommended_duration}\n**Expected:** 3-5× normal signups\n**Timing:** {optimal_start_date} - {optimal_end_date}\n\n**What to Do Now:**\n\n1. **Create promotion** (takes 5 minutes)\n2. **Prepare content** for the period\n3. **Draft announcements** for social media\n4. **Plan posting schedule** (3-4 posts/day)\n5. **Set up email** to followers\n\n**Don't Miss This Opportunity!**\n\nLast year's {holiday}:\n- Average creator: 4× normal signups\n- Top performers: 10× increase\n- Total revenue spike: 300-500%\n\n**Time to plan is NOW!** ⏰\n\nWould you like to create a {holiday} promotion?",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "create_holiday_promo",
+          "label": "Create {holiday} Promotion",
+          "path": "/settings/monetization/promotions/create?template={holiday}"
+        },
+        {
+          "action": "view_templates",
+          "label": "View Seasonal Templates",
+          "path": "/settings/monetization/promotions/templates"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Promo Code",
+      "definition": "Alphanumeric code fans enter at checkout to receive a discount"
+    },
+    {
+      "term": "Free Trial",
+      "definition": "Period where fans access content free, then automatically charged at full price"
+    },
+    {
+      "term": "Flash Sale",
+      "definition": "Very short promotion (typically 24-48 hours) creating maximum urgency"
+    },
+    {
+      "term": "Conversion Rate",
+      "definition": "Percentage of visitors who subscribe (e.g., 100 visitors, 10 subscribe = 10% conversion)"
+    },
+    {
+      "term": "Retention Rate",
+      "definition": "Percentage of subscribers who stay subscribed over time (e.g., 100 sub, 80 stay = 80% retention)"
+    },
+    {
+      "term": "Lifetime Value (LTV)",
+      "definition": "Total revenue a subscriber generates over their entire subscription period"
+    },
+    {
+      "term": "ROI (Return on Investment)",
+      "definition": "Revenue gained vs cost of promotion (e.g., $100 cost, $400 gained = 300% ROI)"
+    },
+    {
+      "term": "First Month Discount",
+      "definition": "Discount that applies only to the first billing period, then reverts to full price"
+    },
+    {
+      "term": "Bundle Deal",
+      "definition": "Discounted rate for purchasing multiple months upfront (e.g., 3-month bundle)"
+    },
+    {
+      "term": "Churn Rate",
+      "definition": "Percentage of subscribers who cancel (opposite of retention)"
+    },
+    {
+      "term": "Win-Back Campaign",
+      "definition": "Targeted promotion to lapsed/former subscribers encouraging them to return"
+    },
+    {
+      "term": "Discount Devaluation",
+      "definition": "When constant discounting trains fans to expect low prices and devalues the brand"
+    }
+  ],
+  "integration_points": [
+    {
+      "feature": "subscription-management",
+      "connection": "Promotions directly affect subscription pricing and new subscriber acquisition"
+    },
+    {
+      "feature": "payments-and-payouts",
+      "connection": "Promotional revenue follows same 80/20 split and payout schedule"
+    },
+    {
+      "feature": "content-strategy",
+      "connection": "Promotion timing should align with content quality peaks and seasonal content"
+    },
+    {
+      "feature": "dashboard-and-analytics",
+      "connection": "Promotion performance tracked in analytics dashboard with detailed metrics"
+    },
+    {
+      "feature": "fan-engagement",
+      "connection": "Promotional subscribers need extra engagement to convert to long-term fans"
+    },
+    {
+      "feature": "messaging-system",
+      "connection": "Welcome messages and engagement crucial for retaining promotional subscribers"
+    }
+  ]
+}

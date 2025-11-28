@@ -1,0 +1,178 @@
+{
+  "feature": "dashboard",
+  "display_name": "Dashboard",
+  "category": "core",
+  "context_triggers": {
+    "pages": ["/dashboard", "/", "/home"],
+    "keywords": ["dashboard", "home", "overview", "stats", "revenue", "earnings"],
+    "user_actions": ["idle_30s", "first_login", "low_engagement"]
+  },
+  "knowledge_entries": [
+    {
+      "id": "dash-001",
+      "question": "What is the dashboard?",
+      "answer": "Your dashboard is your command center on BoyFanz. It shows real-time insights into your earnings, fan growth, content performance, and notifications. Think of it as your business headquarters!",
+      "related_topics": ["revenue", "fans", "content", "analytics"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "dash-002",
+      "question": "How do I check my earnings?",
+      "answer": "Look at the Revenue Card on your dashboard (top left). It shows your total earnings and growth percentage. Click the card for a detailed breakdown by day, week, or month. Revenue updates every 15 minutes.",
+      "related_topics": ["revenue", "payouts", "money"],
+      "difficulty": "beginner",
+      "quick_action": {
+        "label": "View Revenue Details",
+        "action": "navigate",
+        "target": "/dashboard/revenue"
+      }
+    },
+    {
+      "id": "dash-003",
+      "question": "Why isn't my revenue updating?",
+      "answer": "Revenue updates every 15 minutes. If it's been longer, try refreshing the page. If the issue persists after an hour, there might be a temporary sync issue - contact support.",
+      "related_topics": ["revenue", "troubleshooting"],
+      "difficulty": "intermediate",
+      "troubleshooting": true
+    },
+    {
+      "id": "dash-004",
+      "question": "What does Active Fans mean?",
+      "answer": "Active Fans are subscribers currently paying for your content. This includes trial subscribers and paid members. The number shows growth compared to last week. Click the card to see who your most engaged fans are!",
+      "related_topics": ["fans", "subscribers", "engagement"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "dash-005",
+      "question": "How can I get more views on my content?",
+      "answer": "Based on platform data, content posted between 8-10 PM gets 40% more views! Also: use descriptive titles, add relevant tags, engage with your fans in comments, and post consistently (2-3x per week).",
+      "related_topics": ["content", "engagement", "strategy"],
+      "difficulty": "intermediate",
+      "pro_tip": true
+    },
+    {
+      "id": "dash-006",
+      "question": "What does Pending Reviews mean?",
+      "answer": "This shows how many of your uploads are waiting for moderation approval. Content usually gets reviewed in 2-4 hours (may be longer on weekends). You'll get a notification when approved or if changes are needed.",
+      "related_topics": ["moderation", "content", "approval"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "dash-007",
+      "question": "How do I upload content from the dashboard?",
+      "answer": "Click the 'Upload Content' button in the Quick Actions section. You can upload photos, videos, or start a live stream. For best results, upload during off-peak hours for faster processing!",
+      "related_topics": ["upload", "content", "media"],
+      "difficulty": "beginner",
+      "quick_action": {
+        "label": "Upload Content Now",
+        "action": "navigate",
+        "target": "/upload"
+      }
+    },
+    {
+      "id": "dash-008",
+      "question": "When can I request a payout?",
+      "answer": "You can request a payout when your balance reaches $50. Click 'Request Payout' in Quick Actions. Processing times: Bank (2-3 days), PayPal/Cash App (24-48 hrs), Crypto (4-24 hrs). Tip: Request on Mondays for fastest processing!",
+      "related_topics": ["payouts", "money", "earnings"],
+      "difficulty": "beginner",
+      "quick_action": {
+        "label": "Request Payout",
+        "action": "navigate",
+        "target": "/payouts"
+      }
+    },
+    {
+      "id": "dash-009",
+      "question": "What is the Activity Feed?",
+      "answer": "The Activity Feed shows recent fan interactions: new subscribers, tips, messages, and comments. Responding within 24 hours boosts your creator rating and fan satisfaction!",
+      "related_topics": ["notifications", "engagement", "fans"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "dash-010",
+      "question": "Can I customize my dashboard?",
+      "answer": "Yes! Click the settings icon and select 'Customize Dashboard'. You can drag/drop widgets, resize cards, toggle between light/dark mode, and save different view modes (Creator, Analytics, or Quick mode).",
+      "related_topics": ["settings", "customization", "interface"],
+      "difficulty": "intermediate",
+      "quick_action": {
+        "label": "Customize Now",
+        "action": "navigate",
+        "target": "/dashboard/customize"
+      }
+    },
+    {
+      "id": "dash-011",
+      "question": "My dashboard is loading slowly",
+      "answer": "Try these steps: 1) Clear browser cache, 2) Check internet connection, 3) Try a different browser, 4) Disable browser extensions temporarily. If it's still slow, contact support with your browser info.",
+      "related_topics": ["troubleshooting", "performance", "technical"],
+      "difficulty": "intermediate",
+      "troubleshooting": true
+    },
+    {
+      "id": "dash-012",
+      "question": "What should I check on my dashboard daily?",
+      "answer": "Daily checklist: ✅ Revenue growth ✅ Pending content status ✅ Fan messages (respond fast!) ✅ Comment engagement ✅ Upload schedule ✅ Analytics trends. Consistent daily monitoring helps you maximize earnings!",
+      "related_topics": ["best_practices", "strategy", "routine"],
+      "difficulty": "intermediate",
+      "pro_tip": true
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "condition": "user_idle_dashboard_30s",
+      "message": "👋 Need help navigating your dashboard? I can show you around!",
+      "action": "offer_tour"
+    },
+    {
+      "condition": "low_earnings_detected",
+      "message": "💡 Want tips to increase your earnings? I have some proven strategies!",
+      "action": "offer_earnings_tips"
+    },
+    {
+      "condition": "pending_content_24hrs",
+      "message": "⏰ You have content pending review for 24+ hours. Want me to check the status?",
+      "action": "check_moderation_status"
+    },
+    {
+      "condition": "no_recent_upload_7days",
+      "message": "📸 Your fans are waiting! You haven't uploaded in 7 days. Need content ideas?",
+      "action": "suggest_content_ideas"
+    },
+    {
+      "condition": "first_time_user",
+      "message": "🎉 Welcome to BoyFanz! Want a quick tour of your dashboard?",
+      "action": "start_onboarding_tour"
+    }
+  ],
+  "suggested_actions": [
+    {
+      "label": "Upload New Content",
+      "icon": "upload",
+      "action": "navigate",
+      "target": "/upload",
+      "priority": "high"
+    },
+    {
+      "label": "Check Messages",
+      "icon": "message",
+      "action": "navigate",
+      "target": "/messages",
+      "priority": "medium"
+    },
+    {
+      "label": "View Analytics",
+      "icon": "chart",
+      "action": "navigate",
+      "target": "/analytics",
+      "priority": "low"
+    }
+  ],
+  "related_documentation": [
+    "/how-to/dashboard.md",
+    "/how-to/content-upload.md",
+    "/how-to/payouts.md",
+    "/how-to/analytics.md"
+  ],
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

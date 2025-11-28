@@ -1,0 +1,281 @@
+{
+  "feature_id": "referral-programs",
+  "feature_name": "Referral Programs",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "description": "AI knowledge base for creator and fan referral programs",
+  "qa_pairs": [
+    {
+      "id": "qa_referral_001",
+      "question": "How do referrals work?",
+      "question_variations": [
+        "How do I earn from referrals?",
+        "What is the referral program?",
+        "Can I refer people and make money?",
+        "How does the referral system work?",
+        "Explain referral earnings",
+        "How to get referral income?",
+        "What's a referral commission?"
+      ],
+      "answer": "**How the Referral Program Works:**\n\nYou earn money when people you refer join and succeed on the platform.\n\n---\n\n**TWO TYPES OF REFERRALS:**\n\n**1. CREATOR REFERRALS** 💼\n\nRefer someone who becomes a creator on the platform.\n\n**You Earn:**\n- 5% commission on their earnings (months 1-6)\n- 3% commission (months 7-12)\n- Passive income as long as they're active\n\n**Example:**\n```\nYou refer a creator\nThey earn $1,000/month\n\nMonths 1-6: You earn $50/month (5%)\nMonths 7-12: You earn $30/month (3%)\n\nTotal Year 1: $480 from one referral\n```\n\n**If You Refer 10 Successful Creators:**\n```\nEach earning $500/month average\n10 × ($500 × 5%) = $250/month\nYear 1 total: ~$3,000 passive income\n```\n\n---\n\n**2. FAN REFERRALS** 💝\n\nRefer someone who subscribes to YOUR content.\n\n**They Get:**\n- Discount code (20-30% off first month)\n- Try your content at lower price\n\n**You Get:**\n- New subscriber\n- Bonus from platform ($5-$15 depending on volume)\n- Regular subscription earnings\n\n**Example:**\n```\nFriend uses your code \"FRIEND25\"\nFriend gets: 25% off ($25 → $18.75)\nYou get: $5 platform bonus + subscription earnings\n```\n\n---\n\n**HOW TO GET STARTED:**\n\n**Step 1: Enable Referrals**\n1. Settings → Monetization → Referral Program\n2. Accept terms\n3. Click **Enable Referrals**\n\n**Step 2: Get Your Link**\n```\nCreator Referral Link:\nplatform.com/ref/YOURCODE\n\nFan Referral Link:\nplatform.com/YOURPROFILE?promo=CODE\n```\n\n**Step 3: Share & Earn**\n- Add link to social media bios\n- Share in content\n- DM interested people\n- Track earnings in dashboard\n\n---\n\n**REQUIREMENTS:**\n\n**To Participate:**\n- ✅ Account 30+ days old\n- ✅ Good standing (no violations)\n- ✅ Minimum 10 posts\n- ✅ At least 5 subscribers\n\n**Your Referrals Must:**\n- ✅ Be new to platform\n- ✅ Complete verification\n- ✅ Remain active (creators earn $50+ OR fans stay subscribed)\n\n---\n\n**PAYMENT:**\n\nCommissions paid with your regular payouts:\n- Same schedule (1st and 15th of month)\n- Shows as \"Referral Commission\" in earnings\n- Same 80/20 split doesn't apply (you get full commission amount)\n- Tracked separately in dashboard\n\n---\n\n**TRACKING:**\n\nView your referral performance:\n```\nSettings → Referral Program → Dashboard\n\nSee:\n- Link clicks\n- Signups\n- Active referrals\n- Earnings (this month & all-time)\n- Best performing sources\n```\n\n---\n\n**REALISTIC EXPECTATIONS:**\n\n**Conservative:**\n- 5 creator referrals earning $300/month each\n- You earn: ~$75/month passive\n- Year 1: ~$900\n\n**Aggressive:**\n- 20 creator referrals earning $600/month average\n- You earn: ~$600/month passive\n- Year 1: ~$7,200\n\n**Most Creators:**\n- Earn $50-$300/month from referrals\n- Takes 6-12 months to build meaningful income\n- Compounds over time as you add more referrals\n\n---\n\n**PRO TIPS:**\n\n✅ **Focus on Quality**: 10 successful referrals > 100 inactive ones\n✅ **Help Them Succeed**: Your earnings grow when they grow\n✅ **Multiple Platforms**: Share on Instagram, Twitter, TikTok, etc.\n✅ **Be Transparent**: Disclose it's a referral link\n✅ **Track Performance**: Optimize what works\n✅ **Think Long-Term**: Passive income compounds\n\n**Referrals = Passive income + Growing the community + Win-win for everyone!** 🎯",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/referral-programs.md",
+        "how-to/payments-and-payouts.md",
+        "how-to/subscription-management.md"
+      ],
+      "tags": ["referrals", "passive income", "commission", "earnings", "affiliate"],
+      "suggested_actions": [
+        {
+          "action": "enable_referrals",
+          "label": "Enable Referral Program",
+          "path": "/settings/monetization/referrals/enable"
+        },
+        {
+          "action": "get_referral_link",
+          "label": "Get Your Referral Link",
+          "path": "/settings/monetization/referrals/links"
+        },
+        {
+          "action": "view_dashboard",
+          "label": "View Referral Dashboard",
+          "path": "/referrals/dashboard"
+        }
+      ]
+    },
+    {
+      "id": "qa_referral_002",
+      "question": "Where should I share my referral link?",
+      "question_variations": [
+        "How do I promote my referral link?",
+        "Best places to share referral code?",
+        "Where to post referral link?",
+        "How to get referrals?",
+        "Where to share my ref link?",
+        "Referral link promotion strategies?",
+        "How to market referral program?"
+      ],
+      "answer": "**Best Places to Share Your Referral Link:**\n\n---\n\n**SOCIAL MEDIA (PRIMARY)** 📱\n\n**Instagram:**\n- ✅ **Link in bio** (\"Join me here → [link]\")\n- ✅ **Story highlights** - Create \"Join\" section\n- ✅ **Story swipe-ups** (if you have the feature)\n- ✅ **Post captions** - Mention occasionally\n- ✅ **Reels** - Content about creator journey\n- ✅ **DMs** - To people who ask about platform\n\n**Example Bio:**\n> \"Content Creator 💕\n> Want to create content too?\n> Join me: [referral link]\"\n\n---\n\n**Twitter/X:**\n- ✅ **Pinned tweet** with referral link\n- ✅ **Bio link**\n- ✅ **Regular tweets** about platform experience\n- ✅ **Quote retweets** of platform announcements\n- ✅ **Thread** about your creator journey\n- ✅ **Replies** to people asking about creating\n\n**Example Tweet:**\n> \"I've earned $3,000 this month creating content I love! 🎉\n>\n> If you're thinking about becoming a creator,\n> I'll help you get started.\n>\n> Join here: [link]\"\n\n---\n\n**TikTok:**\n- ✅ **Bio link** (primary placement)\n- ✅ **Videos** about your creator experience\n- ✅ **Duets/Stitches** with creator content\n- ✅ **Comments** on related videos\n- ✅ **Live streams** - Mention when asked\n\n**Content Ideas:**\n- \"How I make money as a content creator\"\n- \"My first month earnings revealed\"\n- \"Day in the life of a creator\"\n- \"Why I started creating content\"\n\n---\n\n**YouTube:**\n- ✅ **Video descriptions** (every video)\n- ✅ **Pinned comment** on popular videos\n- ✅ **About section** link\n- ✅ **Dedicated videos** about platform\n- ✅ **End screens** - CTA to join\n\n**Example Description:**\n```\nWant to become a content creator?\nI earn [amount] per month doing what I love.\nStart your journey: [referral link]\n```\n\n---\n\n**CONTENT MARKETING** 📝\n\n**Blog Posts:**\n- \"My Content Creator Journey\"\n- \"How I Earn $X Per Month\"\n- \"Platform Review: My Experience\"\n- \"Tips for New Creators\"\n\n**Email Newsletter:**\n- Dedicated referral email\n- Signature line with link\n- Success story updates\n\n**Medium Articles:**\n- Long-form creator stories\n- Platform reviews\n- Income reports\n- Tips and guides\n\n---\n\n**COMMUNITY ENGAGEMENT** 👥\n\n**Reddit:**\n- ⚠️ Be careful - no spam\n- ✅ Genuine helpful comments\n- ✅ Share in relevant communities (with permission)\n- ✅ Answer questions authentically\n- ✅ User flair with link\n\n**Example Reddit Comment:**\n> \"I've been creating content for 6 months and love it.\n> Happy to answer questions!\n> If you're interested: [link]\n> (Referral link - I earn commission)\"\n\n**Discord:**\n- Creator communities\n- Your own server\n- Channel dedicated to questions\n- Help people get started\n\n**Facebook Groups:**\n- Creator/entrepreneurship groups\n- Side hustle communities\n- Work-from-home groups\n- Follow group rules!\n\n---\n\n**DIRECT OUTREACH** 💬\n\n**Friends & Family:**\n- Personal message\n- Explain the opportunity\n- Offer to help them start\n- No pressure approach\n\n**DMs to Interested People:**\n- When someone asks about platform\n- Respond to comments inquiring\n- Share genuinely, not spam\n\n**Example DM:**\n> \"Hey! I saw you asking about content creation.\n> I've been on CougarFanz for [time] and it's been great.\n> If you're interested, I can share my referral link\n> and help you get started. Let me know!\"\n\n---\n\n**PAID ADVERTISING** (ADVANCED) 💰\n\n**Facebook/Instagram Ads:**\n```\nTarget: People interested in:\n- Side hustles\n- Content creation\n- Passive income\n- Creator economy\n\nAd Copy: Your success story + link\nBudget: Start with $5-10/day\nDisclosure: \"Affiliate/referral link\" required\n```\n\n**Google Ads:**\n- Keywords: \"how to become content creator\"\n- Landing page: Your story + referral\n- Proper disclosures required\n\n**YouTube Ads:**\n- Video about your creator journey\n- Link in description\n- Target: Aspiring creators\n\n---\n\n**CONTENT IDEAS FOR REFERRAL PROMOTION:**\n\n**\"My Creator Journey\" Video:**\n```\n- How you started\n- First month earnings\n- What you've learned\n- Why you love it\n- Referral link + \"Join me!\"\n```\n\n**Monthly Income Report:**\n```\n\"This month I earned $2,500!\n\nBreakdown:\n- Subscriptions: $1,800\n- Tips: $400\n- Custom requests: $300\n\nInterested in creating?\nStart here: [link]\"\n```\n\n**Success Milestone:**\n```\n\"🎉 Just hit 500 subscribers!\n\nIf you're thinking about creating,\nnow is a great time to start.\n\nI'll help you get started: [link]\"\n```\n\n**Behind-the-Scenes:**\n```\nShow your creator process\nDemystify content creation\nMake it approachable\nEnd with: \"Want to try? [link]\"\n```\n\n---\n\n**WHAT NOT TO DO:**\n\n**DON'T:**\n- ❌ Spam random people\n- ❌ Mass DM strangers\n- ❌ Post in unrelated groups\n- ❌ Make false income promises\n- ❌ Guarantee earnings\n- ❌ Hide that it's a referral\n- ❌ Harass people\n- ❌ Violate platform TOS\n- ❌ Use fake testimonials\n- ❌ Bot/automate messages\n\n---\n\n**DISCLOSURE REQUIREMENTS:**\n\n**FTC Rules - You MUST Disclose:**\n\n**Social Media:**\n```\n#referral #affiliate #commission\nor\n\"This is my referral link - I earn commission if you sign up\"\n```\n\n**Content:**\n```\n\"Full disclosure: This is my referral link to CougarFanz.\nI earn a commission if you sign up.\nI genuinely use and recommend this platform!\"\n```\n\n**Why This Matters:**\n- Legal requirement\n- Builds trust\n- Prevents issues\n- Ethical practice\n\n---\n\n**TRACKING WHAT WORKS:**\n\n**Create Unique Links Per Platform:**\n\n```\nInstagram: platform.com/ref/YOU-insta\nTwitter: platform.com/ref/YOU-twitter\nYouTube: platform.com/ref/YOU-yt\nTikTok: platform.com/ref/YOU-tt\n\nTrack which drives most signups!\nDouble down on what works.\n```\n\n---\n\n**REALISTIC TIMELINE:**\n\n**Month 1:**\n- Set up links\n- Add to all profiles\n- Create some referral content\n- Get 0-5 clicks\n- Maybe 0-1 signups\n\n**Month 3:**\n- Consistent sharing\n- 20-50 clicks\n- 2-5 signups\n- 1-3 active referrals\n- $10-50 earnings\n\n**Month 6:**\n- Established presence\n- 100+ clicks/month\n- 5-10 signups\n- 3-8 active referrals\n- $50-200/month\n\n**Year 1:**\n- Strong referral network\n- Consistent flow\n- 10-25 active referrals\n- $100-500/month passive income\n\n---\n\n**BEST PRACTICES:**\n\n✅ **Be Genuine**: Share real experience\n✅ **Add Value**: Help people, don't just sell\n✅ **Be Consistent**: Regular mentions, not spam\n✅ **Help Referrals**: They succeed = you earn more\n✅ **Disclose Properly**: Legal and ethical\n✅ **Track Performance**: Data guides decisions\n✅ **Multiple Platforms**: Don't rely on one source\n✅ **Quality > Quantity**: Better to have 10 successful referrals\n\n**Start with your existing social media, be authentic, and help people succeed!** 🚀",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/referral-programs.md",
+        "how-to/content-strategy.md",
+        "how-to/fan-engagement.md"
+      ],
+      "tags": ["referral link", "promotion", "marketing", "social media", "sharing"],
+      "suggested_actions": [
+        {
+          "action": "get_links",
+          "label": "Get Your Referral Links",
+          "path": "/settings/monetization/referrals/links"
+        },
+        {
+          "action": "create_tracking_links",
+          "label": "Create Tracking Links",
+          "path": "/settings/monetization/referrals/tracking"
+        }
+      ]
+    },
+    {
+      "id": "qa_referral_003",
+      "question": "How much can I earn from referrals?",
+      "question_variations": [
+        "Referral income potential?",
+        "How much money from referrals?",
+        "What can I make with referrals?",
+        "Referral earnings examples?",
+        "How much do referrals pay?",
+        "Realistic referral income?",
+        "Referral program payout amounts?"
+      ],
+      "answer": "**Referral Earning Potential:**\n\n---\n\n**CREATOR REFERRALS - COMMISSION STRUCTURE:**\n\n**Standard Rate:**\n```\nMonths 1-6: 5% of their earnings\nMonths 7-12: 3% of their earnings\nMonth 13+: 0% (program ends for that referral)\n\nMax commission per referral: $5,000\n```\n\n**Premium Creator Bonuses:**\n```\nIF YOU HAVE:\n500+ subscribers: 7% (months 1-6)\n1,000+ subscribers: 10% (months 1-6)\nTop 1% creator: Lifetime 2% commission\n```\n\n---\n\n**REALISTIC EARNINGS EXAMPLES:**\n\n**CONSERVATIVE SCENARIO** (Most Common)\n\n```\n5 active creator referrals\nEach earning $300/month average\n\nYour commission:\nMonths 1-6: 5 × ($300 × 5%) = $75/month\nMonths 7-12: 5 × ($300 × 3%) = $45/month\n\nYear 1 Total: ~$720\nPassive income while you focus on your own content!\n```\n\n---\n\n**MODERATE SCENARIO** (Realistic Goal)\n\n```\n15 active creator referrals\nAverage earnings: $500/month each\n\nYour commission:\nMonths 1-6: 15 × ($500 × 5%) = $375/month\nMonths 7-12: 15 × ($500 × 3%) = $225/month\n\nYear 1 Total: ~$3,600\nMeaningful passive income stream!\n```\n\n---\n\n**AGGRESSIVE SCENARIO** (Very Active Referrer)\n\n```\n30 active creator referrals\nAverage earnings: $600/month each\n\nYour commission:\nMonths 1-6: 30 × ($600 × 5%) = $900/month\nMonths 7-12: 30 × ($600 × 3%) = $540/month\n\nYear 1 Total: ~$8,640\nSignificant passive income stream!\n```\n\n---\n\n**TOP PERFORMER SCENARIO** (Top 1% Referrer)\n\n```\n50+ active creator referrals\nAverage earnings: $800/month each\n\nYour commission (if top creator with 10% rate):\nMonths 1-6: 50 × ($800 × 10%) = $4,000/month\nMonths 7-12: 50 × ($800 × 3%) = $1,200/month\n\nYear 1 Total: ~$31,200\nLife-changing passive income!\n```\n\n---\n\n**FAN REFERRAL EARNINGS:**\n\n**Bonus Structure:**\n```\n1-5 fans/month: $5 each\n6-10 fans/month: $7 each\n11-25 fans/month: $10 each\n26+ fans/month: $15 each\n```\n\n**Example Month:**\n```\nYou refer 30 new fans\n= 30 × $15 = $450 bonus\n+ Regular subscription earnings from those 30\n+ Ongoing revenue as they stay subscribed\n\nPotential: $450-$600 in month 1 from those referrals\n```\n\n---\n\n**COMPOUND GROWTH EXAMPLE:**\n\n**Year 1:**\n```\nMonth 1: 2 referrals = $30/month\nMonth 3: 5 referrals = $75/month\nMonth 6: 10 referrals = $150/month\nMonth 12: 20 referrals = $300/month\n\nYear 1 Average: ~$150/month\nYear 1 Total: ~$1,800\n```\n\n**Year 2:**\n```\nStart with 20 active referrals from Year 1\nAdd 15 more throughout Year 2\nEnd with 35 active referrals = $525/month\n\nYear 2 Average: ~$400/month\nYear 2 Total: ~$4,800\n```\n\n**Year 3:**\n```\n35 active + 20 new = 55 active referrals\nAverage: $825/month\nYear 3 Total: ~$9,900\n```\n\n**3-Year Total: ~$16,500 passive income**\n\n---\n\n**WHAT AFFECTS YOUR EARNINGS:**\n\n**Higher Earnings When:**\n✅ Your referrals are successful (earn more)\n✅ You're a premium creator (higher commission rate)\n✅ You help referrals succeed (retention)\n✅ You recruit quality over quantity\n✅ You promote consistently\n\n**Lower Earnings When:**\n❌ Referrals quit or earn little\n❌ You focus on quantity over quality\n❌ No follow-up or help\n❌ Sporadic promotion\n❌ Poor targeting\n\n---\n\n**TIME TO MEANINGFUL INCOME:**\n\n**Timeline:**\n```\nMonths 1-3: $0-$50/month\n  (Building foundation)\n\nMonths 4-6: $50-$150/month\n  (Momentum building)\n\nMonths 7-12: $150-$400/month\n  (Established stream)\n\nYear 2: $300-$800/month\n  (Significant passive income)\n\nYear 3+: $500-$2,000+/month\n  (Mature passive income stream)\n```\n\n---\n\n**MOST CREATORS EARN:**\n\n**Average Referral Income:**\n- **Casual effort**: $25-$100/month\n- **Consistent effort**: $100-$500/month\n- **Dedicated effort**: $500-$2,000/month\n- **Top referrers**: $2,000-$10,000+/month\n\n**Reality Check:**\n- 80% of creators: $0-$200/month\n- 15% of creators: $200-$1,000/month\n- 4% of creators: $1,000-$5,000/month\n- 1% of creators: $5,000+/month\n\n---\n\n**MAXIMIZING EARNINGS:**\n\n**Quality Referrals:**\n```\n10 referrals earning $1,000/month each\n= You earn $500/month (5%)\n\nBetter than:\n\n50 referrals earning $100/month each\n= You earn $250/month (5%)\n\nFocus on quality!\n```\n\n**Help Them Succeed:**\n```\nReferral earning $200/month:\nYour commission: $10/month\n\nSame referral, you help them grow to $800/month:\nYour commission: $40/month\n\n4× their growth = 4× your passive income!\n```\n\n---\n\n**REALISTIC GOALS:**\n\n**First 6 Months:**\n- Goal: 5-10 active referrals\n- Target: $50-$150/month\n- Focus: Quality and help\n\n**First Year:**\n- Goal: 15-25 active referrals\n- Target: $150-$400/month average\n- Total Year 1: $1,000-$3,000\n\n**Year 2:**\n- Goal: 30-50 active referrals\n- Target: $400-$1,000/month\n- Total Year 2: $5,000-$12,000\n\n**Year 3:**\n- Goal: 50-100 active referrals\n- Target: $1,000-$2,500/month\n- Total Year 3: $12,000-$30,000\n\n---\n\n**IMPORTANT NOTES:**\n\n⚠️ **Not Guaranteed Income**\n- Referrals must be active and earning\n- They can quit anytime\n- Platform policy can change\n- Your commission rate may adjust\n\n⚠️ **Effort Required**\n- Passive income ≠ no effort\n- Need consistent promotion\n- Must help referrals succeed\n- Track and optimize\n\n⚠️ **Tax Implications**\n- All referral income is taxable\n- Included in your 1099\n- Plan accordingly\n\n✅ **Long-Term Value**\n- Compounds over time\n- Multiple income streams\n- Helps others succeed\n- Win-win opportunity\n\n**Bottom Line: Most creators earn $100-$500/month from referrals with consistent effort. Top performers can earn $1,000-$10,000+/month, but that requires significant work helping referrals succeed.** 💰📈",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/referral-programs.md",
+        "how-to/payments-and-payouts.md"
+      ],
+      "tags": ["referral earnings", "income", "commission", "passive income", "revenue"],
+      "suggested_actions": [
+        {
+          "action": "view_earnings",
+          "label": "View Referral Earnings",
+          "path": "/referrals/earnings"
+        },
+        {
+          "action": "calculator",
+          "label": "Referral Income Calculator",
+          "path": "/referrals/calculator"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "referral_program_not_enabled",
+      "condition": "account_age > 60_days AND referral_program_disabled AND subscriber_count >= 10",
+      "trigger_context": "Eligible creator hasn't enabled referrals",
+      "message": "💰 **You're Missing Out on Passive Income!**\n\nYou're eligible for our Referral Program but haven't enabled it yet.\n\n**What You're Missing:**\n\n**Creator Referrals:**\n- Earn 5% commission when you refer other creators\n- Passive income as they succeed\n- Example: 10 referrals earning $500/month = $250/month for you\n\n**Fan Referrals:**\n- Get bonuses for referring subscribers\n- $5-$15 per referral\n- Plus their subscription revenue\n\n**Zero Extra Work:**\n- Just share your referral link\n- Earn while you create\n- Help others discover the platform\n\n**Quick Setup (2 minutes):**\n1. Enable referral program\n2. Get your unique link\n3. Add to social media bios\n4. Start earning!\n\n**Most creators earn $100-$500/month in passive referral income.**\n\nWant to start?",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "enable_referrals",
+          "label": "Enable Referral Program",
+          "path": "/settings/monetization/referrals/enable"
+        },
+        {
+          "action": "learn_more",
+          "label": "Learn More",
+          "path": "/help/referrals"
+        }
+      ]
+    },
+    {
+      "trigger_id": "referral_link_not_shared",
+      "condition": "referral_program_enabled AND link_clicks < 5 AND days_since_enabled > 30",
+      "trigger_context": "Creator enabled referrals but not promoting",
+      "message": "📊 **Your Referral Link Isn't Getting Clicks**\n\nYou enabled referrals {days_ago} days ago, but your link only has {clicks} clicks.\n\n**You're Leaving Money on the Table!**\n\n**Quick Wins:**\n\n1. **Add to Social Bios** (5 min)\n   - Instagram bio\n   - Twitter bio\n   - TikTok bio\n   - Link tree\n\n2. **Create One Post** (10 min)\n   - Share your creator journey\n   - Mention platform helped you\n   - Include referral link\n   - \"Join me here: [link]\"\n\n3. **Pin a Tweet/Post** (2 min)\n   - Make it visible\n   - Stays at top of profile\n   - Passive promotion\n\n**Expected Results:**\n- Bio links: 10-50 clicks/month\n- One good post: 50-200 clicks\n- Pinned content: Ongoing traffic\n\n**Even 1-2 successful referrals = $50-$100/month passive income**\n\nWant help getting started?",
+      "priority": "low",
+      "suggested_actions": [
+        {
+          "action": "get_link",
+          "label": "Get Your Referral Link",
+          "path": "/settings/monetization/referrals/links"
+        },
+        {
+          "action": "promotion_guide",
+          "label": "Promotion Guide",
+          "path": "/help/referrals/promotion"
+        }
+      ]
+    },
+    {
+      "trigger_id": "first_referral_signup",
+      "condition": "first_referral_ever AND referral_not_yet_active",
+      "trigger_context": "Creator got their first referral signup",
+      "message": "🎉 **Congratulations! Your First Referral!**\n\n@{referral_username} just signed up using your referral link!\n\n**What Happens Next:**\n\n**For Creator Referrals:**\n1. They need to complete verification\n2. Earn at least $50 in first 30 days\n3. Once qualified, you start earning 5% commission\n4. Passive income every month they're active!\n\n**For Fan Referrals:**\n1. They complete their first payment\n2. Stay subscribed for 7+ days\n3. You get your ${bonus} bonus\n4. Plus ongoing subscription revenue\n\n**Help Them Succeed:**\nThe better they do, the more you earn!\n\n- Send welcome message\n- Offer tips and advice\n- Answer their questions\n- Share what worked for you\n\n**Your Earnings Potential:**\nIf they earn $500/month:\n- You earn $25/month (5%) = $300/year from this one referral!\n\n**This is just the beginning! Keep sharing your link!** 🚀",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "view_referral",
+          "label": "View Referral Details",
+          "path": "/referrals/dashboard"
+        },
+        {
+          "action": "message_referral",
+          "label": "Send Welcome Message",
+          "path": "/messages/compose/{referral_id}"
+        }
+      ]
+    },
+    {
+      "trigger_id": "referral_earnings_milestone",
+      "condition": "total_referral_earnings >= milestone_amount",
+      "trigger_context": "Creator reached referral earnings milestone",
+      "message": "🎯 **Referral Milestone: ${amount} Earned!**\n\nCongratulations! You've earned ${amount} in total referral commissions!\n\n**Your Stats:**\n- Total referrals: {count}\n- Active referrals: {active_count}\n- Average per referral: ${average}\n- This month: ${this_month}\n\n**You're in the Top {percentile}% of Referrers!**\n\n**Keep Growing:**\n\nAt your current rate:\n- Next month: ~${projected_next_month}\n- Year projection: ~${projected_year}\n\n**Ideas to Scale:**\n1. Create referral content (journey video, income post)\n2. Add link to more platforms\n3. Help current referrals succeed (they grow = you earn more)\n4. Share success stories\n\n**Next Milestone: ${next_milestone}**\nYou're {percent}% of the way there!\n\nKeep up the great work! 🌟",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "view_dashboard",
+          "label": "View Full Dashboard",
+          "path": "/referrals/dashboard"
+        },
+        {
+          "action": "share_success",
+          "label": "Share Your Success",
+          "path": "/referrals/share-milestone"
+        }
+      ]
+    },
+    {
+      "trigger_id": "inactive_referral_warning",
+      "condition": "referral_earnings_dropped > 30_percent",
+      "trigger_context": "Creator's referral income has decreased significantly",
+      "message": "📉 **Your Referral Earnings Dropped {percent}%**\n\nYour referral income decreased from ${previous_month} to ${this_month} this month.\n\n**Why This Happens:**\n\n**Referrals Leaving:**\n- {count} referrals became inactive\n- They stopped earning (creators)\n- OR canceled subscriptions (fans)\n\n**Commission Rate Decreased:**\n- Some referrals moved from 5% to 3% rate (months 7-12)\n- Natural decline but still earning!\n\n**What You Can Do:**\n\n**1. Re-Engage Inactive Referrals:**\n   - Message them\n   - Ask if they need help\n   - Share tips that worked for you\n   - Motivation and support\n\n**2. Add New Referrals:**\n   - Share your link again\n   - Create referral content\n   - Expand to new platforms\n   - Offset churn with growth\n\n**3. Help Active Referrals Grow:**\n   - They earn more = you earn more\n   - Share strategies\n   - Collaborate\n   - Build community\n\n**Remember:** Referral income fluctuates. Focus on helping referrals succeed and adding quality new ones!\n\nNeed help?\n",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "view_inactive",
+          "label": "View Inactive Referrals",
+          "path": "/referrals/inactive"
+        },
+        {
+          "action": "get_promotion_tips",
+          "label": "Promotion Tips",
+          "path": "/help/referrals/promotion"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Referral Commission",
+      "definition": "Percentage of a referral's earnings that you receive as passive income"
+    },
+    {
+      "term": "Creator Referral",
+      "definition": "When you refer someone who becomes a creator on the platform and you earn commission from their earnings"
+    },
+    {
+      "term": "Fan Referral",
+      "definition": "When you refer someone who subscribes to your content, you get a bonus and they get a discount"
+    },
+    {
+      "term": "Referral Link",
+      "definition": "Your unique URL that tracks when people sign up through your referral"
+    },
+    {
+      "term": "Active Referral",
+      "definition": "A referral who is currently earning (creators) or subscribed (fans) and generating commission for you"
+    },
+    {
+      "term": "Referral Bonus",
+      "definition": "One-time payment from platform when fan referral subscribes and stays active"
+    },
+    {
+      "term": "Commission Rate",
+      "definition": "Percentage you earn from referral's activity (typically 5% months 1-6, 3% months 7-12)"
+    },
+    {
+      "term": "Qualifying Activity",
+      "definition": "Minimum requirements for referral to count (e.g., creator earning $50/month or fan staying subscribed 7+ days)"
+    },
+    {
+      "term": "Passive Income",
+      "definition": "Money earned automatically from referrals' ongoing activity without additional work from you"
+    },
+    {
+      "term": "Affiliate Link",
+      "definition": "Another term for referral link - URL that tracks signups and attributes commission"
+    },
+    {
+      "term": "Commission Cap",
+      "definition": "Maximum total amount you can earn from a single referral (often $5,000)"
+    },
+    {
+      "term": "FTC Disclosure",
+      "definition": "Legal requirement to inform people when you're sharing an affiliate/referral link"
+    }
+  ],
+  "integration_points": [
+    {
+      "feature": "payments-and-payouts",
+      "connection": "Referral commissions paid with regular payouts on same schedule"
+    },
+    {
+      "feature": "dashboard-and-analytics",
+      "connection": "Referral performance tracked in earnings dashboard with detailed analytics"
+    },
+    {
+      "feature": "promotions-and-discounts",
+      "connection": "Fan referral codes are special promotional discounts tied to referral program"
+    },
+    {
+      "feature": "messaging-system",
+      "connection": "Communication with referrals happens through messaging system"
+    },
+    {
+      "feature": "content-strategy",
+      "connection": "Referral content creation is part of overall content and promotion strategy"
+    }
+  ]
+}

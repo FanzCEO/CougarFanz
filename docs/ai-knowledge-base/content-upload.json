@@ -1,0 +1,572 @@
+{
+  "feature_id": "content-upload",
+  "feature_title": "Content Upload",
+  "category": "content-management",
+  "subcategory": "upload",
+  "version": "1.0",
+  "last_updated": "2025-11-16",
+
+  "keywords": [
+    "upload",
+    "post",
+    "content",
+    "photo",
+    "video",
+    "media",
+    "publish",
+    "create",
+    "share",
+    "add content",
+    "post video",
+    "upload photo",
+    "new post",
+    "create post",
+    "add media",
+    "share content"
+  ],
+
+  "contexts": [
+    {
+      "context_id": "upload_page",
+      "pages": ["/upload", "/media/new", "/content/create"],
+      "user_types": ["creator"],
+      "priority": "high"
+    },
+    {
+      "context_id": "dashboard",
+      "pages": ["/dashboard", "/creator/dashboard"],
+      "user_types": ["creator"],
+      "priority": "medium"
+    }
+  ],
+
+  "quick_facts": {
+    "difficulty": "beginner",
+    "time_to_learn": "3 minutes",
+    "prerequisites": ["Creator verification", "ID verification"],
+    "perfect_for": "All creators wanting to share content with fans"
+  },
+
+  "qa_pairs": [
+    {
+      "id": "qa_upload_001",
+      "question": "How do I upload a video?",
+      "question_variations": [
+        "How can I upload a video?",
+        "How to upload videos?",
+        "Upload video tutorial",
+        "Post a video",
+        "Add video to my profile",
+        "Share video with fans",
+        "How do I add a video?"
+      ],
+      "answer": "Click the Upload button (cloud icon) in the top menu, select your video file (max 5GB, MP4/MOV), add a title and description, set pricing if desired, then click Publish. Your video will be reviewed within 2-4 hours.",
+      "detailed_answer": "To upload a video:\n\n1. Click the Upload button in the top navigation\n2. Choose 'Video' as your content type\n3. Select your video file (MP4, MOV, or AVI, max 5GB)\n4. Add a compelling title and description\n5. Set visibility (Public, Subscribers Only, or Pay-Per-View)\n6. Add tags for discoverability\n7. Click 'Publish'\n\nYour video enters moderation and goes live in 2-4 hours. You'll get a notification when it's approved.",
+      "confidence_score": 0.98,
+      "tags": ["upload", "video", "how-to", "beginner"],
+      "related_articles": [
+        {
+          "title": "Complete Content Upload Guide",
+          "url": "/docs/how-to/content-upload"
+        },
+        {
+          "title": "Video Optimization Tips",
+          "url": "/docs/how-to/video-optimization"
+        }
+      ],
+      "suggested_actions": [
+        {
+          "label": "Start Upload Tutorial",
+          "action": "open_tutorial",
+          "url": "/tutorials/upload-101",
+          "icon": "play-circle"
+        },
+        {
+          "label": "Go to Upload Page",
+          "action": "navigate",
+          "url": "/upload",
+          "icon": "upload"
+        }
+      ],
+      "trigger_conditions": {
+        "pages": ["/upload", "/dashboard"],
+        "user_action": "idle",
+        "idle_time_ms": 30000
+      }
+    },
+    {
+      "id": "qa_upload_002",
+      "question": "How do I upload a photo?",
+      "question_variations": [
+        "Upload photo",
+        "Post a picture",
+        "Add image to profile",
+        "Share photo with fans",
+        "How to post photos?",
+        "Upload image"
+      ],
+      "answer": "Click Upload in the top menu, select 'Photo', choose your image file (JPG/PNG, max 50MB), add title and description, set pricing, and click Publish. Photos are typically approved within 2-4 hours.",
+      "detailed_answer": "To upload a photo:\n\n1. Click the Upload button (cloud icon) in top menu\n2. Select 'Photo' as content type\n3. Choose your image (JPG, PNG, or WEBP, max 50MB)\n4. Add an engaging title and description\n5. Select visibility option\n6. Add relevant tags\n7. Click 'Publish'\n\nPro tip: Square photos (1:1 ratio) perform best on mobile! Aim for at least 1080x1080 resolution.",
+      "confidence_score": 0.98,
+      "tags": ["upload", "photo", "image", "how-to"],
+      "related_articles": [
+        {
+          "title": "Content Upload Guide",
+          "url": "/docs/how-to/content-upload"
+        }
+      ],
+      "suggested_actions": [
+        {
+          "label": "Upload Now",
+          "action": "navigate",
+          "url": "/upload",
+          "icon": "upload"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_003",
+      "question": "What file formats are supported?",
+      "question_variations": [
+        "Supported file types",
+        "What formats can I upload?",
+        "Can I upload MP4?",
+        "Accepted file formats",
+        "What video formats work?",
+        "File type requirements"
+      ],
+      "answer": "Photos: JPG, PNG, WEBP (max 50MB). Videos: MP4, MOV, AVI, WEBM (max 5GB). For best results, use MP4 for videos and JPG for photos.",
+      "detailed_answer": "Supported formats:\n\n**Photos:**\n- JPG/JPEG (recommended)\n- PNG\n- WEBP\n- Max size: 50MB each\n\n**Videos:**\n- MP4 (recommended)\n- MOV\n- AVI\n- WEBM\n- Max size: 5GB\n- Recommended: 1080p resolution\n\nIf your file isn't supported, use a free converter like CloudConvert or HandBrake.",
+      "confidence_score": 0.97,
+      "tags": ["upload", "formats", "requirements"],
+      "related_articles": [
+        {
+          "title": "File Requirements Guide",
+          "url": "/docs/how-to/file-requirements"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_004",
+      "question": "How long does moderation take?",
+      "question_variations": [
+        "When will my content be approved?",
+        "How long until my video goes live?",
+        "Moderation time",
+        "Approval time",
+        "When will my post appear?",
+        "Content review time"
+      ],
+      "answer": "Typically 2-4 hours. During peak times (evenings/weekends), it may take up to 24 hours. Content flagged for manual review can take 48 hours. You'll receive a notification when approved.",
+      "detailed_answer": "Moderation timeline:\n\n**Typical:** 2-4 hours\n**Peak times:** Up to 24 hours\n**Manual review:** Up to 48 hours\n\n**Process:**\n1. Automated scan (instant)\n2. AI content analysis (2-5 minutes)\n3. Human review if flagged\n4. Approval notification sent\n\n**Tips for faster approval:**\n- Upload during off-peak hours (2am-6am EST)\n- Ensure all co-stars are verified\n- Follow content guidelines\n- Use clear, policy-compliant titles\n\nIf still pending after 48 hours, submit a support ticket.",
+      "confidence_score": 0.96,
+      "tags": ["moderation", "approval", "timing"],
+      "related_articles": [
+        {
+          "title": "Content Moderation Explained",
+          "url": "/docs/how-to/moderation-process"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_005",
+      "question": "Can I schedule posts for later?",
+      "question_variations": [
+        "Schedule content",
+        "Post later",
+        "Schedule upload",
+        "Publish in the future",
+        "Set post time",
+        "Auto-post"
+      ],
+      "answer": "Yes! After filling out your content details, click 'Schedule' instead of 'Publish'. Choose your desired date and time (up to 30 days in advance) and your content will publish automatically.",
+      "detailed_answer": "To schedule content:\n\n1. Complete all upload steps (file, title, description, etc.)\n2. Click 'Schedule' button instead of 'Publish'\n3. Select date and time\n4. Confirm\n\n**Features:**\n- Schedule up to 30 days in advance\n- Automatic posting at selected time\n- Goes through moderation at scheduled time\n- Edit or cancel scheduled posts anytime\n\n**Best posting times:**\n- Mon-Fri: 8-10 PM EST\n- Weekends: 2-4 PM EST\n- Avoid: 12-4 AM EST\n\nPro tip: Schedule a week of content in one session for consistent posting!",
+      "confidence_score": 0.95,
+      "tags": ["schedule", "timing", "automation"],
+      "related_articles": [
+        {
+          "title": "Content Scheduling Guide",
+          "url": "/docs/how-to/scheduling"
+        }
+      ],
+      "suggested_actions": [
+        {
+          "label": "Learn Scheduling",
+          "action": "open_article",
+          "url": "/docs/how-to/scheduling"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_006",
+      "question": "Should I use Pay-Per-View or Subscribers Only?",
+      "question_variations": [
+        "PPV or subscribers?",
+        "When to charge for content?",
+        "What content should be PPV?",
+        "Pricing strategy",
+        "Free vs paid content",
+        "How to price content?"
+      ],
+      "answer": "Use a 70/20/10 strategy: 70% for subscribers only, 20% free/public teasers, 10% premium PPV. Reserve PPV for exclusive, high-value content like professional shoots, long videos (10+ min), or collaborations.",
+      "detailed_answer": "**Content Strategy:**\n\n**70% Subscribers Only:**\n- Regular uploads (3-5x/week)\n- Standard photos and videos\n- Builds subscription value\n\n**20% Free/Public:**\n- Teasers and previews\n- Attracts new subscribers\n- Promotional content\n\n**10% PPV:**\n- Professional photoshoots\n- Long-form videos (10+ minutes)\n- Collaborations\n- Custom requests\n- Exclusive events\n\n**PPV Pricing:**\n- Quick videos (2-5 min): $5-10\n- Premium photos (10+ images): $10-15\n- Long videos (10+ min): $15-25\n- Exclusive collections: $25-50\n\nPPV content typically earns 2-3x more than subscriber content, but use sparingly to maintain subscription value.",
+      "confidence_score": 0.94,
+      "tags": ["pricing", "strategy", "ppv", "monetization"],
+      "related_articles": [
+        {
+          "title": "Pricing Strategy Guide",
+          "url": "/docs/how-to/pricing-strategy"
+        },
+        {
+          "title": "Monetization Best Practices",
+          "url": "/docs/how-to/monetization"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_007",
+      "question": "How do I upload multiple photos at once?",
+      "question_variations": [
+        "Bulk upload photos",
+        "Upload photo gallery",
+        "Multiple photo upload",
+        "Upload several images",
+        "Batch upload",
+        "Upload many photos"
+      ],
+      "answer": "Use the Gallery option or Bulk Upload feature. Click Upload > Gallery, then select multiple files (Ctrl+Click or Cmd+Click). You can upload 2-50 photos in one gallery post, or use Bulk Upload to create individual posts for each photo.",
+      "detailed_answer": "Two methods for multiple photos:\n\n**Method 1: Gallery Post (2-50 photos in one post)**\n1. Click Upload\n2. Select 'Gallery'\n3. Click Choose Files\n4. Select multiple photos (Ctrl+Click or Cmd+Click)\n5. All photos appear in one gallery post\n6. Add single title/description for the set\n7. Publish\n\n**Method 2: Bulk Upload (individual posts)**\n1. Click 'Bulk Upload' tab\n2. Select all photos\n3. Each photo becomes a separate post\n4. Edit each individually or apply same settings to all\n5. Publish all at once\n\n**Best for:**\n- Gallery: Photoshoot sets, related images\n- Bulk: Different individual posts\n\nPro tip: Compress images before bulk uploads for faster processing!",
+      "confidence_score": 0.95,
+      "tags": ["bulk-upload", "gallery", "multiple"],
+      "related_articles": [
+        {
+          "title": "Bulk Upload Guide",
+          "url": "/docs/how-to/bulk-upload"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_008",
+      "question": "Why did my upload fail?",
+      "question_variations": [
+        "Upload error",
+        "Can't upload",
+        "Upload not working",
+        "Error 500",
+        "Upload failed",
+        "File won't upload",
+        "Upload keeps failing"
+      ],
+      "answer": "Common causes: file too large (max 5GB for videos, 50MB for photos), unsupported format, or poor internet connection. Try compressing the file, checking your connection, or using a different browser. Clear cache if the issue persists.",
+      "detailed_answer": "**Troubleshooting upload failures:**\n\n**Check file size:**\n- Videos: Max 5GB\n- Photos: Max 50MB\n- Compress if needed\n\n**Verify format:**\n- Videos: MP4, MOV, AVI, WEBM\n- Photos: JPG, PNG, WEBP\n\n**Check internet connection:**\n- Minimum 5 Mbps upload speed\n- Test at speedtest.net\n- Use wired connection if possible\n\n**Browser issues:**\n- Clear cache and cookies\n- Try Chrome or Firefox\n- Disable extensions temporarily\n- Update browser\n\n**Still not working?**\n1. Try mobile app\n2. Refresh page\n3. Contact support with error code\n\n**Error codes:**\n- 500: Server error, try again later\n- 413: File too large\n- 415: Unsupported format",
+      "confidence_score": 0.93,
+      "tags": ["troubleshooting", "error", "upload-failed"],
+      "related_articles": [
+        {
+          "title": "Troubleshooting Upload Issues",
+          "url": "/docs/how-to/troubleshooting-uploads"
+        }
+      ],
+      "suggested_actions": [
+        {
+          "label": "Contact Support",
+          "action": "open_ticket",
+          "url": "/help/tickets/new"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_009",
+      "question": "Can I edit content after publishing?",
+      "question_variations": [
+        "Edit published content",
+        "Change post after publishing",
+        "Update content",
+        "Modify uploaded content",
+        "Edit video after posting",
+        "Change description"
+      ],
+      "answer": "Yes! Go to Media Library, find your content, and click 'Edit'. You can change title, description, tags, and pricing. The actual photo/video file cannot be edited - you'll need to delete and re-upload for that.",
+      "detailed_answer": "**Editable after publishing:**\n- Title\n- Description\n- Tags\n- Pricing (PPV amount)\n- Visibility settings\n- Category\n\n**Cannot edit:**\n- The actual photo/video file\n- Upload date\n- View count\n- Engagement metrics\n\n**How to edit:**\n1. Go to Media Library\n2. Find the content\n3. Click three-dot menu (...)\n4. Select 'Edit'\n5. Make changes\n6. Click 'Save'\n\n**To replace the file itself:**\n1. Delete original content\n2. Upload new version\n3. Note: Loses all previous engagement\n\nPro tip: Edit descriptions regularly to keep content fresh and improve SEO!",
+      "confidence_score": 0.96,
+      "tags": ["edit", "modify", "update"],
+      "related_articles": [
+        {
+          "title": "Content Management Guide",
+          "url": "/docs/how-to/content-management"
+        }
+      ]
+    },
+    {
+      "id": "qa_upload_010",
+      "question": "What should I write in the description?",
+      "question_variations": [
+        "Description tips",
+        "What to put in description?",
+        "How to write good descriptions?",
+        "Content description help",
+        "Description best practices"
+      ],
+      "answer": "Write 2-4 engaging sentences that tease the content, use emojis for visual appeal, include a call-to-action, and add relevant hashtags. First 2 lines are most important as they show in previews. Focus on creating intrigue without giving everything away.",
+      "detailed_answer": "**Description best practices:**\n\n**Structure:**\n1. Hook (first 2 lines - shows in preview)\n2. Details about the content\n3. Call-to-action\n4. Hashtags\n\n**Good example:**\n```\nJust wrapped an amazing photoshoot at the beach! 🌅\nThese shots came out incredible - you're going to love them! ❤️\n\nThis is some of my best work yet. Can't wait to hear what you think!\nLet me know your favorite in the comments! 💬\n\n#beach #photoshoot #goldenhour #exclusive\n```\n\n**Tips:**\n- Use emojis (but not excessively)\n- Create curiosity\n- Ask questions\n- Mention what's special about this content\n- Add 3-5 relevant hashtags\n- Keep under 200 words\n- Proofread for typos\n\n**Avoid:**\n- Misleading claims\n- All caps (looks spammy)\n- Excessive hashtags (10+ is too many)\n- Policy violations",
+      "confidence_score": 0.92,
+      "tags": ["description", "writing", "tips"],
+      "related_articles": [
+        {
+          "title": "Writing Compelling Descriptions",
+          "url": "/docs/how-to/content-descriptions"
+        }
+      ]
+    }
+  ],
+
+  "proactive_triggers": [
+    {
+      "trigger_id": "first_upload_welcome",
+      "name": "First Upload Welcome",
+      "condition_text": "First visit to upload page",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "user_stat", "stat": "upload_count", "operator": "=", "value": 0},
+          {"type": "page", "operator": "=", "value": "/upload"}
+        ]
+      },
+      "message": "👋 Ready to upload your first content? I can walk you through it step-by-step!",
+      "tone": "friendly",
+      "action_buttons": [
+        {
+          "label": "Show me how",
+          "action": "start_tutorial",
+          "tutorial_id": "upload-101"
+        },
+        {
+          "label": "I got this",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 9,
+      "delay_ms": 3000,
+      "frequency": "once"
+    },
+    {
+      "trigger_id": "upload_stuck_help",
+      "name": "Upload Page Idle Help",
+      "condition_text": "On upload page for 60+ seconds without file selection",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "page", "operator": "=", "value": "/upload"},
+          {"type": "time_on_page", "operator": ">", "value": 60000},
+          {"type": "form_field", "field": "file_selected", "operator": "=", "value": false}
+        ]
+      },
+      "message": "Need help uploading? Just drag a file into the box or click 'Choose File' to get started!",
+      "tone": "helpful",
+      "action_buttons": [
+        {
+          "label": "Show me",
+          "action": "highlight_element",
+          "element": "#file-upload-zone"
+        },
+        {
+          "label": "Watch tutorial",
+          "action": "start_tutorial",
+          "tutorial_id": "upload-101"
+        }
+      ],
+      "priority": 7,
+      "delay_ms": 0,
+      "frequency": "once_per_session"
+    },
+    {
+      "trigger_id": "upload_file_selected_congrats",
+      "name": "File Selected Encouragement",
+      "condition_text": "File selected but no title entered after 30 seconds",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "form_field", "field": "file_selected", "operator": "=", "value": true},
+          {"type": "form_field", "field": "title", "operator": "=", "value": ""},
+          {"type": "time_since_field_change", "field": "file", "operator": ">", "value": 30000}
+        ]
+      },
+      "message": "Great! File uploaded. Now add a catchy title to grab attention!",
+      "tone": "encouraging",
+      "action_buttons": [
+        {
+          "label": "Title tips",
+          "action": "show_tip",
+          "tip_id": "title_best_practices"
+        }
+      ],
+      "priority": 6,
+      "delay_ms": 0,
+      "frequency": "once"
+    },
+    {
+      "trigger_id": "low_price_warning",
+      "name": "PPV Pricing Guidance",
+      "condition_text": "PPV price set below recommended minimum",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "form_field", "field": "visibility", "operator": "=", "value": "ppv"},
+          {"type": "form_field", "field": "ppv_price", "operator": "<", "value": 5}
+        ]
+      },
+      "message": "💡 Tip: Most creators charge $5-10 minimum for PPV content. Price too low may undervalue your work!",
+      "tone": "professional",
+      "action_buttons": [
+        {
+          "label": "See pricing guide",
+          "action": "open_article",
+          "url": "/docs/how-to/pricing-strategy"
+        },
+        {
+          "label": "Keep price",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 5,
+      "delay_ms": 2000,
+      "frequency": "daily"
+    },
+    {
+      "trigger_id": "upload_success_next_steps",
+      "name": "Upload Success - Next Steps",
+      "condition_text": "Content successfully uploaded",
+      "condition_logic": {
+        "operator": "AND",
+        "conditions": [
+          {"type": "event", "event_name": "upload_success"},
+          {"type": "user_stat", "stat": "upload_count", "operator": "<", "value": 5}
+        ]
+      },
+      "message": "🎉 Content uploaded! It's now in moderation (2-4 hours). Want to learn how to promote it once it's live?",
+      "tone": "celebratory",
+      "action_buttons": [
+        {
+          "label": "Promotion tips",
+          "action": "open_article",
+          "url": "/docs/how-to/promote-content"
+        },
+        {
+          "label": "Upload more",
+          "action": "navigate",
+          "url": "/upload"
+        },
+        {
+          "label": "Back to dashboard",
+          "action": "navigate",
+          "url": "/dashboard"
+        }
+      ],
+      "priority": 8,
+      "delay_ms": 1000,
+      "frequency": "always"
+    }
+  ],
+
+  "contextual_tips": [
+    {
+      "tip_id": "drag_drop_hint",
+      "trigger": "hover:#file-upload-zone",
+      "message": "💡 You can drag files from your computer and drop them here!",
+      "position": "tooltip",
+      "auto_dismiss_ms": 5000
+    },
+    {
+      "tip_id": "keyboard_shortcut",
+      "trigger": "page_load:/upload",
+      "message": "⌨️ Quick tip: Press Ctrl+U (Cmd+U on Mac) to quickly access upload from any page!",
+      "position": "notification",
+      "auto_dismiss_ms": 8000
+    },
+    {
+      "tip_id": "optimal_posting_time",
+      "trigger": "focus:#schedule-time",
+      "message": "📅 Best posting times: Mon-Fri 8-10 PM EST, Weekends 2-4 PM EST",
+      "position": "tooltip",
+      "auto_dismiss_ms": 10000
+    }
+  ],
+
+  "error_handlers": [
+    {
+      "error_pattern": "Upload failed|Error 500|Upload error",
+      "helpful_message": "Upload failed! This usually means the file is too large or in an unsupported format.",
+      "suggested_solutions": [
+        "Check file size: Videos max 5GB, Photos max 50MB",
+        "Verify format: MP4/MOV for videos, JPG/PNG for photos",
+        "Try compressing the file",
+        "Refresh the page and try again",
+        "Try using a different browser"
+      ],
+      "support_action": {
+        "label": "Still not working? Contact Support",
+        "action": "open_ticket_with_context",
+        "category": "upload_issues"
+      }
+    },
+    {
+      "error_pattern": "File too large|413|Size limit exceeded",
+      "helpful_message": "File is too large! Videos must be under 5GB, photos under 50MB.",
+      "suggested_solutions": [
+        "Compress your video using HandBrake (free tool)",
+        "Reduce photo resolution or quality",
+        "Split long videos into parts",
+        "Use a file compression service"
+      ],
+      "support_action": {
+        "label": "Learn about compression",
+        "action": "open_article",
+        "url": "/docs/how-to/file-compression"
+      }
+    },
+    {
+      "error_pattern": "Unsupported format|415|Invalid file type",
+      "helpful_message": "File format not supported. Please use JPG/PNG for photos or MP4/MOV for videos.",
+      "suggested_solutions": [
+        "Convert your file using CloudConvert (free)",
+        "For videos: Convert to MP4",
+        "For photos: Convert to JPG",
+        "Check that file extension is correct"
+      ]
+    }
+  ],
+
+  "related_features": [
+    {
+      "feature_id": "content-scheduling",
+      "relationship": "complementary",
+      "description": "Schedule uploads for optimal posting times"
+    },
+    {
+      "feature_id": "analytics",
+      "relationship": "complementary",
+      "description": "Track performance of uploaded content"
+    },
+    {
+      "feature_id": "pricing-strategy",
+      "relationship": "prerequisite",
+      "description": "Learn how to price your content effectively"
+    },
+    {
+      "feature_id": "content-protection",
+      "relationship": "complementary",
+      "description": "Protect your uploads with watermarks"
+    },
+    {
+      "feature_id": "bulk-upload",
+      "relationship": "advanced",
+      "description": "Upload multiple files at once"
+    }
+  ],
+
+  "success_metrics": {
+    "completion_rate_target": 0.85,
+    "satisfaction_score_target": 4.6,
+    "time_to_success_target_seconds": 180
+  }
+}

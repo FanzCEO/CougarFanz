@@ -1,0 +1,392 @@
+now lets finish all tasks, schemas, apis, web hooks, integrations, no stripe or pay pal lets connect this to the rest of our empire alright Josh — let’s wire this empire the right way. below is a clean, scalable backend + API blueprint so GirlFanz, PupFanz, and DaddyFanz plug into a shared FUN core (forensic media hub, vault, dash, security, compliance/2257), while staying brand-distinct. single sign-on, cross-posting, shared ads, and micro services all included.
+
+Reference Architecture (high level)
+	•	Core platform (multi-tenant): identity, auth, profiles, payments, compliance, media, ads, analytics.
+	•	Tenant apps: girlfanz, pupfanz, daddyfanz consume the core via APIs. Each has brand configs, theming, and feature flags.
+	•	API gateway: one public edge; routes to internal services (REST/gRPC). Optional GraphQL BFF for web/mobile.
+	•	Event bus: Kafka/NATS for async fanout (notifications, analytics, cross-post, moderation).
+	•	Data: Postgres (OLTP), S3-compatible object store (media), Redis (cache/queues), ClickHouse/BigQuery (analytics), OpenSearch (search).
+	•	Security: OIDC (SSO), JWT w/ short TTL + refresh, mTLS service-to-service, KMS-backed envelope encryption, WAF + rate limits.
+
+Services & Responsibilities
+	•	Identity & Access (IAM): accounts, roles/permissions, org/teams, sessions, device trust, SSO across tenants.
+	•	Profile & Social Graph: creator/fan profiles, follow/block, lists, link-in-bio, cross-network profile fusion.
+	•	Media Hub (Forensic Signature): ingest, transcode, perceptual hash (pHash), robust watermarking, frame-level fingerprint, content provenance, duplicate detection, takedown trace.
+	•	Vault: encrypted storage (keys in KMS), signed URLs/DRM, secret management, zero-download review for compliance.
+	•	Commerce & Payouts: subscriptions, PPV, tips, bundles, refunds, chargeback webhooks, payout rails (KYC/KYB), tax forms.
+	•	Compliance (2257 + KYC/KYB): age/ID verification, model releases, custodian of records, jurisdiction mappings, audit immutability.
+	•	Safety & Moderation: CSAM hashes, nudity classifiers, abuse/ban evasion, rate limits, fraud scoring (device + behavior).
+	•	Ads & Growth: cross-platform ad server, placements, targeting (consent-aware), affiliate/referrals, promo codes.
+	•	Content & Feed: posts, stories, media sets, paywalls, visibility, recommendations.
+	•	Cross-Post & Federation: one-click publish across Girl/Pup/Daddy; canonical asset + tenant variants.
+	•	Notifications: push/email/SMS, in-app, webhooks to partners.
+	•	Analytics: real-time events, cohorting, rev dashboards, creator insights.
+
+Multi-Tenant Model (one account, many brands)
+	•	Tenants: tenant(id, slug: girlfanz|pupfanz|daddyfanz, settings)
+	•	Everything taggable by tenant; profiles/content can be global with per-tenant visibility.
+	•	Seamless sign-in: OIDC across all; same session with token exchange or parent-domain cookie + PKCE.
+
+Key Schemas (Postgres, trimmed)
+
+-- Tenancy & Identity
+create table tenant(
+  id uuid pk, slug text unique, name text, settings jsonb
+);
+
+create table account(
+  id uuid pk, email citext unique, phone text,
+  password_hash text null,  -- use if not social-only
+  status text check (status in ('active','disabled','pending')),
+  created_at timestamptz, updated_at timestamptz
+);
+
+create table account_identity( -- OIDC/SAML/social
+  id uuid pk, account_id uuid references account(id),
+  provider text, subject text, metadata jsonb,
+  unique(provider, subject)
+);
+
+create table role(
+  id uuid pk, name text, scope text, -- 'global' or 'tenant'
+  permissions text[] -- e.g. ['content:write','ads:manage']
+);
+
+create table account_role(
+  id uuid pk, account_id uuid references account(id),
+  role_id uuid references role(id),
+  tenant_id uuid null references tenant(id)
+);
+
+-- Profiles (creator/fan) are global with per-tenant presence
+create table profile(
+  id uuid pk, account_id uuid references account(id),
+  handle citext unique, display_name text, bio text,
+  type text check (type in ('creator','fan','staff')),
+  flags jsonb, created_at timestamptz
+);
+
+create table profile_tenant(
+  id uuid pk, profile_id uuid references profile(id),
+  tenant_id uuid references tenant(id),
+  is_visible bool default true,
+  settings jsonb,
+  unique(profile_id, tenant_id)
+);
+
+-- Content & Media
+create table content(
+  id uuid pk, creator_profile_id uuid references profile(id),
+  title text, caption text, price_cents int default 0,
+  visibility text check (visibility in ('public','subscribers','ppv')),
+  canonical_tenant uuid references tenant(id),
+  tags text[], created_at timestamptz
+);
+
+create table media_asset(
+  id uuid pk, content_id uuid references content(id),
+  storage_key text, mime text, bytes bigint,
+  duration_sec int, width int, height int,
+  checksum_sha256 text, perceptual_hash text, forensic_watermark jsonb,
+  moderation_state text check (moderation_state in ('pending','approved','rejected')),
+  created_at timestamptz
+);
+
+create table media_variant( -- renditions per tenant/device
+  id uuid pk, asset_id uuid references media_asset(id),
+  tenant_id uuid references tenant(id),
+  kind text, -- 'hls','dash','thumb','watermarked'
+  storage_key text, drm_key_id text, created_at timestamptz
+);
+
+-- Cross-post map
+create table content_tenant_map(
+  id uuid pk, content_id uuid references content(id),
+  tenant_id uuid references tenant(id),
+  status text check (status in ('published','scheduled','hidden')),
+  unique(content_id, tenant_id)
+);
+
+-- Commerce
+create table subscription_plan(
+  id uuid pk, creator_profile_id uuid references profile(id),
+  price_cents int, interval text, perks jsonb,
+  active bool default true
+);
+
+create table subscription(
+  id uuid pk, fan_profile_id uuid references profile(id),
+  plan_id uuid references subscription_plan(id),
+  status text, current_period_end timestamptz
+);
+
+create table purchase(
+  id uuid pk, fan_profile_id uuid references profile(id),
+  content_id uuid references content(id),
+  amount_cents int, currency char(3), status text,
+  provider text, provider_ref text, created_at timestamptz
+);
+
+create table payout_account(
+  id uuid pk, profile_id uuid references profile(id),
+  provider text, external_account_id text, kyc_status text,
+  country char(2), last4 text, created_at timestamptz
+);
+
+create table payout(
+  id uuid pk, profile_id uuid references profile(id),
+  amount_cents int, currency char(3), status text,
+  scheduled_for date, provider_batch_id text
+);
+
+-- Compliance (2257 + KYC + releases)
+create table identity_verification(
+  id uuid pk, account_id uuid references account(id),
+  vendor text, status text, check_type text,  -- 'KYC','Age','KYB'
+  result jsonb, started_at timestamptz, completed_at timestamptz
+);
+
+create table model_release(
+  id uuid pk, content_id uuid references content(id),
+  performer_profile_id uuid references profile(id),
+  signed_at timestamptz, documents jsonb, jurisdiction text
+);
+
+create table record_2257(
+  id uuid pk, content_id uuid references content(id),
+  custodian_account_id uuid references account(id),
+  location_uri text, index_metadata jsonb, -- catalog + retrieval info
+  created_at timestamptz
+);
+
+create table audit_log(
+  id bigserial pk, actor_account_id uuid, tenant_id uuid,
+  action text, subject_table text, subject_id uuid,
+  ip inet, user_agent text, at timestamptz, data jsonb
+);
+
+-- Ads
+create table ad_campaign(
+  id uuid pk, advertiser_profile_id uuid references profile(id),
+  name text, status text, budget_cents bigint,
+  targeting jsonb, -- geo, device, interests, tenant filters
+  created_at timestamptz
+);
+
+create table ad_creative(
+  id uuid pk, campaign_id uuid references ad_campaign(id),
+  kind text, asset_key text, click_url text, policy_state text
+);
+
+create table ad_placement(
+  id uuid pk, tenant_id uuid references tenant(id),
+  slot text, constraints jsonb
+);
+
+create table ad_impression(
+  id bigserial pk, creative_id uuid references ad_creative(id),
+  tenant_id uuid, profile_id uuid null, request_id uuid,
+  ts timestamptz, price_micro int, consent jsonb
+);
+
+Public API surface (versioned @ gateway)
+
+Use REST for public, gRPC for internal, optional GraphQL for app-optimized reads.
+
+Auth & SSO (OIDC/OAuth2)
+
+POST /v1/auth/oidc/start
+POST /v1/auth/oidc/callback
+POST /v1/auth/token            # PKCE + refresh
+POST /v1/auth/token/exchange   # seamless cross-tenant sign-in
+GET  /v1/sessions/current
+POST /v1/sessions/revoke
+
+Profiles & Cross-platform Presence
+
+GET  /v1/me
+PATCH /v1/me
+GET  /v1/profiles/{handle}
+POST /v1/profiles/{id}/tenants/{tenantId}         # enable presence
+DELETE /v1/profiles/{id}/tenants/{tenantId}       # hide presence
+GET  /v1/profiles/{id}/links                      # link-in-bio etc.
+
+Content & Cross-Post
+
+POST   /v1/content                                 # create canonical
+POST   /v1/content/{id}/assets                     # upload init -> signed URL
+POST   /v1/content/{id}:publish                    # publish to canonical tenant
+POST   /v1/content/{id}:crosspost                  # body.tenants=[girlfanz,pupfanz,...]
+GET    /v1/content/{id}
+GET    /v1/feed?tenant={slug}&algo={ranker}
+
+Media Hub (Forensic)
+
+POST /v1/media/ingest:init        # returns signed upload URL(s)
+POST /v1/media/ingest:complete
+GET  /v1/media/{assetId}/fingerprint
+POST /v1/media/{assetId}/watermark:apply
+POST /v1/media/{assetId}/scan     # duplicates/CSAM/perceptual-hash
+
+Vault
+
+GET  /v1/vault/assets/{assetId}:signedUrl?tenant=...
+POST /v1/vault/keys:rotate
+
+Compliance (2257/KYC/Release)
+
+POST /v1/compliance/verify:id           # start KYC/Age
+GET  /v1/compliance/verify/{id}
+POST /v1/compliance/releases            # upload model release
+POST /v1/compliance/2257/index          # write custodian index record
+GET  /v1/compliance/2257/lookup?contentId=...
+
+Commerce
+
+GET  /v1/creators/{id}/plans
+POST /v1/creators/{id}/plans
+POST /v1/checkout/session              # PPV, subs, tips (PCI kept at PSP)
+POST /v1/webhooks/payments             # provider -> gateway
+GET  /v1/earnings?tenant=...&range=...
+POST /v1/payouts:linkAccount
+POST /v1/payouts:request
+
+Ads
+
+POST /v1/ads/campaigns
+POST /v1/ads/creatives
+POST /v1/ads/serve?slot=feed_top&tenant=girlfanz   # returns creative + tracking
+POST /v1/ads/track {impression|click}
+
+Moderation & Safety
+
+POST /v1/moderation/submit?contentId=...
+GET  /v1/moderation/{id}
+POST /v1/abuse/report
+
+Event contracts (CloudEvents-style; emitted to Kafka/NATS)
+
+// profile.created
+{
+  "type": "fun.profile.created",
+  "source": "iam",
+  "id": "evt_...",
+  "time": "2025-09-29T00:00:00Z",
+  "data": { "profileId":"...", "accountId":"...", "tenantIds":["girlfanz"] }
+}
+
+// content.published
+{
+  "type": "fun.content.published",
+  "source": "content",
+  "data": { "contentId":"...", "creatorId":"...", "tenantId":"girlfanz" }
+}
+
+// content.crossposted
+{
+  "type": "fun.content.crossposted",
+  "source": "content",
+  "data": { "contentId":"...", "fromTenant":"girlfanz", "toTenants":["pupfanz","daddyfanz"] }
+}
+
+// media.fingerprint.ready / moderation.flagged / payout.processed / ad.impression
+
+Seamless cross-login (SSO)
+	•	Core OIDC issuer: auth.fun.com.
+	•	Tenants are OIDC clients with 1st-party trust; apps call /auth/token/exchange to get tenant-scoped JWT when hopping sites.
+	•	Optionally share a parent-domain cookie .fun.com and do silent prompt=none OIDC flow for no-click sign-in.
+
+Forensic Signature Flow (ingest → trace)
+	1.	Client uploads to pre-signed URL (/media/ingest:init).
+	2.	Worker transcodes → compute SHA-256 + pHash + frame hashes → embed robust watermark (creatorId, contentId, timestamp, tenant).
+	3.	Store fingerprint row; index in OpenSearch for near-dup search; push media.fingerprint.ready.
+	4.	Any re-upload is scanned; if match > threshold, hard-link canonical or flag duplicate.
+	5.	Takedowns produce a revocation list; CDN denies based on token/watermark match.
+
+2257 + KYC pipeline (non-legal summary)
+	•	Start verification → vendor SDK (face match + liveness + ID parse) → age>=18 gating.
+	•	Each piece of content requires model_release rows for every performer; immutable record_2257 holds retrieval metadata + custodian contact.
+	•	Every access/write is audit_logged (WORM storage mirror).
+	•	Add jurisdiction policies (e.g., state/country flags) at request-time via policy engine.
+
+Cross-platform Ads & Profiles
+	•	Unified profile with per-tenant visibility → same handle feels native everywhere.
+	•	Ad server respects tenant rules; creatives can be global or tenant-specific.
+	•	Consent store per profile/device; attach consent snapshot to every ad_impression.
+	•	Frequency capping and budget delivery enforced centrally.
+
+Permissions (RBAC + ABAC)
+	•	RBAC via role + account_role.
+	•	ABAC via policy engine: e.g., creator can manage content where content.creator_profile_id = profile.id.
+	•	Staff scopes per tenant for moderation and support.
+
+Analytics (creator-first)
+	•	Stream events to ClickHouse: views, subs, PPV, tips, ad rev.
+	•	Build dashboards: funnel, ARPPU/ARPU, LTV, churn, cross-tenant uplift.
+	•	Creator API: /v1/insights/revenue, /v1/insights/subscribers, /v1/insights/topContent.
+
+Search & Discovery
+	•	OpenSearch indices for profiles, content, tags, fingerprints.
+	•	Synonym sets per tenant for brand voice; safe-search filters + blocklists baked into queries.
+
+CDN & Delivery
+	•	Multi-CDN with tokenized URLs; geo fencing; DRM keys per tenant.
+	•	Signed URL middleware applies consent + entitlement checks (subscribed?/purchased?).
+
+DevEx & Reliability
+	•	Contracts: OpenAPI for REST, protofiles for gRPC, JSON Schemas for events.
+	•	Blue/green deploys, canary + circuit breakers.
+	•	Observability: traces, metrics (SLOs: p95 latency, ingestion time), structured logs with request_id.
+	•	Feature flags: per tenant/segment rollouts.
+
+Example: create content, cross-post, and serve
+
+1) Create canonical content
+
+POST /v1/content
+Authorization: Bearer {creator_jwt}
+{
+  "title": "Behind the scenes",
+  "caption": "new set 🔥",
+  "visibility": "subscribers",
+  "canonicalTenant": "girlfanz",
+  "tags": ["bts","studio"]
+}
+
+2) Upload media
+
+POST /v1/content/{contentId}/assets
+{
+  "files": [{"mime":"video/mp4","bytes":734003200}]
+}
+---> returns signed URLs
+
+3) Publish + cross-post
+
+POST /v1/content/{contentId}:publish   { "tenant":"girlfanz" }
+POST /v1/content/{contentId}:crosspost { "tenants":["pupfanz","daddyfanz"] }
+
+4) Client playback
+	•	App requests /v1/vault/assets/{assetId}:signedUrl?tenant=pupfanz → short-TTL URL to HLS/DASH with tenant watermark.
+
+Privacy, Safety, and “grown-up” guardrails (non-negotiable)
+	•	Zero retention of raw ID images beyond vendor SLA; tokenize PII.
+	•	CSAM defenses: industry hash lists + classifier ensemble; hard blocks + mandatory reporting flows.
+	•	Creators control rights: takedown → revoke URLs + propagate watermark blacklist.
+	•	Region legal toggles (e.g., age gates, content rules) per tenant config.
+
+⸻
+
+What you get out of the box
+	•	Creators keep 100%? Cool — the commerce service still handles fees routing transparently.
+	•	One login, three empires — frictionless hop between Girl/Pup/Daddy.
+	•	Forensic receipts on every pixel — deters leaks, powers takedowns.
+	•	Cross-platform ads that actually respect consent and brand tone.
+	•	2257-ready records with audit trails that don’t crumble under scrutiny.
+
+If you want, I can turn this into:
+	•	a starter OpenAPI spec,
+	•	a service repo scaffold (NestJS/Go microservices + Postgres + NATS),
+	•	or a Terraform baseline (VPC, KMS, MSK/NATS, S3, WAF, CloudFront).
+
+Say the word and I’ll drop code & folder structures you can hand your engineers today. 👑🚀

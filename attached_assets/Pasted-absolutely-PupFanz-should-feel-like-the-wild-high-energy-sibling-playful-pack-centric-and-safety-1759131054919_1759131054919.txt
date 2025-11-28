@@ -1,0 +1,136 @@
+absolutely—PupFanz should feel like the wild, high-energy sibling: playful, pack-centric, and safety-forward. Same dark, neon-night family—new primary hue + personality.
+
+PupFanz brand kit (v1)
+
+Core palette (dark-first UI)
+	•	PF Volt (Primary): #A3FF12 — hyper-neon lime for CTAs/active
+	•	Cobalt (Secondary): #2563EB — cool depth for highlights & nav
+	•	Tangerine (Accent): #FF7A00 — motion cues, alerts, fun badges
+	•	Ink (Bg): #0A0A0B — global background
+	•	Graphite (Surface): #121214 — cards, sheets, modals
+	•	Snow (Text on dark): #F5F7FA — primary copy
+	•	Mist (Muted text): #C9D0D6 — secondary/labels
+	•	Success: #22C55E
+	•	Warning: #F59E0B
+	•	Error: #EF4444
+
+Why: Volt Lime reads athletic + playful (fits “pup/pack” energy) and punches hard against dark UI. Cobalt keeps cohesion with the FUN network’s cyber vibe. Tangerine adds warmth and motion pop.
+
+Signature gradients
+	•	Pack Howl (hero/CTA): linear-gradient(135deg, #A3FF12 0%, #2563EB 60%, #00E5FF 100%)
+	•	Trail Mix (hover wash): linear-gradient(90deg, #A3FF12, #FF7A00)
+	•	Moon Yard (bg glow): radial-gradient(1100px 520px at 70% -8%, rgba(37,99,235,0.14) 0%, #000 60%)
+
+Typography
+	•	Display: Space Grotesk / Sora — bold, condensed tracking for howl-level headlines
+	•	Body: Inter / Outfit — crisp, approachable, great at small sizes
+
+UI mood & motion
+	•	Shapes: rounded 12px radius (slightly “chew-toy” feel), beveled icon corners.
+	•	Glows: soft outer glow on Volt (0 0 24px #A3FF1240).
+	•	Motion: 140–180ms ease-out; micro-bounce on toggles; pack-join confetti using tiny paw/bolt glyphs.
+	•	Iconography: minimalist paw/bolt/bone line icons; avoid cartoon clip-art.
+
+Component cues
+	•	Primary button: PF Volt fill → on hover “Trail Mix” gradient; text Snow; subtle glow.
+	•	Secondary button: Cobalt outline; hover fill Cobalt 12%.
+	•	Nav tabs: Graphite base; active tab underline 3px Volt; inactive underline 1px Cobalt 40%.
+	•	Cards: Graphite with 1px border #26262A; top edge neon-lime hairline.
+	•	Switches & sliders: track Cobalt; thumb Volt; on-change emits 80ms tangerine flash.
+	•	Badges: “Verified Pup,” “Consent-Clear,” “Aftercare-Friendly” in Cobalt/Tangerine duotone.
+
+Safety & inclusivity baked-in (visible UX)
+	•	Consent status chip on profiles (defaults neutral; turns Success when all toggles set).
+	•	Aftercare tag opt-in; boosts discovery in “Supportive pack” filter.
+	•	Session boundaries micro-form uses Tangerine accents for edits; confirmation in Volt.
+
+Accessibility guardrails
+	•	Use Snow for all primary text.
+	•	Volt on Ink/Graphite passes contrast for button labels when text is Snow; avoid Volt text on dark—use Cobalt/Snow instead.
+	•	Minimum 14px body; 16px for interactive labels.
+	•	Focus ring: 2px dotted Cobalt + 1px inner Volt.
+
+⸻
+
+Quick tokens (CSS variables)
+
+:root {
+  --pf-volt: #A3FF12;
+  --pf-cobalt: #2563EB;
+  --pf-tangerine: #FF7A00;
+
+  --ink: #0A0A0B;
+  --graphite: #121214;
+  --snow: #F5F7FA;
+  --mist: #C9D0D6;
+
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --error: #EF4444;
+
+  --radius: 12px;
+  --shadow-glow-volt: 0 0 24px rgba(163,255,18,0.25);
+  --gradient-pack: linear-gradient(135deg, var(--pf-volt) 0%, var(--pf-cobalt) 60%, #00E5FF 100%);
+  --gradient-trail: linear-gradient(90deg, var(--pf-volt), var(--pf-tangerine));
+  --gradient-moonyard: radial-gradient(1100px 520px at 70% -8%, rgba(37,99,235,0.14) 0%, #000 60%);
+}
+
+Tailwind snippet
+
+// tailwind.config.js
+export default {
+  theme: {
+    extend: {
+      colors: {
+        pf: {
+          volt: '#A3FF12',
+          cobalt: '#2563EB',
+          tangerine: '#FF7A00',
+          ink: '#0A0A0B',
+          graphite: '#121214',
+          snow: '#F5F7FA',
+          mist: '#C9D0D6',
+        },
+        success: '#22C55E',
+        warning: '#F59E0B',
+        error: '#EF4444',
+      },
+      borderRadius: { lg: '12px' },
+      boxShadow: { 'volt-glow': '0 0 24px rgba(163,255,18,0.25)' },
+      backgroundImage: {
+        'pf-pack': 'linear-gradient(135deg,#A3FF12 0%,#2563EB 60%,#00E5FF 100%)',
+        'pf-trail': 'linear-gradient(90deg,#A3FF12,#FF7A00)',
+        'pf-moonyard': 'radial-gradient(1100px 520px at 70% -8%, rgba(37,99,235,0.14) 0%, #000 60%)',
+      }
+    }
+  }
+}
+
+Sample component styles
+
+.btn-primary {
+  background: var(--pf-volt);
+  color: var(--snow);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-glow-volt);
+  transition: transform .16s ease-out, box-shadow .16s ease-out, background .16s ease-out;
+}
+.btn-primary:hover { background: var(--gradient-trail); transform: translateY(-1px); }
+
+.card {
+  background: var(--graphite);
+  border: 1px solid #26262A;
+  border-radius: var(--radius);
+}
+
+.tab-active { border-bottom: 3px solid var(--pf-volt); color: var(--snow); }
+.tab { border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--mist); }
+
+
+⸻
+
+How it sits with BoyFanz & GirlFanz
+	•	Shared DNA: dark base, neon gradients, Space Grotesk/Inter system, consistent spacing & radii.
+	•	Distinct voice: GirlFanz = cyber-glam magenta; PupFanz = sport-tech neon lime with kinetic cues (bounce, confetti), community “pack” language, and explicit safety signals.
+
+If you want, I can spin a mini design kit (logo lockups, hero section, buttons, profile card, safety chips, and a discover grid) you can drop straight into Next.js—plus a11y-tested color tokens for light mode.
