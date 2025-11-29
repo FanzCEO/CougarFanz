@@ -21,6 +21,27 @@ export default {
           snow: "hsl(210, 25%, 95%)", // #F5F7FA
           mist: "hsl(220, 14%, 82%)", // #C9D0D6
         },
+        // CougarFanz brand colors - Luxury Gold & Wine palette
+        cfz: {
+          gold: "hsl(43, 74%, 51%)",           // #D4AF37 - Primary gold
+          "gold-light": "hsl(43, 74%, 65%)",   // Lighter gold for hover
+          "gold-dark": "hsl(43, 74%, 40%)",    // Darker gold for depth
+          wine: "hsl(355, 45%, 33%)",          // #722F37 - Wine ruby
+          "wine-light": "hsl(355, 45%, 45%)", // Lighter wine
+          cardinal: "hsl(350, 74%, 40%)",      // #C41E3A - Cardinal red
+          "cardinal-light": "hsl(350, 74%, 55%)",
+          "satin-black": "hsl(0, 0%, 10%)",    // #1A1A1A - Primary background
+          espresso: "hsl(0, 0%, 18%)",         // #2D2D2D - Card/surface
+          "espresso-light": "hsl(0, 0%, 22%)", // #383838 - Elevated surface
+          charcoal: "hsl(0, 0%, 14%)",         // #242424 - Mid background
+          champagne: "hsl(39, 77%, 83%)",      // #F7E7CE - Light accents
+          "champagne-dark": "hsl(39, 60%, 70%)",
+          bronze: "hsl(30, 67%, 40%)",         // #A97142 - Metallic bronze
+          "rose-gold": "hsl(10, 50%, 75%)",    // #E8B4B8 - Rose gold
+          platinum: "hsl(0, 0%, 85%)",         // #D9D9D9 - Platinum
+          border: "hsl(0, 0%, 24%)",           // #3D3D3D - Borders
+          muted: "hsl(0, 0%, 60%)",            // #999999 - Muted text
+        },
         // Base theme colors
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -86,11 +107,26 @@ export default {
       boxShadow: {
         'volt-glow': '0 0 24px rgba(163, 255, 18, 0.25)',
         'volt-strong': '0 0 40px rgba(163, 255, 18, 0.4)',
+        // CougarFanz gold glows
+        'gold-glow': '0 0 20px rgba(212, 175, 55, 0.15)',
+        'gold-medium': '0 0 30px rgba(212, 175, 55, 0.25)',
+        'gold-strong': '0 0 40px rgba(212, 175, 55, 0.35)',
+        'gold-intense': '0 0 60px rgba(212, 175, 55, 0.5)',
+        'wine-glow': '0 0 20px rgba(114, 47, 55, 0.3)',
+        'wine-strong': '0 0 40px rgba(114, 47, 55, 0.5)',
       },
       backgroundImage: {
         'pack-howl': 'linear-gradient(135deg, #A3FF12 0%, #2563EB 60%, #00E5FF 100%)',
         'trail-mix': 'linear-gradient(90deg, #A3FF12, #FF7A00)',
         'moonyard': 'radial-gradient(1100px 520px at 70% -8%, rgba(37,99,235,0.25) 0%, #0A0A0B 60%)',
+        // CougarFanz gradients
+        'luxe': 'linear-gradient(135deg, #D4AF37 0%, #A97142 100%)',
+        'luxe-reverse': 'linear-gradient(135deg, #A97142 0%, #D4AF37 100%)',
+        'velvet': 'linear-gradient(180deg, #2D2D2D 0%, #1A1A1A 100%)',
+        'wine-gradient': 'linear-gradient(135deg, #722F37 0%, #C41E3A 100%)',
+        'champagne': 'linear-gradient(135deg, #F7E7CE 0%, #D4AF37 100%)',
+        'cougar-hero': 'radial-gradient(ellipse 80% 50% at 50% -20%, rgba(212, 175, 55, 0.15) 0%, transparent 70%)',
+        'cougar-spotlight': 'radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.2) 0%, transparent 50%)',
       },
       keyframes: {
         "accordion-down": {

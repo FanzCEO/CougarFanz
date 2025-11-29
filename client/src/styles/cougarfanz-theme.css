@@ -1,0 +1,697 @@
+/**
+ * CougarFanz Theme - Luxury Glamour Design System
+ * "Where experience isn't just welcomed — it's worshipped."
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* =============================================================================
+   COUGARFANZ COLOR PALETTE
+   ============================================================================= */
+
+:root {
+  /* Brand Colors - Luxury Gold & Wine */
+  --cfz-gold: hsl(43, 74%, 51%);           /* #D4AF37 - Primary gold */
+  --cfz-gold-light: hsl(43, 74%, 65%);     /* Lighter gold for hover */
+  --cfz-gold-dark: hsl(43, 74%, 40%);      /* Darker gold for depth */
+  --cfz-wine: hsl(355, 45%, 33%);          /* #722F37 - Wine ruby */
+  --cfz-wine-light: hsl(355, 45%, 45%);    /* Lighter wine */
+  --cfz-cardinal: hsl(350, 74%, 40%);      /* #C41E3A - Cardinal red */
+  --cfz-cardinal-light: hsl(350, 74%, 55%);
+
+  /* Background Colors - Rich & Deep */
+  --cfz-satin-black: hsl(0, 0%, 10%);      /* #1A1A1A - Primary background */
+  --cfz-espresso: hsl(0, 0%, 18%);         /* #2D2D2D - Card/surface */
+  --cfz-espresso-light: hsl(0, 0%, 22%);   /* #383838 - Elevated surface */
+  --cfz-charcoal: hsl(0, 0%, 14%);         /* #242424 - Mid background */
+
+  /* Accent Colors - Champagne & Bronze */
+  --cfz-champagne: hsl(39, 77%, 83%);      /* #F7E7CE - Light accents */
+  --cfz-champagne-dark: hsl(39, 60%, 70%); /* Muted champagne */
+  --cfz-bronze: hsl(30, 67%, 40%);         /* #A97142 - Metallic bronze */
+  --cfz-rose-gold: hsl(10, 50%, 75%);      /* #E8B4B8 - Rose gold */
+  --cfz-platinum: hsl(0, 0%, 85%);         /* #D9D9D9 - Platinum */
+
+  /* Border & Muted */
+  --cfz-border: hsl(0, 0%, 24%);           /* #3D3D3D - Borders */
+  --cfz-border-subtle: hsl(0, 0%, 20%);    /* Subtle borders */
+  --cfz-muted: hsl(0, 0%, 60%);            /* #999999 - Muted text */
+  --cfz-muted-foreground: hsl(0, 0%, 50%);
+
+  /* Semantic Colors */
+  --cfz-success: hsl(160, 84%, 39%);       /* #10B981 - Emerald success */
+  --cfz-warning: hsl(38, 92%, 50%);        /* #F59E0B - Amber warning */
+  --cfz-danger: hsl(0, 72%, 51%);          /* #DC2626 - Crimson danger */
+
+  /* =============================================================================
+     THEME MAPPING - Maps to base component tokens
+     ============================================================================= */
+
+  --background: var(--cfz-satin-black);
+  --foreground: var(--cfz-champagne);
+  --card: var(--cfz-espresso);
+  --card-foreground: var(--cfz-champagne);
+  --popover: var(--cfz-espresso);
+  --popover-foreground: var(--cfz-champagne);
+  --primary: var(--cfz-gold);
+  --primary-foreground: var(--cfz-satin-black);
+  --secondary: var(--cfz-wine);
+  --secondary-foreground: var(--cfz-champagne);
+  --muted: var(--cfz-muted);
+  --muted-foreground: var(--cfz-muted-foreground);
+  --accent: var(--cfz-cardinal);
+  --accent-foreground: var(--cfz-champagne);
+  --destructive: var(--cfz-danger);
+  --destructive-foreground: var(--cfz-champagne);
+  --border: var(--cfz-border);
+  --input: var(--cfz-espresso);
+  --ring: var(--cfz-gold);
+
+  /* Sidebar */
+  --sidebar: var(--cfz-charcoal);
+  --sidebar-foreground: var(--cfz-champagne);
+  --sidebar-primary: var(--cfz-gold);
+  --sidebar-primary-foreground: var(--cfz-satin-black);
+  --sidebar-accent: var(--cfz-espresso);
+  --sidebar-accent-foreground: var(--cfz-gold);
+  --sidebar-border: var(--cfz-border);
+  --sidebar-ring: var(--cfz-gold);
+
+  /* =============================================================================
+     TYPOGRAPHY
+     ============================================================================= */
+
+  --cfz-font-display: 'Playfair Display', 'Times New Roman', serif;
+  --cfz-font-accent: 'Cormorant Garamond', Georgia, serif;
+  --cfz-font-sans: 'Inter', system-ui, sans-serif;
+  --cfz-font-mono: 'JetBrains Mono', Menlo, monospace;
+
+  /* Override base fonts */
+  --font-display: var(--cfz-font-display);
+  --font-sans: var(--cfz-font-sans);
+  --font-serif: var(--cfz-font-accent);
+
+  /* =============================================================================
+     SPACING & EFFECTS
+     ============================================================================= */
+
+  --radius: 12px;
+
+  /* Gold Glow Effects */
+  --shadow-gold-glow: 0 0 20px rgba(212, 175, 55, 0.15);
+  --shadow-gold-medium: 0 0 30px rgba(212, 175, 55, 0.25);
+  --shadow-gold-strong: 0 0 40px rgba(212, 175, 55, 0.35);
+  --shadow-gold-intense: 0 0 60px rgba(212, 175, 55, 0.5);
+
+  /* Wine Glow Effects */
+  --shadow-wine-glow: 0 0 20px rgba(114, 47, 55, 0.3);
+  --shadow-wine-strong: 0 0 40px rgba(114, 47, 55, 0.5);
+
+  /* Text Glow Effects */
+  --text-glow-gold: 0 0 4px rgba(212, 175, 55, 0.6),
+                    0 0 8px rgba(212, 175, 55, 0.4),
+                    0 0 12px rgba(212, 175, 55, 0.2);
+  --text-glow-champagne: 0 0 4px rgba(247, 231, 206, 0.5),
+                         0 0 8px rgba(247, 231, 206, 0.3);
+  --text-glow-cardinal: 0 0 4px rgba(196, 30, 58, 0.6),
+                        0 0 8px rgba(196, 30, 58, 0.4);
+
+  /* =============================================================================
+     GRADIENTS
+     ============================================================================= */
+
+  --gradient-luxe: linear-gradient(135deg, var(--cfz-gold) 0%, var(--cfz-bronze) 100%);
+  --gradient-luxe-reverse: linear-gradient(135deg, var(--cfz-bronze) 0%, var(--cfz-gold) 100%);
+  --gradient-velvet: linear-gradient(180deg, var(--cfz-espresso) 0%, var(--cfz-satin-black) 100%);
+  --gradient-wine: linear-gradient(135deg, var(--cfz-wine) 0%, var(--cfz-cardinal) 100%);
+  --gradient-champagne: linear-gradient(135deg, var(--cfz-champagne) 0%, var(--cfz-gold-light) 100%);
+  --gradient-hero: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+  --gradient-spotlight: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.2) 0%, transparent 50%);
+  --gradient-card-hover: linear-gradient(180deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%);
+
+  /* Leopard print pattern (subtle) */
+  --pattern-leopard: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4AF37' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* =============================================================================
+   DARK MODE (Default for CougarFanz)
+   ============================================================================= */
+
+.dark, .cougarfanz-theme {
+  --background: var(--cfz-satin-black);
+  --foreground: var(--cfz-champagne);
+}
+
+/* =============================================================================
+   BASE STYLES
+   ============================================================================= */
+
+.cougarfanz-theme body,
+body.cougarfanz {
+  font-family: var(--cfz-font-sans);
+  background-color: var(--cfz-satin-black);
+  color: var(--cfz-champagne);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cougarfanz-theme h1,
+.cougarfanz-theme h2,
+.cougarfanz-theme h3,
+.cougarfanz-theme h4,
+.cougarfanz-theme h5,
+.cougarfanz-theme h6 {
+  font-family: var(--cfz-font-display);
+  color: var(--cfz-champagne);
+}
+
+/* =============================================================================
+   COUGARFANZ COMPONENT CLASSES
+   ============================================================================= */
+
+/* Luxury Background */
+.cfz-bg-hero {
+  background: var(--cfz-satin-black);
+  background-image: var(--gradient-hero);
+}
+
+.cfz-bg-velvet {
+  background: var(--gradient-velvet);
+}
+
+.cfz-bg-spotlight {
+  background-image: var(--gradient-spotlight);
+}
+
+.cfz-bg-leopard {
+  background-image: var(--pattern-leopard);
+  background-repeat: repeat;
+}
+
+/* Gold Glow Effects */
+.cfz-glow {
+  box-shadow: var(--shadow-gold-glow);
+}
+
+.cfz-glow-medium {
+  box-shadow: var(--shadow-gold-medium);
+}
+
+.cfz-glow-strong {
+  box-shadow: var(--shadow-gold-strong);
+}
+
+.cfz-glow-intense {
+  box-shadow: var(--shadow-gold-intense);
+}
+
+/* Text Styles */
+.cfz-text-gold {
+  color: var(--cfz-gold);
+  text-shadow: var(--text-glow-gold);
+}
+
+.cfz-text-champagne {
+  color: var(--cfz-champagne);
+}
+
+.cfz-text-wine {
+  color: var(--cfz-wine);
+}
+
+.cfz-text-cardinal {
+  color: var(--cfz-cardinal);
+  text-shadow: var(--text-glow-cardinal);
+}
+
+.cfz-text-muted {
+  color: var(--cfz-muted);
+}
+
+/* Gradient Text */
+.cfz-text-gradient {
+  background: var(--gradient-luxe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Luxury Headings */
+.cfz-heading {
+  font-family: var(--cfz-font-display);
+  color: var(--cfz-gold);
+  text-shadow: var(--text-glow-gold);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.cfz-heading-display {
+  font-family: var(--cfz-font-display);
+  color: var(--cfz-champagne);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
+}
+
+.cfz-heading-accent {
+  font-family: var(--cfz-font-accent);
+  color: var(--cfz-gold);
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+/* =============================================================================
+   BUTTONS
+   ============================================================================= */
+
+.cfz-btn-primary {
+  background: var(--gradient-luxe);
+  color: var(--cfz-satin-black);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-family: var(--cfz-font-sans);
+  letter-spacing: 0.03em;
+  box-shadow: var(--shadow-gold-glow);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cfz-btn-primary:hover {
+  background: var(--gradient-champagne);
+  box-shadow: var(--shadow-gold-strong);
+  transform: translateY(-2px);
+}
+
+.cfz-btn-primary:active {
+  transform: translateY(0);
+}
+
+.cfz-btn-secondary {
+  background: transparent;
+  color: var(--cfz-gold);
+  border: 2px solid var(--cfz-gold);
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-family: var(--cfz-font-sans);
+  letter-spacing: 0.03em;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cfz-btn-secondary:hover {
+  background: rgba(212, 175, 55, 0.1);
+  box-shadow: var(--shadow-gold-glow);
+}
+
+.cfz-btn-wine {
+  background: var(--gradient-wine);
+  color: var(--cfz-champagne);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  box-shadow: var(--shadow-wine-glow);
+  transition: all 0.3s ease;
+}
+
+.cfz-btn-wine:hover {
+  box-shadow: var(--shadow-wine-strong);
+  transform: translateY(-2px);
+}
+
+/* =============================================================================
+   CARDS
+   ============================================================================= */
+
+.cfz-card {
+  background: var(--cfz-espresso);
+  border: 1px solid var(--cfz-border);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cfz-card:hover {
+  border-color: rgba(212, 175, 55, 0.3);
+  box-shadow: var(--shadow-gold-glow);
+  background-image: var(--gradient-card-hover);
+}
+
+.cfz-card-elevated {
+  background: var(--cfz-espresso-light);
+  border: 1px solid var(--cfz-border);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cfz-card-luxury {
+  background: var(--cfz-espresso);
+  border: 1px solid var(--cfz-gold);
+  border-radius: 16px;
+  box-shadow: var(--shadow-gold-glow);
+}
+
+/* =============================================================================
+   AVATAR FRAMES
+   ============================================================================= */
+
+.cfz-avatar-frame {
+  border-radius: 50%;
+  padding: 3px;
+  background: var(--gradient-luxe);
+  box-shadow: var(--shadow-gold-glow);
+}
+
+.cfz-avatar-frame-gold {
+  border: 3px solid var(--cfz-gold);
+  border-radius: 50%;
+  box-shadow: var(--shadow-gold-medium);
+}
+
+.cfz-avatar-frame-rose-gold {
+  border: 3px solid var(--cfz-rose-gold);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(232, 180, 184, 0.3);
+}
+
+.cfz-avatar-frame-champagne {
+  border: 3px solid var(--cfz-champagne);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(247, 231, 206, 0.3);
+}
+
+.cfz-avatar-frame-platinum {
+  border: 3px solid var(--cfz-platinum);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(217, 217, 217, 0.3);
+}
+
+.cfz-avatar-frame-bronze {
+  border: 3px solid var(--cfz-bronze);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(169, 113, 66, 0.3);
+}
+
+/* =============================================================================
+   BADGES
+   ============================================================================= */
+
+.cfz-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.cfz-badge-gold {
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--cfz-gold);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.cfz-badge-wine {
+  background: rgba(114, 47, 55, 0.2);
+  color: var(--cfz-wine-light);
+  border: 1px solid rgba(114, 47, 55, 0.3);
+}
+
+.cfz-badge-cardinal {
+  background: rgba(196, 30, 58, 0.15);
+  color: var(--cfz-cardinal-light);
+  border: 1px solid rgba(196, 30, 58, 0.3);
+}
+
+.cfz-badge-champagne {
+  background: rgba(247, 231, 206, 0.1);
+  color: var(--cfz-champagne);
+  border: 1px solid rgba(247, 231, 206, 0.2);
+}
+
+.cfz-badge-verified {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--cfz-success);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Archetype Badges */
+.cfz-badge-alpha {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
+  color: var(--cfz-gold);
+  border: 1px solid var(--cfz-gold);
+}
+
+.cfz-badge-siren {
+  background: linear-gradient(135deg, rgba(74, 35, 90, 0.3), rgba(74, 35, 90, 0.15));
+  color: #9B59B6;
+  border: 1px solid rgba(155, 89, 182, 0.5);
+}
+
+.cfz-badge-vixen {
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.2), rgba(255, 105, 180, 0.1));
+  color: #FF69B4;
+  border: 1px solid rgba(255, 105, 180, 0.5);
+}
+
+.cfz-badge-boss {
+  background: linear-gradient(135deg, rgba(71, 85, 105, 0.3), rgba(71, 85, 105, 0.15));
+  color: #94A3B8;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+}
+
+.cfz-badge-maneater {
+  background: linear-gradient(135deg, rgba(196, 30, 58, 0.2), rgba(196, 30, 58, 0.1));
+  color: var(--cfz-cardinal);
+  border: 1px solid var(--cfz-cardinal);
+}
+
+.cfz-badge-matriarch {
+  background: linear-gradient(135deg, rgba(27, 40, 56, 0.4), rgba(27, 40, 56, 0.2));
+  color: #64748B;
+  border: 1px solid rgba(100, 116, 139, 0.5);
+}
+
+.cfz-badge-enchantress {
+  background: linear-gradient(135deg, rgba(4, 120, 87, 0.2), rgba(4, 120, 87, 0.1));
+  color: #10B981;
+  border: 1px solid rgba(16, 185, 129, 0.5);
+}
+
+.cfz-badge-seductress {
+  background: linear-gradient(135deg, rgba(114, 47, 55, 0.25), rgba(114, 47, 55, 0.1));
+  color: var(--cfz-wine-light);
+  border: 1px solid var(--cfz-wine);
+}
+
+.cfz-badge-wildcard {
+  background: linear-gradient(135deg,
+    rgba(212, 175, 55, 0.15),
+    rgba(196, 30, 58, 0.15),
+    rgba(155, 89, 182, 0.15));
+  color: var(--cfz-champagne);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+}
+
+/* Age Era Badges */
+.cfz-badge-era {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--cfz-gold);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  font-weight: 700;
+}
+
+/* =============================================================================
+   CONFIDENCE METER
+   ============================================================================= */
+
+.cfz-confidence-meter {
+  width: 100%;
+  height: 8px;
+  background: var(--cfz-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cfz-confidence-meter-fill {
+  height: 100%;
+  background: var(--gradient-luxe);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+  box-shadow: var(--shadow-gold-glow);
+}
+
+.cfz-confidence-meter-label {
+  font-family: var(--cfz-font-display);
+  color: var(--cfz-gold);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* =============================================================================
+   FORM INPUTS
+   ============================================================================= */
+
+.cfz-input {
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--cfz-espresso);
+  border: 1px solid var(--cfz-border);
+  border-radius: 8px;
+  color: var(--cfz-champagne);
+  font-family: var(--cfz-font-sans);
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.cfz-input:focus {
+  outline: none;
+  border-color: var(--cfz-gold);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.cfz-input::placeholder {
+  color: var(--cfz-muted);
+}
+
+/* =============================================================================
+   ANIMATIONS
+   ============================================================================= */
+
+@keyframes cfz-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes cfz-glow-pulse {
+  0%, 100% {
+    box-shadow: var(--shadow-gold-glow);
+  }
+  50% {
+    box-shadow: var(--shadow-gold-strong);
+  }
+}
+
+@keyframes cfz-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cfz-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.cfz-animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--cfz-espresso) 0%,
+    var(--cfz-espresso-light) 50%,
+    var(--cfz-espresso) 100%
+  );
+  background-size: 200% 100%;
+  animation: cfz-shimmer 2s infinite;
+}
+
+.cfz-animate-glow-pulse {
+  animation: cfz-glow-pulse 2s ease-in-out infinite;
+}
+
+.cfz-animate-fade-in {
+  animation: cfz-fade-in 0.4s ease-out forwards;
+}
+
+.cfz-animate-scale-in {
+  animation: cfz-scale-in 0.3s ease-out forwards;
+}
+
+/* =============================================================================
+   UTILITY CLASSES
+   ============================================================================= */
+
+.cfz-border-gold {
+  border-color: var(--cfz-gold);
+}
+
+.cfz-border-wine {
+  border-color: var(--cfz-wine);
+}
+
+.cfz-bg-gold {
+  background-color: var(--cfz-gold);
+}
+
+.cfz-bg-wine {
+  background-color: var(--cfz-wine);
+}
+
+.cfz-bg-espresso {
+  background-color: var(--cfz-espresso);
+}
+
+.cfz-bg-satin {
+  background-color: var(--cfz-satin-black);
+}
+
+/* Hover Effects */
+.cfz-hover-glow:hover {
+  box-shadow: var(--shadow-gold-glow);
+}
+
+.cfz-hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-gold-medium);
+}
+
+.cfz-hover-border-gold:hover {
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+/* Focus States */
+.cfz-focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+}
+
+/* =============================================================================
+   RESPONSIVE UTILITIES
+   ============================================================================= */
+
+@media (max-width: 768px) {
+  .cfz-heading-display {
+    font-size: 2.5rem;
+  }
+
+  .cfz-btn-primary,
+  .cfz-btn-secondary {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cfz-heading-display {
+    font-size: 2rem;
+  }
+}

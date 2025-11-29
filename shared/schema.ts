@@ -2437,3 +2437,310 @@ export const responseRecommendationsRelations = relations(responseRecommendation
     references: [users.id],
   }),
 }));
+
+// =============================================================================
+// COUGARFANZ PLATFORM EXTENSIONS
+// Specialized tables for mature creator platform features
+// =============================================================================
+
+// Creator Archetypes - Define creator personality brands
+export const creatorArchetypes = pgTable("creator_archetypes", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").references(() => users.id).notNull(),
+  archetype: varchar("archetype", {
+    enum: [
+      'alpha',        // The Alpha - Dominant, powerful presence
+      'maneater',     // The Maneater - Confident, captivating
+      'siren',        // The Siren - Alluring, mysterious
+      'vixen',        // The Vixen - Playful, flirty
+      'matriarch',    // The Matriarch - Nurturing authority
+      'seductress',   // The Seductress - Personality-based charm
+      'boss',         // The Boss - Corporate power energy
+      'enchantress',  // The Enchantress - Magical, captivating
+      'wildcard'      // The Wildcard - Unpredictable, fun
+    ]
+  }).notNull(),
+  isPrimary: boolean("is_primary").default(false),
+  confidenceScore: integer("confidence_score").default(50), // 0-100
+  brandingGuide: jsonb("branding_guide").default({}),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (table) => [
+  index("idx_archetype_user").on(table.userId),
+  index("idx_archetype_type").on(table.archetype),
+]);
+
+// Age Era Badges - Identity affirmation badges (non-explicit)
+export const ageEraBadges = pgTable("age_era_badges", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").references(() => users.id).notNull(),
+  eraTag: varchar("era_tag", {
+    enum: [
+      '30_plus_crew',    // 30+ Crew
+      '40_plus_fierce',  // 40+ Fierce
+      '50_plus_fine',    // 50+ Fine
+      '60_plus_timeless' // 60+ Timeless
+    ]
+  }).notNull(),
+  verifiedAt: timestamp("verified_at"),
+  displayOnProfile: boolean("display_on_profile").default(true),
+  createdAt: timestamp("created_at").defaultNow(),
+}, (table) => [
+  index("idx_era_user").on(table.userId),
+  uniqueIndex("idx_era_unique").on(table.userId, table.eraTag),
+]);
+
+// Vibe Tags - Personality and aesthetic categorization
+export const vibeTags = pgTable("vibe_tags", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  name: varchar("name").unique().notNull(),
+  category: varchar("category", {
+    enum: ['personality', 'aesthetic', 'lifestyle', 'setting']
+  }).notNull(),
+  displayName: varchar("display_name").notNull(),
+  description: text("description"),
+  iconEmoji: varchar("icon_emoji"),
+  colorHex: varchar("color_hex"), // Badge color
+  sortOrder: integer("sort_order").default(0),
+  isActive: boolean("is_active").default(true),
+  createdAt: timestamp("created_at").defaultNow(),
+});
+
+// Creator Vibe Tag Associations
+export const creatorVibeTags = pgTable("creator_vibe_tags", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").references(() => users.id).notNull(),
+  vibeTagId: varchar("vibe_tag_id").references(() => vibeTags.id).notNull(),
+  isPrimary: boolean("is_primary").default(false),
+  createdAt: timestamp("created_at").defaultNow(),
+}, (table) => [
+  uniqueIndex("idx_creator_vibe_unique").on(table.userId, table.vibeTagId),
+  index("idx_creator_vibes").on(table.userId),
+]);
+
+// Fan Archetypes - Fan identity types
+export const fanArchetypes = pgTable("fan_archetypes", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").references(() => users.id).notNull(),
+  archetype: varchar("archetype", {
+    enum: [
+      'admirer',     // Classic appreciator
+      'cub',         // Younger admirer (personality term)
+      'enthusiast',  // Passionate fan
+      'vip_follower' // Premium supporter
+    ]
+  }).notNull(),
+  displayOnProfile: boolean("display_on_profile").default(false),
+  createdAt: timestamp("created_at").defaultNow(),
+}, (table) => [
+  uniqueIndex("idx_fan_archetype_unique").on(table.userId),
+]);
+
+// Confidence Metrics - Creator personality scoring system
+export const confidenceMetrics = pgTable("confidence_metrics", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").references(() => users.id).notNull(),
+  overallScore: integer("overall_score").default(50), // 0-100
+
+  // Component scores (0-100 each)
+  profileCompleteness: integer("profile_completeness").default(0),
+  contentConsistency: integer("content_consistency").default(0),
+  engagementRate: integer("engagement_rate").default(0),
+  brandingStrength: integer("branding_strength").default(0),
+  communityPresence: integer("community_presence").default(0),
+
+  // Display settings
+  showOnProfile: boolean("show_on_profile").default(true),
+  lastCalculatedAt: timestamp("last_calculated_at"),
+  calculationHistory: jsonb("calculation_history").default([]),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (table) => [
+  uniqueIndex("idx_confidence_user").on(table.userId),
+]);
+
+// CougarFanz Extended Profiles - Luxury branding features
+export const cougarProfiles = pgTable("cougar_profiles", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").references(() => users.id).notNull(),
+
+  // Signature branding
+  signatureTagline: varchar("signature_tagline", { length: 200 }),
+  glamBio: text("glam_bio"),
+
+  // Visual customization
+  profileFrameStyle: varchar("profile_frame_style", {
+    enum: ['gold_classic', 'rose_gold', 'champagne', 'bronze', 'platinum']
+  }).default('gold_classic'),
+  bannerOverlayStyle: varchar("banner_overlay_style", {
+    enum: ['none', 'velvet', 'leopard_subtle', 'gold_foil', 'gradient']
+  }).default('none'),
+
+  // Privacy and boundaries
+  boundariesDescription: text("boundaries_description"),
+  preferredTerms: jsonb("preferred_terms").default([]), // How they like to be addressed
+  blockedTerms: jsonb("blocked_terms").default([]), // Auto-filtered from messages
+
+  // Custom subscription tier naming
+  tierNaming: jsonb("tier_naming").default({
+    basic: "Admirer",
+    premium: "VIP",
+    vip: "Inner Circle"
+  }),
+
+  // AI assistance preferences
+  aiCoachEnabled: boolean("ai_coach_enabled").default(true),
+  aiCaptionStyle: varchar("ai_caption_style", {
+    enum: ['luxury', 'playful', 'mysterious', 'bold', 'elegant']
+  }).default('luxury'),
+
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+}, (table) => [
+  uniqueIndex("idx_cougar_profile_user").on(table.userId),
+]);
+
+// AI Persona Coach Sessions - Track AI coaching interactions
+export const personaCoachSessions = pgTable("persona_coach_sessions", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").references(() => users.id).notNull(),
+  sessionType: varchar("session_type", {
+    enum: ['archetype_discovery', 'bio_generation', 'caption_help', 'brand_review', 'vibe_suggestion']
+  }).notNull(),
+  inputData: jsonb("input_data").default({}),
+  outputData: jsonb("output_data").default({}),
+  feedback: varchar("feedback", { enum: ['helpful', 'not_helpful', 'neutral'] }),
+  createdAt: timestamp("created_at").defaultNow(),
+}, (table) => [
+  index("idx_coach_user").on(table.userId),
+  index("idx_coach_type").on(table.sessionType),
+]);
+
+// CougarFanz Relations
+export const creatorArchetypesRelations = relations(creatorArchetypes, ({ one }) => ({
+  user: one(users, {
+    fields: [creatorArchetypes.userId],
+    references: [users.id],
+  }),
+}));
+
+export const ageEraBadgesRelations = relations(ageEraBadges, ({ one }) => ({
+  user: one(users, {
+    fields: [ageEraBadges.userId],
+    references: [users.id],
+  }),
+}));
+
+export const creatorVibeTagsRelations = relations(creatorVibeTags, ({ one }) => ({
+  user: one(users, {
+    fields: [creatorVibeTags.userId],
+    references: [users.id],
+  }),
+  vibeTag: one(vibeTags, {
+    fields: [creatorVibeTags.vibeTagId],
+    references: [vibeTags.id],
+  }),
+}));
+
+export const fanArchetypesRelations = relations(fanArchetypes, ({ one }) => ({
+  user: one(users, {
+    fields: [fanArchetypes.userId],
+    references: [users.id],
+  }),
+}));
+
+export const confidenceMetricsRelations = relations(confidenceMetrics, ({ one }) => ({
+  user: one(users, {
+    fields: [confidenceMetrics.userId],
+    references: [users.id],
+  }),
+}));
+
+export const cougarProfilesRelations = relations(cougarProfiles, ({ one }) => ({
+  user: one(users, {
+    fields: [cougarProfiles.userId],
+    references: [users.id],
+  }),
+}));
+
+export const personaCoachSessionsRelations = relations(personaCoachSessions, ({ one }) => ({
+  user: one(users, {
+    fields: [personaCoachSessions.userId],
+    references: [users.id],
+  }),
+}));
+
+// =============================================================================
+// COUGARFANZ INSERT SCHEMAS
+// =============================================================================
+
+export const insertCreatorArchetypeSchema = createInsertSchema(creatorArchetypes).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertAgeEraBadgeSchema = createInsertSchema(ageEraBadges).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertVibeTagSchema = createInsertSchema(vibeTags).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertCreatorVibeTagSchema = createInsertSchema(creatorVibeTags).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertFanArchetypeSchema = createInsertSchema(fanArchetypes).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertConfidenceMetricSchema = createInsertSchema(confidenceMetrics).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertCougarProfileSchema = createInsertSchema(cougarProfiles).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertPersonaCoachSessionSchema = createInsertSchema(personaCoachSessions).omit({
+  id: true,
+  createdAt: true,
+});
+
+// =============================================================================
+// COUGARFANZ TYPE EXPORTS
+// =============================================================================
+
+export type CreatorArchetype = typeof creatorArchetypes.$inferSelect;
+export type InsertCreatorArchetype = z.infer<typeof insertCreatorArchetypeSchema>;
+
+export type AgeEraBadge = typeof ageEraBadges.$inferSelect;
+export type InsertAgeEraBadge = z.infer<typeof insertAgeEraBadgeSchema>;
+
+export type VibeTag = typeof vibeTags.$inferSelect;
+export type InsertVibeTag = z.infer<typeof insertVibeTagSchema>;
+
+export type CreatorVibeTag = typeof creatorVibeTags.$inferSelect;
+export type InsertCreatorVibeTag = z.infer<typeof insertCreatorVibeTagSchema>;
+
+export type FanArchetype = typeof fanArchetypes.$inferSelect;
+export type InsertFanArchetype = z.infer<typeof insertFanArchetypeSchema>;
+
+export type ConfidenceMetric = typeof confidenceMetrics.$inferSelect;
+export type InsertConfidenceMetric = z.infer<typeof insertConfidenceMetricSchema>;
+
+export type CougarProfile = typeof cougarProfiles.$inferSelect;
+export type InsertCougarProfile = z.infer<typeof insertCougarProfileSchema>;
+
+export type PersonaCoachSession = typeof personaCoachSessions.$inferSelect;
+export type InsertPersonaCoachSession = z.infer<typeof insertPersonaCoachSessionSchema>;
