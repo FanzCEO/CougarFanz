@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Twitter, Instagram, MessageCircle, Send } from "lucide-react";
-import pupfanzLogo from "@/assets/pupfanz-logo.jpeg";
+import cougarfanzLogo from "@/assets/cougarfanz-logo.jpeg";
 import { Badge } from "@/components/ui/badge";
 
 export default function Footer() {
@@ -40,8 +40,8 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="mb-4">
               <img 
-                src={pupfanzLogo} 
-                alt="PupFanz Logo" 
+                src={cougarfanzLogo} 
+                alt="CougarFanz Logo" 
                 className="h-32 w-auto rounded-lg"
                 data-testid="logo-footer"
               />
@@ -122,7 +122,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center md:justify-between">
           <p className="text-sm text-muted mb-4 md:mb-0">
-            © 2024 PupFanz. All rights reserved. | 18+ Adult Content Platform
+            © 2024 CougarFanz. All rights reserved. | 18+ Adult Content Platform
           </p>
           <div className="flex items-center space-x-4">
             <Badge className="safety-badge safety-badge-verified">

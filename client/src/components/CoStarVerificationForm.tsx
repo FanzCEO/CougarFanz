@@ -210,7 +210,7 @@ export function CoStarVerificationForm({
           <p>
             This document ensures compliance with <strong>18 U.S.C. § 2257</strong>, protecting both Content Stars
             and Co-Stars who collaborate and distribute media through the platforms operated under FANZ™ Group Holdings LLC
-            — including but not limited to its subsidiaries: Fanz™ Unlimited Network LLC, BoyFanz™, GirlFanz™, PupFanz™,
+            — including but not limited to its subsidiaries: Fanz™ Unlimited Network LLC, CougarFanz™, GirlFanz™, CougarFanz™,
             and any other entities under the FANZ™ brand ecosystem.
           </p>
           <p>

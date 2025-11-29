@@ -575,7 +575,7 @@ export const consentRecords = pgTable("consent_records", {
 // NEW MULTI-TENANT TABLES
 // =============================================================================
 
-// Core tenants table - GirlFanz, PupFanz, DaddyFanz
+// Core tenants table - GirlFanz, CougarFanz, DaddyFanz
 export const tenants = pgTable("tenants", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
   slug: varchar("slug").unique().notNull(),
@@ -1410,7 +1410,7 @@ export const nftCollections = pgTable("nft_collections", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
   creatorId: varchar("creator_id").references(() => users.id).notNull(),
   name: varchar("name").notNull(),
-  symbol: varchar("symbol").notNull(), // e.g., "PUPFANZ"
+  symbol: varchar("symbol").notNull(), // e.g., "COUGARFANZ"
   description: text("description"),
   contractAddress: varchar("contract_address"), // Blockchain contract address
   blockchain: varchar("blockchain", { enum: ['ethereum', 'polygon', 'solana', 'base'] }).default('polygon'),

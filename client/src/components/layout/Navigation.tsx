@@ -61,7 +61,7 @@ export default function Navigation() {
         </h2>
         <div className="flex flex-wrap gap-1 text-xs">
           <Badge variant="secondary" className="text-pink-400">GirlFanz</Badge>
-          <Badge variant="secondary" className="text-green-400">PupFanz</Badge>
+          <Badge variant="secondary" className="text-green-400">CougarFanz</Badge>
           <Badge variant="secondary" className="text-amber-600">DaddyFanz</Badge>
         </div>
       </div>

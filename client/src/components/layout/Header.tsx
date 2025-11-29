@@ -27,7 +27,7 @@ import {
   Heart
 } from "lucide-react";
 import { Link, useLocation } from "wouter";
-import pupfanzLogo from "@/assets/pupfanz-logo.jpeg";
+import cougarfanzLogo from "@/assets/cougarfanz-logo.jpeg";
 
 interface HeaderProps {
   onAuthClick?: (mode: 'login' | 'register') => void;
@@ -60,8 +60,8 @@ export default function Header({ onAuthClick }: HeaderProps) {
           {/* Logo - Responsive sizing */}
           <Link href="/" className="flex items-center space-x-3 group">
             <img 
-              src={pupfanzLogo} 
-              alt="PupFanz Logo" 
+              src={cougarfanzLogo} 
+              alt="CougarFanz Logo" 
               className="h-12 sm:h-16 md:h-20 lg:h-28 w-auto group-hover:shadow-volt-glow transition-all duration-200 rounded-lg"
               data-testid="logo-header"
             />

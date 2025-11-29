@@ -200,7 +200,7 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="neon-heading text-4xl mb-4">Success in the Pack</h2>
-            <p className="text-xl text-muted max-w-2xl mx-auto">Real creators achieving their goals on PupFanz</p>
+            <p className="text-xl text-muted max-w-2xl mx-auto">Real creators achieving their goals on CougarFanz</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">

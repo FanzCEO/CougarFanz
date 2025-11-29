@@ -178,7 +178,7 @@ export default function ConsentManagement() {
         <Alert>
           <Shield className="h-4 w-4" />
           <AlertDescription>
-            Clear consent is required for all interactions on PupFanz. You can update your preferences at any time. 
+            Clear consent is required for all interactions on CougarFanz. You can update your preferences at any time. 
             Required consents are necessary for platform functionality.
           </AlertDescription>
         </Alert>

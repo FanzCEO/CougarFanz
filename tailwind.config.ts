@@ -11,7 +11,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
-        // PupFanz brand colors
+        // CougarFanz brand colors
         pf: {
           volt: "hsl(78, 100%, 54%)", // #A3FF12
           cobalt: "hsl(217, 91%, 60%)", // #2563EB

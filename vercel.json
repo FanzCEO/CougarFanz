@@ -23,9 +23,9 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "@pupfanz_database_url",
-    "SESSION_SECRET": "@pupfanz_session_secret",
-    "JWT_SECRET": "@pupfanz_jwt_secret",
+    "DATABASE_URL": "@cougarfanz_database_url",
+    "SESSION_SECRET": "@cougarfanz_session_secret",
+    "JWT_SECRET": "@cougarfanz_jwt_secret",
     "NODE_ENV": "production"
   }
 }

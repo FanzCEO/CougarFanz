@@ -14,7 +14,7 @@ const wikiCategories = [
     articles: [
       { title: "Welcome to FUN Empire", slug: "welcome", tags: ["basics", "intro"] },
       { title: "Setting up your Profile", slug: "profile-setup", tags: ["profile", "basics"] },
-      { title: "Understanding Tenants", slug: "tenants", tags: ["girlfanz", "pupfanz", "daddyfanz"] },
+      { title: "Understanding Tenants", slug: "tenants", tags: ["girlfanz", "cougarfanz", "daddyfanz"] },
       { title: "Content Creation Guide", slug: "content-creation", tags: ["content", "creators"] },
     ]
   },

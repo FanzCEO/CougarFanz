@@ -241,7 +241,7 @@ export default function Moderation() {
             Community Moderation
           </h1>
           <p className="text-muted-foreground mt-1">
-            Help keep PupFanz safe by reviewing reports and voting on community concerns
+            Help keep CougarFanz safe by reviewing reports and voting on community concerns
           </p>
         </div>
         <div className="flex items-center gap-4">
@@ -448,7 +448,7 @@ export default function Moderation() {
                 Top Moderators
               </CardTitle>
               <CardDescription>
-                Community members who help keep PupFanz safe
+                Community members who help keep CougarFanz safe
               </CardDescription>
             </CardHeader>
             <CardContent>

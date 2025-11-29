@@ -11,7 +11,7 @@
     {
       "id": "dash-001",
       "question": "What is the dashboard?",
-      "answer": "Your dashboard is your command center on BoyFanz. It shows real-time insights into your earnings, fan growth, content performance, and notifications. Think of it as your business headquarters!",
+      "answer": "Your dashboard is your command center on CougarFanz. It shows real-time insights into your earnings, fan growth, content performance, and notifications. Think of it as your business headquarters!",
       "related_topics": ["revenue", "fans", "content", "analytics"],
       "difficulty": "beginner"
     },
@@ -140,7 +140,7 @@
     },
     {
       "condition": "first_time_user",
-      "message": "🎉 Welcome to BoyFanz! Want a quick tour of your dashboard?",
+      "message": "🎉 Welcome to CougarFanz! Want a quick tour of your dashboard?",
       "action": "start_onboarding_tour"
     }
   ],

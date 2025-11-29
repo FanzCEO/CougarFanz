@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 :root {
-  /* PupFanz Brand Colors */
+  /* CougarFanz Brand Colors */
   --pf-volt: hsl(78, 100%, 54%); /* #A3FF12 */
   --pf-cobalt: hsl(217, 91%, 60%); /* #2563EB */
   --pf-tangerine: hsl(24, 100%, 50%); /* #FF7A00 */
@@ -73,7 +73,7 @@
 }
 
 .dark {
-  /* Dark mode is default for PupFanz */
+  /* Dark mode is default for CougarFanz */
   --background: var(--pf-ink);
   --foreground: var(--pf-snow);
 }
@@ -95,7 +95,7 @@
 }
 
 @layer components {
-  /* PupFanz specific components */
+  /* CougarFanz specific components */
   .pack-gradient {
     background: var(--gradient-pack);
   }
