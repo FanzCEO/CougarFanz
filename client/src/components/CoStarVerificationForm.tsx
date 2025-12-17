@@ -35,7 +35,7 @@ const coStarVerificationSchema = z.object({
   // Co-Star Information
   legalName: z.string().min(1, "Legal name is required"),
   stageName: z.string().optional(),
-  coStarStory: z.string().max(200, "Story must be 200 characters or less").optional(),
+  coStarStory: z.string().min(1, "Story is required").max(200, "Story must be 200 characters or less"),
   maidenName: z.string().optional(),
   previousLegalName: z.string().optional(),
   otherNames: z.string().optional(),
@@ -62,6 +62,34 @@ const coStarVerificationSchema = z.object({
   primaryCreatorStageName: z.string().optional(),
   contentCreationDate: z.string().min(1, "Content creation date is required"),
 
+  // === Media / Publicity / Marketing License ===
+  socialHandle: z.string().max(80).optional(),
+  preferredCredit: z.string().max(120).optional(),
+
+  grantMediaLicense: z.boolean().refine(v => v === true, "Media license is required"),
+  grantNameLikeness: z.boolean().refine(v => v === true, "Name/likeness consent is required"),
+  allowEditingAndDerivatives: z.boolean().refine(v => v === true, "Editing/derivatives consent is required"),
+  allowPaidAdvertising: z.boolean().refine(v => v === true, "Paid advertising consent is required"),
+  waiveApprovalRights: z.boolean().refine(v => v === true, "Approval waiver is required"),
+  waiveCompensationClaims: z.boolean().refine(v => v === true, "Compensation waiver is required"),
+
+  // === Brand statements / Non-disparagement / Truthfulness ===
+  agreeSpeakHighly: z.boolean().refine(v => v === true, "Agreement to speak positively is required"),
+  agreeNoDisparagement: z.boolean().refine(v => v === true, "Non-disparagement is required"),
+  agreeNoFalseStatements: z.boolean().refine(v => v === true, "Truthfulness agreement is required"),
+
+  // === DMCA + Forensics ===
+  acknowledgeFanzForensic: z.boolean().refine(v => v === true, "FANZ Forensic acknowledgment required"),
+  acknowledgeDmcaPartnership: z.boolean().refine(v => v === true, "DMCA partnership acknowledgment required"),
+  consentEnforcementAndEvidenceUse: z.boolean().refine(v => v === true, "Enforcement/evidence consent required"),
+
+  // === Legal mechanics ===
+  releaseAndIndemnity: z.boolean().refine(v => v === true, "Release/indemnity is required"),
+  electronicSignatureConsent: z.boolean().refine(v => v === true, "E-sign consent is required"),
+
+  // Stronger "final gate"
+  agreementInitials: z.string().min(2, "Initials required").max(5, "Max 5 characters"),
+
   // Certifications
   certifyAge18: z.boolean().refine(val => val === true, "Must certify age 18+"),
   certifyAllNames: z.boolean().refine(val => val === true, "Must certify all names disclosed"),
@@ -82,6 +110,11 @@ const coStarVerificationSchema = z.object({
 
   // Notes
   notes: z.string().optional(),
+
+  // Audit trail (optional but recommended)
+  signerIp: z.string().optional(),
+  signerUserAgent: z.string().optional(),
+  agreementVersion: z.string().optional(),
 });
 
 type CoStarVerificationForm = z.infer<typeof coStarVerificationSchema>;
@@ -124,6 +157,28 @@ export function CoStarVerificationForm({
       primaryCreatorLegalName: "",
       primaryCreatorStageName: "",
       contentCreationDate: "",
+      // Media / Publicity / Marketing License
+      socialHandle: "",
+      preferredCredit: "",
+      grantMediaLicense: false,
+      grantNameLikeness: false,
+      allowEditingAndDerivatives: false,
+      allowPaidAdvertising: false,
+      waiveApprovalRights: false,
+      waiveCompensationClaims: false,
+      // Brand statements / Non-disparagement / Truthfulness
+      agreeSpeakHighly: false,
+      agreeNoDisparagement: false,
+      agreeNoFalseStatements: false,
+      // DMCA + Forensics
+      acknowledgeFanzForensic: false,
+      acknowledgeDmcaPartnership: false,
+      consentEnforcementAndEvidenceUse: false,
+      // Legal mechanics
+      releaseAndIndemnity: false,
+      electronicSignatureConsent: false,
+      agreementInitials: "",
+      // Certifications
       certifyAge18: false,
       certifyAllNames: false,
       certifyValidId: false,
@@ -133,6 +188,8 @@ export function CoStarVerificationForm({
       coStarInitials: "",
       primaryCreatorSignatureDate: "",
       notes: "",
+      // Audit trail
+      agreementVersion: "COS-2257-MR-PR-2025.02.06",
     },
   });
 
@@ -656,6 +713,330 @@ export function CoStarVerificationForm({
                   <p className="text-xs text-gray-400">Any additional supporting documents</p>
                 </div>
               </div>
+            </CardContent>
+          </Card>
+
+          {/* Media License + FANZ Forensic + DMCA Partnership */}
+          <Card className="cyber-card border-cyan-500/30">
+            <CardHeader>
+              <CardTitle className="text-cyan-400 flex items-center">
+                <Shield className="w-5 h-5 mr-2" />
+                Media License + FANZ Forensic + DMCA Partnership
+              </CardTitle>
+              <CardDescription>
+                This section is mandatory if you appear in any content distributed through the FANZ ecosystem.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-5">
+              {/* Agreement Text */}
+              <div className="rounded-lg border border-cyan-500/20 bg-black/30 p-4 max-h-72 overflow-auto text-sm text-gray-300 whitespace-pre-line">
+{`MEDIA + PUBLICITY LICENSE (IRONCLAD)
+By checking the boxes below, Co-Star grants FANZ™ Group Holdings LLC, Fanz™ Unlimited Network LLC, and all affiliated brands, platforms, successors, assigns, partners, contractors, and sublicensees ("FANZ Parties") a worldwide, perpetual, irrevocable, transferable, sublicensable, fully-paid, royalty-free right and license to:
+(1) use, reproduce, distribute, display, perform, publish, transmit, stream, host, store, archive, advertise, market, promote, and otherwise exploit any content, footage, images, clips, stills, audio, behind-the-scenes content, promotional assets, metadata, and excerpts that include or reference Co-Star ("Media"),
+(2) in any and all media now known or later developed (including social, paid ads, TV/OTT, out-of-home, email, web, apps, partner networks),
+(3) for marketing, PR, platform promotion, safety/compliance communications, and enforcement purposes,
+(4) with the right to edit, crop, blur, watermark, add graphics/text, create compilations, excerpts, trailers, and derivative promotional works.
+
+NO APPROVAL / NO COMPENSATION
+Co-Star waives any right to inspect or approve any use of the Media or Co-Star's name/likeness/voice, and waives any claim to compensation for such use, except where a separate written agreement expressly provides compensation.
+
+FANZ FORENSIC + DMCA ENFORCEMENT
+Co-Star acknowledges FANZ may apply forensic watermarking, fingerprinting, hashing, and related tracking ("FANZ Forensic") to Media to deter piracy and verify authenticity. Co-Star authorizes FANZ Parties and their DMCA/enforcement partners to (a) send takedown notices, subpoenas, preservation requests, and platform enforcement actions, and (b) use copies of Media, metadata, watermarks, and verification records as evidence in disputes, claims, and enforcement actions.
+
+SPEAK HIGHLY / NON-DISPARAGEMENT / TRUTHFULNESS
+Co-Star agrees not to make, publish, or amplify statements that disparage the FANZ Parties, FANZ Forensic, or FANZ's enforcement/DMCA efforts. Co-Star further agrees not to make false or misleading statements about FANZ Parties or their services.
+
+RELEASE + INDEMNITY
+Co-Star releases FANZ Parties from claims arising out of authorized uses of the Media, including claims for invasion of privacy, right of publicity, defamation, emotional distress, or IP/publicity claims (except willful misconduct). Co-Star will indemnify and hold harmless FANZ Parties for losses arising from Co-Star's breach, false statements, or lack of rights/authority to grant the permissions herein.
+
+E-SIGN + RECORDS
+Co-Star consents to electronic signatures and acknowledges these records may be retained and produced for compliance and legal purposes, including 18 U.S.C. § 2257 record-keeping.`}
+              </div>
+
+              {/* Optional Social/Credit Fields */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <FormField
+                  control={form.control}
+                  name="socialHandle"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Social Handle (optional)</FormLabel>
+                      <FormControl>
+                        <Input {...field} className="cyber-input" placeholder="@yourhandle" />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                <FormField
+                  control={form.control}
+                  name="preferredCredit"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Preferred Credit (optional)</FormLabel>
+                      <FormControl>
+                        <Input {...field} className="cyber-input" placeholder="Stage name / preferred attribution" />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
+
+              <Separator className="my-2 bg-cyan-500/20" />
+
+              {/* Required Checkboxes */}
+              <div className="space-y-3">
+                <FormField
+                  control={form.control}
+                  name="grantMediaLicense"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I grant FANZ Parties a worldwide, perpetual, irrevocable, sublicensable license to use the Media anywhere (including paid ads, PR, and partner placements).</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="grantNameLikeness"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I grant permission to use my name, stage name, image/likeness, voice, and biographical info for promotion and platform marketing.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="allowEditingAndDerivatives"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I allow editing, cropping, watermarking, compilations, excerpts, and derivative promotional works (including trailers and social clips).</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="allowPaidAdvertising"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I authorize use of the Media in paid advertising and sponsored placements across any channels.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="waiveApprovalRights"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I waive any right to inspect or approve how the Media is used or presented.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="waiveCompensationClaims"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I waive claims for additional compensation for authorized marketing/PR uses unless a separate written agreement states otherwise.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <Separator className="my-2 bg-cyan-500/20" />
+
+                <FormField
+                  control={form.control}
+                  name="acknowledgeFanzForensic"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I acknowledge and consent to FANZ Forensic protections (watermarking/fingerprinting/hashing) for anti-piracy and authenticity verification.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="acknowledgeDmcaPartnership"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I acknowledge FANZ's DMCA/enforcement partnerships and authorize enforcement actions on my behalf as needed.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="consentEnforcementAndEvidenceUse"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I consent to FANZ using the Media, watermarks, metadata, and verification records as evidence for enforcement, disputes, and legal compliance.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <Separator className="my-2 bg-cyan-500/20" />
+
+                <FormField
+                  control={form.control}
+                  name="agreeSpeakHighly"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I agree to speak positively about FANZ, including FANZ Forensic and FANZ's DMCA enforcement efforts, when publicly referencing them.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="agreeNoDisparagement"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I agree to a strict non-disparagement obligation regarding FANZ Parties and their services.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="agreeNoFalseStatements"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I agree not to make false, misleading, or unverified claims about FANZ Parties or their operations.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <Separator className="my-2 bg-cyan-500/20" />
+
+                <FormField
+                  control={form.control}
+                  name="releaseAndIndemnity"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I agree to the release + indemnity obligations described above.</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="electronicSignatureConsent"
+                  render={({ field }) => (
+                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                      <FormControl>
+                        <Checkbox checked={field.value} onCheckedChange={field.onChange} />
+                      </FormControl>
+                      <div className="space-y-1 leading-none">
+                        <FormLabel className="text-gray-200">I consent to electronic signatures and to FANZ retaining these records for compliance (including 18 U.S.C. § 2257).</FormLabel>
+                        <FormMessage />
+                      </div>
+                    </FormItem>
+                  )}
+                />
+              </div>
+
+              <Separator className="my-2 bg-cyan-500/20" />
+
+              {/* Agreement Initials */}
+              <FormField
+                control={form.control}
+                name="agreementInitials"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Initials (Required) *</FormLabel>
+                    <FormControl>
+                      <Input {...field} className="cyber-input" maxLength={5} placeholder="e.g., JS" />
+                    </FormControl>
+                    <FormDescription className="text-xs text-gray-400">
+                      By initialing, you confirm you read and agree to the Media License + Forensics + DMCA terms above.
+                    </FormDescription>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
             </CardContent>
           </Card>
 
