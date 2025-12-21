@@ -1,0 +1,420 @@
+REPLIT RECREATION DIRECTIVE - BoyFanz Platform
+🎯 OBJECTIVE
+Recreate the complete BoyFanz adult content creator platform architecture in Replit with all core functionality, infrastructure, and compliance features. Theme and color scheme to be customized separately.
+🏗️ CORE ARCHITECTURE REQUIREMENTS
+Backend Stack
+Runtime: Node.js 20+ with TypeScript
+Framework: Express.js with comprehensive security middleware
+Database: PostgreSQL with Drizzle ORM
+Authentication: Dual system (Replit OAuth + Local JWT)
+API Architecture: RESTful with API Gateway pattern
+Real-time: WebSocket server for live features
+Frontend Stack
+Framework: React 18+ with TypeScript
+Bundler: Vite with hot module replacement
+Routing: Wouter (lightweight client-side routing)
+State Management: React Query for server state
+UI Components: Radix UI primitives (headless components)
+Styling: Tailwind CSS (theme/colors excluded - to be customized)
+Development Environment
+Package Manager: pnpm with workspace support
+Linting: ESLint with TypeScript rules
+Testing: Jest with comprehensive test suites
+Build Process: Vite production builds with optimization
+📁 DIRECTORY STRUCTURE
+project-root/
+├── server/                    # Backend API server
+│   ├── index.ts              # Main Express application
+│   ├── auth.ts               # Local authentication
+│   ├── replitAuth.ts         # Replit OAuth integration
+│   ├── db.ts                 # Database connection
+│   ├── logger.ts             # Structured logging with Pino
+│   ├── health.ts             # Health check endpoints
+│   ├── middleware/           # Express middleware
+│   │   ├── auth.ts           # Authentication middleware
+│   │   ├── rateLimit.ts      # Rate limiting
+│   │   ├── csrf.ts           # CSRF protection
+│   │   └── validation.ts     # Request validation
+│   ├── routes/               # API route handlers
+│   │   ├── mobileApi.ts      # ClubCentral mobile backend
+│   │   ├── apiGatewayRoutes.ts # API Gateway management
+│   │   └── [platform]Routes.ts # Platform-specific routes
+│   └── services/             # Business logic services
+│       ├── apiGatewayService.ts    # Service mesh management
+│       ├── paymentService.ts       # Adult-friendly payments
+│       ├── moderationService.ts    # Content moderation
+│       └── notificationService.ts  # Push notifications
+├── client/                   # React frontend
+│   ├── src/
+│   │   ├── main.tsx         # React app entry point
+│   │   ├── App.tsx          # Main app component
+│   │   ├── components/      # Reusable UI components
+│   │   │   ├── ui/          # Radix UI components
+│   │   │   ├── auth/        # Authentication forms
+│   │   │   ├── layout/      # Header, sidebar, footer
+│   │   │   └── media/       # Media upload/display
+│   │   ├── pages/           # Page components
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── CreatorProfile.tsx
+│   │   │   ├── Messages.tsx
+│   │   │   └── Settings.tsx
+│   │   ├── hooks/           # Custom React hooks
+│   │   │   ├── useAuth.ts
+│   │   │   ├── useWebSocket.ts
+│   │   │   └── useCSRF.ts
+│   │   └── lib/             # Utility functions
+│   │       ├── utils.ts
+│   │       ├── authUtils.ts
+│   │       └── queryClient.ts
+│   └── index.html           # HTML template
+├── shared/                  # Shared TypeScript code
+│   ├── schema.ts           # Drizzle database schema
+│   └── types.ts            # Shared TypeScript types
+├── scripts/                # Development scripts
+│   ├── dev-setup.sh        # Environment setup
+│   └── health-check.sh     # System validation
+├── test/                   # Test suites
+│   └── ecosystem-validation.test.js
+├── package.json            # Dependencies and scripts
+├── tsconfig.json           # TypeScript configuration
+├── vite.config.ts          # Vite bundler config
+├── tailwind.config.ts      # Tailwind CSS config (no colors)
+├── drizzle.config.ts       # Database ORM config
+└── .env.example            # Environment variables template
+🗄️ DATABASE SCHEMA REQUIREMENTS
+Core Tables
+-- Users (dual auth support)
+users: id, username, email, password, role, authProvider, status, timestamps
+-- Profiles (creator/fan profiles)
+profiles: userId, displayName, bio, avatarUrl, kycStatus, ageVerified, compliance
+-- Media Assets (content management)
+mediaAssets: id, ownerId, title, s3Key, mimeType, status, forensicSignature
+-- Sessions (Replit auth)
+sessions: sid, sess, expire
+-- KYC Verifications (compliance)
+kycVerifications: id, userId, provider, status, dataJson
+-- 2257 Records (adult industry compliance)
+records2257: id, userId, docType, s3Key, checksum
+-- Moderation Queue
+moderationQueue: id, mediaId, status, reviewerId, notes, priority
+-- Audit Logs (compliance tracking)
+auditLogs: id, actorId, action, targetType, targetId, timestamp
+Payment & Payout Tables
+-- Payout Accounts (adult-friendly providers only)
+payoutAccounts: id, userId, provider, accountRef, status
+-- Payout Requests
+payoutRequests: id, userId, amountCents, currency, status, providerRef
+-- Webhooks (payment notifications)
+webhooks: id, userId, url, secret, eventsJson, status
+🔐 AUTHENTICATION SYSTEM
+Dual Authentication Support
+// Replit OAuth integration
+- OIDC flow with Replit identity provider
+- Session-based authentication using connect-pg-simple
+- Automatic user creation from Replit profile
+// Local JWT authentication  
+- Username/password registration and login
+- Secure password hashing with bcrypt
+- JWT tokens with refresh token rotation
+- CSRF protection for all forms
+Security Middleware Stack
+// Helmet.js security headers
+- Content Security Policy (CSP)
+- HSTS in production
+- XSS protection
+- Frame options
+- Content type sniffing prevention
+// Rate limiting
+- Production: 1000 requests/minute per IP
+- Development: 10000 requests/minute per IP
+- Sliding window implementation
+// CSRF protection
+- Double submit cookie pattern
+- Synchronizer token pattern
+- CORS policy enforcement
+💳 PAYMENT INTEGRATION REQUIREMENTS
+CRITICAL: Adult-Friendly Processors Only
+// NEVER USE: Stripe, PayPal, Square (banned for adult content)
+// Approved Card Processors:
+- CCBill (primary US processor)
+- Segpay (global processor)  
+- Epoch (EU processor)
+- Vendo (LatAm processor)
+- Verotel (EU alternative)
+- NetBilling, CommerceGate, RocketGate
+- CentroBill, Payze, Kolektiva
+// Regional routing logic via FanzDash
+US → CCBill/Segpay
+EU → Epoch/Verotel  
+LatAm → Vendo
+Global fallback → Segpay
+// Creator Payout Methods:
+- Paxum (primary adult industry standard)
+- ePayService (alternative adult-friendly)
+- Wise (international transfers)
+- Crypto (BTC/ETH/USDT/USDC)
+- ACH/SEPA direct deposits
+Payment Service Implementation
+// Adult-friendly payment service
+class AdultFriendlyPaymentService {
+  // Gateway selection based on region/risk
+  selectGateway(region: string, amount: number): PaymentGateway
+  
+  // Process payment with adult-friendly gateway
+  processPayment(gateway: string, amount: number): PaymentResult
+  
+  // Handle webhooks from multiple processors
+  handleWebhook(provider: string, payload: any): void
+  
+  // Creator payout processing
+  processCreatorPayout(userId: string, amount: number): PayoutResult
+}
+🛡️ SECURITY & COMPLIANCE REQUIREMENTS
+Adult Industry Compliance
+// Age verification (18 U.S.C. §2257)
+- Government-issued ID verification
+- Age verification database integration
+- Record keeping for all content creators
+- Compliance officer designation
+// KYC/AML Requirements
+- Identity verification for payouts >$600
+- Sanctions screening (OFAC/EU/UN lists)
+- Anti-money laundering monitoring
+- Suspicious activity reporting
+// Content Protection (DRM)
+- Forensic watermarking of all media
+- Content fingerprinting for piracy protection
+- Geo-blocking for restricted regions
+- VPN detection and blocking
+Data Protection (GDPR/CCPA)
+// Privacy compliance
+- Explicit consent mechanisms
+- Data export functionality
+- Right to deletion (GDPR Article 17)
+- Data processing transparency
+- Cookie consent management
+- Privacy policy integration
+Security Standards
+// Encryption Requirements
+- TLS 1.3 for all transport
+- AES-256 for data at rest
+- Key rotation every 90 days
+- Certificate transparency monitoring
+// Access Control
+- Zero-trust network architecture
+- Least privilege access principles
+- Multi-factor authentication for admin
+- Role-based permissions (fan/creator/admin)
+📱 MOBILE BACKEND (ClubCentral Integration)
+Mobile API Endpoints
+// Authentication
+POST /api/mobile/auth/login
+POST /api/mobile/auth/register
+POST /api/mobile/auth/refresh
+// User Management
+GET /api/mobile/profile
+PUT /api/mobile/profile
+GET /api/mobile/config
+// Push Notifications
+POST /api/mobile/notifications/register
+GET /api/mobile/notifications/preferences
+// Content & Media
+GET /api/mobile/content/feed
+POST /api/mobile/content/upload
+GET /api/mobile/content/sync
+// Real-time Features
+GET /api/mobile/websocket
+Push Notification System
+// Multi-platform push support
+- Apple Push Notification Service (APNS)
+- Firebase Cloud Messaging (FCM)
+- Device token management
+- Targeted messaging campaigns
+- Delivery tracking and analytics
+🎮 API GATEWAY & SERVICE MESH
+Gateway Features
+// Rate limiting with sliding window
+- IP-based limiting
+- User-based limiting  
+- API key-based limiting
+- Configurable thresholds per environment
+// Circuit breaker pattern
+- Failure threshold: 5 consecutive failures
+- Timeout period: 60 seconds
+- Half-open state for gradual recovery
+- Health check integration
+// Load balancing
+- Round-robin algorithm
+- Health-based routing
+- Automatic failover
+- Service discovery
+// Intelligent caching
+- 100MB memory cache
+- 5-minute default TTL
+- LRU eviction policy
+- Cache invalidation on updates
+Service Registration
+// Auto-registering services
+- Infrastructure Management
+- Security & Compliance  
+- Mobile Backend (ClubCentral)
+- Real-Time Monitoring
+- Payment Processing
+- Media Processing (MediaHub)
+📊 MONITORING & OBSERVABILITY
+Logging Requirements
+// Structured JSON logging with Pino
+- Request ID correlation
+- User action tracking
+- Error stack traces
+- Performance metrics
+- Security event logging
+// Log destinations
+- File system: ./.logs/*.log
+- Console output (development)
+- External aggregation service (production)
+Health Monitoring
+// Health check endpoints
+GET /api/health              # Basic health
+GET /api/gateway/health       # API Gateway status  
+GET /api/infrastructure/health # Infrastructure status
+GET /api/security/health      # Security compliance
+GET /api/mobile/health        # Mobile backend status
+// Metrics collection
+- Response time percentiles (P50, P95, P99)
+- Error rates by endpoint
+- Database connection pool status  
+- Memory and CPU utilization
+- Active user sessions
+🧪 TESTING REQUIREMENTS
+Test Suite Structure
+// Unit tests (≥85% coverage required)
+- Service layer business logic
+- Utility functions
+- Authentication flows
+- Payment processing logic
+// Integration tests
+- API endpoint testing
+- Database integration
+- Authentication flows
+- Payment gateway integration
+- WebSocket connections
+// Load testing
+- Concurrent user simulation
+- Database connection stress testing
+- Payment processing under load
+- Media upload stress testing
+Test Configuration
+// Jest configuration
+- Test timeout: 30 seconds
+- Coverage thresholds: 85% minimum
+- Mock external services
+- Database seeding for tests
+- Parallel test execution
+🌐 ENVIRONMENT CONFIGURATION
+Required Environment Variables
+# Core Application
+NODE_ENV=development
+PORT=5000
+DATABASE_URL=postgresql://username:password@localhost:5432/fanz_db
+# Authentication
+JWT_SECRET=your-jwt-secret-key-64-characters-minimum
+SESSION_SECRET=your-session-secret-32-characters
+# Replit OAuth (auto-provided in Replit)
+REPL_ID=your-repl-id
+ISSUER_URL=https://replit.com/oidc
+# Adult-Friendly Payment Processors (NEVER Stripe/PayPal)
+PAYMENTS_PROCESSOR=CCBill
+CCBILL_CLIENT_ACCNUM=your_ccbill_account
+CCBILL_CLIENT_SUBACC=your_ccbill_subaccount
+CCBILL_SALT=your_ccbill_salt
+SEGPAY_PACKAGE_ID=your_segpay_package
+SEGPAY_USERID=your_segpay_userid
+SEGPAY_ACCESS_KEY=your_segpay_access_key
+# Creator Payouts (Adult-Friendly Only)
+PAYOUTS_PROVIDER=Paxum
+PAXUM_API_USER=your_paxum_user
+PAXUM_API_PASSWORD=your_paxum_password
+# Object Storage (Adult-Friendly CDN)
+CDN_BASE=https://cdn.boyfanz.com
+STORAGE_BUCKET=boyfanz-media
+STORAGE_REGION=us-east-1
+# Monitoring & Observability
+OTEL_SERVICE_NAME=boyfanz-web
+OTEL_EXPORTER_OTLP_ENDPOINT=https://otel-collector.example.com:4317
+# Security & Compliance
+KYC_PROVIDER=VerifyMy
+VERIFYMY_API_KEY=your-verifymy-api-key
+AGE_VERIFICATION_PROVIDER=AgeChecker
+Development Scripts
+{
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "start": "NODE_ENV=production node dist/index.js", 
+    "check": "tsc",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings=0",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  }
+}
+🚀 DEPLOYMENT REQUIREMENTS
+Production Readiness Checklist
+Database migrations applied and tested
+Environment variables configured (no secrets in code)
+SSL/TLS certificates installed and validated
+Adult-friendly payment gateways configured and tested
+KYC/Age verification providers integrated
+Content moderation system operational
+Monitoring and alerting configured
+Backup and disaster recovery tested
+Security audit completed (OWASP Top 10)
+Accessibility compliance validated (WCAG 2.2 AA)
+GDPR compliance features tested
+Adult industry compliance verified (18 U.S.C. §2257)
+Performance Requirements
+API response time P95 < 300ms
+Database query optimization completed
+CDN integration for media delivery
+Caching strategy implemented
+Load testing passed (10x expected traffic)
+Memory usage optimized (<2GB per instance)
+Auto-scaling configuration tested
+⚠️ CRITICAL COMPLIANCE NOTES
+Adult Industry Requirements
+NEVER use Stripe, PayPal, or Square - They prohibit adult content
+Age verification mandatory - 18+ only, government ID required
+Record keeping required - 18 U.S.C. §2257 compliance
+Content protection - DRM, watermarking, anti-piracy measures
+Geographic restrictions - Comply with local laws and regulations
+Payment Processor Integration Priority
+CCBill (primary US processor)
+Segpay (global backup)
+Epoch (EU primary)
+Vendo (LatAm primary)
+Verotel (EU backup)
+Data Protection
+Encryption at rest - AES-256 for all sensitive data
+Encryption in transit - TLS 1.3 minimum
+GDPR compliance - EU users have right to deletion
+Data retention - 7 years for financial records, 2 years for content
+🎨 THEME & STYLING EXCLUSIONS
+The following are EXCLUDED from this directive and should be customized:
+Color schemes and brand colors
+Typography choices
+Visual design themes
+Logo and branding assets
+Custom animations and transitions
+Brand-specific UI styling
+📞 SUPPORT REFERENCES
+Legal Compliance: https://Fanz.Foundation/knowledge-base
+Payment Processors: Adult-friendly gateway documentation
+Security Standards: OWASP guidelines for web applications
+GDPR Compliance: EU data protection regulation
+Adult Industry: 18 U.S.C. §2257 record keeping requirements
+***🎯 REMEMBER: This is a creator-first platform. Every feature must increase creator autonomy, income, or safety. Zero dark patterns, maximum transparency, adult-industry compliant infrastructure only.
+⚠️ CRITICAL: Never use banned payment processors (Stripe/PayPal/Square). Only adult-friendly processors are acceptable.

@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   COUGARFANZ THEME - MATURE CONNECTIONS, REAL PASSION
+   Sophisticated, Elegant, Confident, Luxurious
+   Deep burgundy + Gold/champagne + Refined atmosphere
+   ============================================ */
+
+:root {
+  /* CORE COUGARFANZ PALETTE */
+  --background: hsl(340, 25%, 6%); /* Deep burgundy-black */
+  --foreground: hsl(40, 30%, 95%);
+  --card: hsl(340, 20%, 10%); /* Dark wine */
+  --card-foreground: hsl(40, 25%, 92%);
+  --popover: hsl(340, 22%, 8%);
+  --popover-foreground: hsl(40, 25%, 95%);
+  --primary: hsl(45, 80%, 55%); /* Gold/champagne */
+  --primary-foreground: hsl(340, 25%, 8%);
+  --secondary: hsl(340, 50%, 40%); /* Deep burgundy */
+  --secondary-foreground: hsl(40, 30%, 95%);
+  --muted: hsl(340, 15%, 15%);
+  --muted-foreground: hsl(40, 15%, 55%);
+  --accent: hsl(30, 60%, 50%); /* Warm bronze */
+  --accent-foreground: hsl(340, 25%, 8%);
+  --destructive: hsl(0, 65%, 50%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(340, 15%, 22%);
+  --input: hsl(340, 20%, 10%);
+  --ring: hsl(45, 80%, 55%);
+  --radius: 0.375rem;
+
+  /* COUGARFANZ SIGNATURE COLORS */
+  --cougar-bg: hsl(340, 25%, 6%); /* Deep burgundy-black */
+  --cougar-surface: hsl(340, 20%, 12%);
+  --cougar-gold: hsl(45, 80%, 55%); /* Gold/champagne */
+  --cougar-gold-glow: hsl(45, 75%, 50%);
+  --cougar-gold-light: hsl(50, 85%, 65%); /* Light champagne */
+  --cougar-burgundy: hsl(340, 50%, 35%); /* Deep burgundy */
+  --cougar-burgundy-deep: hsl(340, 55%, 25%);
+  --cougar-wine: hsl(340, 45%, 45%); /* Wine red */
+  --cougar-bronze: hsl(30, 60%, 50%); /* Warm bronze */
+  --cougar-cream: hsl(40, 40%, 90%); /* Cream */
+  --cougar-rose: hsl(350, 50%, 55%); /* Rose accent */
+
+  /* Chart colors - CougarFanz palette */
+  --chart-1: hsl(45, 80%, 55%);
+  --chart-2: hsl(340, 50%, 40%);
+  --chart-3: hsl(30, 60%, 50%);
+  --chart-4: hsl(350, 50%, 55%);
+  --chart-5: hsl(340, 45%, 45%);
+
+  /* Sidebar colors */
+  --sidebar: hsl(340, 25%, 5%);
+  --sidebar-foreground: hsl(40, 30%, 95%);
+  --sidebar-primary: hsl(45, 80%, 55%);
+  --sidebar-primary-foreground: hsl(340, 25%, 8%);
+  --sidebar-accent: hsl(340, 20%, 12%);
+  --sidebar-accent-foreground: hsl(40, 25%, 80%);
+  --sidebar-border: hsl(340, 15%, 18%);
+  --sidebar-ring: hsl(45, 80%, 55%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  /* COUGARFANZ ATMOSPHERE - ELEGANT LOUNGE */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+      radial-gradient(ellipse at 25% 15%, rgba(200, 150, 50, 0.06) 0%, transparent 45%),
+      radial-gradient(ellipse at 75% 85%, rgba(150, 50, 80, 0.05) 0%, transparent 45%),
+      radial-gradient(ellipse at 50% 50%, rgba(180, 130, 80, 0.03) 0%, transparent 50%);
+    opacity: 0.9;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* LUXURY VIGNETTE */
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center,
+      rgba(50, 20, 30, 0.2) 0%,
+      rgba(15, 8, 12, 0.95) 100%
+    );
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  /* TYPOGRAPHY - ELEGANT SERIF */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: hsl(40, 30%, 95%);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .font-display {
+    font-family: "Playfair Display", serif !important;
+    font-weight: 600 !important;
+  }
+
+  .font-body {
+    font-family: "Inter", sans-serif !important;
+  }
+}
+
+@layer components {
+  /* COUGARFANZ GLOW EFFECTS - WARM LUXURY */
+  .glow-effect {
+    box-shadow:
+      0 0 10px rgba(200, 150, 50, 0.15),
+      0 0 20px rgba(200, 150, 50, 0.08);
+    transition: all 0.4s ease;
+  }
+
+  .glow-effect:hover {
+    box-shadow:
+      0 0 15px rgba(200, 150, 50, 0.25),
+      0 0 30px rgba(200, 150, 50, 0.15),
+      0 0 45px rgba(150, 50, 80, 0.08);
+    transform: translateY(-3px);
+  }
+
+  /* GOLD TEXT */
+  .neon-text, .neon-sign {
+    color: var(--cougar-gold);
+    text-shadow:
+      0 0 10px rgba(200, 150, 50, 0.5),
+      0 0 20px rgba(200, 150, 50, 0.3),
+      0 0 30px rgba(200, 150, 50, 0.15);
+    animation: elegant-pulse 5s ease-in-out infinite;
+  }
+
+  /* BURGUNDY TEXT */
+  .neon-sign-burgundy {
+    color: var(--cougar-wine);
+    text-shadow:
+      0 0 10px rgba(180, 60, 90, 0.5),
+      0 0 20px rgba(180, 60, 90, 0.3),
+      0 0 30px rgba(180, 60, 90, 0.15);
+  }
+
+  /* ROSE TEXT */
+  .neon-sign-rose {
+    color: var(--cougar-rose);
+    text-shadow:
+      0 0 10px rgba(220, 100, 120, 0.5),
+      0 0 20px rgba(220, 100, 120, 0.3),
+      0 0 30px rgba(220, 100, 120, 0.15);
+  }
+
+  /* GLASS MORPHISM - ELEGANT WINE */
+  .glass-card {
+    background: rgba(60, 25, 35, 0.5);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(200, 150, 50, 0.15);
+    box-shadow:
+      0 8px 32px 0 rgba(0, 0, 0, 0.4),
+      0 0 30px rgba(200, 150, 50, 0.08);
+    transition: all 0.4s ease;
+  }
+
+  .glass-card:hover {
+    background: rgba(70, 30, 45, 0.6);
+    border: 1px solid rgba(200, 150, 50, 0.25);
+    box-shadow:
+      0 12px 40px 0 rgba(0, 0, 0, 0.5),
+      0 0 40px rgba(200, 150, 50, 0.12);
+    transform: translateY(-3px);
+  }
+
+  /* COUGARFANZ BUTTONS - GOLD LUXURY */
+  .neon-button {
+    background: linear-gradient(135deg,
+      rgba(200, 150, 50, 0.15) 0%,
+      rgba(180, 130, 80, 0.1) 100%
+    );
+    border: 1px solid var(--cougar-gold);
+    color: var(--cougar-gold);
+    text-shadow: 0 0 5px rgba(200, 150, 50, 0.3);
+    box-shadow:
+      0 0 10px rgba(200, 150, 50, 0.15),
+      inset 0 0 5px rgba(200, 150, 50, 0.03);
+    transition: all 0.4s ease;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 0.05em;
+  }
+
+  .neon-button:hover {
+    background: linear-gradient(135deg,
+      rgba(200, 150, 50, 0.25) 0%,
+      rgba(180, 130, 80, 0.2) 100%
+    );
+    text-shadow: 0 0 8px rgba(200, 150, 50, 0.5);
+    box-shadow:
+      0 0 20px rgba(200, 150, 50, 0.25),
+      0 0 40px rgba(200, 150, 50, 0.15),
+      inset 0 0 10px rgba(200, 150, 50, 0.05);
+    transform: translateY(-2px);
+  }
+
+  /* BURGUNDY BUTTON VARIANT */
+  .burgundy-button {
+    background: linear-gradient(135deg,
+      rgba(150, 50, 80, 0.2) 0%,
+      rgba(120, 40, 60, 0.15) 100%
+    );
+    border: 1px solid var(--cougar-wine);
+    color: var(--cougar-wine);
+    text-shadow: 0 0 5px rgba(180, 60, 90, 0.3);
+    transition: all 0.4s ease;
+    font-family: "Playfair Display", serif;
+  }
+
+  .burgundy-button:hover {
+    background: linear-gradient(135deg,
+      rgba(150, 50, 80, 0.3) 0%,
+      rgba(120, 40, 60, 0.25) 100%
+    );
+    box-shadow:
+      0 0 20px rgba(180, 60, 90, 0.25),
+      0 0 40px rgba(180, 60, 90, 0.15);
+    transform: translateY(-2px);
+  }
+
+  /* INPUT STYLING */
+  .club-input {
+    background: var(--cougar-bg);
+    border: 1px solid rgba(200, 150, 50, 0.2);
+    color: hsl(40, 30%, 95%);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .club-input:focus {
+    border-color: var(--cougar-gold);
+    box-shadow:
+      0 0 15px rgba(200, 150, 50, 0.15),
+      0 0 25px rgba(200, 150, 50, 0.08);
+    background: var(--cougar-surface);
+  }
+
+  /* PREMIUM BADGE */
+  .premium-badge {
+    background: linear-gradient(135deg, var(--cougar-gold), var(--cougar-bronze));
+    color: var(--cougar-bg);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-family: "Playfair Display", serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(200, 150, 50, 0.3);
+  }
+
+  /* VERIFICATION DIAMOND */
+  .diamond-badge {
+    background: linear-gradient(135deg, var(--cougar-gold), var(--cougar-gold-light));
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ELEGANT TAG */
+  .elegant-tag {
+    background: rgba(200, 150, 50, 0.1);
+    border: 1px solid rgba(200, 150, 50, 0.3);
+    color: var(--cougar-gold);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  /* LUXURY DIVIDER */
+  .luxury-divider {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      var(--cougar-gold) 20%,
+      var(--cougar-gold) 80%,
+      transparent 100%
+    );
+    opacity: 0.3;
+  }
+}
+
+/* ANIMATIONS */
+
+/* Elegant pulse - sophisticated glow */
+@keyframes elegant-pulse {
+  0%, 100% {
+    opacity: 1;
+    text-shadow:
+      0 0 10px rgba(200, 150, 50, 0.5),
+      0 0 20px rgba(200, 150, 50, 0.3),
+      0 0 30px rgba(200, 150, 50, 0.15);
+  }
+  50% {
+    opacity: 0.95;
+    text-shadow:
+      0 0 15px rgba(200, 150, 50, 0.6),
+      0 0 30px rgba(200, 150, 50, 0.4),
+      0 0 45px rgba(200, 150, 50, 0.2);
+  }
+}
+
+/* Shimmer - luxury sparkle */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-effect {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(200, 150, 50, 0.3) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+/* SCROLLBAR STYLING */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--cougar-gold) var(--cougar-bg);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--cougar-bg);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--cougar-gold), var(--cougar-bronze));
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--cougar-gold-light), var(--cougar-gold));
+}
+
+/* UTILITY CLASSES */
+.cougar-bg {
+  background: var(--cougar-bg);
+}
+
+.cougar-surface {
+  background: var(--cougar-surface);
+}
+
+.cougar-border {
+  border: 1px solid rgba(200, 150, 50, 0.2);
+  box-shadow: 0 0 10px rgba(200, 150, 50, 0.08);
+}
+
+/* VELVET TEXTURE */
+.velvet-texture {
+  background: linear-gradient(135deg,
+    var(--cougar-burgundy-deep) 0%,
+    var(--cougar-surface) 50%,
+    var(--cougar-burgundy-deep) 100%
+  );
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+/* GOLD FILIGREE PATTERN */
+.filigree-pattern {
+  background-image:
+    radial-gradient(circle at 25% 25%, rgba(200, 150, 50, 0.05) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(200, 150, 50, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* WINE GLASS ICON EFFECT */
+.wine-accent {
+  color: var(--cougar-wine);
+  filter: drop-shadow(0 0 5px rgba(180, 60, 90, 0.4));
+}
+
+/* ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+:focus {
+  outline: 2px solid var(--cougar-gold);
+  outline-offset: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cougar-wine);
+  outline-offset: 2px;
+}

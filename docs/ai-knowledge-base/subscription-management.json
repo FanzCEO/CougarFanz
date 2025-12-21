@@ -1,0 +1,536 @@
+{
+  "feature_id": "subscription-management",
+  "feature_name": "Subscription Management",
+  "description": "AI knowledge base for managing subscriber relationships, pricing strategies, retention, and subscription analytics",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "platform": "CougarFanz",
+  "qa_pairs": [
+    {
+      "id": "qa_sub_001",
+      "question": "How do I set my subscription price?",
+      "question_variations": [
+        "What should I charge for my subscription?",
+        "How much should my subscription cost?",
+        "How to price my subscription?",
+        "What's a good subscription price?",
+        "How do I change my subscription price?",
+        "Setting subscription fee"
+      ],
+      "answer": "**How to Set Your Subscription Price:**\n\n**Navigate to Settings:**\n1. Go to **Settings** → **Subscriptions**\n2. Click **Edit Pricing**\n\n**Recommended Pricing:**\n\n**Beginner (New Creator):**\n- $4.99 - $7.99/month\n- Build your audience first\n- Prove consistent content delivery\n\n**Established (100+ posts):**\n- $9.99 - $14.99/month\n- Regular posting schedule\n- High-quality content\n\n**Premium (Professional):**\n- $19.99 - $29.99/month\n- Daily exclusive content\n- Direct interaction with fans\n- Professional production quality\n\n**Consider These Factors:**\n\n✅ **Content Quality** - Professional = higher price\n✅ **Posting Frequency** - Daily posts support higher prices\n✅ **Engagement Level** - Personal interaction adds value\n✅ **Niche Demand** - Specialized content can charge more\n✅ **Competition** - Research similar creators in your niche\n\n**Revenue Split:**\n- You earn: **80%** of subscription revenue\n- Platform: 20%\n\n**Pro Tip:** Start lower ($4.99-$7.99) to build subscribers, then gradually increase as you add value and prove consistency.",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Pricing Settings",
+          "action": "navigate",
+          "target": "/settings/subscriptions"
+        },
+        {
+          "label": "See Analytics",
+          "action": "navigate",
+          "target": "/dashboard/subscribers"
+        },
+        {
+          "label": "View Subscription Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/subscription-management.md#setting-your-price"
+        }
+      ],
+      "related_questions": ["qa_sub_002", "qa_sub_004", "qa_sub_009"],
+      "tags": ["pricing", "subscriptions", "revenue", "settings"]
+    },
+    {
+      "id": "qa_sub_002",
+      "question": "How much money can I make from subscriptions?",
+      "question_variations": [
+        "What can I earn from subscribers?",
+        "How much do creators make from subscriptions?",
+        "Subscription revenue potential",
+        "How much do subscriptions pay?",
+        "Calculate subscription earnings",
+        "Subscription income calculator"
+      ],
+      "answer": "**Subscription Revenue Examples:**\n\n**Beginner Creator:**\n- 50 subscribers × $7.99/month = $399.50/month\n- Your 80% share: **$319.60/month** ($3,835/year)\n\n**Established Creator:**\n- 200 subscribers × $12.99/month = $2,598/month\n- Your 80% share: **$2,078.40/month** ($24,941/year)\n\n**Professional Creator:**\n- 500 subscribers × $19.99/month = $9,995/month\n- Your 80% share: **$7,996/month** ($95,952/year)\n\n**Premium Creator:**\n- 1,000 subscribers × $24.99/month = $24,990/month\n- Your 80% share: **$19,992/month** ($239,904/year)\n\n**Revenue Split Breakdown:**\n- You earn: **80%** of all subscription fees\n- Platform: 20% (covers payment processing, hosting, support)\n\n**Additional Income Streams:**\n- Tips during streams: 80% of tips\n- PPV content: 80% of unlock fees\n- Paid messages: 80% of message fees\n- Private streams: 100% of stream fee\n\n**Payment Schedule:**\n- Earnings from 1st-15th → Paid on the 15th\n- Earnings from 16th-end → Paid on last day of month\n\n**Pro Tip:** Subscriptions provide **predictable recurring revenue**. Combine with PPV content and tips to maximize earnings. Many creators earn 3-5x their subscription revenue from additional sales to subscribers.",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "View Revenue Dashboard",
+          "action": "navigate",
+          "target": "/dashboard/revenue"
+        },
+        {
+          "label": "See Subscriber Analytics",
+          "action": "navigate",
+          "target": "/dashboard/subscribers"
+        },
+        {
+          "label": "Payment Settings",
+          "action": "navigate",
+          "target": "/settings/payouts"
+        }
+      ],
+      "related_questions": ["qa_sub_001", "qa_sub_003", "qa_sub_009"],
+      "tags": ["revenue", "earnings", "subscriptions", "income", "payouts"]
+    },
+    {
+      "id": "qa_sub_003",
+      "question": "How do I reduce subscriber churn?",
+      "question_variations": [
+        "How to keep subscribers from canceling?",
+        "Prevent subscription cancellations",
+        "Reduce subscription turnover",
+        "Keep subscribers engaged",
+        "Subscriber retention strategies",
+        "Stop people from unsubscribing"
+      ],
+      "answer": "**Proven Retention Strategies:**\n\n**1. Consistent Posting Schedule ⭐ (Most Important)**\n- Post at the same times each week\n- Set subscriber expectations\n- Use the post scheduler to maintain consistency\n- Minimum: 3-5 posts per week\n\n**2. Exclusive Subscriber Content**\n- Give subscribers something they can't get elsewhere\n- Behind-the-scenes content\n- Personal messages and updates\n- Early access to new content\n- Subscriber-only polls and Q&A\n\n**3. Direct Engagement**\n- Respond to subscriber messages within 24 hours\n- Send personalized welcome messages to new subscribers\n- Monthly \"Thank You\" messages to long-term subscribers\n- Use mass messaging for special announcements\n\n**4. Value-Added Perks**\n- Subscriber shoutouts in posts\n- Discounts on PPV content (10-20% off)\n- Free access to occasional private streams\n- Exclusive merchandise or giveaways\n\n**5. Monitor Your Analytics**\n- Check **Subscriber Analytics** weekly\n- Identify cancellation patterns (which days/weeks)\n- Survey canceled subscribers (\"Why did you leave?\")\n- Adjust content based on what performs best\n\n**6. Re-Engagement Campaigns**\n- Send re-subscribe offers to canceled subscribers\n- Limited-time discounts (e.g., \"Come back for $5.99\")\n- Highlight new content since they left\n\n**7. Avoid These Churn Triggers:**\n- ❌ Irregular posting (biggest cause of churn)\n- ❌ Too much PPV content (frustrates subscribers)\n- ❌ Low engagement with fans\n- ❌ Recycled free content\n- ❌ Price increases without added value\n\n**Industry Benchmarks:**\n- Good retention: 85%+ subscribers stay monthly\n- Average retention: 70-80%\n- Poor retention: Below 70%\n\n**Check Your Retention:**\nGo to **Dashboard** → **Subscribers** → **Retention Rate**\n\n**Pro Tip:** The first 30 days are critical. Engage heavily with new subscribers during their first month to build loyalty.",
+      "confidence_score": 0.97,
+      "suggested_actions": [
+        {
+          "label": "View Retention Analytics",
+          "action": "navigate",
+          "target": "/dashboard/subscribers?tab=retention"
+        },
+        {
+          "label": "Send Mass Message",
+          "action": "navigate",
+          "target": "/messages/mass"
+        },
+        {
+          "label": "Schedule Posts",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        }
+      ],
+      "related_questions": ["qa_sub_006", "qa_sub_008", "qa_sub_010"],
+      "tags": ["retention", "churn", "engagement", "subscribers", "strategy"]
+    },
+    {
+      "id": "qa_sub_004",
+      "question": "How do free trials work?",
+      "question_variations": [
+        "Can I offer free trials?",
+        "Setting up a free trial",
+        "How to do a free trial period?",
+        "Free trial for subscribers",
+        "Trial subscription",
+        "Free access period"
+      ],
+      "answer": "**Free Trial Setup:**\n\n**Navigate to Trial Settings:**\n1. Go to **Settings** → **Subscriptions**\n2. Click **Promotions** tab\n3. Click **Create Free Trial**\n\n**Trial Options:**\n\n**7-Day Free Trial**\n- Best for new creators building audience\n- Fans can explore your content risk-free\n- Converts to paid after 7 days\n\n**14-Day Free Trial**\n- Good for established creators\n- More time for fans to see your value\n- Higher conversion rate than 7-day\n\n**30-Day Free Trial**\n- Premium strategy for high-value content\n- Builds strong habit before payment\n- Use for special promotions\n\n**How It Works:**\n\n1. **Fan Subscribes** - Enters payment info but isn't charged\n2. **Free Access** - Gets full subscriber access during trial\n3. **Reminder Sent** - 2 days before trial ends, we email them\n4. **Auto-Convert** - Trial converts to paid subscription automatically\n5. **Fan Can Cancel** - Can cancel anytime during trial (no charge)\n\n**What Fans Get During Trial:**\n- ✅ All subscriber posts\n- ✅ Ability to send messages\n- ✅ Access to subscriber-only streams\n- ❌ No PPV content (unless purchased separately)\n\n**Best Practices:**\n\n**For New Creators:**\n- Offer 7-14 day trials to build initial subscriber base\n- Post frequently during trial period\n- Send welcome message to trial subscribers\n\n**For Established Creators:**\n- Use trials as limited-time promotions\n- \"48-hour flash sale: 7-day free trial!\"\n- Combine with major content releases\n\n**Tracking Trial Performance:**\nGo to **Dashboard** → **Subscribers** → **Trial Conversions**\n\n- See trial→paid conversion rate\n- Average: 60-70% convert to paid\n- Good: 75%+ conversion\n\n**Pro Tip:** During a trial period, post your best content and engage heavily. The trial is your chance to prove your value and convert them to paying subscribers.",
+      "confidence_score": 0.96,
+      "suggested_actions": [
+        {
+          "label": "Create Free Trial",
+          "action": "navigate",
+          "target": "/settings/subscriptions?tab=promotions"
+        },
+        {
+          "label": "View Trial Analytics",
+          "action": "navigate",
+          "target": "/dashboard/subscribers?tab=trials"
+        },
+        {
+          "label": "Send Welcome Message",
+          "action": "navigate",
+          "target": "/messages/templates?template=trial_welcome"
+        }
+      ],
+      "related_questions": ["qa_sub_001", "qa_sub_005", "qa_sub_009"],
+      "tags": ["free trial", "promotions", "subscriptions", "marketing", "conversion"]
+    },
+    {
+      "id": "qa_sub_005",
+      "question": "Can I offer different subscription tiers?",
+      "question_variations": [
+        "How to create subscription tiers?",
+        "Multiple subscription levels",
+        "Different subscription prices",
+        "VIP subscription tier",
+        "Bronze silver gold subscriptions",
+        "Tiered subscription pricing"
+      ],
+      "answer": "**Yes! You can offer up to 3 subscription tiers.**\n\n**Setting Up Tiers:**\n1. Go to **Settings** → **Subscriptions**\n2. Click **Subscription Tiers**\n3. Click **Add Tier**\n\n**Common Tier Structures:**\n\n**Basic Tier ($9.99/month):**\n- Access to all subscriber posts\n- Can send messages\n- View subscriber-only streams\n\n**VIP Tier ($19.99/month):**\n- Everything in Basic\n- 20% discount on PPV content\n- Priority message responses\n- Weekly personalized video message\n- Early access to new content\n\n**Premium Tier ($39.99/month):**\n- Everything in VIP\n- Monthly 1-on-1 video call (15 min)\n- Custom content request per month\n- Exclusive behind-the-scenes content\n- Name in credits/shoutouts\n\n**Alternative Structure (Bronze/Silver/Gold):**\n\n**Bronze ($7.99):** Standard access\n**Silver ($14.99):** + PPV discounts, priority responses\n**Gold ($29.99):** + Monthly custom content, video calls\n\n**Benefits of Tiers:**\n\n✅ **Higher Revenue** - Superfans pay more for premium access\n✅ **Flexible Pricing** - Fans choose their budget\n✅ **Reward Loyalty** - VIP treatment for top supporters\n✅ **Upsell Opportunity** - Convert Basic → VIP subscribers\n\n**Managing Tiers:**\n\n**Tier Badges:**\n- Subscribers get badges next to their name (🥉🥈🥇)\n- Shows their tier in messages and comments\n\n**Tier-Exclusive Content:**\n- When uploading content, select which tiers can see it\n- VIP/Premium can get exclusive posts\n\n**Tier Analytics:**\nGo to **Dashboard** → **Subscribers** → **By Tier**\n\n- See subscriber count per tier\n- Revenue breakdown by tier\n- Upgrade/downgrade trends\n\n**Best Practices:**\n\n1. **Start Simple** - Offer 2 tiers initially (Basic + VIP)\n2. **Clear Value** - Make higher tier benefits obvious\n3. **Deliver Consistently** - Honor all tier promises\n4. **Promote Upgrades** - Remind Basic subscribers of VIP perks\n5. **Limit Top Tier** - Consider capping Premium at 50-100 spots (creates exclusivity)\n\n**Pro Tip:** 20-30% of subscribers typically upgrade to higher tiers if the value is clear. Focus on over-delivering to your VIP/Premium subscribers to justify the higher price.",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Set Up Tiers",
+          "action": "navigate",
+          "target": "/settings/subscriptions?tab=tiers"
+        },
+        {
+          "label": "View Tier Performance",
+          "action": "navigate",
+          "target": "/dashboard/subscribers?tab=tiers"
+        },
+        {
+          "label": "Create Tier-Exclusive Post",
+          "action": "navigate",
+          "target": "/content/upload"
+        }
+      ],
+      "related_questions": ["qa_sub_001", "qa_sub_002", "qa_sub_009"],
+      "tags": ["tiers", "pricing", "subscriptions", "VIP", "premium", "upsell"]
+    },
+    {
+      "id": "qa_sub_006",
+      "question": "How do I see my subscriber analytics?",
+      "question_variations": [
+        "Where are my subscriber stats?",
+        "View subscription analytics",
+        "Subscriber metrics",
+        "Check subscription performance",
+        "Subscriber dashboard",
+        "Subscription reports"
+      ],
+      "answer": "**Access Subscriber Analytics:**\n\nGo to **Dashboard** → **Subscribers**\n\n**Key Metrics Available:**\n\n**1. Subscriber Overview**\n- **Total Subscribers** - Current active count\n- **New This Month** - Growth rate\n- **Canceled This Month** - Churn rate\n- **Net Growth** - New minus canceled\n- **Retention Rate** - % who renew monthly\n\n**2. Revenue Analytics**\n- **Monthly Recurring Revenue (MRR)** - Predictable income\n- **Average Revenue Per User (ARPU)** - Per-subscriber value\n- **Projected Annual Revenue** - MRR × 12\n- **Revenue by Tier** - Which tier earns most\n\n**3. Growth Trends (Charts)**\n- Subscriber count over time (last 90 days)\n- New vs. canceled subscribers\n- Revenue trends\n- Retention rate trends\n\n**4. Subscriber Demographics**\n- Top countries (where subscribers are from)\n- Subscription duration (how long they've been subscribed)\n- Tier distribution (Basic vs. VIP vs. Premium)\n- Renewal dates (when subscriptions renew)\n\n**5. Engagement Metrics**\n- Message response rate\n- Content view rate (% of subscribers viewing posts)\n- Most popular content\n- Peak activity times\n\n**6. Churn Analysis**\n- Cancellation reasons (if provided)\n- Average subscription length before canceling\n- Which content correlates with cancellations\n- Seasonal patterns\n\n**7. Trial Performance**\n- Trial sign-ups\n- Trial → paid conversion rate\n- Average days to convert\n\n**Advanced Reports:**\n\n**Cohort Analysis:**\nGo to **Dashboard** → **Subscribers** → **Cohorts**\n- See retention by signup month\n- Compare different subscriber groups\n\n**Export Data:**\n- Click **Export** button in any report\n- Download CSV for Excel analysis\n- Available formats: CSV, PDF, Excel\n\n**Best Practices:**\n\n✅ **Check Weekly** - Review subscriber metrics every Monday\n✅ **Watch Trends** - Look for patterns, not just numbers\n✅ **Act on Insights** - Adjust strategy based on data\n✅ **Compare Months** - Track growth month-over-month\n\n**Pro Tip:** Set up **Custom Alerts** in Settings → Notifications. Get notified when:\n- Retention drops below X%\n- You hit subscriber milestones (100, 500, 1000)\n- Cancellations spike\n- Revenue goals are met",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Subscriber Dashboard",
+          "action": "navigate",
+          "target": "/dashboard/subscribers"
+        },
+        {
+          "label": "Export Analytics",
+          "action": "navigate",
+          "target": "/dashboard/subscribers?action=export"
+        },
+        {
+          "label": "Set Up Alerts",
+          "action": "navigate",
+          "target": "/settings/notifications"
+        }
+      ],
+      "related_questions": ["qa_sub_002", "qa_sub_003", "qa_sub_008"],
+      "tags": ["analytics", "metrics", "dashboard", "subscribers", "reporting", "insights"]
+    },
+    {
+      "id": "qa_sub_007",
+      "question": "What happens when a subscriber cancels?",
+      "question_variations": [
+        "How do subscription cancellations work?",
+        "When subscriber unsubscribes",
+        "Canceled subscription",
+        "What happens after cancellation?",
+        "Do they lose access immediately?",
+        "Subscription end process"
+      ],
+      "answer": "**Subscription Cancellation Process:**\n\n**When a Subscriber Cancels:**\n\n1. **They Keep Access** - Until current billing period ends\n   - If they subscribed on the 5th and cancel on the 12th\n   - They keep access until the next 5th\n   - They paid for the full month, so they get it\n\n2. **No Refunds** - Cancellation is effective at period end\n   - They aren't charged for the next period\n   - Current period is non-refundable\n\n3. **You're Notified**\n   - Email notification: \"[Fan Name] canceled their subscription\"\n   - Shows in Dashboard → Subscribers → Canceled\n\n4. **Access Ends**\n   - On their next billing date, access terminates\n   - They can no longer view subscriber posts\n   - Can still send messages (but you can disable this)\n\n5. **Resubscribe Option**\n   - They can resubscribe anytime\n   - At current subscription price (not old price if you raised it)\n\n**What You Should Do:**\n\n**Immediate Actions:**\n- ✅ Send a farewell message (automated option available)\n- ✅ Ask for feedback: \"Why did you cancel?\"\n- ✅ Offer incentive: \"Come back for 20% off next month\"\n\n**Don't Do:**\n- ❌ Remove their access early\n- ❌ Send angry/guilt messages\n- ❌ Spam them with re-subscribe offers\n\n**Cancellation Settings:**\n\nGo to **Settings** → **Subscriptions** → **Cancellation**\n\n**Configure:**\n- Auto-send farewell message (optional)\n- Request cancellation reason (helps improve)\n- Offer re-subscribe discount code\n- Whether canceled subs can still message you\n\n**Win-Back Campaigns:**\n\n**30 Days After Cancellation:**\n- Send re-subscribe offer\n- Highlight new content since they left\n- Limited-time discount (e.g., \"$5.99 for first month back\")\n\n**90 Days After Cancellation:**\n- Final re-subscribe attempt\n- \"We miss you! Here's what's new...\"\n\n**Analytics:**\nGo to **Dashboard** → **Subscribers** → **Churn**\n\n- See cancellation rate\n- Common cancellation reasons\n- Win-back success rate\n\n**Industry Benchmarks:**\n- Average monthly churn: 15-25%\n- Good churn rate: Below 15%\n- Win-back success: 20-30% resubscribe within 90 days\n\n**Pro Tip:** Most cancellations happen in the first 30 days. Focus on engaging new subscribers heavily during their first month. After 3 months, retention rates increase dramatically.",
+      "confidence_score": 0.97,
+      "suggested_actions": [
+        {
+          "label": "View Canceled Subscribers",
+          "action": "navigate",
+          "target": "/dashboard/subscribers?filter=canceled"
+        },
+        {
+          "label": "Cancellation Settings",
+          "action": "navigate",
+          "target": "/settings/subscriptions?tab=cancellation"
+        },
+        {
+          "label": "Send Win-Back Message",
+          "action": "navigate",
+          "target": "/messages/winback"
+        }
+      ],
+      "related_questions": ["qa_sub_003", "qa_sub_006", "qa_sub_008"],
+      "tags": ["cancellation", "churn", "retention", "subscribers", "win-back"]
+    },
+    {
+      "id": "qa_sub_008",
+      "question": "How do I message all my subscribers?",
+      "question_variations": [
+        "Send message to all subscribers",
+        "Mass message to subscribers",
+        "Bulk message subscribers",
+        "Subscriber announcement",
+        "Message everyone at once",
+        "Broadcast to subscribers"
+      ],
+      "answer": "**Mass Messaging to Subscribers:**\n\n**Navigate to Mass Messages:**\n1. Go to **Messages** → **Mass Message**\n2. Or click **Compose** → **Mass Message**\n\n**Create Your Message:**\n\n**1. Select Recipients:**\n- **All Subscribers** - Everyone currently subscribed\n- **By Tier** - Only Basic, VIP, or Premium\n- **By Duration** - Subscribers 1+ month, 3+ months, 6+ months, etc.\n- **New Subscribers** - Subscribed in last 7, 14, or 30 days\n- **At Risk** - Low engagement, likely to cancel\n\n**2. Compose Message:**\n- Write your message (text, images, videos)\n- Add media (photos/videos)\n- Include call-to-action (\"Check out my new post!\")\n\n**3. Pricing Options:**\n\n**Free Mass Message:**\n- Included with your account\n- Use for important updates, thank-yous, announcements\n\n**Paid Mass Message (PPV):**\n- Charge subscribers to unlock message\n- Set unlock fee: $3-$20\n- Common for exclusive content teasers\n- You earn 80% of unlock fees\n\n**4. Schedule or Send:**\n- **Send Now** - Immediate delivery\n- **Schedule** - Set date/time (good for timezones)\n\n**Message Types:**\n\n**Welcome Messages (Automated):**\n- Set up in Settings → Messages → Auto-Welcome\n- Sent automatically to new subscribers\n- Personalize with {name} variable\n\n**Milestone Messages:**\n- \"Thanks for 3 months of support!\"\n- \"You've been subscribed for 6 months 🎉\"\n\n**Promotional Messages:**\n- \"New post just dropped!\"\n- \"Live stream starting in 1 hour!\"\n- \"Weekend sale: 50% off PPV content\"\n\n**Re-engagement Messages:**\n- Target low-engagement subscribers\n- \"We miss you! Check out what's new...\"\n\n**Best Practices:**\n\n✅ **Don't Overdo It** - Max 2-3 mass messages per week\n✅ **Add Value** - Make messages worth their time\n✅ **Personalize** - Use {name} variable for personal touch\n✅ **Include Media** - Messages with images get 3x more engagement\n✅ **Clear CTA** - Tell them what to do (\"Click to view new post\")\n\n**Avoid:**\n- ❌ Daily spam messages\n- ❌ Paid messages too often (frustrates subscribers)\n- ❌ Generic \"hey\" messages with no content\n\n**Analytics:**\nAfter sending, view:\n- Delivery rate\n- Open rate\n- Click-through rate (if includes link)\n- Revenue (if paid message)\n\nGo to **Messages** → **Mass Messages** → **Analytics**\n\n**Pro Tip:** Personalize mass messages with subscriber data:\n- \"Hey {name}, thanks for being subscribed for {duration}!\"\n- Sends automatically personalized version to each subscriber\n- Feels 1-on-1 even though it's mass message",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Send Mass Message",
+          "action": "navigate",
+          "target": "/messages/mass"
+        },
+        {
+          "label": "View Message Templates",
+          "action": "navigate",
+          "target": "/messages/templates"
+        },
+        {
+          "label": "Set Up Auto-Welcome",
+          "action": "navigate",
+          "target": "/settings/messages?tab=auto-welcome"
+        }
+      ],
+      "related_questions": ["qa_sub_003", "qa_sub_006", "qa_sub_010"],
+      "tags": ["mass message", "messaging", "communication", "subscribers", "engagement", "broadcast"]
+    },
+    {
+      "id": "qa_sub_009",
+      "question": "How do I run a subscription promotion?",
+      "question_variations": [
+        "Create subscription discount",
+        "Subscription sale",
+        "Promotional pricing",
+        "Limited time subscription offer",
+        "Discount code for subscription",
+        "Subscription promotion campaign"
+      ],
+      "answer": "**Setting Up Subscription Promotions:**\n\n**Navigate to Promotions:**\n1. Go to **Settings** → **Subscriptions**\n2. Click **Promotions** tab\n3. Click **Create Promotion**\n\n**Promotion Types:**\n\n**1. Discount on First Month**\n- **Example:** \"First month $4.99 (normally $12.99)\"\n- **Best For:** Attracting new subscribers\n- **Conversion:** 40-60% higher than full price\n\n**2. Percentage Off**\n- **Example:** \"50% off for 3 months\"\n- **Best For:** Limited-time campaigns\n- **Great for:** Holidays, milestones, special events\n\n**3. Free Trial**\n- **Example:** \"7-day free trial, then $12.99/month\"\n- **Best For:** New creators building audience\n- **Conversion:** 60-70% of trials convert to paid\n\n**4. Bundle Deals**\n- **Example:** \"Subscribe for 3 months, get 1 month free\"\n- **Best For:** Reducing monthly churn\n- **Locks in:** Longer commitment\n\n**Setting Up Your Promotion:**\n\n**Step 1: Promotion Details**\n- Promotion name (internal)\n- Discount amount or %\n- Duration (how long discount lasts)\n- Start and end dates\n\n**Step 2: Eligibility**\n- **New Subscribers Only** - First-time subscribers\n- **Returning Subscribers** - Previously canceled, coming back\n- **Everyone** - New + current + returning\n\n**Step 3: Promotional Code (Optional)**\n- Create custom code: SUMMER50, WELCOME, COMEBACK, etc.\n- Fans enter code at checkout\n- Track which promotion performs best\n\n**Step 4: Limits**\n- Max number of redemptions (optional)\n- One per customer\n- Expiration date\n\n**Popular Promotion Strategies:**\n\n**New Creator Launch:**\n- First 100 subscribers: $4.99/month (50% off)\n- Creates urgency\n- Builds initial audience\n\n**Holiday Promotions:**\n- Black Friday: \"50% off first 3 months\"\n- Valentine's Day: \"LOVE50 = 50% off\"\n- New Year: \"NEWYEAR = First month free\"\n\n**Milestone Celebrations:**\n- \"Hit 10K followers! First month $5.99 to celebrate\"\n- \"Birthday month special: 40% off\"\n\n**Re-Activation Campaign:**\n- Email canceled subscribers\n- \"We miss you! Come back for $6.99/month\"\n- 30-day limited offer\n\n**Flash Sales:**\n- \"Next 48 hours only: $7.99 first month\"\n- Creates urgency\n- Post on social media to drive traffic\n\n**Promotion Performance:**\n\nGo to **Dashboard** → **Promotions**\n\n**Track:**\n- Redemptions\n- Conversion rate\n- Revenue impact\n- Retention rate of promotional subscribers\n\n**Best Practices:**\n\n✅ **Time-Limited** - Creates urgency (\"Ends Sunday!\")\n✅ **Clear Value** - Show savings (\"Save $8/month!\")\n✅ **Promote Everywhere** - Social media, posts, profile\n✅ **Track Codes** - Use different codes to see which channel works best\n✅ **Don't Overdo It** - Too many promotions devalue your content\n\n**Avoid:**\n- ❌ Constant promotions (reduces perceived value)\n- ❌ Discounting too deeply (attracts low-quality subscribers)\n- ❌ No end date (kills urgency)\n\n**Pro Tip:** Promotional subscribers often have lower retention than full-price subscribers. After promotion period ends, engage them heavily to prevent cancellation. Consider a \"loyalty bonus\" (free PPV content) after 3 months to reward staying subscribed.",
+      "confidence_score": 0.97,
+      "suggested_actions": [
+        {
+          "label": "Create Promotion",
+          "action": "navigate",
+          "target": "/settings/subscriptions?tab=promotions"
+        },
+        {
+          "label": "View Promotion Performance",
+          "action": "navigate",
+          "target": "/dashboard/promotions"
+        },
+        {
+          "label": "Share Promo Code",
+          "action": "navigate",
+          "target": "/settings/subscriptions?action=share_code"
+        }
+      ],
+      "related_questions": ["qa_sub_001", "qa_sub_004", "qa_sub_010"],
+      "tags": ["promotions", "discounts", "marketing", "subscriptions", "sales", "campaigns"]
+    },
+    {
+      "id": "qa_sub_010",
+      "question": "How do I grow my subscriber base?",
+      "question_variations": [
+        "How to get more subscribers?",
+        "Increase subscriber count",
+        "Grow my subscription revenue",
+        "Get more people to subscribe",
+        "Subscriber growth strategies",
+        "Build subscriber audience"
+      ],
+      "answer": "**Proven Subscriber Growth Strategies:**\n\n**1. Optimize Your Profile (First Impression) ⭐**\n\n**Profile Photo:**\n- High-quality, clear face shot\n- Good lighting\n- Friendly, approachable expression\n\n**Banner Image:**\n- Professional-looking banner\n- Shows your content style\n- Include text: \"New posts daily\" or \"Subscribe for exclusive content\"\n\n**Bio/Description:**\n- Clear value proposition: \"What do subscribers get?\"\n- Posting frequency: \"Daily exclusive photos & videos\"\n- Call-to-action: \"Subscribe now for instant access!\"\n- Use keywords for search (your niche)\n\n**Pricing:**\n- Start at $4.99-$7.99 to lower barrier to entry\n- Raise gradually as you build value\n\n**2. Post Free Previews**\n\n**Public Teaser Posts:**\n- Post 2-3 free previews per week\n- Show just enough to entice\n- Blur/crop with text: \"Subscribe to see full version\"\n- Drives subscription conversions\n\n**What to Tease:**\n- Behind-the-scenes snippets\n- Preview of exclusive content\n- Cropped versions of subscriber photos\n\n**3. Leverage Social Media**\n\n**Promote on:**\n- Instagram: Link in bio to your CougarFanz profile\n- Twitter/X: Post teasers with subscription link\n- TikTok: \"Full version on CougarFanz\"\n- Reddit: Relevant subreddits (check rules)\n\n**Social Strategy:**\n- Post daily teasers\n- Use trending sounds/hashtags\n- Include call-to-action\n- Cross-promote across platforms\n\n**4. Engage with Fans**\n\n**Respond to:**\n- Comments on your posts\n- Direct messages\n- Profile views (send hello message)\n\n**Engagement increases conversions by 3-5x**\n\n**5. Collaborate with Other Creators**\n\n**Cross-Promotion:**\n- Shoutout-for-shoutout\n- Guest appearances in each other's content\n- \"Check out @creator - 20% off their subscription!\"\n\n**Find Creators:**\n- Similar niche\n- Similar subscriber count\n- Complementary content\n\n**6. Run Promotions**\n\n**Limited-Time Offers:**\n- \"First 50 subscribers: $4.99 (normally $12.99)\"\n- \"Weekend special: 50% off\"\n- \"Free trial for 7 days\"\n\n**Creates urgency and drives sign-ups**\n\n**7. Consistent Posting Schedule**\n\n**Post Frequency:**\n- Minimum: 3-5 posts per week\n- Ideal: 1-2 posts per day\n- Use post scheduler for consistency\n\n**Why It Matters:**\n- Shows reliability\n- Keeps subscribers engaged\n- Attracts new subscribers who see activity\n\n**8. Use SEO & Hashtags**\n\n**Profile Keywords:**\n- Include searchable terms in bio\n- Your niche, content type, location\n\n**Post Hashtags:**\n- Use relevant hashtags (3-5 per post)\n- Mix popular + niche hashtags\n\n**9. Leverage Analytics**\n\nGo to **Dashboard** → **Traffic Sources**\n\n**See:**\n- Where visitors come from\n- What content converts best\n- Peak traffic times\n\n**Optimize based on data**\n\n**10. Deliver Exceptional Value**\n\n**Over-Deliver:**\n- Promise 3 posts/week → Deliver 5\n- High-quality content\n- Respond to messages quickly\n- Exclusive perks for subscribers\n\n**Happy subscribers refer friends**\n\n**Growth Benchmarks:**\n\n**New Creator (Month 1-3):**\n- Target: 20-50 subscribers\n- Focus: Consistency, engagement\n\n**Establishing (Month 4-6):**\n- Target: 100-200 subscribers\n- Focus: Social promotion, collaborations\n\n**Established (Month 7-12):**\n- Target: 300-500+ subscribers\n- Focus: Retention, upselling, referrals\n\n**Advanced Tactics:**\n\n**Referral Program:**\n- Give current subscribers 20% off for referring friends\n- Their friend gets 20% off too\n- Set up in Settings → Referrals\n\n**Live Streams:**\n- Go live weekly\n- Mention subscription benefits during stream\n- Free streams drive subscriber sign-ups\n\n**PPV Content Teasers:**\n- Offer free PPV content to new subscribers\n- \"Subscribe and get this $15 video free!\"\n\n**Pro Tip: The 80/20 Rule**\n- 80% of growth comes from consistency and engagement\n- 20% from promotions and tactics\n- Focus on posting great content regularly and engaging with fans first, then add growth tactics on top.",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Edit Your Profile",
+          "action": "navigate",
+          "target": "/settings/profile"
+        },
+        {
+          "label": "View Traffic Analytics",
+          "action": "navigate",
+          "target": "/dashboard/traffic"
+        },
+        {
+          "label": "Create Promotion",
+          "action": "navigate",
+          "target": "/settings/subscriptions?tab=promotions"
+        },
+        {
+          "label": "Schedule Posts",
+          "action": "navigate",
+          "target": "/content/scheduler"
+        }
+      ],
+      "related_questions": ["qa_sub_001", "qa_sub_002", "qa_sub_009"],
+      "tags": ["growth", "marketing", "subscribers", "promotion", "strategy", "acquisition"]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "new_creator_pricing_help",
+      "trigger_name": "First-Time Subscription Setup",
+      "message": "💡 **Setting your first subscription price?**\n\nMost new creators start at $4.99-$7.99 to build their audience. You can always increase later!\n\n[View Pricing Guide] [Set Price Now]",
+      "condition": {
+        "page": "/settings/subscriptions",
+        "user_state": {
+          "is_new_creator": true,
+          "subscription_price_set": false,
+          "account_age_days": {
+            "less_than": 7
+          }
+        }
+      },
+      "priority": "high",
+      "display_type": "banner",
+      "dismissible": true,
+      "show_once": true
+    },
+    {
+      "trigger_id": "low_retention_alert",
+      "trigger_name": "Low Subscriber Retention",
+      "message": "⚠️ **Your retention rate is below 70%**\n\nThis means subscribers are canceling more than usual. Want help improving retention?\n\n[View Retention Tips] [See Why They're Leaving]",
+      "condition": {
+        "page": "/dashboard/subscribers",
+        "metrics": {
+          "retention_rate": {
+            "less_than": 70
+          },
+          "total_subscribers": {
+            "greater_than": 10
+          }
+        }
+      },
+      "priority": "high",
+      "display_type": "alert",
+      "dismissible": true,
+      "cooldown_days": 7
+    },
+    {
+      "trigger_id": "subscriber_milestone",
+      "trigger_name": "Subscriber Milestone Reached",
+      "message": "🎉 **Congrats! You hit {subscriber_count} subscribers!**\n\nWant to celebrate with your fans?\n\n[Send Thank You Message] [Run Special Promotion]",
+      "condition": {
+        "metrics": {
+          "total_subscribers": {
+            "milestone": [50, 100, 250, 500, 1000, 2500, 5000, 10000]
+          }
+        }
+      },
+      "priority": "medium",
+      "display_type": "celebration",
+      "dismissible": true,
+      "show_once_per_milestone": true
+    },
+    {
+      "trigger_id": "trial_conversion_low",
+      "trigger_name": "Low Trial Conversion Rate",
+      "message": "📊 **Only {conversion_rate}% of trials are converting to paid**\n\nIndustry average is 65%. Here's how to improve:\n\n[View Conversion Tips] [Engage Trial Subscribers]",
+      "condition": {
+        "page": "/dashboard/subscribers",
+        "metrics": {
+          "trial_conversion_rate": {
+            "less_than": 50
+          },
+          "active_trials": {
+            "greater_than": 5
+          }
+        }
+      },
+      "priority": "medium",
+      "display_type": "tip",
+      "dismissible": true,
+      "cooldown_days": 14
+    },
+    {
+      "trigger_id": "promotion_suggestion",
+      "trigger_name": "Suggest Running Promotion",
+      "message": "💸 **Weekend coming up!**\n\nCreators who run weekend promotions see 40% more sign-ups. Want to create a limited-time offer?\n\n[Create Promotion] [See Examples]",
+      "condition": {
+        "time": {
+          "day_of_week": ["Thursday", "Friday"],
+          "hour": {
+            "between": [9, 18]
+          }
+        },
+        "user_state": {
+          "has_run_promotion": false,
+          "total_subscribers": {
+            "greater_than": 20
+          }
+        }
+      },
+      "priority": "low",
+      "display_type": "suggestion",
+      "dismissible": true,
+      "cooldown_days": 30
+    }
+  ],
+  "common_errors": [
+    {
+      "error_code": "PRICE_TOO_HIGH",
+      "error_message": "Subscription price cannot exceed $99.99",
+      "solution": "Maximum subscription price is $99.99/month. For higher pricing, consider offering custom content packages instead of monthly subscriptions.",
+      "help_link": "/docs/how-to/subscription-management.md#pricing-limits"
+    },
+    {
+      "error_code": "PRICE_TOO_LOW",
+      "error_message": "Subscription price must be at least $2.99",
+      "solution": "Minimum subscription price is $2.99/month to cover payment processing fees. Consider starting at $4.99 for better value perception.",
+      "help_link": "/docs/how-to/subscription-management.md#minimum-pricing"
+    },
+    {
+      "error_code": "TIER_OVERLAP",
+      "error_message": "Tier prices must be at least $5 apart",
+      "solution": "Each subscription tier must be at least $5 more expensive than the tier below it. Example: Basic $9.99, VIP $14.99, Premium $24.99.",
+      "help_link": "/docs/how-to/subscription-management.md#tier-pricing"
+    },
+    {
+      "error_code": "TOO_MANY_TIERS",
+      "error_message": "Maximum 3 subscription tiers allowed",
+      "solution": "You can offer up to 3 subscription tiers (Basic, VIP, Premium). Remove an existing tier before adding a new one.",
+      "help_link": "/docs/how-to/subscription-management.md#tier-limits"
+    },
+    {
+      "error_code": "PROMOTION_CONFLICT",
+      "error_message": "Cannot run multiple promotions simultaneously",
+      "solution": "Only one active promotion is allowed at a time. End your current promotion before creating a new one, or schedule the new promotion to start after the current one ends.",
+      "help_link": "/docs/how-to/subscription-management.md#promotion-conflicts"
+    }
+  ],
+  "related_features": [
+    "content-upload",
+    "messaging-system",
+    "dashboard-analytics",
+    "payments-and-payouts",
+    "live-streaming"
+  ],
+  "glossary": [
+    {
+      "term": "MRR",
+      "definition": "Monthly Recurring Revenue - Predictable revenue from active subscriptions each month"
+    },
+    {
+      "term": "Churn Rate",
+      "definition": "Percentage of subscribers who cancel each month"
+    },
+    {
+      "term": "Retention Rate",
+      "definition": "Percentage of subscribers who renew each month (opposite of churn)"
+    },
+    {
+      "term": "ARPU",
+      "definition": "Average Revenue Per User - Total revenue divided by number of subscribers"
+    },
+    {
+      "term": "Trial Conversion",
+      "definition": "Percentage of free trial users who convert to paid subscribers"
+    },
+    {
+      "term": "Cohort",
+      "definition": "Group of subscribers who joined in the same time period (e.g., January cohort)"
+    },
+    {
+      "term": "LTV",
+      "definition": "Lifetime Value - Total revenue expected from a subscriber over their entire subscription duration"
+    }
+  ],
+  "integration_points": {
+    "pages": [
+      "/settings/subscriptions",
+      "/dashboard/subscribers",
+      "/messages/mass",
+      "/content/upload"
+    ],
+    "components": [
+      "SubscriptionPricingForm",
+      "SubscriberAnalyticsDashboard",
+      "SubscriptionTierManager",
+      "PromotionCreator",
+      "MassMessageComposer"
+    ],
+    "apis": [
+      "/api/subscriptions/update-price",
+      "/api/subscriptions/create-tier",
+      "/api/promotions/create",
+      "/api/subscribers/analytics",
+      "/api/subscribers/mass-message"
+    ]
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "feature_id": "privacy-blocking",
+  "feature_name": "Privacy & Blocking",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "description": "AI knowledge base for privacy controls and blocking features",
+  "qa_pairs": [
+    {
+      "id": "qa_privacy_001",
+      "question": "How do I block someone?",
+      "question_variations": [
+        "How do I block a user?",
+        "How to block someone harassing me?",
+        "Can I block subscribers?",
+        "How do I stop someone from messaging me?",
+        "Block user",
+        "How to ban someone?",
+        "Prevent user from seeing my content"
+      ],
+      "answer": "**How to Block a User:**\n\nBlocking completely prevents someone from interacting with you or seeing your content.\n\n**Method 1: From Their Profile**\n\n1. Go to the user's profile\n2. Click the menu icon (⋮ or •••)\n3. Select **Block User**\n4. Confirm by clicking **Block**\n\n**Method 2: From a Message**\n\n1. Open the message thread\n2. Click the user's name or settings icon\n3. Select **Block User**\n4. Confirm\n\n**Method 3: From a Comment**\n\n1. Find their comment on your post\n2. Click the menu icon on the comment (⋮)\n3. Select **Block User**\n4. Confirm\n\n**Method 4: From Settings**\n\n1. Settings → Privacy & Safety → Blocked Users\n2. Click **Add User to Block List**\n3. Enter their username\n4. Click **Block**\n\n---\n\n**What Blocking Does:**\n\n**They CANNOT:**\n- ❌ View your profile\n- ❌ See any of your posts or stories\n- ❌ Send you messages\n- ❌ Comment on your content\n- ❌ Subscribe to you (or renew if subscribed)\n- ❌ Tip you\n- ❌ Purchase your content\n- ❌ See you in search results\n- ❌ Tag or mention you\n\n**Important:**\n- They are NOT notified they're blocked\n- Your profile appears as if you deleted your account\n- All past interactions are hidden from both sides\n- Their subscription (if active) is canceled\n- No refund issued (they used the service up to block point)\n\n---\n\n**Unblocking:**\n\n1. Settings → Privacy & Safety → Blocked Users\n2. Find the user in your blocked list\n3. Click **Unblock**\n4. Confirm\n\n**Note:** Unblocking immediately restores their full access.\n\n---\n\n**When to Block:**\n\n✅ **Block Immediately If:**\n- Harassment or abusive messages\n- Requests for personal information\n- Threatens you\n- Makes you uncomfortable\n- Violates your boundaries\n- Tries to move conversation off-platform\n- Stalking behavior\n- Attempts to doxx you\n\n**You Never Need a Reason:**\n- Block anyone, anytime, for any reason\n- Your comfort and safety come first\n- No explanation required\n- Platform supports your decision\n\n---\n\n**Alternative: Restrict Instead of Block**\n\nIf you want softer approach:\n- **Restrict** limits their interactions without fully blocking\n- They can still subscribe (if you want the revenue)\n- But their messages go to requests, comments need approval\n- They don't know they're restricted\n\nTo Restrict: Same process as blocking, choose **Restrict** instead.\n\n**Remember: Your safety matters more than anyone's feelings. Block freely!** 🔒",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/privacy-and-blocking.md",
+        "how-to/help-and-support.md"
+      ],
+      "tags": ["blocking", "privacy", "safety", "harassment", "user management"],
+      "suggested_actions": [
+        {
+          "action": "block_user",
+          "label": "Block a User",
+          "path": "/users/{username}/block"
+        },
+        {
+          "action": "view_blocked_list",
+          "label": "View Blocked Users",
+          "path": "/settings/privacy/blocked-users"
+        },
+        {
+          "action": "report_user",
+          "label": "Report Harassment",
+          "path": "/help/report/harassment"
+        }
+      ]
+    },
+    {
+      "id": "qa_privacy_002",
+      "question": "How do I keep my location private?",
+      "question_variations": [
+        "How do I hide my location?",
+        "Can I block people from my city?",
+        "Geographic blocking",
+        "How to hide where I live?",
+        "Location privacy",
+        "Block people from my area?",
+        "Keep my location secret"
+      ],
+      "answer": "**Protecting Your Location Privacy:**\n\n**Method 1: Geographic Blocking**\n\nBlock users from specific regions entirely.\n\n**Step 1: Access Geographic Settings**\n\n1. Settings → Privacy & Safety → Geographic Restrictions\n2. Click **Add Location to Block**\n\n**Step 2: Choose What to Block**\n\n**Block Entire Countries:**\n```\n[+] Add Country\n\nSelect country:\n🇺🇸 United States\n🇨🇦 Canada\n🇬🇧 United Kingdom\n[etc.]\n\nSave\n```\n\n**Block Specific Regions/States:**\n```\n[+] Add Region\n\nCountry: United States\nState: California\nor\nCity: Los Angeles\n\nSave\n```\n\n**Block Radius Around Your Location:**\n```\nMy Location: [New York, USA ▼]\n\nBlock Radius:\n☐ 10 miles\n☐ 25 miles\n☑ 50 miles\n☐ 100 miles\n☐ Custom: ___ miles\n\nThis blocks anyone within 50 miles of New York.\n```\n\n**What Blocked Users See:**\n> \"This profile is not available in your region.\"\n\n---\n\n**Method 2: Remove Location Data from Content**\n\n**Automatic Protection:**\n\n1. Settings → Privacy → Automatic Protections\n2. Enable these:\n\n```\n☑ Strip EXIF data from photos\n   (Removes GPS coordinates)\n\n☑ Remove GPS location from uploads\n   (Prevents location tracking)\n\n☑ Remove metadata from videos\n   (Strips recording location)\n\n☑ Warn me if potential identifying info detected\n   (Smart detection of backgrounds, signs, etc.)\n```\n\n**Manual Check Before Posting:**\n- No street signs visible\n- No business names showing\n- No unique landmarks\n- No reflections showing windows with street views\n- No mail/packages with addresses\n- No car license plates\n- Generic backgrounds\n\n---\n\n**Method 3: Don't Share Location Clues**\n\n**Never Post:**\n- ❌ \"At [Restaurant Name]\"\n- ❌ \"Beautiful day in [City]!\"\n- ❌ \"Check out my neighborhood\"\n- ❌ Real-time locations (\"Live from...\")\n- ❌ Photos of your house exterior\n- ❌ Local landmarks\n- ❌ Work/school locations\n\n**Smart Posting:**\n- ✅ Post vacation photos AFTER you return\n- ✅ Use generic descriptions (\"At the beach\" not \"Malibu Beach\")\n- ✅ Remove geotagging from all photos\n- ✅ Generic backgrounds\n- ✅ No time-specific content (\"sunrise\" reveals timezone)\n\n---\n\n**Method 4: Hide Profile from Local Searches**\n\n1. Settings → Privacy → Search & Discovery\n2. Disable:\n\n```\n☐ Appear in \"Creators Near You\"\n☐ Show in geographic searches\n☐ Location-based recommendations\n```\n\n---\n\n**Why Geographic Privacy Matters:**\n\n**Risks Without It:**\n- Stalkers finding you physically\n- Family/friends discovering profile\n- Work colleagues finding you\n- Local recognition\n- Safety concerns\n\n**Protection Level:**\n\n**Basic Protection:**\n- Strip EXIF data ✅\n- Block immediate area (25-50 mile radius) ✅\n- Don't mention location ✅\n\n**Maximum Protection:**\n- Block entire home state/country ✅\n- Strip all metadata ✅\n- Generic backgrounds only ✅\n- No face showing (optional) ✅\n- VPN for account access ✅\n- Separate location for business address ✅\n\n---\n\n**Limitations to Know:**\n\n⚠️ **Geographic blocking based on IP address:**\n- Users with VPN can bypass\n- Not 100% foolproof\n- Combine with other privacy measures\n\n⚠️ **May affect subscriber base:**\n- Blocking large regions reduces potential fans\n- Balance privacy vs. growth\n- Most creators block home area only\n\n---\n\n**Recommended Setup:**\n\n**For Most Creators:**\n```\n✅ Block 50-100 mile radius around home\n✅ Strip EXIF data automatically\n✅ Remove location from search/discovery\n✅ Don't mention city/state in content\n✅ Generic backgrounds\n```\n\n**For Maximum Privacy:**\n```\n✅ Block entire home state/country\n✅ All metadata removal\n✅ No identifying background features\n✅ No face or distinctive features\n✅ VPN usage\n✅ Separate business address\n```\n\n---\n\n**Emergency: If Location Leaked**\n\n1. **Report to platform immediately** (priority support)\n2. **Request content removal**\n3. **Contact police** (doxxing is illegal)\n4. **Increase all security** (blocks, restrictions)\n5. **Consider moving** (if serious threat)\n6. **Document everything** for legal action\n\n**Platform Will:**\n- Remove doxxing content immediately\n- Ban the user permanently\n- Preserve evidence\n- Support legal actions\n\n**Your location privacy is critical for your safety!** 🔒📍",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/privacy-and-blocking.md",
+        "how-to/content-upload.md"
+      ],
+      "tags": ["location", "privacy", "geographic blocking", "safety", "EXIF data"],
+      "suggested_actions": [
+        {
+          "action": "set_geographic_blocks",
+          "label": "Set Geographic Blocks",
+          "path": "/settings/privacy/geographic-restrictions"
+        },
+        {
+          "action": "enable_metadata_removal",
+          "label": "Enable Metadata Removal",
+          "path": "/settings/privacy/automatic-protections"
+        }
+      ]
+    },
+    {
+      "id": "qa_privacy_003",
+      "question": "What's the difference between blocking and restricting?",
+      "question_variations": [
+        "Block vs restrict",
+        "Should I block or restrict?",
+        "What does restrict do?",
+        "Restrict vs block user",
+        "When to restrict instead of block?",
+        "Difference between block and restrict?",
+        "Is restrict better than blocking?"
+      ],
+      "answer": "**Block vs. Restrict - Key Differences:**\n\n---\n\n**BLOCKING** = Complete Cutoff 🚫\n\n**They CANNOT:**\n- ❌ See your profile at all\n- ❌ View any content\n- ❌ Message you\n- ❌ Comment\n- ❌ Subscribe/tip/purchase\n- ❌ Find you in search\n- ❌ Tag or mention you\n\n**What Happens:**\n- Profile appears deleted to them\n- All past interactions hidden\n- Subscription canceled (if active)\n- Complete separation\n\n**They Know?**\n- NOT explicitly told they're blocked\n- But will figure it out (profile \"gone\")\n\n**Best For:**\n- Harassment or threats\n- Serious boundary violations\n- Stalking behavior\n- Makes you feel unsafe\n- Requests for personal info\n- Abusive behavior\n\n---\n\n**RESTRICTING** = Limited Access 🔇\n\n**They CAN:**\n- ✅ View your profile\n- ✅ See your posts\n- ✅ Remain subscribed (keep paying you!)\n- ✅ Attempt to message/comment\n\n**BUT:**\n- ⚠️ **Their comments only visible to them**\n  - You can approve to make public if wanted\n  - Otherwise, they think it posted but only they see it\n\n- ⚠️ **Their messages go to requests folder**\n  - Not your main inbox\n  - You don't get notifications\n  - Can review and respond if you want\n\n- ⚠️ **Activity hidden from you**\n  - No notifications when they comment\n  - No notifications when they message\n  - You control when you see their stuff\n\n- ⚠️ **Status hidden from them**\n  - Can't see when you're online\n  - Can't see if you read messages\n  - Reduced stalking ability\n\n**They Know?**\n- NO - they don't know they're restricted\n- Everything appears normal to them\n- Stealth limitation\n\n**Best For:**\n- Overly chatty but harmless subscribers\n- Clingy but not dangerous\n- Want to keep subscription revenue\n- Awkward situations (know them IRL)\n- Testing before full block\n- Boundary pushers who still pay\n\n---\n\n**SIDE-BY-SIDE COMPARISON:**\n\n| Feature | Blocked | Restricted |\n|---------|---------|------------|\n| See profile | ❌ No | ✅ Yes |\n| See posts | ❌ No | ✅ Yes |\n| Subscribe | ❌ No | ✅ Yes |\n| Message you | ❌ No | ⚠️ Goes to requests |\n| Comment | ❌ No | ⚠️ Only they see it |\n| Your notifications | ❌ None | ❌ None |\n| They know? | ⚠️ Can tell | ❌ No idea |\n| Revenue impact | ❌ Lose sub $ | ✅ Keep sub $ |\n\n---\n\n**DECISION FLOWCHART:**\n\n```\nIs this person dangerous or threatening?\n        ↓\n       YES → BLOCK immediately\n        ↓\n        NO\n        ↓\nAre they harassing you or making you uncomfortable?\n        ↓\n       YES → BLOCK\n        ↓\n        NO\n        ↓\nAre they annoying but still paying you?\n        ↓\n       YES → RESTRICT\n        ↓\n        NO\n        ↓\nDo you want to keep the revenue?\n        ↓\n       YES → RESTRICT\n        ↓\n        NO → BLOCK\n```\n\n---\n\n**REAL EXAMPLES:**\n\n**Situation 1: Threatening Messages**\n> User: \"I'm going to find you\" \"You'll regret ignoring me\"\n\n**Action:** BLOCK immediately\n**Reason:** Safety threat, no revenue worth the risk\n\n---\n\n**Situation 2: Overly Chatty Subscriber**\n> User sends 20 messages per day, all friendly but overwhelming\n\n**Action:** RESTRICT\n**Reason:** Not dangerous, just annoying. Keep their $25/month subscription but don't get constant notifications.\n\n---\n\n**Situation 3: Ex or Acquaintance**\n> Someone you know IRL subscribed, it's awkward\n\n**Action:** RESTRICT or BLOCK (your choice)\n**Reason:** \n- RESTRICT if you want to keep them as subscriber (they can see content)\n- BLOCK if you don't want them seeing anything at all\n\n---\n\n**Situation 4: Boundary Pusher**\n> \"Can we meet up?\" \"What's your real name?\" \"Add me on Instagram\"\n\n**Action:** BLOCK\n**Reason:** Violating clear boundaries, will likely escalate\n\n---\n\n**Situation 5: Clingy but Harmless**\n> Comments on every post, messages frequently, tips occasionally, no threats\n\n**Action:** RESTRICT\n**Reason:** Keep revenue, reduce overwhelm, harmless fan\n\n---\n\n**HOW TO RESTRICT:**\n\n**Same Process as Blocking:**\n\n1. Go to user's profile\n2. Click menu icon (⋮)\n3. Select **Restrict** (instead of Block)\n4. Confirm\n\n**Unrestrict:**\n- Same process, select **Unrestrict**\n\n---\n\n**WHEN TO UPGRADE FROM RESTRICT TO BLOCK:**\n\n**Restrict First, Then Block If:**\n- Behavior escalates\n- They figure out they're restricted and react badly\n- You realize you don't want them seeing your content at all\n- Revenue isn't worth the mental load\n- Your comfort level changes\n\n**You Can Always:**\n- Restrict → Block (upgrade)\n- Block → Unblock (reverse)\n- Restrict → Unrestrict (reverse)\n- No commitment, adjust as needed\n\n---\n\n**PRO TIPS:**\n\n✅ **Try Restrict First** if unsure\n- Less drastic\n- Keep revenue\n- Can always block later\n- No harm in testing\n\n✅ **Don't Feel Guilty** about either\n- Your mental health matters\n- Your comfort matters\n- Revenue isn't worth stress\n- No explanation needed\n\n✅ **Use Both Strategically**\n- Block: threats, harassment, boundary violations\n- Restrict: annoying, clingy, overly chatty\n- Different tools for different situations\n\n✅ **Review Regularly**\n- Check restricted list monthly\n- Upgrade to block if needed\n- Unrestrict if behavior improved\n- Adjust as situations evolve\n\n---\n\n**REVENUE CONSIDERATION:**\n\n**Blocking = Lose Subscription**\n```\nClingy subscriber paying $25/month\n× 12 months = $300/year\n× 80% (your cut) = $240/year lost\n\nWorth it if: Threatening, unsafe, severe harassment\nNot worth it if: Just annoying but harmless\n```\n\n**Restricting = Keep Subscription**\n```\nSame subscriber paying $25/month\n× 12 months = $300/year  \n× 80% = $240/year kept\n\nBenefit: No constant notifications, you control interaction\nTrade-off: They can still see your content\n```\n\n**Your Call:**\nSafety and comfort > money, always.\nBut if they're harmless, restrict can be perfect middle ground.\n\n---\n\n**SUMMARY:**\n\n**Block When:**\n- Dangerous\n- Threatening\n- Harassing\n- Extreme discomfort\n- Safety concerns\n\n**Restrict When:**\n- Annoying but safe\n- Chatty but harmless\n- Want revenue\n- Testing waters\n- Soft approach\n\n**Remember: You can always change your mind! Start with restrict, upgrade to block if needed.** 🔒",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/privacy-and-blocking.md"
+      ],
+      "tags": ["blocking", "restricting", "privacy", "user management", "safety"],
+      "suggested_actions": [
+        {
+          "action": "restrict_user",
+          "label": "Restrict a User",
+          "path": "/users/{username}/restrict"
+        },
+        {
+          "action": "block_user",
+          "label": "Block a User",
+          "path": "/users/{username}/block"
+        },
+        {
+          "action": "view_restricted_list",
+          "label": "View Restricted Users",
+          "path": "/settings/privacy/restricted-users"
+        }
+      ]
+    },
+    {
+      "id": "qa_privacy_004",
+      "question": "How do I keep my content private from search engines?",
+      "question_variations": [
+        "Stop Google from finding my profile",
+        "How to prevent Google indexing?",
+        "Keep my profile off Google",
+        "Search engine privacy",
+        "Don't want to appear in Google search",
+        "Hide from search engines",
+        "Block Google from my profile"
+      ],
+      "answer": "**Blocking Search Engine Indexing:**\n\nPrevent your profile from appearing in Google, Bing, and other search engines.\n\n---\n\n**Step 1: Disable Search Engine Indexing**\n\n1. **Settings → Privacy & Safety → Search & Discovery**\n2. Find **External Search Engines** section\n3. **Uncheck** this option:\n\n```\n☐ Allow search engines to index my profile\n   (Google, Bing, DuckDuckGo, etc.)\n```\n\n4. Click **Save Changes**\n\n**What This Does:**\n- Adds \"noindex\" tag to your profile\n- Tells search engines not to include you in results\n- Prevents profile from appearing in Google searches\n- Blocks external discovery\n\n---\n\n**Step 2: Remove from Platform Discovery**\n\nWhile you're in Search & Discovery settings:\n\n```\n☐ Show profile in platform search\n   (Internal platform search)\n\n☐ Show in \"Suggested Creators\"\n   (Platform recommendations)\n\n☐ Show in category browsing\n   (Genre/niche categories)\n\n☐ Appear in \"Creators Near You\"\n   (Location-based discovery)\n```\n\n**Uncheck all** for maximum privacy.\n\n**Trade-off:** Less discoverability = slower growth, but more privacy.\n\n---\n\n**Step 3: Set Profile to Private (Optional)**\n\n1. **Settings → Privacy → Account Privacy**\n2. Toggle **Private Account** to ON\n\n**Private Account Means:**\n- Profile hidden from non-followers\n- Must approve each follower request\n- Content not visible to public\n- Maximum privacy\n\n**Note:** Private + No indexing = Very hard to find you\n\n---\n\n**Step 4: Check Current Search Presence**\n\n**Google Yourself:**\n\n1. Open incognito/private browser window\n2. Search: `\"your username\" site:CougarFanz.com`\n3. See if your profile appears\n\n**If It Appears:**\n- You may have had indexing on before\n- Google may still show old cached version\n- Takes 2-4 weeks for Google to remove after disabling\n\n---\n\n**Step 5: Request Removal from Google (If Needed)**\n\nIf your profile still appears in Google after disabling:\n\n**Method 1: Wait**\n- Google will eventually re-crawl and remove\n- Usually 2-4 weeks\n- Patience is easiest approach\n\n**Method 2: Request Urgent Removal**\n\n1. Go to: https://www.google.com/webmasters/tools/removals\n2. Sign in with Google account\n3. Click **New Request**\n4. Enter your profile URL\n5. Select **Remove this URL**\n6. Submit\n\n**Note:** You need to own the Google Search Console property OR the page needs noindex tag (which it will have after Step 1).\n\n---\n\n**UNDERSTANDING SEARCH PRIVACY:**\n\n**What Gets Indexed (If Enabled):**\n- Your profile page\n- Your public bio\n- Your username\n- Free preview content\n- Public posts (if any)\n\n**What's NEVER Indexed:**\n- Subscriber-only content\n- Private messages\n- Payment information\n- Personal details not in public bio\n- Paid content\n\n**Even With Indexing OFF:**\n- Subscribers can still find you via platform\n- Your profile URL still works\n- Just not discoverable via Google\n\n---\n\n**WHY BLOCK SEARCH ENGINES?**\n\n**Pros of Blocking:**\n✅ Family/friends less likely to stumble upon you\n✅ Can't be Googled by name\n✅ More privacy from outside platform\n✅ Reduced random discovery\n✅ Professional life separation\n\n**Cons of Blocking:**\n❌ Slower subscriber growth\n❌ Less organic traffic\n❌ Harder for genuine fans to find you\n❌ May miss SEO benefits\n❌ Reduces passive discoverability\n\n---\n\n**RECOMMENDED SETUP BY GOAL:**\n\n**Maximum Privacy (Family/Work Can't Find You):**\n```\n☑ Block search engine indexing\n☑ Private account\n☑ Not in platform search\n☑ Not in suggestions\n☑ Use stage name completely different from real name\n☑ No face showing (optional)\n☑ Geographic blocking (home area)\n```\n\n**Balanced Privacy (Some Discovery OK):**\n```\n☑ Block search engine indexing\n☐ Public account\n☑ In platform search (fans can find you)\n☑ In suggestions (platform growth)\n☐ No face restrictions\n☑ Stage name\n```\n\n**Maximum Growth (Less Privacy):**\n```\n☐ Allow search engine indexing\n☐ Public account\n☑ All discovery features ON\n☑ Active on social media\n☑ SEO-optimized profile\n```\n\n---\n\n**ADVANCED PRIVACY TECHNIQUES:**\n\n**1. Use Unrelated Username**\n```\nBad: YourRealName123\nGood: CreativeStageNameXO\n\nWhy: Real name in username gets Googled easily\n```\n\n**2. Generic Bio (No Personal Info)**\n```\nBad: \"25 year old from Miami, FL. Marketing grad from UM.\"\nGood: \"Creative content creator. Let's have fun together!\"\n\nWhy: Less identifying information = harder to connect to real you\n```\n\n**3. Separate Everything**\n- Different email (not your main email)\n- Different phone number (for 2FA)\n- Different name entirely\n- Different photos from personal social media\n- No crossover\n\n---\n\n**CHECKING YOUR PRIVACY:**\n\n**Monthly Privacy Audit:**\n\n1. **Google yourself:**\n   - `\"stage name\" site:CougarFanz.com`\n   - Shouldn't appear if indexing blocked\n\n2. **Google real name + platform:**\n   - `\"your real name\" [platform name]`\n   - Shouldn't connect\n\n3. **Check settings:**\n   - Verify indexing still disabled\n   - Confirm private/public status\n   - Review discovery settings\n\n4. **Test incognito:**\n   - Try to find yourself as anonymous user\n   - Should be hard/impossible if privacy maxed\n\n---\n\n**IF SOMEONE FINDS YOU ANYWAY:**\n\n**They Might Have:**\n- Direct link (shared by someone)\n- Found you on platform (not Google)\n- Reverse image search (if using same photos)\n- Social media breadcrumbs (you mentioned it)\n- Word of mouth\n\n**Not Search Engine Issue If:**\n- Profile doesn't appear in Google results\n- But they still found you\n- Means they got link another way\n\n**Additional Steps:**\n- Don't mention platform on personal socials\n- Use completely different photos\n- Geographic blocking for your area\n- Private account requiring approval\n- Be very selective about who you share link with\n\n---\n\n**SUMMARY:**\n\n**To Block Search Engines:**\n\n1. ☑ Settings → Privacy → **Disable search engine indexing**\n2. ☑ Disable platform discovery features\n3. ☑ Consider private account\n4. ☑ Wait 2-4 weeks for Google to update\n5. ☑ Google yourself to verify removal\n6. ☑ Use stage name + generic bio\n7. ☑ Keep personal and creator identities separate\n\n**Remember:** \n- Search privacy = Your real life protected\n- May slow growth but increases safety\n- Perfect for family/work separation\n- Your comfort > subscriber count\n\n**You have the right to control your digital presence!** 🔍🔒",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/privacy-and-blocking.md",
+        "how-to/profile-and-settings.md"
+      ],
+      "tags": ["search engines", "Google", "privacy", "indexing", "discovery"],
+      "suggested_actions": [
+        {
+          "action": "disable_search_indexing",
+          "label": "Disable Search Engine Indexing",
+          "path": "/settings/privacy/search-discovery"
+        },
+        {
+          "action": "set_private_account",
+          "label": "Set Account to Private",
+          "path": "/settings/privacy/account-privacy"
+        }
+      ]
+    },
+    {
+      "id": "qa_privacy_005",
+      "question": "What should I do if I'm being harassed?",
+      "question_variations": [
+        "Someone is harassing me",
+        "How to report harassment?",
+        "Being threatened by a user",
+        "Stalker on platform",
+        "What to do about abusive messages?",
+        "User won't stop messaging me",
+        "Report harassment"
+      ],
+      "answer": "**If You're Being Harassed - Take Action Immediately:**\n\n---\n\n**STEP 1: BLOCK THE USER IMMEDIATELY** 🚫\n\n**Do This First:**\n\n1. Go to the harasser's profile\n2. Click menu (⋮)\n3. Select **Block User**\n4. Confirm\n\n**Why Block First:**\n- Stops them from continuing\n- Prevents further messages/comments\n- Protects you immediately\n- You can still report after blocking\n\n---\n\n**STEP 2: DOCUMENT EVERYTHING** 📸\n\n**Screenshot:**\n- ✅ All threatening messages\n- ✅ Harassing comments\n- ✅ Profile of harasser\n- ✅ Any posts about you\n- ✅ Timestamps of all interactions\n- ✅ Any doxxing attempts\n\n**Include in Screenshots:**\n- Full context of conversation\n- Dates and times\n- Usernames clearly visible\n- Any threats or explicit harassment\n\n**Save:**\n- To your device\n- Cloud backup (Google Drive, Dropbox)\n- Email to yourself (creates date stamp)\n\n**Why This Matters:**\n- Evidence for platform investigation\n- Proof for law enforcement if needed\n- Timeline of escalation\n- Can't be deleted by harasser\n\n---\n\n**STEP 3: REPORT TO PLATFORM** 🚨\n\n**Method 1: Report User**\n\n1. **Settings → Help → Report User**\n2. Select **Harassment or Bullying**\n3. Provide details:\n\n```\nREPORT HARASSMENT\n\nUser: @harasserUsername\nDate Started: [Date]\nType of Harassment:\n☑ Threatening messages\n☑ Stalking behavior\n☐ Doxxing (sharing personal info)\n☐ Hate speech\n☑ Won't stop after being asked\n\nDescription:\n[Detailed description of harassment pattern]\n\nAttachments:\n[Upload screenshots]\n\nI am requesting:\n☑ User permanently banned\n☑ Content removed\n☑ IP ban\n☐ Law enforcement contact\n```\n\n4. Submit\n\n**Method 2: Emergency Report (Severe Threats)**\n\n1. Click **Live Chat** in app (if available)\n2. Say \"EMERGENCY - Harassment\"\n3. Priority support team responds\n4. Provide details immediately\n\n**Response Time:**\n- Standard reports: 24-48 hours\n- Priority/emergency: 1-4 hours\n- Severe threats: Immediate response\n\n---\n\n**STEP 4: DO NOT ENGAGE** 🤐\n\n**DO NOT:**\n- ❌ Reply to harasser (even to tell them to stop)\n- ❌ Argue with them\n- ❌ Try to reason with them\n- ❌ Threaten them back\n- ❌ Post about them publicly\n- ❌ Have friends/subs interact with them\n\n**Why:**\n- Engagement encourages them\n- Gives them attention they want\n- Can escalate situation\n- Can complicate investigation\n- May be used against you\n\n**Instead:**\n- ✅ Block silently\n- ✅ Document silently\n- ✅ Report formally\n- ✅ Let platform handle it\n\n---\n\n**STEP 5: INCREASE SECURITY** 🔒\n\n**Immediately:**\n\n1. **Change Password**\n   - Settings → Security → Change Password\n   - Use strong, unique password\n\n2. **Enable 2FA**\n   - Settings → Security → Two-Factor Authentication\n   - Authenticator app (not SMS if possible)\n\n3. **Review Login Activity**\n   - Settings → Security → Login Activity\n   - Check for unauthorized access\n   - Sign out other sessions if suspicious\n\n4. **Tighten Privacy**\n   - Geographic blocks\n   - Private account\n   - Subscriber-only messages\n   - Hide online status\n\n5. **Review Payout Info**\n   - Ensure harasser didn't access account\n   - Verify banking details unchanged\n\n---\n\n**STEP 6: ASSESS THREAT LEVEL** ⚠️\n\n**Low-Level Harassment (Platform Can Handle):**\n- Rude comments\n- Excessive messaging\n- Boundary pushing\n- Inappropriate requests\n\n**Action:** Block + Report to platform\n\n**Medium-Level (Monitor Closely):**\n- Repeated contact after blocking (multiple accounts)\n- Attempts to find you elsewhere\n- Doxxing attempts\n- Obsessive behavior\n\n**Action:** Block + Report + Document + Increase security\n\n**HIGH-LEVEL (Contact Authorities):**\n- Threats of violence (\"I'll hurt you\", \"I'll find you\")\n- Threats to family/friends\n- Successfully doxxed you (posted real info)\n- Stalking behavior\n- Showed up in person\n- Revenge porn threats\n\n**Action:** Block + Report + Police Report + Consider legal action\n\n---\n\n**STEP 7: CONTACT LAW ENFORCEMENT (If Threats/Stalking)** 👮\n\n**When to Call Police:**\n- Explicit threats of violence\n- Credible threats to your safety\n- Stalking (repeated unwanted contact)\n- Doxxing with malicious intent\n- Revenge porn\n- Blackmail/extortion\n\n**What to Bring:**\n- All screenshots (organized by date)\n- Timeline of events\n- Platform reports you filed\n- Any other evidence\n- List of harasser's accounts/usernames\n\n**What to Say:**\n\"I'm being harassed online. They've made threats against me, and I have documentation. I'd like to file a report.\"\n\n**What Police Can Do:**\n- File official report (document trail)\n- Investigate threats\n- Contact platform on your behalf\n- Issue restraining order (if identity known)\n- Press charges (depends on jurisdiction)\n\n**Know Your Rights:**\n- Online harassment IS illegal\n- Stalking laws apply online\n- Threats are criminal\n- Doxxing is illegal in many jurisdictions\n\n---\n\n**STEP 8: PLATFORM RESPONSE & FOLLOW-UP** ✅\n\n**What Platform Will Do:**\n\n1. **Investigate**\n   - Review screenshots\n   - Check harasser's account history\n   - Verify violations\n\n2. **Take Action**\n   - Warn user (first offense, minor issue)\n   - Suspend account (temporary)\n   - **Ban permanently** (serious violations)\n   - **IP ban** (prevents new accounts)\n   - Remove violating content\n\n3. **Notify You**\n   - Email confirmation\n   - Action taken summary\n   - Next steps\n\n4. **Monitor**\n   - Watch for new accounts from same person\n   - Track IP for ban evasion\n   - Support your ongoing safety\n\n**Your Follow-Up:**\n- Respond to any platform questions promptly\n- Provide additional evidence if requested\n- Report if harasser creates new accounts\n- Update report if situation escalates\n\n---\n\n**STEP 9: SELF-CARE & SUPPORT** 💚\n\n**Harassment Affects Mental Health:**\n\n**It's Normal to Feel:**\n- Anxious\n- Scared\n- Angry\n- Violated\n- Stressed\n- Unsafe\n\n**Self-Care:**\n- Take a break from platform if needed\n- Talk to friends/family\n- Consider counseling (online stalking trauma is real)\n- Focus on safety, not content\n- Don't feel guilty for protecting yourself\n\n**Support Resources:**\n- Platform safety team: safety@CougarFanz.com\n- National stalking helpline: 1-800-XXX-XXXX\n- Cyber harassment support: cybercivilrights.org\n- Therapy: BetterHelp, TalkSpace (online options)\n\n---\n\n**PREVENTION FOR FUTURE:**\n\n**Boundary Setting:**\n\n1. **Clear Bio Statement:**\n> \"I don't meet fans, share personal info, or chat off-platform. Respect these boundaries or be blocked.\"\n\n2. **Enforce Immediately:**\n- First boundary violation = warning\n- Second violation = block\n- No negotiations\n\n3. **Red Flags to Block:**\n- Asks for personal info\n- Wants to move off-platform\n- Obsessive messaging\n- Ignores your boundaries\n- Makes you uncomfortable\n\n**Trust Your Instincts:**\nIf something feels wrong, it probably is. Block early, block often.\n\n---\n\n**HARASSMENT RESPONSE CHECKLIST:**\n\n- [ ] Block harasser immediately\n- [ ] Screenshot everything\n- [ ] Report to platform with all evidence\n- [ ] Change password\n- [ ] Enable 2FA\n- [ ] Increase privacy settings\n- [ ] Do NOT engage with harasser\n- [ ] Contact police (if threats/stalking)\n- [ ] Document timeline\n- [ ] Save backups of evidence\n- [ ] Take care of mental health\n- [ ] Follow up on platform report\n\n---\n\n**REMEMBER:**\n\n✅ **Harassment is NEVER your fault**\n✅ **You have the right to feel safe**\n✅ **Platform is on your side**\n✅ **Law enforcement takes online threats seriously**\n✅ **Your safety > content/revenue**\n✅ **Block anyone who makes you uncomfortable**\n✅ **You don't owe harassers anything**\n\n**You are not alone. Take action, stay safe, and don't hesitate to get help!** 🛡️💪",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/privacy-and-blocking.md",
+        "how-to/help-and-support.md"
+      ],
+      "tags": ["harassment", "safety", "reporting", "threats", "blocking", "law enforcement"],
+      "suggested_actions": [
+        {
+          "action": "report_harassment",
+          "label": "Report Harassment",
+          "path": "/help/report/harassment"
+        },
+        {
+          "action": "block_user",
+          "label": "Block User",
+          "path": "/users/{username}/block"
+        },
+        {
+          "action": "emergency_support",
+          "label": "Emergency Live Chat",
+          "path": "/help/emergency"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "new_account_privacy_setup",
+      "condition": "account_age < 7_days AND privacy_settings == default",
+      "trigger_context": "New creator hasn't customized privacy settings",
+      "message": "🔒 **Set Up Your Privacy Settings**\n\nYou're new here! Take 5 minutes to review your privacy settings for maximum safety.\n\n**Quick Privacy Checklist:**\n\n**Recommended for New Creators:**\n\n☑ **Block your home area**\n   - Prevent local discovery\n   - Settings → Privacy → Geographic Restrictions\n   - Block 50-100 mile radius\n\n☑ **Disable search engine indexing**\n   - Keep profile off Google\n   - Settings → Privacy → Search & Discovery\n   - Uncheck \"Allow search engines\"\n\n☑ **Restrict who can message**\n   - Subscribers only (not everyone)\n   - Settings → Privacy → Messaging\n   - Prevents spam\n\n☑ **Remove photo metadata**\n   - Auto-strip GPS data\n   - Settings → Privacy → Automatic Protections\n   - Prevents location tracking\n\n☑ **Enable 2FA**\n   - Protect your account & earnings\n   - Settings → Security → Two-Factor Auth\n   - Use authenticator app\n\n**Takes 5 minutes, protects you forever!**\n\nWould you like help setting these up?",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "setup_privacy_wizard",
+          "label": "Run Privacy Setup Wizard",
+          "path": "/settings/privacy/wizard"
+        },
+        {
+          "action": "view_privacy_guide",
+          "label": "View Privacy Guide",
+          "path": "/help/privacy"
+        }
+      ]
+    },
+    {
+      "trigger_id": "repeated_blocks_from_same_area",
+      "condition": "blocks_from_same_geographic_area >= 3",
+      "trigger_context": "Creator blocking multiple users from same location",
+      "message": "🌍 **Consider Geographic Blocking**\n\nYou've blocked {count} users from {location} recently.\n\n**You might want to block this entire area:**\n\n**Why Geographic Blocking:**\n- Prevent unwanted local discovery\n- Stop friends/family from finding you\n- Reduce harassment from specific regions\n- One-time setup, ongoing protection\n\n**How to Set It Up:**\n\n1. Settings → Privacy → Geographic Restrictions\n2. Block {location}\n3. Choose radius (25, 50, or 100 miles)\n4. Save\n\n**What Happens:**\n- Anyone from that area sees \"Profile not available in your region\"\n- You won't appear in their searches\n- Existing subscribers can keep access (optional setting)\n\n**Note:** Based on IP address, so VPN users can bypass. Combine with other privacy measures for best protection.\n\nWould you like to set up geographic blocking now?",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "set_geographic_block",
+          "label": "Block This Geographic Area",
+          "path": "/settings/privacy/geographic-restrictions?suggest={location}"
+        },
+        {
+          "action": "learn_more",
+          "label": "Learn More About Geo-Blocking",
+          "path": "/help/privacy/geographic-blocking"
+        }
+      ]
+    },
+    {
+      "trigger_id": "search_engine_indexed_warning",
+      "condition": "search_engine_indexing_enabled AND privacy_concern_detected",
+      "trigger_context": "Creator's profile is indexed by Google but might want privacy",
+      "message": "🔍 **Your Profile Appears in Google Search**\n\nYour profile can be found via Google, Bing, and other search engines.\n\n**This Means:**\n- Anyone Googling your username finds you\n- Profile appears in external searches\n- More discoverable by family/friends/coworkers\n\n**Good For:**\n✅ Growing your audience\n✅ SEO and organic traffic\n✅ Easier for fans to find you\n\n**Bad For:**\n❌ Keeping content separate from personal life\n❌ Privacy from people you know\n❌ Professional life separation\n\n**Your Choice:**\n\n**Option 1: Keep Indexing (Growth)**\n- More discoverability\n- Faster subscriber growth\n- Accept privacy trade-off\n\n**Option 2: Disable Indexing (Privacy)**\n- Profile hidden from Google\n- Family/friends less likely to find you\n- Slower growth but more private\n\n**To Disable:**\n1. Settings → Privacy → Search & Discovery\n2. Uncheck \"Allow search engines to index\"\n3. Wait 2-4 weeks for Google to update\n\n**You can always change this later!**\n\nWhat matters more to you: growth or privacy?",
+      "priority": "low",
+      "suggested_actions": [
+        {
+          "action": "disable_indexing",
+          "label": "Disable Search Engine Indexing",
+          "path": "/settings/privacy/search-discovery"
+        },
+        {
+          "action": "keep_indexing",
+          "label": "Keep Indexing Enabled",
+          "path": null
+        }
+      ]
+    },
+    {
+      "trigger_id": "harassment_pattern_detected",
+      "condition": "multiple_reports_from_creator OR multiple_blocks_in_short_time",
+      "trigger_context": "Platform detects possible harassment situation",
+      "message": "⚠️ **We Noticed Increased Blocking Activity**\n\nYou've blocked {count} users in the past {timeframe}. Everything okay?\n\n**If You're Experiencing Harassment:**\n\n**Immediate Actions:**\n1. Block all harassers (you're doing this ✓)\n2. Screenshot everything\n3. Report each user to us\n4. Don't engage with them\n\n**We Can Help:**\n- Permanent bans\n- IP blocking\n- Content removal\n- Priority support\n- Law enforcement coordination (if needed)\n\n**Emergency Support:**\nIf you're being threatened or stalked, contact us immediately:\n- Live chat: [Emergency Button]\n- Email: safety@CougarFanz.com\n- We respond to emergencies within 1 hour\n\n**Resources:**\n- How to report harassment\n- Increase your privacy settings\n- Safety and blocking guide\n- Support for harassment victims\n\n**Remember:** Your safety is our priority. We take harassment very seriously.\n\nNeed help right now?",
+      "priority": "critical",
+      "suggested_actions": [
+        {
+          "action": "emergency_support",
+          "label": "Get Emergency Support",
+          "path": "/help/emergency"
+        },
+        {
+          "action": "report_harassment",
+          "label": "Report Harassment",
+          "path": "/help/report/harassment"
+        },
+        {
+          "action": "privacy_lockdown",
+          "label": "Enable Maximum Privacy",
+          "path": "/settings/privacy/lockdown"
+        }
+      ]
+    },
+    {
+      "trigger_id": "metadata_location_detected",
+      "condition": "uploaded_content_contains_gps_metadata",
+      "trigger_context": "User uploaded photo/video with location data",
+      "message": "📍 **Location Data Detected in Your Upload**\n\n⚠️ The photo/video you just uploaded contains GPS location data.\n\n**This reveals:**\n- Exact coordinates where photo was taken\n- Your home/work location (if taken there)\n- Can be used to find you\n\n**We Can Fix This:**\n\n**Option 1: Remove from This Upload**\n- We'll strip location data before posting\n- Photo/video will post without GPS info\n- Safe to share\n\n**Option 2: Auto-Remove Always**\n- Turn on automatic metadata removal\n- All future uploads automatically protected\n- Set it and forget it\n\n**How Location Data Gets Added:**\n- Phone camera adds GPS coordinates\n- Happens automatically on most smartphones\n- Most people don't realize it's there\n\n**Protect Yourself:**\n\nSettings → Privacy → Automatic Protections\n☑ Strip EXIF data from photos\n☑ Remove GPS location from uploads\n☑ Remove metadata from videos\n\n**One-time setup, permanent protection!**\n\nWhat would you like to do?",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "remove_this_metadata",
+          "label": "Remove Location from This Upload",
+          "path": "/upload/{id}/strip-metadata"
+        },
+        {
+          "action": "enable_auto_removal",
+          "label": "Auto-Remove Always",
+          "path": "/settings/privacy/automatic-protections"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Blocking",
+      "definition": "Completely preventing a user from seeing your profile, content, or interacting with you in any way"
+    },
+    {
+      "term": "Restricting",
+      "definition": "Limiting a user's interactions (comments need approval, messages go to requests) without fully blocking them"
+    },
+    {
+      "term": "Geographic Blocking",
+      "definition": "Blocking users from specific countries, states, cities, or radius based on their IP address location"
+    },
+    {
+      "term": "EXIF Data",
+      "definition": "Metadata embedded in photos/videos that can include GPS coordinates, camera info, and timestamps"
+    },
+    {
+      "term": "Search Engine Indexing",
+      "definition": "Allowing Google, Bing, etc. to include your profile in their search results"
+    },
+    {
+      "term": "Doxxing",
+      "definition": "Maliciously publishing someone's private personal information (real name, address, etc.) online"
+    },
+    {
+      "term": "2FA (Two-Factor Authentication)",
+      "definition": "Security feature requiring two forms of verification to access your account (password + code from app/SMS)"
+    },
+    {
+      "term": "Metadata",
+      "definition": "Hidden data in files (photos/videos) that can include location, device info, timestamps"
+    },
+    {
+      "term": "Private Account",
+      "definition": "Profile setting where you must approve each follower and content is hidden from non-followers"
+    },
+    {
+      "term": "IP Ban",
+      "definition": "Blocking a specific internet connection (IP address) to prevent someone from creating new accounts"
+    },
+    {
+      "term": "VPN (Virtual Private Network)",
+      "definition": "Technology that masks your real location/IP address, can bypass geographic blocks"
+    },
+    {
+      "term": "Read Receipts",
+      "definition": "Indicators showing when you've read someone's message or seen their content"
+    }
+  ],
+  "integration_points": [
+    {
+      "feature": "messaging-system",
+      "connection": "Privacy settings control who can message you and message filtering options"
+    },
+    {
+      "feature": "profile-and-settings",
+      "connection": "Privacy settings deeply integrated with account and profile configuration"
+    },
+    {
+      "feature": "content-upload",
+      "connection": "Privacy controls determine content visibility and automatic metadata removal"
+    },
+    {
+      "feature": "fan-engagement",
+      "connection": "Blocking and restricting affect who can interact with your content"
+    },
+    {
+      "feature": "help-and-support",
+      "connection": "Harassment reporting and safety features connect to support system"
+    },
+    {
+      "feature": "notifications",
+      "connection": "Privacy settings affect what notifications you receive from whom"
+    }
+  ]
+}

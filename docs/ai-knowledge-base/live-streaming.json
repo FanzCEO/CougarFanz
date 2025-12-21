@@ -1,0 +1,457 @@
+{
+  "feature_id": "live-streaming",
+  "feature_name": "Live Streaming",
+  "version": "1.0.0",
+  "last_updated": "2025-11-16",
+  "platforms": ["all"],
+  "user_types": ["creator"],
+  "qa_pairs": [
+    {
+      "id": "qa_stream_001",
+      "question": "How do I start a live stream?",
+      "question_variations": [
+        "How to go live?",
+        "Start streaming",
+        "Begin a live stream",
+        "Go live on platform",
+        "How to live stream?",
+        "Start broadcasting"
+      ],
+      "answer": "Starting a live stream is easy!\n\n**Quick Steps:**\n\n1. **Access Live Stream**\n   - Click \"Go Live\" button in top menu\n   - Or go to Dashboard → Live Stream\n\n2. **Set Stream Details**\n   - Title: Clear, engaging (e.g., \"Q&A Session 💬\")\n   - Description: What viewers will get\n   - Privacy: Public, Subscribers Only, or Private\n   - Enable tips: ✓ (recommended!)\n\n3. **Test Your Setup**\n   - Check camera preview\n   - Test microphone\n   - Verify good lighting\n   - Ensure stable internet (5+ Mbps upload)\n\n4. **Go Live!**\n   - Click \"Start Stream\"\n   - You're broadcasting! 🔴\n\n**Pro Tips:**\n- Send notification to subscribers for more viewers\n- Promote 24 hours in advance\n- Stream at consistent times (7-10 PM best)\n- Enable tips to earn during stream\n\n**Technical requirements:**\n- Internet: 5+ Mbps upload speed\n- Device: Any smartphone, tablet, or computer\n- Browser: Chrome, Firefox, Safari (latest version)\n\nFirst time? Try a 5-minute test stream in Private mode to get comfortable!",
+      "confidence_score": 0.99,
+      "tags": ["live-stream", "go-live", "broadcast", "streaming", "how-to"],
+      "related_qa_ids": ["qa_stream_002", "qa_stream_003"],
+      "suggested_actions": [
+        {
+          "label": "Go Live Now",
+          "action": "navigate",
+          "url": "/live/create"
+        },
+        {
+          "label": "Watch Tutorial",
+          "action": "open_tutorial",
+          "tutorial_id": "streaming-101"
+        },
+        {
+          "label": "Test Internet Speed",
+          "action": "open_url",
+          "url": "https://fast.com"
+        }
+      ]
+    },
+    {
+      "id": "qa_stream_002",
+      "question": "How much can I earn from live streaming?",
+      "question_variations": [
+        "Live stream earnings",
+        "How much money from streams?",
+        "Stream revenue",
+        "Make money streaming",
+        "Live stream income",
+        "Earnings from broadcasting"
+      ],
+      "answer": "Live stream earnings vary, but here's what you can expect:\n\n**Earnings Sources:**\n\n💰 **Tips During Stream** (80% to you)\n- Viewers tip with messages\n- Instant earnings\n- Thank tippers for more tips!\n\n💰 **Private Stream Fees** (80% to you)\n- 1-on-1: $100-$500 per 30 min\n- Small group: $50-$200 per person\n\n💰 **New Subscriptions** (80% monthly)\n- Viewers subscribe to access subscriber-only streams\n- Recurring revenue\n\n💰 **Saved Stream Sales** (80% to you)\n- Save and sell stream replay as PPV\n- $5-$30 per replay\n\n**Earnings Examples:**\n\n**Beginner Creator (30 min stream):**\n- 20 viewers\n- $40 in tips\n- 2 new subs ($9.99 each)\n- **You earn:** ~$48 (1 hour = ~$96/hr)\n\n**Established Creator (45 min stream):**\n- 80 viewers\n- $240 in tips\n- 5 new subs ($9.99 each)\n- **You earn:** ~$232 (1 hour = ~$309/hr)\n\n**Top Creator (60 min stream):**\n- 200 viewers\n- $500+ in tips\n- 15+ new subs\n- **You earn:** $500+ per stream\n\n**Private 1-on-1 (30 min):**\n- 1 viewer\n- $200 stream fee\n- $50 in tips\n- **You earn:** $200 (1 hour = $400/hr)\n\n**How to maximize earnings:**\n✓ Enable tips with tip menu\n✓ Set tip goals for special content\n✓ Stream consistently (builds audience)\n✓ Engage viewers actively\n✓ Promote streams in advance\n✓ Save streams for PPV sales\n✓ Best times: Wed-Sun 7-10 PM\n\n**You keep 80% of all tips and fees!**",
+      "confidence_score": 0.97,
+      "tags": ["earnings", "money", "income", "revenue", "tips", "monetization"],
+      "related_qa_ids": ["qa_stream_003", "qa_stream_004"],
+      "suggested_actions": [
+        {
+          "label": "View Stream Analytics",
+          "action": "navigate",
+          "url": "/analytics/streams"
+        },
+        {
+          "label": "Monetization Guide",
+          "action": "open_help",
+          "help_id": "stream-monetization"
+        }
+      ]
+    },
+    {
+      "id": "qa_stream_003",
+      "question": "What equipment do I need for live streaming?",
+      "question_variations": [
+        "Streaming equipment needed",
+        "What do I need to stream?",
+        "Live stream requirements",
+        "Gear for streaming",
+        "Streaming setup",
+        "Equipment for broadcasting"
+      ],
+      "answer": "Good news: You can start with what you have!\n\n**MINIMUM REQUIREMENTS** ✓\n\n📱 **Device:**\n- Smartphone (iPhone 8+ or Android equivalent)\n- OR tablet (iPad 2018+ or Android)\n- OR computer (any from last 5 years)\n\n🌐 **Internet:**\n- Upload speed: 5+ Mbps (minimum)\n- WiFi or cellular data works\n- Test at: fast.com\n\n🎥 **Camera:**\n- Built-in camera works fine!\n- Clean lens\n- Position at eye level\n\n🎤 **Microphone:**\n- Built-in mic is okay to start\n- Quiet environment helps\n\n💡 **Lighting:**\n- Natural light (window)\n- OR any lamp facing you\n- Avoid backlighting\n\n---\n\n**RECOMMENDED UPGRADES** (Better quality)\n\n💡 **Ring Light** ($20-$100)\n- Even, flattering lighting\n- Reduces shadows\n- Professional look\n\n🎤 **External Microphone** ($30-$100)\n- USB mic (Blue Yeti, Rode)\n- Lavalier clip-on mic\n- Much better audio quality\n\n🌐 **Wired Internet** (Free if available)\n- More stable than WiFi\n- Ethernet cable\n- Prevents stream drops\n\n🎥 **Webcam** ($50-$150)\n- Better than laptop camera\n- Logitech C920 or similar\n- 1080p recommended\n\n🖥️ **Streaming Software** (Free/Optional)\n- OBS Studio (free)\n- Add overlays, graphics\n- Multiple camera angles\n- Professional features\n\n---\n\n**PROFESSIONAL SETUP** ($500+)\n\n- 4K webcam or DSLR camera\n- Professional microphone (XLR)\n- Softbox lighting kit\n- Green screen\n- Stream deck\n- Dedicated streaming PC\n\n---\n\n**Quick Tips:**\n\n✓ **Start simple** - Phone + good lighting = 90% there\n✓ **Good lighting > expensive camera**\n✓ **Good audio > HD video**\n✓ **Stable internet > everything**\n✓ **Upgrade as you earn** from streams\n\n**Most important:** Consistent, engaging content matters more than expensive equipment!\n\nYour phone in good lighting beats a $2,000 camera in dim lighting every time.",
+      "confidence_score": 0.98,
+      "tags": ["equipment", "gear", "requirements", "setup", "camera", "microphone"],
+      "related_qa_ids": ["qa_stream_001", "qa_stream_006"],
+      "suggested_actions": [
+        {
+          "label": "Test Your Internet",
+          "action": "open_url",
+          "url": "https://fast.com"
+        },
+        {
+          "label": "Equipment Recommendations",
+          "action": "open_help",
+          "help_id": "streaming-equipment-guide"
+        }
+      ]
+    },
+    {
+      "id": "qa_stream_004",
+      "question": "What is a tip menu and how does it work?",
+      "question_variations": [
+        "Tip menu explained",
+        "How to create tip menu?",
+        "What is tip menu?",
+        "Streaming tip menu",
+        "Tip menu for streams",
+        "Set up tip menu"
+      ],
+      "answer": "A tip menu is a list of actions viewers can tip for during your stream!\n\n**How It Works:**\n\n1. **Create your menu** of actions with prices\n2. **Pin menu** in chat or stream description\n3. **Viewer tips** the amount for desired action\n4. **You perform** the action/request\n5. **Everyone happy!** Viewer gets what they want, you earn money\n\n**Example Tip Menu:**\n\n```\n💋 $5 - Blow a kiss\n💃 $10 - Dance for 30 seconds\n📸 $15 - Special pose\n💬 $20 - Answer personal question\n🎵 $25 - Song request\n👋 $30 - Personal shout-out\n🎁 $50 - Flash exclusive content\n💖 $100 - Private photo after stream\n🌟 $200 - 1-on-1 video call (5 min)\n```\n\n**Creating Your Menu:**\n\n**Step 1:** Decide what you're comfortable offering\n- Stay within your boundaries!\n- Price based on your comfort level\n- Higher effort = higher price\n\n**Step 2:** Set prices\n- Start low to encourage tipping\n- Increase for more personal/intimate requests\n- Test and adjust based on response\n\n**Step 3:** Share your menu\n- Pin message in chat\n- Add to stream description\n- Mention every 10-15 minutes\n- Post on social media before stream\n\n**Step 4:** Honor all requests\n- Fulfill requests promptly\n- Thank tipper enthusiastically\n- Deliver what you promised\n- Professional and fun!\n\n**Popular Tip Menu Items:**\n\n**Low tier ($5-$15):**\n- Blow kiss, wink, smile\n- Quick dance or spin\n- Show outfit detail\n- Answer question\n- Specific pose\n\n**Mid tier ($20-$50):**\n- Song request\n- Personal shout-out\n- Longer performance\n- Show specific item/area\n- Play game with viewer\n\n**High tier ($75-$200):**\n- Exclusive content flash\n- Private photo after stream\n- Extended 1-on-1 attention\n- Custom request\n- Video call after stream\n\n**Best Practices:**\n\n✓ **Clear prices** - No confusion\n✓ **Honor requests** - Build trust\n✓ **Stay safe** - Set boundaries\n✓ **Be creative** - Unique offerings\n✓ **Update regularly** - Keep fresh\n✓ **Promote** - Remind viewers often\n\n**Tips for Success:**\n- Start with smaller prices to get momentum\n- Bundle items for better value\n- Create \"specials\" during stream\n- Track what sells best and do more\n- Thank tippers publicly for social proof\n\nYou earn **80% of all tips**!",
+      "confidence_score": 0.96,
+      "tags": ["tip-menu", "tips", "monetization", "menu", "earnings"],
+      "related_qa_ids": ["qa_stream_002", "qa_stream_005"],
+      "suggested_actions": [
+        {
+          "label": "Create Tip Menu",
+          "action": "navigate",
+          "url": "/live/tip-menu/create"
+        },
+        {
+          "label": "Tip Menu Examples",
+          "action": "open_help",
+          "help_id": "tip-menu-examples"
+        }
+      ]
+    },
+    {
+      "id": "qa_stream_005",
+      "question": "What's the difference between public, subscriber-only, and private streams?",
+      "question_variations": [
+        "Stream privacy options",
+        "Public vs private stream",
+        "Subscriber only streams",
+        "Stream types explained",
+        "Privacy settings for streams",
+        "Who can watch my stream?"
+      ],
+      "answer": "You have 3 privacy options for streams:\n\n---\n\n**🌎 PUBLIC STREAMS**\n\n**Who can watch:** Everyone (free access)\n\n**Best for:**\n- Building audience\n- Promotions\n- Announcements\n- Getting new subscribers\n- Teasers for exclusive content\n\n**Earnings:**\n- Tips only\n- New subscriptions from viewers\n\n**Pros:**\n- ✓ Maximum exposure\n- ✓ Grow following quickly\n- ✓ Convert viewers to subscribers\n\n**Cons:**\n- ✗ Can't show exclusive content\n- ✗ Anyone can watch\n- ✗ Lower earnings per viewer\n\n**Example use:**\n\"Come hang out with me! Answering questions and chatting. Subscribe for exclusive content!\"\n\n---\n\n**🔒 SUBSCRIBER-ONLY STREAMS**\n\n**Who can watch:** Only paid subscribers\n\n**Best for:**\n- Exclusive content\n- Rewarding loyal fans\n- Regular streams\n- Q&A with subscribers\n- Most creators use this!\n\n**Earnings:**\n- Tips from subscribers\n- Retains existing subscriptions\n- Motivates renewals\n\n**Pros:**\n- ✓ Reward loyal subscribers\n- ✓ Show exclusive content safely\n- ✓ Build subscriber value\n- ✓ Higher engagement\n- ✓ Tips from invested fans\n\n**Cons:**\n- ✗ Smaller audience\n- ✗ Doesn't attract new fans directly\n\n**Example use:**\n\"Subscriber exclusive stream! Behind-the-scenes content, Q&A, and maybe some surprises... 😉\"\n\n---\n\n**👤 PRIVATE STREAMS**\n\n**Who can watch:** Invite-only (you choose)\n\n**Best for:**\n- 1-on-1 with VIP fan\n- Small group (up to 10)\n- Custom experiences\n- High-value content\n- Special requests\n\n**Earnings:**\n- Set custom price per viewer ($50-$500+)\n- Plus tips\n- Highest earning potential\n\n**Pros:**\n- ✓ Highest rates per hour\n- ✓ Intimate, personal experience\n- ✓ Complete control over audience\n- ✓ Premium pricing justified\n\n**Cons:**\n- ✗ Only invited viewers\n- ✗ Requires more personal engagement\n- ✗ Time-intensive per viewer\n\n**Example use:**\n\"Private 30-minute session just for you! $200 - exclusive 1-on-1 time, custom content, your requests.\"\n\n---\n\n**PRICING COMPARISON:**\n\n**Public Stream (60 min, 100 viewers):**\n- Tips: $100\n- You earn: $80\n- Hourly rate: $80/hr\n\n**Subscriber Stream (45 min, 50 viewers):**\n- Tips: $250\n- You earn: $200\n- Hourly rate: $267/hr\n\n**Private Stream (30 min, 1 viewer):**\n- Fee: $200\n- Tips: $50\n- You earn: $200\n- Hourly rate: $400/hr\n\n---\n\n**WHICH SHOULD YOU CHOOSE?**\n\n**Starting out?**\n→ Mix of Public (to grow) + Subscriber (to reward)\n\n**Established creator?**\n→ Mostly Subscriber-only + occasional Public promo\n\n**Want to maximize earnings?**\n→ Private 1-on-1 sessions for top fans\n\n**Best strategy:** Use all three!\n- Weekly subscriber-only streams (consistent value)\n- Monthly public stream (attract new subs)\n- Private streams for top tippers (premium offering)\n\nYou can change privacy settings for each stream!",
+      "confidence_score": 0.98,
+      "tags": ["privacy", "stream-types", "public", "private", "subscriber-only"],
+      "related_qa_ids": ["qa_stream_001", "qa_stream_002"],
+      "suggested_actions": [
+        {
+          "label": "Create Public Stream",
+          "action": "navigate",
+          "url": "/live/create?privacy=public"
+        },
+        {
+          "label": "Create Subscriber Stream",
+          "action": "navigate",
+          "url": "/live/create?privacy=subscribers"
+        },
+        {
+          "label": "Create Private Stream",
+          "action": "navigate",
+          "url": "/live/create?privacy=private"
+        }
+      ]
+    },
+    {
+      "id": "qa_stream_006",
+      "question": "My stream is laggy or keeps disconnecting, how do I fix it?",
+      "question_variations": [
+        "Stream keeps freezing",
+        "Stream disconnecting",
+        "Laggy stream",
+        "Stream buffering",
+        "Connection issues streaming",
+        "Stream quality problems"
+      ],
+      "answer": "Let's fix your streaming issues!\n\n**QUICK FIXES (Try these first):**\n\n1. **Test your internet speed**\n   - Go to: fast.com\n   - Upload speed needs 5+ Mbps minimum\n   - If below 5 Mbps → That's your problem!\n\n2. **Switch to wired connection**\n   - WiFi → Ethernet cable\n   - Much more stable\n   - Prevents most disconnects\n\n3. **Close background apps**\n   - Stop downloads\n   - Close Netflix, YouTube, etc.\n   - Close unused browser tabs\n   - Free up bandwidth\n\n4. **Lower stream quality**\n   - Settings → Quality → Medium or Low\n   - Less data = more stability\n   - Better stable stream than high-quality laggy one\n\n5. **Move closer to router**\n   - If using WiFi\n   - Stronger signal = better stream\n\n---\n\n**SPECIFIC SOLUTIONS:**\n\n**Problem: Stream keeps disconnecting**\n\n✓ **Check internet stability:**\n- Run speed test 3 times\n- Should be consistent\n- Big variations = unstable connection\n\n✓ **Contact ISP:**\n- If internet unstable\n- May be line issues\n- Upgrade plan if needed\n\n✓ **Use mobile hotspot as backup:**\n- If home internet fails\n- 4G/5G can work for streaming\n- Watch data limits\n\n---\n\n**Problem: Video is laggy/choppy**\n\n✓ **Reduce motion:**\n- Move slower\n- Less camera movement\n- Helps encoding\n\n✓ **Improve lighting:**\n- Better lighting = clearer image\n- Easier to compress\n- Less lag\n\n✓ **Close browser tabs:**\n- Free up computer resources\n- Especially resource-heavy sites\n\n✓ **Restart device:**\n- Clear memory\n- Fresh start\n\n---\n\n**Problem: Audio out of sync**\n\n✓ **Refresh browser:**\n- Simple fix for audio sync\n\n✓ **Check microphone:**\n- Disconnect and reconnect\n- Try different mic\n\n✓ **Reduce audio processing:**\n- Turn off echo cancellation\n- Turn off noise reduction\n- Raw audio syncs better\n\n---\n\n**Problem: Stream pixelated/blurry**\n\n✓ **Add more light:**\n- Darkness = pixelation\n- Light = clarity\n\n✓ **Clean camera lens:**\n- Smudges blur image\n\n✓ **Check internet speed:**\n- Upload speed determines quality\n- 5 Mbps = 720p\n- 8+ Mbps = 1080p\n\n---\n\n**ADVANCED TROUBLESHOOTING:**\n\n**If still having issues:**\n\n1. **Try different browser**\n   - Chrome recommended\n   - Firefox or Edge as alternatives\n\n2. **Update browser**\n   - Outdated = bugs\n   - Always use latest version\n\n3. **Clear cache/cookies**\n   - Old data causes issues\n   - Fresh start helps\n\n4. **Try different device**\n   - Phone vs computer\n   - Isolate the problem\n\n5. **Contact support**\n   - Persistent issues\n   - May be platform-side\n   - We can investigate\n\n---\n\n**PREVENTION:**\n\n✓ **Stream during off-peak hours** (less internet congestion)\n✓ **Test stream privately first** (5-min test)\n✓ **Have backup plan** (mobile hotspot ready)\n✓ **Wired connection always** (when possible)\n✓ **Close all unnecessary apps** before streaming\n\n**Most disconnects are internet-related.** If your upload speed is 5+ Mbps and stable, streams should work smoothly!",
+      "confidence_score": 0.95,
+      "tags": ["troubleshooting", "lag", "disconnecting", "buffering", "technical-issues"],
+      "related_qa_ids": ["qa_stream_003", "qa_stream_007"],
+      "suggested_actions": [
+        {
+          "label": "Test Internet Speed",
+          "action": "open_url",
+          "url": "https://fast.com"
+        },
+        {
+          "label": "Contact Support",
+          "action": "navigate",
+          "url": "/support?category=streaming"
+        },
+        {
+          "label": "Technical Guide",
+          "action": "open_help",
+          "help_id": "streaming-technical-guide"
+        }
+      ]
+    },
+    {
+      "id": "qa_stream_007",
+      "question": "When is the best time to stream?",
+      "question_variations": [
+        "Best streaming times",
+        "When should I go live?",
+        "Optimal stream schedule",
+        "What time to stream?",
+        "Peak streaming hours",
+        "Best days to stream"
+      ],
+      "answer": "Timing matters! Here's when to stream for maximum viewers:\n\n**BEST TIMES (EST):**\n\n🔥 **PEAK: 7-10 PM** (Evenings)\n- Most viewers online\n- After work/dinner\n- Relaxing time\n- **Highest earnings potential**\n\n⭐ **GOOD: 12-2 PM** (Lunch break)\n- Midday audience\n- Quick 20-30 min streams work well\n- Working from home viewers\n\n🌙 **OKAY: 10 PM-12 AM** (Night owls)\n- Smaller but engaged audience\n- Less competition\n- Intimate vibe\n\n❌ **AVOID: 6-7 AM, 2-5 PM**\n- Very low viewership\n- People at work/school\n- Not worth your time\n\n---\n\n**BEST DAYS:**\n\n🔥 **Friday & Saturday** (Best!)\n- People relaxing\n- More time to watch\n- Higher tip amounts\n- Weekend mood = generous\n\n⭐ **Wednesday & Thursday**\n- Mid-week engagement\n- Good steady viewership\n- Less competition than weekends\n\n⭐ **Sunday**\n- Evening streams work great\n- Lazy Sunday viewers\n- Preparing for week ahead\n\n❌ **Monday & Tuesday** (Slowest)\n- Start of work week\n- Lower engagement\n- Fewer viewers online\n\n---\n\n**TIME ZONE CONSIDERATIONS:**\n\n**If your fans are mostly:**\n\n**East Coast US (EST):**\n→ 8-10 PM EST\n\n**West Coast US (PST):**\n→ 8-10 PM PST (11 PM-1 AM EST)\n\n**International (Europe):**\n→ 2-4 PM EST (8-10 PM Europe)\n\n**Mixed audience:**\n→ 8-9 PM EST (compromise time)\n\n---\n\n**YOUR OPTIMAL SCHEDULE:**\n\n**Beginner creator:**\n- **Wednesday 8 PM** - Build Wednesday following\n- **Friday 9 PM** - Catch weekend crowd\n- **Consistency > Perfection**\n\n**Established creator:**\n- **Same time weekly** - Train your audience\n- **2-3x per week** - More opportunities\n- **Special events on weekends** - Maximize reach\n\n**Full-time creator:**\n- **Daily 7-9 PM** - Consistent availability\n- **Lunch streams** - Bonus content\n- **Weekend specials** - Premium events\n\n---\n\n**FACTORS TO CONSIDER:**\n\n**Your audience:**\n- Check analytics: When are your fans online?\n- Test different times\n- Track which times get most viewers\n\n**Your schedule:**\n- Stream when YOU'RE energized\n- Tired streaming = bad stream\n- Consistency matters more than perfect time\n\n**Competition:**\n- See when other creators stream\n- Stream when less competition\n- Or stream same time to capture overflow\n\n---\n\n**HOW TO FIND YOUR BEST TIME:**\n\n1. **Start with recommended time** (Wed/Fri 8 PM)\n\n2. **Stream consistently** for 4 weeks\n   - Same day, same time\n   - Build expectation\n\n3. **Track analytics** (Dashboard → Analytics)\n   - Peak viewers\n   - Tips earned\n   - Engagement level\n\n4. **Test different times** one at a time\n   - Change only one variable\n   - Give each time 2-3 tries\n\n5. **Stick with winner**\n   - Your best performing time\n   - Build regular audience\n\n---\n\n**PRO TIPS:**\n\n✓ **Consistency > Perfect Time**\n- Same time every week\n- Trains your audience\n- Predictable = higher attendance\n\n✓ **Promote 24-48 hours before**\n- Remind fans when you're streaming\n- Set expectations\n\n✓ **Send notification**\n- Use \"Send notification\" feature\n- Subscribers get alert\n- 3-5x more viewers\n\n✓ **Start on time**\n- Don't be late\n- Respect viewers' time\n- Professional reputation\n\n✓ **Stream duration**\n- 30-45 min sweet spot\n- Longer on weekends okay\n- Don't overextend\n\n**Bottom line:** Friday or Saturday at 8 PM is your best bet to start. Test from there and find what works for YOUR audience!",
+      "confidence_score": 0.97,
+      "tags": ["timing", "schedule", "best-time", "when-to-stream", "peak-hours"],
+      "related_qa_ids": ["qa_stream_008", "qa_stream_009"],
+      "suggested_actions": [
+        {
+          "label": "Schedule Stream",
+          "action": "navigate",
+          "url": "/live/schedule"
+        },
+        {
+          "label": "View Stream Analytics",
+          "action": "navigate",
+          "url": "/analytics/streams"
+        }
+      ]
+    },
+    {
+      "id": "qa_stream_008",
+      "question": "How do I get more viewers on my streams?",
+      "question_variations": [
+        "Increase stream viewers",
+        "Get more people watching",
+        "Grow stream audience",
+        "Boost stream viewership",
+        "More viewers on live streams",
+        "Attract more viewers"
+      ],
+      "answer": "Grow your stream audience with these proven strategies:\n\n**BEFORE THE STREAM:**\n\n📢 **1. Promote in Advance (24-48 hours)**\n\n**Post announcement:**\n- \"Going LIVE Friday 8 PM! 🔴\"\n- What you'll be doing\n- Special offers or content\n- Build anticipation\n\n**Where to promote:**\n- Your feed (pinned post)\n- Stories (if available)\n- Mass message to subscribers\n- Social media (Twitter, Instagram)\n- Other platforms\n\n**Example:**\n```\n🔴 LIVE STREAM FRIDAY! 🔴\n\n8 PM EST - Don't miss it!\n\n💬 Exclusive Q&A\n🎁 Giveaway for viewers\n💰 Top tipper gets surprise\n🔥 Special announcements\n\nSet your reminder! See you there! ❤️\n```\n\n📅 **2. Stream Consistently**\n- Same day each week\n- Same time\n- Trains your audience\n- They know when to expect you\n\n🔔 **3. Use Notification Feature**\n- \"Send notification to subscribers\"\n- Push alert when you go live\n- 3-5x more viewers\n- ALWAYS enable this!\n\n---\n\n**DURING THE STREAM:**\n\n💬 **4. Engage Like Crazy**\n\n**Read and respond to chat:**\n- Call viewers by name\n- Answer questions\n- Thank every tipper\n- Make viewers feel seen\n\n**Be energetic:**\n- Smile and make eye contact\n- Vary your tone (not monotone)\n- Move around\n- Show excitement\n\n🎯 **5. Create Compelling Content**\n\n**Interactive elements:**\n- Q&A sessions\n- Polls (\"Option A or B?\")\n- Games (truth or dare, etc.)\n- Viewer requests\n- Challenges\n\n**Value proposition:**\n- Exclusive reveals\n- Behind-the-scenes\n- Educational content\n- Entertainment\n\n💰 **6. Tip Menu & Goals**\n- Clear tip menu\n- Achievable goals\n- Motivates participation\n- Keeps viewers engaged\n\n---\n\n**AFTER THE STREAM:**\n\n📊 **7. Analyze & Improve**\n\n**Check analytics:**\n- What time had most viewers?\n- Which content got best engagement?\n- When did viewers drop off?\n\n**Adjust:**\n- Do more of what works\n- Fix what doesn't\n- Test new ideas\n\n💌 **8. Thank Top Viewers**\n- Message top tippers\n- Acknowledge loyal viewers\n- Build relationships\n- They'll come back\n\n📹 **9. Save & Sell Stream**\n- Convert to PPV content\n- \"Missed the stream? Watch replay for $10\"\n- Extends value\n\n---\n\n**LONG-TERM GROWTH:**\n\n🤝 **10. Collaborate**\n- Stream with other creators\n- Cross-promote\n- Access each other's audiences\n- Win-win\n\n📈 **11. Quality Over Quantity**\n- Better lighting\n- Good audio\n- Stable connection\n- Professional setup\n- Viewers stay longer\n\n🎨 **12. Build Your Brand**\n- Consistent aesthetic\n- Recognizable style\n- Quality content always\n- Professional reputation\n\n---\n\n**SPECIFIC TACTICS:**\n\n**Tease exclusive content:**\n\"Stick around, I have a surprise at the 30-minute mark!\"\n\n**Create urgency:**\n\"Only showing this during live stream, won't be available after!\"\n\n**Reward attendance:**\n\"Everyone here now gets 20% off my next PPV post!\"\n\n**Build community:**\n\"Let's see who our regulars are! Drop 👋 if you've been to 3+ streams!\"\n\n**Generate FOMO:**\n\"Can't believe you guys missed last week's stream! It was insane!\"\n\n---\n\n**QUICK WINS:**\n\n✓ **Stream Friday/Saturday 8-9 PM** (Best times)\n✓ **Send notification EVERY stream**\n✓ **Promote 24-48 hours before**\n✓ **Engage with every viewer**\n✓ **Create tip menu & goals**\n✓ **Be consistent with schedule**\n✓ **Quality audio/video**\n✓ **Energetic, fun personality**\n\n---\n\n**COMMON MISTAKES:**\n\n❌ **Streaming randomly** (no schedule)\n❌ **Not promoting in advance**\n❌ **Ignoring chat**\n❌ **Low energy/boring**\n❌ **Poor audio/video quality**\n❌ **Being late to your own stream**\n❌ **No interaction or engagement**\n❌ **Giving up too soon** (takes time!)\n\n---\n\n**REALISTIC EXPECTATIONS:**\n\n**Stream 1-3:** 5-15 viewers\n**After 1 month:** 20-30 viewers\n**After 3 months:** 50-80 viewers\n**After 6 months:** 100+ viewers\n\n**Growth takes time!** Be patient, consistent, and engaging. Your audience will grow.\n\nMost important: **Make it worth their time.** If viewers enjoy your streams, they'll return and bring friends!",
+      "confidence_score": 0.96,
+      "tags": ["viewers", "audience-growth", "promotion", "engagement", "get-more-viewers"],
+      "related_qa_ids": ["qa_stream_007", "qa_stream_009"],
+      "suggested_actions": [
+        {
+          "label": "Schedule Stream",
+          "action": "navigate",
+          "url": "/live/schedule"
+        },
+        {
+          "label": "Create Promotion Post",
+          "action": "navigate",
+          "url": "/posts/create"
+        },
+        {
+          "label": "Growth Strategies Guide",
+          "action": "open_help",
+          "help_id": "stream-growth-guide"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "first_stream_encouragement",
+      "trigger_name": "First Stream Encouragement",
+      "condition": {
+        "page": "/live/create",
+        "user_state": {
+          "streams_completed": 0
+        }
+      },
+      "message": "🎬 Ready for your first live stream? Don't worry - it's easier than you think! Want a quick tutorial or tips to get started?",
+      "action_buttons": [
+        {
+          "label": "Watch Tutorial",
+          "action": "open_tutorial",
+          "tutorial_id": "streaming-101"
+        },
+        {
+          "label": "Read Quick Guide",
+          "action": "open_help",
+          "help_id": "qa_stream_001"
+        },
+        {
+          "label": "I'm Ready!",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 8,
+      "frequency": "once",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "stream_promotion_reminder",
+      "trigger_name": "Remind to Promote Stream",
+      "condition": {
+        "page": "/live/create",
+        "user_state": {
+          "hours_until_scheduled_stream": {"$lte": 24, "$gte": 1},
+          "stream_promoted": false
+        }
+      },
+      "message": "📢 Your stream is in 24 hours! Promote it now to get more viewers. Post an announcement to your feed?",
+      "action_buttons": [
+        {
+          "label": "Create Promotion Post",
+          "action": "navigate",
+          "url": "/posts/create?type=stream_promo"
+        },
+        {
+          "label": "Send Mass Message",
+          "action": "navigate",
+          "url": "/messages/mass"
+        },
+        {
+          "label": "Later",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 7,
+      "frequency": "once_per_stream",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "enable_stream_notifications",
+      "trigger_name": "Suggest Enabling Notifications",
+      "condition": {
+        "page": "/live/create",
+        "user_state": {
+          "stream_notifications_enabled": false,
+          "streams_completed": {"$gte": 1}
+        }
+      },
+      "message": "💡 Pro tip: Enable 'Send Notification' to alert your subscribers when you go live. This increases viewers by 3-5x!",
+      "action_buttons": [
+        {
+          "label": "Enable for This Stream",
+          "action": "toggle_setting",
+          "setting": "send_notification",
+          "value": true
+        },
+        {
+          "label": "Always Enable",
+          "action": "navigate",
+          "url": "/settings/streaming?auto_notify=true"
+        },
+        {
+          "label": "No Thanks",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 6,
+      "frequency": "weekly_max_1",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "low_viewership_help",
+      "trigger_name": "Low Viewership Assistance",
+      "condition": {
+        "user_state": {
+          "last_stream_peak_viewers": {"$lte": 10},
+          "streams_completed": {"$gte": 3}
+        }
+      },
+      "message": "📊 Want to get more viewers on your streams? Try these proven strategies to grow your audience!",
+      "action_buttons": [
+        {
+          "label": "Growth Strategies",
+          "action": "open_help",
+          "help_id": "qa_stream_008"
+        },
+        {
+          "label": "Best Stream Times",
+          "action": "open_help",
+          "help_id": "qa_stream_007"
+        },
+        {
+          "label": "I'm Good",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 5,
+      "frequency": "weekly_max_1",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "stream_milestone_celebration",
+      "trigger_name": "Celebrate Stream Milestone",
+      "condition": {
+        "user_state": {
+          "streams_completed": {"$in": [10, 25, 50, 100]}
+        }
+      },
+      "message": "🎉 Congratulations on completing ${streams_completed} streams! You're building an amazing connection with your fans. Keep it up!",
+      "action_buttons": [
+        {
+          "label": "View Stream Stats",
+          "action": "navigate",
+          "url": "/analytics/streams"
+        },
+        {
+          "label": "Share Milestone",
+          "action": "share",
+          "share_type": "milestone"
+        }
+      ],
+      "priority": 6,
+      "frequency": "once_per_milestone",
+      "user_types": ["creator"]
+    }
+  ],
+  "common_errors": [
+    {
+      "error_code": "STREAM_ERR_001",
+      "error_message": "Unable to start stream - Camera not found",
+      "user_friendly_explanation": "Your camera is not detected. This usually means browser doesn't have camera permission.",
+      "solution_steps": [
+        "Check browser permissions for camera access",
+        "Allow camera when browser asks",
+        "Ensure no other app is using camera",
+        "Try refreshing the page",
+        "Try different browser if issue persists"
+      ]
+    },
+    {
+      "error_code": "STREAM_ERR_002",
+      "error_message": "Stream disconnected - Network error",
+      "user_friendly_explanation": "Your internet connection dropped or is too slow to maintain the stream.",
+      "solution_steps": [
+        "Check your internet connection",
+        "Test upload speed at fast.com (need 5+ Mbps)",
+        "Switch from WiFi to wired connection",
+        "Close apps using bandwidth",
+        "Try streaming at lower quality",
+        "Restart your router if issues persist"
+      ]
+    },
+    {
+      "error_code": "STREAM_ERR_003",
+      "error_message": "Stream limit reached",
+      "user_friendly_explanation": "You've reached your maximum streaming duration or frequency for your account level.",
+      "solution_steps": [
+        "Wait for cool-down period (usually 1 hour)",
+        "Check account limits in Settings",
+        "Consider upgrading account if you stream frequently",
+        "Contact support if you believe this is an error"
+      ]
+    }
+  ],
+  "contextual_help": {
+    "page_triggers": {
+      "/live/create": "Show streaming setup tips and best practices",
+      "/live/stream": "Display engagement tips and troubleshooting during active stream",
+      "/analytics/streams": "Explain metrics and how to improve performance",
+      "/live/schedule": "Suggest optimal streaming times based on audience"
+    },
+    "action_triggers": {
+      "first_stream": "first_stream_encouragement",
+      "scheduled_stream_tomorrow": "stream_promotion_reminder",
+      "creating_stream_no_notification": "enable_stream_notifications",
+      "completed_milestone_stream": "stream_milestone_celebration",
+      "low_viewership_pattern": "low_viewership_help"
+    }
+  }
+}

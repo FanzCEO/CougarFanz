@@ -1,0 +1,327 @@
+{
+  "feature_id": "tips-tipping",
+  "feature_name": "Tips & Tipping",
+  "description": "Comprehensive knowledge base for tipping features, including sending and receiving tips, tip menus, maximizing tip income, and managing custom requests.",
+  "last_updated": "2025-01-18",
+  "version": "1.0.0",
+  "platform": "PLATFORM_NAME",
+
+  "qa_pairs": [
+    {
+      "id": "qa_tips_001",
+      "question": "How do tips work?",
+      "answer": "**How Tipping Works on PLATFORM_NAME:**\n\n**What are tips?**\nTips are voluntary one-time payments fans can send to creators to show appreciation, support, or make special requests. Tips are **in addition to** subscription fees.\n\n---\n\n**Key Differences from Subscriptions:**\n\n| Feature | Subscription | Tip |\n|---------|-------------|-----|\n| **Frequency** | Recurring monthly | One-time payment |\n| **Purpose** | Access to content | Appreciation/requests |\n| **Amount** | Fixed price | Fan chooses amount |\n| **Required** | Yes (to see content) | No (voluntary) |\n\n---\n\n**Creator Earnings:**\n- **80%** goes to creator\n- **20%** platform fee\n\n**Example:** Fan sends $50 tip → Creator receives $40\n\n**Limits:**\n- Minimum tip: $1.00\n- Maximum tip: $500.00 per transaction\n- No daily limit\n\n---\n\n**When Fans Can Tip:**\n\n1. **On any post** (public or subscriber-only)\n2. **In direct messages**\n3. **On your profile page**\n4. **During live streams**\n5. **On Stories**\n6. **In response to tip menu items**\n\n**Important:** Non-subscribers can tip on public posts without subscribing!\n\n---\n\n**Payment Processing:**\n\n**For fans:**\n- Credit/debit cards (Visa, Mastercard, Amex, Discover)\n- Digital wallets (Apple Pay, Google Pay)\n- Pre-loaded account balance\n\n**For creators:**\n- Tips appear in account balance instantly\n- Withdrawal to bank: 2-5 business days\n- First withdrawal may take 5-7 days (verification)\n\n---\n\n**Why Tips Matter:**\n\n**For creators:**\n- Additional income (average 15-30% of total earnings)\n- Direct appreciation from fans\n- Revenue from non-subscribers\n- Funding for special content\n\n**For fans:**\n- Show appreciation for specific content\n- Support favorite creators\n- Get creator's attention\n- Request custom content\n\n---\n\n**Getting Started as a Creator:**\n\n1. Go to **Settings → Monetization → Tips**\n2. Toggle **Enable Tips** to ON\n3. Set suggested tip amounts (e.g., $10, $20, $50, $100)\n4. Optionally create a tip menu (special content/services for specific tip amounts)\n5. Start receiving tips!\n\n**Getting Started as a Fan:**\n\n1. View any post or profile\n2. Click **Tip** button (💰 icon)\n3. Choose or enter tip amount\n4. Add optional message\n5. Confirm payment\n6. Creator receives notification and typically responds with thanks\n\n**Pro Tip:** Live streaming generates 3-5x more tips than regular posts due to real-time interaction!",
+      "question_variations": [
+        "what are tips",
+        "how does tipping work",
+        "how to tip creators",
+        "how to receive tips",
+        "explain tipping system",
+        "what is the tipping feature",
+        "how much do creators get from tips",
+        "can I send tips"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_tips_002",
+        "qa_tips_003",
+        "qa_tips_004"
+      ],
+      "tags": ["tipping", "payments", "monetization", "getting-started", "basics"]
+    },
+    {
+      "id": "qa_tips_002",
+      "question": "How do I create a tip menu?",
+      "answer": "**Creating a Tip Menu:**\n\nA **tip menu** lists specific actions or content fans can request by sending the corresponding tip amount.\n\n**Example Menu:**\n\n| Tip Amount | Reward |\n|-----------|--------|\n| **$5** | Personalized thank you message |\n| **$10** | Rate your profile + feedback |\n| **$25** | Custom photo (your outfit choice) |\n| **$50** | Custom video (30-60 sec) |\n| **$100** | 10-minute video call |\n| **$200** | Custom photoshoot (10+ photos) |\n\n---\n\n**Step-by-Step Setup:**\n\n**Step 1: Access Tip Menu Settings**\n\n1. Go to **Dashboard → Monetization → Tip Menu**\n2. Click **Create Tip Menu**\n\n**Step 2: Add Menu Items**\n\nFor each item:\n\n1. Click **Add Item**\n2. Fill in details:\n   - **Tip amount:** $25\n   - **Item name:** \"Custom photo\"\n   - **Description:** \"I'll create a custom photo wearing outfit of your choice. Delivered within 3 days.\"\n   - **Delivery time:** \"2-3 days\"\n   - **Availability:** \"Unlimited\" or \"Limited (5 per month)\"\n3. Upload preview image (optional but recommended)\n4. Click **Save Item**\n\n**Step 3: Organize Menu**\n\n- Drag items to reorder (cheapest to most expensive recommended)\n- Toggle items ON/OFF (pause without deleting)\n- Set monthly limits on time-intensive items\n\n**Step 4: Publish Menu**\n\n1. Click **Publish Menu**\n2. Menu appears on your profile under \"Tip Menu\" tab\n3. Fans can browse and send tips for specific items\n\n---\n\n**Pricing Strategy:**\n\n**Low entry point ($5-10):**\n- Easy, quick items\n- Encourage first-time tippers\n- Examples: Thank you messages, profile ratings, quick questions\n\n**Mid-tier ($25-75):**\n- Custom content requiring moderate effort\n- Examples: Custom photos, short videos, personalized messages\n\n**Premium ($100-500):**\n- Time-intensive, highly personalized content\n- Examples: Video calls, extensive photoshoots, content series\n\n---\n\n**Writing Clear Descriptions:**\n\n❌ **Unclear:** \"$50 - Custom video\"\n\n✅ **Clear:** \"$50 - Custom 1-minute video, your theme choice, wearing outfit you choose. Delivered within 5 days. SFW requests only.\"\n\n**Include:**\n- Exactly what fan receives\n- Delivery timeframe\n- Any limitations or requirements\n- Quantity/duration (photo count, video length)\n\n---\n\n**Managing Requests:**\n\n**Track incoming requests:**\n\n1. **Dashboard → Tip Menu → Requests**\n2. See all pending requests:\n   - Fan username\n   - Item requested\n   - Tip amount\n   - Request date\n   - Delivery deadline\n   - Special instructions\n\n**Fulfillment workflow:**\n\n1. **Acknowledge immediately:** \"Got your request! I'll have this ready by [date].\"\n2. **Create content** according to request\n3. **Deliver via DM:** Send custom content in direct message\n4. **Mark complete:** Dashboard → Requests → Mark as Fulfilled\n5. **Follow up:** \"Hope you love it! Let me know if you'd like anything else!\"\n\n---\n\n**Best Practices:**\n\n✅ **Do:**\n- Set realistic delivery times (under-promise, over-deliver)\n- Limit time-intensive items (\"Max 3 video calls per month\")\n- Pause items when backlogged\n- Communicate if delayed\n- Refund if you can't fulfill\n\n❌ **Don't:**\n- Promise content that violates platform policies\n- Accept more requests than you can handle\n- Leave requests unfulfilled without communication\n- Set prices too low (devalues your time)\n- Offer content outside your comfort zone\n\n---\n\n**Smart Limits:**\n\n**Why limit availability?**\n- Prevents burnout\n- Maintains quality\n- Creates scarcity (\"Only 3 video calls available this month!\")\n- Allows you to increase prices for high-demand items\n\n**How to set limits:**\n1. Edit menu item\n2. Set **Availability: Limited**\n3. Enter maximum per month: 5\n4. When limit reached, item shows \"Sold Out - Available [next month]\"\n\n---\n\n**Promoting Your Tip Menu:**\n\n1. **Pin to profile:** Make tip menu prominent\n2. **Post about it:** \"Check out my tip menu for custom content options!\"\n3. **Create preview:** Show examples of tip menu fulfillments\n4. **Mention in content:** \"Want a custom photo like this? Check my tip menu!\"\n5. **Add to bio:** \"Tip menu available → [link]\"\n\n---\n\n**Updating Your Menu:**\n\n**Regularly review and adjust:**\n- Every 1-3 months\n- After fulfilling 10-20 requests\n- When prices feel too low/high\n- When items are over/under-requested\n\n**Adjustments:**\n- Increase prices for high-demand items\n- Remove unpopular items\n- Add new creative offerings\n- Update delivery times based on reality\n- Refine descriptions for clarity\n\n---\n\n**Example Starter Menu:**\n\n**For new creators:**\n\n| Amount | Item | Delivery |\n|--------|------|----------|\n| $5 | Personalized thank you | Same day |\n| $15 | Behind-the-scenes photo | 2 days |\n| $30 | Custom photo (your outfit choice) | 3-5 days |\n| $60 | Custom video (1 min, your theme) | 5-7 days |\n\n**Simple, manageable, clear expectations.**\n\nAs you gain experience, expand menu and increase prices based on demand!",
+      "question_variations": [
+        "create tip menu",
+        "how to make tip menu",
+        "set up tip menu",
+        "what should I put in tip menu",
+        "tip menu pricing",
+        "how to offer custom content for tips",
+        "tip menu ideas",
+        "manage tip menu requests"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_tips_001",
+        "qa_tips_003",
+        "qa_tips_005"
+      ],
+      "tags": ["tip-menu", "custom-content", "pricing", "setup", "monetization"]
+    },
+    {
+      "id": "qa_tips_003",
+      "question": "How can I get more tips?",
+      "answer": "**Strategies to Maximize Tip Income:**\n\n**1. Live Stream Regularly**\n\n🔥 **Live streams generate 3-5x more tips than regular posts.**\n\n**Why it works:**\n- Real-time interaction creates connection\n- Immediate gratification (creator responds instantly to tips)\n- FOMO (fear of missing out) encourages tipping\n- Social proof (seeing others tip creates tipping culture)\n\n**Stream tipping tactics:**\n\n**Tip goals:**\n- \"If we reach $200 in tips this stream, I'll [special activity]!\"\n- Progress bar visible to viewers\n- Creates excitement and motivation\n\n**Shout-outs:**\n- Thank each tipper by name immediately\n- Show extra enthusiasm for larger tips\n- Genuine appreciation goes a long way\n\n**Tip-triggered actions:**\n- \"$10 tip = answer any question\"\n- \"$25 tip = show [specific content]\"\n- \"$50 tip = sing requested song\"\n- \"$100 tip = 5-minute private chat after stream\"\n\n---\n\n**2. Create a Compelling Tip Menu**\n\n**Clear, valuable offerings:**\n- Low entry point ($5-10): Easy first tip\n- Mid-tier ($25-75): Best value items\n- Premium ($100-500): Exclusive experiences\n\n**Popular tip menu items:**\n- Custom photos/videos (most requested)\n- Video calls (high-value, limited availability)\n- Personalized messages\n- Rate/review services\n- Behind-the-scenes content\n- Early access to new content\n\n**Promote your menu:**\n- Pin to profile\n- Mention in posts: \"Check my tip menu for custom content!\"\n- Show examples of fulfilled requests\n- Share fan testimonials\n\n---\n\n**3. Engage with Tippers**\n\n**Always acknowledge tips:**\n- Respond within 24 hours (ideally within 1 hour)\n- Personalize your thank you\n- Show genuine appreciation\n\n**Sample responses by amount:**\n\n**Small tip ($1-10):**\n> \"Thank you so much for the tip! I really appreciate your support! 💕\"\n\n**Medium tip ($11-50):**\n> \"Wow, thank you for the generous tip! That really made my day! Your support means everything! 😊\"\n\n**Large tip ($51+):**\n> \"I'm speechless! Thank you SO much for this incredible tip! You're amazing! This helps me create better content for you all! 🙏💕\"\n\n**Give tippers extra attention:**\n- Priority DM responses\n- Occasional exclusive posts for \"Top Tippers\"\n- Public shout-outs (if they approve)\n- Special recognition badges/roles\n\n---\n\n**4. Optimize Suggested Tip Amounts**\n\n**Psychology of tipping:**\n\nYour suggested amounts heavily influence what people tip.\n\n**Test different sets:**\n\n**Set A:** $5, $10, $20, $50 → Most tips at $10\n**Set B:** $10, $25, $50, $100 → Most tips at $25 (higher average!)\n**Set C:** $3, $7, $15, $30 → More tips but lower average\n\n**Recommended:** $10, $20, $50, $100\n- Good balance of accessibility and value\n- $20 becomes the \"default\" medium tip\n\n**Seasonal adjustments:**\n- Holidays: Add $75, $150 options\n- Slow months: Lower entry to $5\n- After major content: Higher suggestions\n\n---\n\n**5. Create Tip-Worthy Moments**\n\n**High-effort content:**\n- Elaborate photoshoots\n- High-production videos\n- Unique, creative concepts\n- Content fans can't get elsewhere\n\n**Quality naturally inspires tips.**\n\n**Strategic mentions:**\n- \"This photoshoot took 3 hours! Tips appreciated if you enjoyed it! 😊\"\n- \"Your tips help me invest in better equipment for you all! 💕\"\n- End videos with gentle reminder: \"Tips welcome! 💰\"\n\n**Share tip impact:**\n- \"Your tips helped me buy this new camera! Here are the first photos!\"\n- Behind-the-scenes showing equipment purchased with tips\n- Transparency builds trust and encourages support\n\n**Best timing for tip mentions:**\n- After posting exceptional content\n- When sharing wins/milestones\n- Holiday seasons (Thanksgiving, Christmas, New Year)\n- When facing challenges (\"Equipment broke, tips help me replace it\")\n\n**Avoid:**\n- Begging or guilt-tripping\n- Constant tip requests (max 1-2x per week)\n- Making fans feel obligated\n\n---\n\n**6. Use Tip Goals**\n\n**Public tip goals motivate fans:**\n\n**How to create:**\n1. Dashboard → Tip Goals\n2. Set goal amount and description\n3. Offer reward when reached\n\n**Example goals:**\n- \"$500 - New camera for better quality!\"\n- \"$300 - Beach photoshoot this weekend!\"\n- \"$1000 - Special thank you content series for all contributors!\"\n\n**Progress bar on profile** shows how close you are.\n\n**When goal reached:**\n- Celebrate publicly\n- Thank all contributors\n- Deliver promised reward\n- Set new goal to maintain momentum\n\n---\n\n**7. Recognize Top Tippers**\n\n**Public recognition (with permission):**\n- Shout-outs in posts\n- \"Top Tippers\" leaderboard (monthly/all-time)\n- Special badge or role\n- Exclusive \"VIP Tipper\" content occasionally\n\n**Benefits:**\n- Gamification encourages higher tips\n- Social proof\n- Top tippers feel valued\n- Inspires others to tip more\n\n**Enable leaderboard:**\n1. Dashboard → Tips → Leaderboard Settings\n2. Toggle ON\n3. Choose: Monthly, All-time, or Both\n4. Appears on profile\n\n**Privacy:** Fans can opt-out of public display\n\n---\n\n**8. Make Tipping Easy & Visible**\n\n**Remove friction:**\n- Ensure tips enabled on ALL content\n- Add \"Tip\" button to profile banner\n- Include tip jar emoji 💰 in relevant posts\n- Make tip menu easy to find\n\n**Visual cues:**\n- Custom graphics for tip menu\n- Highlight reel showing what tips funded\n- Pin tip-related posts to profile\n\n**Test your own flow:**\n- Try tipping yourself from alternate account\n- Ensure process is smooth\n- Fix any payment issues immediately\n\n---\n\n**9. Fulfill Requests Promptly**\n\n**Reputation matters:**\n- Deliver tip menu items within promised timeframe\n- Exceed expectations when possible\n- Communicate proactively if delayed\n- Happy tippers become repeat tippers\n\n**Word of mouth:**\n- Satisfied tippers tell others\n- \"This creator actually delivers!\" = more requests\n- Build reputation for reliability\n\n---\n\n**10. Strategic Timing**\n\n**Best times to promote tipping:**\n\n**After exceptional content:**\n- High-effort posts\n- Unique, creative content\n- Milestone celebrations\n\n**During live streams:**\n- Real-time interaction maximizes tips\n- Stream 2-3x per week minimum\n\n**Holiday seasons:**\n- Thanksgiving: Gratitude messaging\n- Christmas/New Year: Year-end support\n- Valentine's Day: Special themed content\n\n**Personal milestones:**\n- Platform anniversary\n- Birthday\n- Subscriber milestones (1K, 5K, 10K)\n\n---\n\n**Realistic Expectations:**\n\n**Average tip income by subscriber count:**\n\n| Subscribers | Avg Tips/Month | % of Income |\n|------------|---------------|-------------|\n| 0-100 | $50-200 | 10-15% |\n| 100-500 | $200-800 | 15-20% |\n| 500-1000 | $800-2000 | 20-25% |\n| 1000-5000 | $2000-8000 | 25-30% |\n| 5000+ | $8000-50000+ | 25-35% |\n\n**Factors that increase tip income:**\n- Regular live streaming ⭐ (biggest factor)\n- Active tip menu with fulfillment\n- High engagement with fans\n- Unique, high-quality content\n- Genuine personality\n- Consistent posting\n\n---\n\n**Quick Action Plan:**\n\n**This week:**\n1. Create tip menu (3-5 items)\n2. Set suggested amounts: $10, $20, $50, $100\n3. Schedule first live stream\n\n**This month:**\n4. Post about tip menu 2x\n5. Set up tip goal ($200-500)\n6. Enable tip leaderboard\n7. Stream 2-3x per week\n\n**Ongoing:**\n8. Thank every tipper within 24 hours\n9. Fulfill requests promptly\n10. Track what works, do more of it\n\n**Remember:** Consistency + quality + genuine appreciation = higher tips!",
+      "question_variations": [
+        "how to get more tips",
+        "maximize tip income",
+        "increase tips",
+        "make more money from tips",
+        "get fans to tip more",
+        "boost tip earnings",
+        "strategies for more tips",
+        "how to earn more tips"
+      ],
+      "confidence_score": 0.98,
+      "related_questions": [
+        "qa_tips_001",
+        "qa_tips_002",
+        "qa_tips_004"
+      ],
+      "tags": ["tips-strategies", "income-maximization", "monetization", "live-streaming", "engagement"]
+    },
+    {
+      "id": "qa_tips_004",
+      "question": "Do I have to pay taxes on tips?",
+      "answer": "**Yes, tips are taxable income.**\n\n**In the United States:**\n\n**Tax Reporting Requirements:**\n\n**1099-NEC Form:**\n- Platform sends you a 1099-NEC if you earn **$600+ annually**\n- Reports ALL income including tips and subscriptions\n- Sent electronically in January for previous tax year\n- Download from: Settings → Tax Documents\n\n**Your Responsibilities:**\n\n✅ **Report ALL tip income** on your tax return\n- Even if under $600 threshold\n- IRS requires reporting all self-employment income\n- Include tips with subscription income\n\n✅ **Pay quarterly estimated taxes** if earning $1,000+ annually\n- Due: April 15, June 15, September 15, January 15\n- Penalties for underpayment\n- Use Form 1040-ES\n\n✅ **Pay self-employment tax** (15.3%)\n- Covers Social Security and Medicare\n- In addition to regular income tax\n- Calculate using Schedule SE\n\n---\n\n**Tax-Deductible Expenses:**\n\nReduce your taxable income by deducting business expenses:\n\n**Equipment:**\n- Cameras, lighting, microphones\n- Computer, laptop, tablet\n- Phones (if used for content)\n- Tripods, backdrops, props\n\n**Services:**\n- Internet service (business portion)\n- Phone service (business portion)\n- Software subscriptions (editing, design)\n- Website hosting, domain names\n\n**Content Creation:**\n- Outfits, costumes, wardrobe\n- Makeup, hair styling\n- Props and set decoration\n- Location rentals (studio, AirBnB for shoots)\n\n**Home Office:**\n- Dedicated workspace (if qualified)\n- Portion of rent/mortgage\n- Utilities (electricity, heating)\n- Home internet\n\n**Professional Services:**\n- Accountant, tax preparer\n- Attorney (contract review, legal)\n- Business coaching\n\n**Marketing:**\n- Advertising costs\n- Social media promotion\n- Business cards, promotional materials\n\n**Travel (if business-related):**\n- Mileage for content shoots\n- Hotels for business travel\n- Flights to conferences, events\n\n**Keep receipts and records for all expenses!**\n\n---\n\n**How Much to Save for Taxes:**\n\n**Conservative approach:**\n- Save **25-35%** of all tip income\n- Higher earners may need 35-40%\n- Varies by state (some have state income tax)\n\n**Example:**\n- Earn $1,000 in tips this month\n- Save $300 immediately for taxes\n- Left with $700 for spending\n\n**Why so much?**\n- Federal income tax: 10-37% (based on total income)\n- Self-employment tax: 15.3%\n- State income tax: 0-13% (varies by state)\n- **Total can be 25-50%** depending on earnings level\n\n---\n\n**Tracking Income:**\n\n**Platform provides:**\n1. **Dashboard → Reports → Annual Income**\n2. Download transaction history\n3. Shows tips, subscriptions, PPV, all income\n4. Export as CSV for your accountant\n\n**Best practices:**\n- Download monthly statements\n- Track in spreadsheet or accounting software (QuickBooks, Wave)\n- Categorize income types\n- Keep backup records\n\n---\n\n**International Creators:**\n\n**Tax obligations vary by country:**\n\n**General principles:**\n- Report all income to your local tax authority\n- May need to register as self-employed\n- VAT/GST implications in some countries\n- Currency conversion affects calculations\n\n**Common countries:**\n\n**United Kingdom:**\n- Register as self-employed with HMRC\n- File Self Assessment tax return annually\n- Pay National Insurance contributions\n- VAT registration if earning £85,000+\n\n**Canada:**\n- Report as self-employment income\n- File with CRA (Canada Revenue Agency)\n- Pay CPP (Canada Pension Plan) contributions\n- GST/HST registration if earning $30,000+\n\n**Australia:**\n- Report to ATO (Australian Taxation Office)\n- ABN (Australian Business Number) recommended\n- Pay income tax + Medicare levy\n- GST registration if earning $75,000+\n\n**European Union:**\n- VAT obligations vary by country\n- May need to charge VAT on services\n- Cross-border tax considerations\n- Consult local tax advisor\n\n---\n\n**Currency Conversion:**\n\n**If platform pays in USD but you're international:**\n- Tips received in USD\n- Converted to your local currency upon withdrawal\n- Exchange rates apply (fluctuate)\n- Conversion fees: typically 2-3%\n\n**Tax reporting:**\n- Report in your local currency\n- Use exchange rate on date of payment\n- Document conversions for records\n\n---\n\n**Working with a Tax Professional:**\n\n**When to hire an accountant:**\n- Earning $10,000+ annually\n- Unsure about deductions\n- First year filing as self-employed\n- Want to minimize tax liability legally\n- Facing audit or tax issues\n\n**What to bring:**\n- 1099 form from platform\n- Transaction history/income reports\n- Receipts for all business expenses\n- Prior year tax returns\n- Questions about your situation\n\n**Cost:**\n- Tax preparation: $200-500 for self-employed return\n- Monthly bookkeeping: $100-300/month\n- **Deductible business expense!**\n\n**Find a specialist:**\n- Look for accountants experienced with:\n  - Self-employment income\n  - Online creators/influencers\n  - 1099 contractors\n  - Gig economy workers\n\n---\n\n**Common Tax Mistakes to Avoid:**\n\n❌ **Not reporting income under $600**\n- IRS requires ALL income reported\n- Platform may still send 1099 even if under $600\n\n❌ **Not paying quarterly estimated taxes**\n- Results in penalties and interest\n- Calculate and pay quarterly\n\n❌ **Not keeping expense records**\n- Can't deduct without proof\n- Keep receipts for 7 years\n\n❌ **Mixing personal and business expenses**\n- Maintain separate records\n- Business bank account recommended\n- Makes tax prep easier\n\n❌ **Not saving enough for taxes**\n- Save 25-35% immediately\n- Avoid surprise tax bills\n\n---\n\n**Tip Income is Unpredictable:**\n\n**Financial planning:**\n- Tips fluctuate 50-200% month to month\n- Don't rely on tips for fixed expenses (rent, bills)\n- Treat as bonus income\n- Build emergency fund from tip income\n\n**Budgeting approach:**\n1. Calculate average monthly tips (last 6 months)\n2. Use the lowest 3 months average as baseline\n3. Anything above = savings/investments\n4. Always set aside tax portion first\n\n---\n\n**Tax Forms Troubleshooting:**\n\n**Didn't receive 1099:**\n- Should arrive by January 31\n- Check email (sent electronically)\n- Download: Settings → Tax Documents\n- Contact support if missing by February 15\n\n**1099 amount seems wrong:**\n- Download transaction history: Dashboard → Reports\n- Compare to 1099 total\n- Contact support if discrepancy\n- Keep your records as backup\n\n**Need to update tax information:**\n- Settings → Payments → Tax Information\n- Update SSN/EIN, address, legal name\n- Changes apply to following tax year\n- Update before December 31 for current year\n\n---\n\n**Quick Reference:**\n\n**US Creators:**\n- Save 25-35% of tips for taxes\n- Pay quarterly estimated taxes if earning $1,000+\n- Deduct business expenses\n- Keep receipts for 7 years\n- Hire accountant if earning $10,000+\n\n**International Creators:**\n- Check local tax laws (vary by country)\n- May need to register as self-employed\n- Report all income in local currency\n- VAT/GST may apply\n- Consult local tax professional\n\n**Everyone:**\n- Track all income and expenses\n- Download monthly reports from platform\n- Keep organized records\n- When in doubt, consult a tax professional\n\n**Disclaimer:** This is general information, not professional tax advice. Consult a qualified tax professional for your specific situation.",
+      "question_variations": [
+        "do I pay taxes on tips",
+        "are tips taxable",
+        "tip income taxes",
+        "how to report tip income",
+        "1099 for tips",
+        "tax on tipping income",
+        "do I need to report tips to IRS",
+        "tip tax requirements"
+      ],
+      "confidence_score": 0.97,
+      "related_questions": [
+        "qa_tips_001",
+        "qa_tips_003",
+        "qa_tips_005"
+      ],
+      "tags": ["taxes", "1099", "reporting", "financial", "compliance"]
+    },
+    {
+      "id": "qa_tips_005",
+      "question": "A fan tipped me but I can't fulfill their request. What do I do?",
+      "answer": "**How to Handle Tips You Can't Fulfill:**\n\n**Option 1: Issue a Refund (Recommended)**\n\n**When to refund:**\n- Request violates platform ToS\n- Request outside your boundaries/comfort zone\n- Too busy or backlogged to fulfill in reasonable time\n- Technical issues prevent fulfillment\n- Request is unclear or unreasonable\n\n**How to issue refund:**\n\n1. Go to **Dashboard → Tips → Tip History**\n2. Find the tip transaction\n3. Click **Issue Refund**\n4. Confirm refund\n5. Funds return to fan within 5-7 business days\n\n**Communicate with the fan:**\n\nSend a DM explaining:\n\n> \"Hi [username], thank you so much for your tip and request! Unfortunately, I'm unable to fulfill this specific request because [reason]. I've issued a full refund which should appear in your account within 5-7 business days.\n>\n> However, I'd be happy to create [alternative option] if you're interested! Or feel free to check out my tip menu for other options.\n>\n> Thank you for understanding and for your support! 💕\"\n\n**Reasons to include:**\n- \"This request is outside my content boundaries\"\n- \"I'm currently backlogged with requests and couldn't deliver in a reasonable timeframe\"\n- \"This type of content isn't something I offer\"\n- \"Technical limitations prevent me from creating this\"\n\n---\n\n**Option 2: Offer an Alternative**\n\n**If you want to keep the tip but can't do exact request:**\n\n**Negotiate a compromise:**\n\n> \"Hi! Thank you for the tip and request! I can't do exactly what you requested because [reason], but I could do [alternative] instead. Would that work for you?\n>\n> If not, I'm happy to issue a full refund! Let me know your preference. 😊\"\n\n**Example alternatives:**\n\n**Original request:** \"Custom video at the beach\"\n**Your situation:** Don't have beach access\n**Alternative:** \"I can't get to the beach, but I could create a custom video with a similar outdoor/natural setting. Would that work?\"\n\n**Original request:** \"10-minute video call\"\n**Your situation:** Don't offer video calls\n**Alternative:** \"I don't do video calls, but I could create a personalized 3-minute video message just for you instead?\"\n\n---\n\n**Option 3: Partial Refund**\n\n**If you can fulfill part of the request:**\n\n1. Create what you can deliver\n2. Issue partial refund for unfulfilled portion\n3. Explain clearly\n\n**Example:**\n\n**Request:** \"3 custom photos + 2 custom videos\" ($100 tip)\n**Your situation:** Can do photos but not videos right now\n\n**Response:**\n> \"Hi! I've created the 3 custom photos you requested (sending now!), but I'm unable to create the videos at this time. I've issued a $40 partial refund for the video portion.\n>\n> Hope you love the photos! Let me know if you'd like anything else from my tip menu! 💕\"\n\n---\n\n**Option 4: Extend Deadline (If Time is the Issue)**\n\n**If you can fulfill but need more time:**\n\n1. Message fan immediately\n2. Explain situation honestly\n3. Offer new realistic deadline\n4. Give option to refund if they don't want to wait\n\n**Example:**\n\n> \"Hi! Thank you for your tip and request for [item]! I'm currently swamped with requests and won't be able to deliver this by [original deadline].\n>\n> I could have it ready by [new date - be realistic!]. Would that work for you? If not, I completely understand and can issue a full refund.\n>\n> Thanks for your patience! 🙏\"\n\n**Most fans are understanding if you communicate proactively!**\n\n---\n\n**Handling Difficult Situations:**\n\n**Request violates platform ToS:**\n\n> \"Thank you for your tip! Unfortunately, I can't fulfill this request as it would violate platform terms of service. I've issued a full refund.\n>\n> Feel free to check my tip menu for other options I can offer! 😊\"\n\n**Request makes you uncomfortable:**\n\n> \"Thank you for the tip! This request is outside my personal boundaries/comfort zone, so I've issued a full refund.\n>\n> I appreciate your understanding! My tip menu has lots of other options if you're interested. 💕\"\n\n**Request is unclear/confusing:**\n\n> \"Thank you for your tip! I want to make sure I create exactly what you want. Could you clarify [specific question]?\n>\n> Once I understand better, I'll let you know if I can fulfill it or if I should issue a refund. Thanks! 😊\"\n\n**Fan is demanding/rude:**\n\n> \"I appreciate your tip, but I'm unable to fulfill this request. I've issued a full refund. Thank you for understanding.\"\n\n(Keep it brief and professional. Don't engage with hostility.)\n\n---\n\n**Preventing Future Issues:**\n\n**1. Clear Tip Menu Descriptions**\n\n❌ Vague: \"Custom content - $50\"\n✅ Clear: \"Custom photo wearing outfit of your choice (SFW only), delivered within 5 business days. Max 2 per week.\"\n\n**Include:**\n- Exactly what you'll deliver\n- Timeframe\n- Limitations (SFW only, max revisions, etc.)\n- Availability limits\n\n**2. Set Boundaries Upfront**\n\nIn your tip menu header:\n> \"All custom requests must follow platform ToS. I reserve the right to decline requests outside my comfort zone with full refund. Allow 5-7 days for fulfillment.\"\n\n**3. Pause Menu Items When Backlogged**\n\n- Dashboard → Tip Menu → Toggle item OFF\n- Prevents new requests while you catch up\n- Turn back on when ready\n\n**4. Increase Prices for High-Demand Items**\n\nIf overwhelmed with requests:\n- Raise prices (reduces volume, increases compensation)\n- Example: $50 custom video → $75\n- Limit quantity: \"Max 3 per month\"\n\n**5. Screen Requests Before Accepting**\n\nIf offering high-ticket items:\n> \"For custom content requests over $100, please DM me first to discuss details before tipping. This ensures I can deliver exactly what you want!\"\n\n---\n\n**What NOT to Do:**\n\n❌ **Ignore the request**\n- Damages reputation\n- Fan may dispute charge\n- Could lead to refund anyway + bad review\n\n❌ **Keep the money without delivering**\n- Unethical and may violate platform ToS\n- Can result in account suspension\n- Fans can dispute charges\n\n❌ **Deliver subpar content**\n- Better to refund than deliver poor quality\n- Ruins reputation\n- Leads to disputes\n\n❌ **Argue with the fan**\n- Stay professional always\n- Offer refund and move on\n- Block if they become abusive\n\n❌ **Delay without communication**\n- Message immediately if there's an issue\n- Fans appreciate honesty\n- Silence creates frustration\n\n---\n\n**Your Rights as a Creator:**\n\n✅ **You can decline ANY request**\n- With full refund, you don't owe explanation\n- Your boundaries matter\n- Platform supports your right to refuse\n\n✅ **You can block users who:**\n- Make inappropriate requests repeatedly\n- Become hostile when you refund\n- Violate your boundaries\n- Harass or abuse you\n\n✅ **You can modify tip menu anytime**\n- Increase prices\n- Remove items\n- Add restrictions\n- Pause availability\n\n---\n\n**Platform Support:**\n\n**When to contact support:**\n- Fan is harassing you about refund\n- Technical issues preventing refund\n- Dispute filed against you unfairly\n- Need guidance on ToS interpretation\n\n**How to contact:**\n1. Settings → Help & Support\n2. Choose \"Tip Menu Issue\" or \"Harassment\"\n3. Include screenshots of messages\n4. Explain situation clearly\n\n**Support typically responds within 24 hours.**\n\n---\n\n**Key Takeaways:**\n\n1. **Refund promptly** if you can't fulfill\n2. **Communicate clearly** with fan\n3. **Offer alternatives** when possible\n4. **Set clear boundaries** in tip menu\n5. **Don't feel guilty** for declining requests\n6. **Prevent issues** with detailed descriptions\n7. **Stay professional** always\n\n**Your mental health and boundaries are more important than any tip.**\n\nRefund and move forward with fans who respect your limits!",
+      "question_variations": [
+        "can't fulfill tip request",
+        "how to refund a tip",
+        "decline tip menu request",
+        "unable to complete custom content",
+        "what if I can't do the request",
+        "how to handle tip requests I can't fulfill",
+        "issue refund for tip",
+        "cancel tip menu request"
+      ],
+      "confidence_score": 0.98,
+      "related_questions": [
+        "qa_tips_002",
+        "qa_tips_006"
+      ],
+      "tags": ["refunds", "tip-menu", "boundaries", "request-management", "customer-service"]
+    },
+    {
+      "id": "qa_tips_006",
+      "question": "Can fans tip me if they're not subscribed?",
+      "answer": "**Yes! Fans can tip without subscribing.**\n\n**Where non-subscribers can tip:**\n\n1. **On public posts**\n   - Any post set to \"Public\" visibility\n   - Tip button appears even for non-subscribers\n   - They can tip to show appreciation without subscribing\n\n2. **On your profile page**\n   - \"Send Tip\" button visible to all visitors\n   - Can tip directly from profile\n   - Don't need subscription to send tips\n\n3. **Via tip menu**\n   - Tip menu is publicly visible\n   - Non-subscribers can purchase tip menu items\n   - Great way to monetize non-subscriber audience\n\n**Where they CANNOT tip without subscribing:**\n\n❌ **On subscriber-only posts**\n- Post is paywalled\n- Must subscribe to view content\n- Can't tip on content they can't see\n\n❌ **In DMs** (usually)\n- Most platforms require subscription to send DMs\n- Check platform settings - some allow tips via DM without subscription\n\n❌ **On locked/PPV content**\n- Must purchase access first\n- Then can tip after viewing\n\n---\n\n**Why This Matters:**\n\n**For creators:**\n\n✅ **Monetize non-subscribers**\n- Earn from fans who can't afford monthly subscription\n- One-time payments more accessible than recurring\n- Expands your earning potential\n\n✅ **Conversion funnel**\n- Tippers are 40% more likely to subscribe later\n- Tipping is \"low commitment\" introduction\n- Builds relationship that leads to subscription\n\n✅ **Reach wider audience**\n- Public posts with tips enabled\n- Non-subscribers can support you\n- Increases total revenue\n\n**For fans:**\n\n✅ **Support without committing**\n- Can't afford $10-20/month subscription\n- Can send $5-10 tip occasionally\n- Show appreciation without ongoing commitment\n\n✅ **Test before subscribing**\n- Tip for specific content they like\n- See how creator responds\n- Decide if subscription worth it\n\n✅ **Flexibility**\n- Support favorite creators when they can\n- No recurring charges\n- Control spending\n\n---\n\n**Strategies to Get Non-Subscriber Tips:**\n\n**1. Create Compelling Public Content**\n\n**Post mix:**\n- 20-30% public posts (attract new audience)\n- 70-80% subscriber-only (value for subscribers)\n\n**Public posts with tip potential:**\n- Teasers for subscriber content\n- Behind-the-scenes moments\n- Announcements and updates\n- Milestone celebrations\n- Q&A posts\n- Throwback content\n\n**Add tip call-to-action:**\n> \"Enjoyed this? Tips help me create more content like this! Can't subscribe? A tip shows your support! 💕\"\n\n---\n\n**2. Promote Your Tip Menu**\n\n**Tip menu is public** - non-subscribers can see it!\n\n**Make it visible:**\n- Pin to profile\n- Mention in public posts\n- Share on other social media\n- \"Can't subscribe? Check my tip menu for one-time custom content options!\"\n\n**Offer accessible items:**\n- Include low-cost options ($5-15)\n- Digital delivery (photos, short videos)\n- Doesn't require subscription to receive\n\n**Example public post:**\n> \"New tip menu available! Get custom content without a subscription. Options from $10-$100. Link in bio! 💰\"\n\n---\n\n**3. Leverage Other Platforms**\n\n**Drive tips from social media:**\n\n**Instagram/Twitter/TikTok:**\n> \"Can't subscribe to my PLATFORM_NAME? You can still support me with a tip! Link in bio 💕\"\n\n**Link directly to:**\n- Your profile (has \"Send Tip\" button)\n- Specific public post (with tip enabled)\n- Tip menu page\n\n**Benefits:**\n- Followers on free platforms can support you\n- Don't lose potential revenue from non-subscribers\n- Multiple monetization paths\n\n---\n\n**4. Public Tip Goals**\n\n**Set goals that include non-subscribers:**\n\n**Example:**\n> \"🎯 Tip Goal: $500 for new camera!\n>\n> Subscribers AND non-subscribers can contribute!\n>\n> Every tip helps, any amount appreciated! 💕\n>\n> Progress: $320/$500 (64%)\"\n\n**Makes non-subscribers feel included** in your community and goals.\n\n---\n\n**5. Recognize Public Tippers**\n\n**Shout-outs on public posts:**\n\n> \"Huge thank you to @username for the generous tip! You don't even subscribe but you support me anyway - that means the world! 🙏💕\"\n\n**Benefits:**\n- Shows you value all supporters, not just subscribers\n- Encourages other non-subscribers to tip\n- May inspire them to subscribe later\n\n---\n\n**Conversion Strategy: Tips → Subscriptions**\n\n**When someone tips without subscribing:**\n\n**1. Thank them personally**\n> \"Thank you so much for the tip! Really appreciate your support! 😊\"\n\n**2. Offer subscription incentive (soft sell)**\n> \"If you ever want access to all my exclusive content, I'd love to have you as a subscriber! First month 20% off with code WELCOME 💕\"\n\n**3. Deliver exceptional value**\n- If they tipped for custom content, exceed expectations\n- Show them what they're missing as non-subscriber\n- \"Subscribers get content like this 3x per week!\"\n\n**4. Follow up after positive interaction**\n- A week later: \"Hey! Still thinking about you - would love to have you join as a subscriber! Here's a free trial link 😊\"\n\n**Data shows:**\n- 40% of non-subscriber tippers convert to subscribers within 3 months\n- Especially if you engage with them personally\n- Tipping is \"foot in the door\" for subscription\n\n---\n\n**Settings to Enable Non-Subscriber Tips:**\n\n**Verify these settings:**\n\n1. **Settings → Monetization → Tips**\n   - ☑ Enable tips on profile (allows non-subscribers to tip from profile)\n   - ☑ Enable tips on public posts\n   - ☑ Show tip menu publicly\n\n2. **When creating posts:**\n   - Set visibility to \"Public\" for posts you want non-subscribers to see\n   - Ensure \"Enable tips on this post\" is checked\n\n3. **Tip menu settings:**\n   - Set tip menu to \"Public\" (not subscriber-only)\n   - Non-subscribers can view and purchase items\n\n---\n\n**Potential Issues:**\n\n**Non-subscriber tipped but wants subscriber-only content:**\n\n**Response:**\n> \"Thank you for the tip! This specific content is for subscribers only, but I can [offer alternative public content] or you could subscribe to get access! Let me know what works best for you 😊\"\n\n**Non-subscriber expects same treatment as subscribers:**\n\n**Set boundaries:**\n> \"I really appreciate your tips! Just want to be transparent - subscribers get priority DM responses and exclusive perks. But I always value your support! If you'd like those perks, I'd love to have you subscribe! 💕\"\n\n---\n\n**Revenue Comparison:**\n\n**Subscribers:**\n- $10-50/month per subscriber (recurring)\n- Predictable income\n- Access to all content\n\n**Non-Subscriber Tippers:**\n- $5-100 one-time\n- Unpredictable\n- No content access (unless public or tip menu item)\n\n**Both are valuable!**\n- Don't ignore non-subscriber revenue\n- Many creators earn 10-20% of income from non-subscriber tips\n- Especially from tip menu and public post tips\n\n---\n\n**Key Takeaways:**\n\n✅ Yes, non-subscribers can tip on:\n   - Public posts\n   - Your profile\n   - Tip menu items\n\n✅ Benefits:\n   - Additional revenue stream\n   - Conversion funnel to subscriptions\n   - Broader audience monetization\n\n✅ Strategies:\n   - Create compelling public content\n   - Promote public tip menu\n   - Set public tip goals\n   - Leverage other social platforms\n\n✅ Conversion:\n   - 40% of tippers become subscribers\n   - Engage personally with tippers\n   - Offer subscription incentives\n\n**Don't overlook non-subscriber tips - they're valuable revenue AND potential future subscribers!**",
+      "question_variations": [
+        "can non-subscribers tip",
+        "do fans need subscription to tip",
+        "tip without subscribing",
+        "can anyone send tips",
+        "tipping for non-subscribers",
+        "do I need to subscribe to tip",
+        "can I tip if I'm not subscribed"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_tips_001",
+        "qa_tips_002",
+        "qa_tips_003"
+      ],
+      "tags": ["non-subscribers", "tipping", "monetization", "conversion", "public-content"]
+    }
+  ],
+
+  "proactive_triggers": [
+    {
+      "trigger_id": "tips_not_enabled",
+      "condition": "account_age > 14_days AND tips_enabled == false AND identity_verified == true",
+      "message": "💰 **You're Missing Out on Tip Income!**\n\nTips are currently disabled on your account. Creators earn 15-30% of their income from tips!\n\n**Enable tips to:**\n- Receive appreciation payments from fans\n- Create a tip menu for custom content requests\n- Earn from non-subscribers\n- Set up tip goals for equipment/projects\n\n**Quick setup:**\nSettings → Monetization → Tips → Enable\n\n[Enable Tips Now] [Learn More] [Dismiss]",
+      "priority": "high",
+      "frequency": "every_30_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "no_tip_menu_created",
+      "condition": "tips_enabled == true AND tip_menu_items == 0 AND account_age > 30_days",
+      "message": "📋 **Create a Tip Menu to Boost Income!**\n\nYou have tips enabled but no tip menu. Creators with tip menus earn 2-3x more in tips!\n\n**Tip menu benefits:**\n- Clear options for fans (\"$25 = custom photo\")\n- Monetize custom content requests\n- Higher average tip amounts\n- Automated request tracking\n\n**Popular menu items:**\n- Custom photos ($20-50)\n- Custom videos ($50-100)\n- Video calls ($100-200)\n- Personalized messages ($5-15)\n\n[Create Tip Menu] [See Examples] [Dismiss]",
+      "priority": "medium",
+      "frequency": "once_per_user",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "received_tip_no_response",
+      "condition": "received_tip_in_last_24_hours == true AND tip_response_sent == false",
+      "message": "💕 **Don't Forget to Thank Your Tipper!**\n\nYou received a tip from @[username] [X hours] ago but haven't responded yet.\n\n**Why this matters:**\n- Tippers who get thanked tip 60% more often\n- Shows appreciation and builds loyalty\n- Encourages future tips\n- Professional reputation\n\n**Quick response suggestion:**\n\"Thank you so much for the tip! I really appreciate your support! 💕\"\n\n[Send Thank You] [View Tip] [Remind Me Later]",
+      "priority": "high",
+      "frequency": "per_tip",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "unfulfilled_tip_menu_requests",
+      "condition": "pending_tip_menu_requests > 3 AND oldest_request_age > 7_days",
+      "message": "⚠️ **You Have Unfulfilled Tip Menu Requests**\n\nYou have [X] pending tip menu requests, with the oldest being [X] days old.\n\n**Impact of delays:**\n- Damages reputation\n- Reduces future tips\n- Risk of refund requests\n- Poor fan experience\n\n**Options:**\n1. Fulfill pending requests ASAP\n2. Message fans with updated timeline\n3. Issue refunds if you can't fulfill\n4. Pause tip menu until caught up\n\n[View Requests] [Pause Tip Menu] [Dismiss]",
+      "priority": "critical",
+      "frequency": "every_7_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "low_tip_income_opportunity",
+      "condition": "subscription_income > 1000 AND tip_income_last_30_days < (subscription_income * 0.15)",
+      "message": "💡 **Boost Your Income with More Tips!**\n\nYour tip income is lower than average for your subscription level.\n\n**Your stats:**\n- Subscription income: $[X]/month\n- Tip income: $[Y]/month ([Z]%)\n- **Average for your level: 20-25%**\n\n**Quick wins to increase tips:**\n1. Live stream 2-3x per week (tips surge during streams!)\n2. Create a tip menu (if you haven't)\n3. Post about your tip goals\n4. Enable tips on all content\n\n[View Strategies] [Create Tip Goal] [Dismiss]",
+      "priority": "medium",
+      "frequency": "every_60_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "large_tip_received",
+      "condition": "received_tip_amount >= 100",
+      "message": "🎉 **You Received a $[X] Tip!**\n\n@[username] just sent you a generous $[X] tip!\n\n**Recommended actions:**\n1. Send a heartfelt personal thank you\n2. If they included a request, acknowledge it and set timeline\n3. Consider giving them extra value (bonus content, shout-out)\n\n**Large tippers are valuable supporters** - make them feel appreciated!\n\n[View Tip & Message] [Send Thank You] [Dismiss]",
+      "priority": "high",
+      "frequency": "per_large_tip",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "tax_season_reminder",
+      "condition": "month == \"January\" AND total_tips_last_year > 600 AND country == \"US\"",
+      "message": "📄 **Tax Season: Don't Forget Tip Income!**\n\nYou earned $[X] in tips last year. This is taxable income!\n\n**Action items:**\n1. Download your 1099 form: Settings → Tax Documents\n2. Include tip income on your tax return\n3. Save receipts for deductible expenses (equipment, internet, etc.)\n4. Consider hiring a tax professional if earning $10,000+\n\n**Reminder:** Save 25-35% of tip income for taxes throughout the year.\n\n[Download 1099] [Tax Resources] [Dismiss]",
+      "priority": "high",
+      "frequency": "once_per_year",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "tip_goal_nearly_complete",
+      "condition": "active_tip_goal == true AND (goal_progress >= 0.80 AND goal_progress < 1.0)",
+      "message": "🎯 **Tip Goal Almost Reached!**\n\nYour tip goal \"[Goal Name]\" is at [X]% ($[current]/$[goal])!\n\n**Only $[remaining] to go!**\n\n**Ideas to reach your goal:**\n1. Post about progress: \"We're so close to [goal]! Every tip helps! 💕\"\n2. Live stream with tip goal visible\n3. Offer small reward for person who reaches the goal\n\n**When goal is reached:**\n- Celebrate publicly\n- Thank all contributors\n- Deliver promised reward\n- Set a new goal!\n\n[Share Progress] [View Goal] [Dismiss]",
+      "priority": "medium",
+      "frequency": "when_approaching_goal",
+      "audience": "creators"
+    }
+  ],
+
+  "glossary": [
+    {
+      "term": "Tip",
+      "definition": "A voluntary one-time payment sent by a fan to a creator to show appreciation, support, or request custom content."
+    },
+    {
+      "term": "Tip Menu",
+      "definition": "A publicly visible list of specific content or services creators offer in exchange for designated tip amounts (e.g., '$25 = custom photo')."
+    },
+    {
+      "term": "Tip Goal",
+      "definition": "A fundraising target set by creators for specific purposes (equipment, projects), with progress publicly visible to encourage contributions."
+    },
+    {
+      "term": "Suggested Tip Amounts",
+      "definition": "Pre-set tip amounts ($10, $20, $50, $100) that appear as quick-select options when fans send tips."
+    },
+    {
+      "term": "Tip Leaderboard",
+      "definition": "Public ranking of top tippers (monthly or all-time) displayed on creator profiles to recognize supporters and encourage tipping."
+    },
+    {
+      "term": "Custom Content",
+      "definition": "Personalized photos, videos, or messages created specifically for a tipper based on their requests, typically offered via tip menu."
+    },
+    {
+      "term": "Tip Alert",
+      "definition": "Real-time notification during live streams showing when viewers send tips, including username and optional message."
+    },
+    {
+      "term": "Tip Milestone",
+      "definition": "Cumulative tip amount thresholds ($100, $500, $1000) that unlock automatic rewards for fans who reach them."
+    },
+    {
+      "term": "Anonymous Tip",
+      "definition": "Partial anonymity feature where creator sees tipper's identity but tip doesn't appear in public activity feed (full anonymity not available)."
+    },
+    {
+      "term": "Tip Fulfillment",
+      "definition": "The process of delivering custom content or services promised in tip menu after receiving payment."
+    },
+    {
+      "term": "Tip-to-Subscriber Conversion",
+      "definition": "When a fan who initially only tipped eventually becomes a paying subscriber (40% conversion rate within 3 months)."
+    },
+    {
+      "term": "Platform Fee",
+      "definition": "The 20% commission taken from tips (creator receives 80% of tip amount)."
+    },
+    {
+      "term": "1099-NEC",
+      "definition": "US tax form reporting self-employment income including tips, sent to creators earning $600+ annually."
+    },
+    {
+      "term": "Tip Request",
+      "definition": "Specific custom content or service requested by a fan when sending a tip, tracked in creator's request dashboard."
+    }
+  ],
+
+  "integration_points": [
+    {
+      "feature": "Live Streaming",
+      "connection": "Live streams generate 3-5x more tips due to real-time interaction, tip alerts, and visible tip goals during streams."
+    },
+    {
+      "feature": "Direct Messaging",
+      "connection": "Fans can tip directly in DMs; creators can offer priority DM responses to recent tippers as perk."
+    },
+    {
+      "feature": "Payment Processing",
+      "connection": "Tips use same payment infrastructure as subscriptions; requires verified payment account and identity verification."
+    },
+    {
+      "feature": "Analytics & Insights",
+      "connection": "Track tip income trends, top tippers, average tip amounts, and tip-to-subscriber conversion rates in analytics dashboard."
+    },
+    {
+      "feature": "Notification Preferences",
+      "connection": "Configure notifications for tips received, tip menu requests, tip goal milestones, and large tips."
+    },
+    {
+      "feature": "Content Upload",
+      "connection": "All posts (public and subscriber-only) can have tips enabled; tip button appears alongside other engagement options."
+    },
+    {
+      "feature": "Creator Verification",
+      "connection": "Identity verification required before enabling tips; ensures compliance with financial regulations."
+    },
+    {
+      "feature": "Subscription Tiers",
+      "connection": "Non-subscribers can tip on public posts; subscribers tip 2-3x more frequently than non-subscribers."
+    }
+  ],
+
+  "related_documentation": [
+    "/docs/how-to/tips-and-tipping.md",
+    "/docs/how-to/payment-processing-withdrawals.md",
+    "/docs/how-to/live-streaming.md",
+    "/docs/how-to/subscription-tiers-pricing.md"
+  ],
+
+  "support_resources": [
+    {
+      "title": "Video Tutorial: Setting Up Your Tip Menu",
+      "url": "/help/tutorials/tip-menu-setup",
+      "duration": "5 min"
+    },
+    {
+      "title": "Guide: Maximizing Tip Income",
+      "url": "/help/guides/increase-tips",
+      "type": "article"
+    },
+    {
+      "title": "Tax Guide for Creators",
+      "url": "/help/guides/tax-reporting-tips",
+      "type": "article"
+    }
+  ]
+}

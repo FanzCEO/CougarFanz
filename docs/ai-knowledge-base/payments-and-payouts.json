@@ -1,0 +1,531 @@
+{
+  "feature_id": "payments-payouts",
+  "feature_name": "Payments & Payouts",
+  "version": "1.0.0",
+  "last_updated": "2025-11-16",
+  "platforms": ["all"],
+  "user_types": ["creator"],
+  "qa_pairs": [
+    {
+      "id": "qa_pay_001",
+      "question": "When do I get paid?",
+      "question_variations": [
+        "When will I receive my payout?",
+        "Payout schedule",
+        "When are payouts sent?",
+        "Payment dates",
+        "When does money hit my account?",
+        "Payout timing"
+      ],
+      "answer": "Payouts are sent **twice monthly**:\n\n**Payment Schedule:**\n- Earnings from **1st-15th** → Paid on the **15th**\n- Earnings from **16th-end of month** → Paid on **last day of month**\n\n**Bank arrival time:**\n- Direct Deposit (ACH): 3-5 business days\n- Wire Transfer: 1-3 business days\n- PayPal/Venmo: 1-2 business days\n- Check: 7-10 business days\n\n**Example:**\n```\nNov 1-15: You earn $500\nNov 15: Payout processed\nNov 18-20: Money in your bank account\n```\n\n**Minimum payout:** $20 - If you earn less, funds roll over to next period.\n\n**Check next payout:** Dashboard → Earnings → \"Next Payout Date\"\n\n**Holidays:** If payout date falls on weekend/holiday, processed next business day.",
+      "confidence_score": 0.99,
+      "tags": ["payout", "schedule", "timing", "when-paid", "dates"],
+      "related_qa_ids": ["qa_pay_002", "qa_pay_003"],
+      "suggested_actions": [
+        {
+          "label": "View Next Payout",
+          "action": "navigate",
+          "url": "/payments/schedule"
+        },
+        {
+          "label": "Payment History",
+          "action": "navigate",
+          "url": "/payments/history"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_002",
+      "question": "How much do I earn from subscriptions and sales?",
+      "question_variations": [
+        "How much do I keep?",
+        "What percentage do I earn?",
+        "Platform fees",
+        "Revenue split",
+        "How much does platform take?",
+        "Earnings percentage"
+      ],
+      "answer": "You earn **80% of all revenue**. The platform takes 20%.\n\n**Revenue Split:**\n- **You keep:** 80%\n- **Platform fee:** 20% (covers processing, hosting, support, features)\n\n**Examples:**\n\n**Subscription:**\n- Fan pays: $10/month\n- You earn: $8 (80%)\n- Platform: $2 (20%)\n\n**PPV Content:**\n- Fan pays: $25\n- You earn: $20 (80%)\n- Platform: $5 (20%)\n\n**Tip:**\n- Fan tips: $50\n- You earn: $40 (80%)\n- Platform: $10 (20%)\n\n**The 20% platform fee covers:**\n- Payment processing fees\n- Hosting & bandwidth (unlimited)\n- Security & fraud prevention\n- Customer support\n- Platform features & updates\n- Server infrastructure\n\n**No hidden fees!** What you see is what you get.\n\n**Payout method fees** (additional):\n- Direct Deposit: FREE ✓\n- Wire Transfer: $10-$25\n- PayPal/Venmo: 2%\n\n**Recommendation:** Use Direct Deposit to keep 80% of everything!",
+      "confidence_score": 0.99,
+      "tags": ["fees", "revenue-split", "earnings", "percentage", "platform-fee"],
+      "related_qa_ids": ["qa_pay_001", "qa_pay_003"],
+      "suggested_actions": [
+        {
+          "label": "View Earnings Breakdown",
+          "action": "navigate",
+          "url": "/analytics/earnings"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_003",
+      "question": "How do I add my bank account or payment method?",
+      "question_variations": [
+        "Set up direct deposit",
+        "Add bank account",
+        "Payment method setup",
+        "Add PayPal",
+        "How to receive money?",
+        "Configure payout method"
+      ],
+      "answer": "Set up your payment method to receive payouts:\n\n**Step 1: Go to Payment Settings**\n- Click Settings → Payments & Banking → \"Add Payment Method\"\n\n**Step 2: Choose Payment Method**\n\n**Recommended: Direct Deposit (Free)**\n- Select \"Direct Deposit (ACH)\"\n- Enter bank routing number (9 digits)\n- Enter account number\n- Choose Checking or Savings\n\n**Step 3: Verify Your Bank**\n\n**Option A: Instant Verification (Recommended)**\n1. Select your bank from list\n2. Login with bank credentials\n3. Select account\n4. Verified instantly! ✓\n\n**Option B: Micro-Deposits**\n1. We send 2 small deposits ($0.01-$0.99)\n2. Wait 1-3 business days\n3. Check your bank statement\n4. Enter the 2 amounts in Settings\n5. Verified! ✓\n\n**Other Payment Methods:**\n- **PayPal:** Enter PayPal email (2% fee)\n- **Venmo:** Enter Venmo username (2% fee)\n- **Wire Transfer:** Domestic ($10) or International ($25)\n- **Payoneer:** For international creators (2% fee)\n- **Crypto:** Bitcoin, Ethereum, USDT (network fees)\n\n**Step 4: Set as Primary**\n- If you have multiple methods, set preferred as \"Primary\"\n- All payouts go to primary method\n\n**Important:** Name on payment account must match your verified identity!\n\n**Having trouble?** Contact Support → Payment Issues",
+      "confidence_score": 0.98,
+      "tags": ["payment-method", "bank-account", "direct-deposit", "setup", "verification"],
+      "related_qa_ids": ["qa_pay_004", "qa_pay_005"],
+      "suggested_actions": [
+        {
+          "label": "Add Payment Method",
+          "action": "navigate",
+          "url": "/settings/payments/add"
+        },
+        {
+          "label": "Watch Setup Tutorial",
+          "action": "open_tutorial",
+          "tutorial_id": "payment-setup"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_004",
+      "question": "I haven't received my payout, where is it?",
+      "question_variations": [
+        "Missing payout",
+        "Payout not received",
+        "Where is my money?",
+        "Payment missing",
+        "Money not in bank",
+        "Delayed payout"
+      ],
+      "answer": "If you haven't received your payout, let's troubleshoot:\n\n**Check these first:**\n\n✅ **1. Did you meet the $20 minimum?**\n- Dashboard → Earnings → Payout History\n- If under $20, funds roll over to next period\n\n✅ **2. Is it past the arrival date?**\n- Payout date + 3-5 business days (Direct Deposit)\n- Payout date + 1-3 days (Wire)\n- Payout date + 1-2 days (PayPal)\n\n✅ **3. Is your payment method verified?**\n- Settings → Payments → Check status\n- Green checkmark = verified ✓\n- Yellow warning = needs attention ⚠️\n\n✅ **4. Were there refunds or chargebacks?**\n- Check Earnings → Deductions\n- May have reduced balance below $20\n\n✅ **5. Check payout status:**\n- Payments → Payment History\n- Status: Processing, Completed, or Failed?\n\n**Common Issues:**\n\n**Status: \"Processing\"**\n→ Still in transit, wait 1-2 more business days\n\n**Status: \"Failed\"**\n→ Payment method issue (update in Settings)\n→ We'll automatically retry\n\n**Status: \"Completed\" but not in bank**\n→ Check with your bank\n→ May be pending/processing\n→ Ensure routing/account numbers correct\n\n**Bank account closed or changed?**\n→ Update payment method immediately\n→ Contact support to resend\n\n**Still missing after checks?**\n→ Help → Contact Support → Payment Issues\n→ Include: Expected date, amount, payment method\n→ We'll track the payment for you\n\n**Typical resolution time:** 24-48 hours for support to investigate and resolve.",
+      "confidence_score": 0.97,
+      "tags": ["missing-payout", "delayed", "troubleshooting", "not-received"],
+      "related_qa_ids": ["qa_pay_001", "qa_pay_005"],
+      "suggested_actions": [
+        {
+          "label": "Check Payout Status",
+          "action": "navigate",
+          "url": "/payments/history"
+        },
+        {
+          "label": "Verify Payment Method",
+          "action": "navigate",
+          "url": "/settings/payments"
+        },
+        {
+          "label": "Contact Support",
+          "action": "navigate",
+          "url": "/support?category=payments"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_005",
+      "question": "What tax information do I need to provide?",
+      "question_variations": [
+        "Tax forms",
+        "W-9 form",
+        "1099 tax form",
+        "Do I pay taxes?",
+        "Tax requirements",
+        "IRS information"
+      ],
+      "answer": "Tax requirements for creators:\n\n**US Creators (Earn $600+/year):**\n\n**You must provide:**\n- W-9 tax form\n- Social Security Number (SSN) or EIN\n- Full legal name\n- Address\n\n**How to submit:**\n1. Settings → Tax Information → \"Add Tax Info\"\n2. Complete W-9 form\n3. Enter SSN or EIN\n4. Submit (encrypted & secure)\n\n**We'll send you:**\n- **1099-NEC form** by January 31 each year\n- Reports your total earnings\n- Also sent to IRS\n- Download: Settings → Tax Information\n\n**You're responsible for:**\n- Income tax on earnings\n- Self-employment tax (15.3%)\n- Quarterly estimated tax payments (if earning significant income)\n- State and local taxes\n\n**International Creators:**\n\n**You must provide:**\n- W-8BEN form (foreign person)\n- Tax ID from your country\n- Claim tax treaty benefits (if applicable)\n\n**US withholding:**\n- 30% withheld on US-source income by default\n- Tax treaties reduce to 0-15% (complete W-8BEN)\n\n**Your country's taxes:**\n- Report earnings as self-employment income\n- Consult local tax professional\n\n**Tax Deductions (Consult CPA):**\n- Equipment (camera, computer, lights)\n- Internet & phone\n- Home office (if qualifying)\n- Props, costumes, makeup\n- Software subscriptions\n- Professional services\n\n**Important:** Complete tax info BEFORE earning $600 to avoid payout holds!\n\n**Recommendation:** Consult tax professional or CPA for personalized advice.",
+      "confidence_score": 0.96,
+      "tags": ["tax", "1099", "w9", "w8ben", "irs", "tax-forms"],
+      "related_qa_ids": ["qa_pay_002"],
+      "suggested_actions": [
+        {
+          "label": "Add Tax Information",
+          "action": "navigate",
+          "url": "/settings/tax"
+        },
+        {
+          "label": "Download 1099",
+          "action": "navigate",
+          "url": "/settings/tax/1099"
+        },
+        {
+          "label": "Tax Guide for Creators",
+          "action": "open_help",
+          "help_id": "tax-guide"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_006",
+      "question": "How do refunds and chargebacks work?",
+      "question_variations": [
+        "What is a chargeback?",
+        "Fan requested refund",
+        "Money taken back",
+        "Dispute charge",
+        "Refund policy",
+        "Chargeback fees"
+      ],
+      "answer": "Refunds and chargebacks affect your earnings:\n\n**REFUNDS**\n\n**When fans can request refund:**\n- Within 48 hours of purchase\n- Content not as described\n- Technical issue prevented access\n- Accidental purchase\n\n**What happens:**\n1. Fan requests refund\n2. Amount deducted from your balance\n3. If already paid out → negative balance\n4. Negative balance deducted from next earnings\n5. You receive notification\n\n**Non-refundable:**\n- Subscriptions after 48 hours\n- PPV content already viewed/downloaded\n- Tips (voluntary gifts)\n- Custom content (work already done)\n\n---\n\n**CHARGEBACKS**\n\n**What is it:**\n- Fan disputes charge with credit card company\n- Claims: Unauthorized, fraud, not as described\n- More serious than refund\n\n**Process:**\n1. Fan files dispute with bank (can be weeks later)\n2. Bank notifies us\n3. We notify you - You can contest\n4. Bank decides (30-90 days)\n5. Money returned to fan or kept by you\n\n**Chargeback fee:** $15 per chargeback (even if you win)\n\n**You can contest with evidence:**\n- Screenshots showing content delivery\n- Message history with fan\n- Access logs (we provide)\n- Terms they agreed to\n\n**To dispute:**\n- Help → Payment Issues → Dispute Chargeback\n- Upload evidence within 7 days\n- We fight on your behalf\n- Win rate: ~40% with strong evidence\n\n**High chargebacks = Risk:**\n- >1% rate = Warning\n- >3% rate = Account review\n- >5% rate = Possible suspension\n\n**Prevent chargebacks:**\n✓ Accurate content descriptions\n✓ Deliver quality matching expectations\n✓ Watermark content\n✓ Respond to fan messages\n✓ Professional conduct\n✓ Save all interaction records",
+      "confidence_score": 0.96,
+      "tags": ["refunds", "chargebacks", "disputes", "reversed-payment"],
+      "related_qa_ids": ["qa_pay_002", "qa_pay_004"],
+      "suggested_actions": [
+        {
+          "label": "View Refund History",
+          "action": "navigate",
+          "url": "/analytics/earnings?tab=deductions"
+        },
+        {
+          "label": "Dispute Chargeback",
+          "action": "navigate",
+          "url": "/payments/chargebacks/dispute"
+        },
+        {
+          "label": "Refund Policy",
+          "action": "open_help",
+          "help_id": "refund-policy"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_007",
+      "question": "Can I change my subscription price?",
+      "question_variations": [
+        "Update subscription price",
+        "Change monthly rate",
+        "Adjust subscription cost",
+        "Increase subscription price",
+        "Lower subscription price",
+        "Modify pricing"
+      ],
+      "answer": "Yes! You can change your subscription price anytime:\n\n**How to Change:**\n1. Profile → Edit Profile → \"Subscription Price\"\n2. Select new price ($4.99 - $49.99)\n3. Save changes\n\n**Important: Existing subscribers are GRANDFATHERED**\n- Current subscribers keep their current price\n- Only NEW subscribers pay the new price\n- Protects existing fans from surprise increases\n\n**Example:**\n```\nCurrent price: $9.99\nYou change to: $14.99\n\n- 100 existing subscribers: Still pay $9.99/month\n- New subscribers: Pay $14.99/month\n```\n\n**Recommended Pricing:**\n\n| Creator Level | Suggested Price |\n|---------------|----------------|\n| New Creator | $4.99 - $7.99 |\n| Established | $9.99 - $14.99 |\n| Premium/Niche | $19.99 - $29.99 |\n| Elite/Celebrity | $39.99 - $49.99 |\n\n**When to increase:**\n- Growing subscriber base\n- Improving content quality\n- Adding exclusive perks\n- High engagement/retention\n\n**When to decrease:**\n- Low new subscriber growth\n- High churn rate\n- New to platform (attract initial base)\n- Promotional period\n\n**Running Promotions:**\nYou can also run limited-time offers:\n- Free trials (7, 14, or 30 days)\n- Discounted first month ($1.99 instead of $9.99)\n- Bundle deals (3, 6, 12 month discounts)\n\nProfile → Promotions → Create Offer\n\n**Pro Tip:** Don't change prices too frequently. Quarterly reviews work well for most creators.",
+      "confidence_score": 0.97,
+      "tags": ["subscription-price", "pricing", "change-price", "monthly-rate"],
+      "related_qa_ids": ["qa_pay_002", "qa_pay_008"],
+      "suggested_actions": [
+        {
+          "label": "Update Subscription Price",
+          "action": "navigate",
+          "url": "/profile/edit?section=pricing"
+        },
+        {
+          "label": "Create Promotion",
+          "action": "navigate",
+          "url": "/promotions/create"
+        },
+        {
+          "label": "Pricing Strategy Guide",
+          "action": "open_help",
+          "help_id": "pricing-strategies"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_008",
+      "question": "What should I charge for PPV content?",
+      "question_variations": [
+        "PPV pricing guide",
+        "How much for pay-per-view?",
+        "Price for exclusive content",
+        "PPV content pricing",
+        "What to charge for videos?",
+        "Pricing recommendations"
+      ],
+      "answer": "PPV pricing recommendations based on content type:\n\n**PHOTO SETS:**\n- **5-10 photos:** $5 - $15\n- **20-50 photos:** $15 - $30\n- **100+ photos:** $30 - $50\n\n**VIDEOS:**\n- **1-5 minutes:** $10 - $20\n- **10-20 minutes:** $25 - $50\n- **30+ minutes:** $50 - $150\n\n**PREMIUM CONTENT:**\n- **Custom content:** $50 - $500+\n- **Video calls (30 min):** $100 - $300\n- **Exclusive collaborations:** $100 - $500\n\n**Factors that affect pricing:**\n\n✓ **Quality:** Professional vs amateur\n✓ **Length:** Longer = higher price\n✓ **Exclusivity:** Available nowhere else?\n✓ **Niche:** Specialized fetish = premium\n✓ **Your following:** Larger audience = can charge more\n✓ **Production cost:** Props, location, editing\n\n**Pricing Strategy:**\n\n**For Subscribers:**\n- Give 20-30% discount vs non-subscribers\n- Reward loyalty, encourage subscriptions\n\n**Example:**\n```\nVideo normally $20\nSubscriber price: $14 (30% off)\n\nIn post: \"$20 ($14 for subscribers!) 🔥\"\n```\n\n**Bundle Deals:**\n- \"Buy 3 PPV posts, get 1 free\"\n- \"Full photo set: $40 (vs $60 if bought separately)\"\n\n**Limited Time Pricing:**\n- \"$15 for next 24 hours, then $25!\"\n- Creates urgency, boosts sales\n\n**Test & Optimize:**\n1. Start mid-range\n2. Track unlock rate (Analytics)\n3. Adjust based on performance:\n   - High unlock rate (>30%) → Can increase price\n   - Low unlock rate (<10%) → Decrease or improve preview\n\n**Common Mistakes:**\n\n❌ **Pricing too high too soon** (when new)\n❌ **Underpricing** (devalues your content)\n❌ **Same price for all content** (variety!)\n❌ **No preview/teaser** (fans need to know value)\n\n**Optimal unlock rate:** 15-25% of viewers\n- Too high = money left on table\n- Too low = price too high or poor preview\n\n**Pro Tip:** Include clear value proposition in description:\n\"50 HD photos, full uncensored, never-before-seen angles from my beach shoot! 🏖️\"",
+      "confidence_score": 0.97,
+      "tags": ["ppv-pricing", "pricing-guide", "content-pricing", "recommendations"],
+      "related_qa_ids": ["qa_pay_007", "qa_pay_002"],
+      "suggested_actions": [
+        {
+          "label": "View Pricing Analytics",
+          "action": "navigate",
+          "url": "/analytics/pricing"
+        },
+        {
+          "label": "Pricing Calculator",
+          "action": "navigate",
+          "url": "/tools/pricing-calculator"
+        },
+        {
+          "label": "Full Pricing Guide",
+          "action": "open_help",
+          "help_id": "ppv-pricing-guide"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_009",
+      "question": "How do I view my earnings and payment history?",
+      "question_variations": [
+        "Check earnings",
+        "See payment history",
+        "View transactions",
+        "Earnings dashboard",
+        "How much have I earned?",
+        "Payment records"
+      ],
+      "answer": "Access your earnings and payment history:\n\n**EARNINGS DASHBOARD**\n\nDashboard → Analytics → Earnings\n\n**What you'll see:**\n\n**Current Balance:**\n- Money earned but not yet paid out\n- Includes current earning period\n- Updates in real-time\n\n**Lifetime Earnings:**\n- Total earned all-time\n- Before platform fees (gross)\n- Includes paid + pending\n\n**This Month:**\n- Current calendar month earnings\n- Broken down by type:\n  - Subscriptions (recurring)\n  - PPV Content (one-time unlocks)\n  - Tips (fan support)\n  - Messages (paid DMs)\n  - Custom Requests\n\n**Revenue Breakdown:**\n```\nNovember 2025: $1,247.30\n\nSubscriptions: $680.00 (55%)\nPPV Content: $310.20 (25%)\nTips: $145.10 (12%)\nMessages: $82.00 (6%)\nCustom: $30.00 (2%)\n```\n\n**Top Earning Content:**\n- Your highest-earning posts\n- Unlock rate analysis\n- Optimization suggestions\n\n**Earnings by Fan:**\n- Highest-value supporters\n- Lifetime value per fan\n- Engagement metrics\n\n---\n\n**PAYMENT HISTORY**\n\nPayments → Payment History\n\n**Shows all payouts:**\n- Date sent\n- Amount\n- Status (Completed, Processing, Failed)\n- Payment method used\n- Fees deducted\n\n**Filter by:**\n- Date range\n- Status\n- Payment method\n- Amount\n\n**Export options:**\n- Download CSV (Excel)\n- Download PDF\n- For taxes, accounting, records\n\n---\n\n**DETAILED REPORTS**\n\nReports → Earnings Reports\n\n**Monthly Reports:**\n- Total earnings by type\n- Breakdown by fan\n- Top content performance\n- Refunds/adjustments\n- Net earnings after fees\n\n**Annual Reports:**\n- Tax time essentials\n- 1099 form (after Jan 31)\n- Month-by-month breakdown\n- Total deductions\n- Net income\n\n**Download:** All reports available as PDF or CSV\n\n---\n\n**NEXT PAYOUT**\n\nDashboard → Earnings → \"Next Payout\"\n\n**Shows:**\n- Next payout date\n- Current pending balance\n- Estimated payout amount\n- Days until payout\n- Payment method it will go to\n\n**Pro Tips:**\n- Review earnings weekly to spot trends\n- Download monthly reports for records\n- Use analytics to optimize pricing\n- Export for tax preparation",
+      "confidence_score": 0.98,
+      "tags": ["earnings", "payment-history", "view-earnings", "dashboard", "reports"],
+      "related_qa_ids": ["qa_pay_001", "qa_pay_002"],
+      "suggested_actions": [
+        {
+          "label": "View Earnings Dashboard",
+          "action": "navigate",
+          "url": "/analytics/earnings"
+        },
+        {
+          "label": "Payment History",
+          "action": "navigate",
+          "url": "/payments/history"
+        },
+        {
+          "label": "Download Reports",
+          "action": "navigate",
+          "url": "/reports/earnings"
+        }
+      ]
+    },
+    {
+      "id": "qa_pay_010",
+      "question": "What payment methods can international creators use?",
+      "question_variations": [
+        "International payments",
+        "Payment outside US",
+        "Non-US payment methods",
+        "Global payouts",
+        "International bank transfer",
+        "Payment for international creators"
+      ],
+      "answer": "International creators have several payout options:\n\n**AVAILABLE METHODS:**\n\n**1. PayPal (Recommended)**\n- Available: 200+ countries\n- Fee: 2% on payouts\n- Speed: 1-2 business days\n- Currency conversion at PayPal rates\n- Setup: Add verified PayPal email\n\n**2. Payoneer**\n- Available: 190+ countries\n- Fee: 2% on payouts\n- Speed: 2-5 business days\n- Lower conversion fees than PayPal\n- Setup: Link Payoneer account\n\n**3. International Wire Transfer**\n- Available: Worldwide\n- Fee: $25 per transfer\n- Speed: 3-7 business days\n- Your bank may charge receiving fee ($10-$30)\n- Setup: Provide SWIFT code + bank details\n\n**4. Cryptocurrency**\n- Supported: Bitcoin, Ethereum, USDT\n- Fee: Network fees (varies)\n- Speed: 1-24 hours\n- No currency conversion\n- Setup: Provide wallet address\n\n---\n\n**CURRENCY CONVERSION**\n\n**All payouts are in USD**\n\nConversion to local currency happens at:\n- Your bank (wire transfers)\n- PayPal (PayPal payouts)\n- Payoneer (Payoneer payouts)\n\n**Typical fees:**\n- Currency conversion: 2-4%\n- Bank receiving fee: $10-$30 (wires)\n- PayPal: 2% + conversion\n- Payoneer: 2% + lower conversion\n\n**Example payout to Europe (€1,000):**\n```\nEarnings: $1,000 USD\n\nOption A - Wire Transfer:\n- Wire fee: -$25\n- Bank receiving: -$20\n- Conversion (3%): -$29\n- You receive: ~€870\n- Total fees: ~13%\n\nOption B - PayPal:\n- PayPal fee (2%): -$20\n- Conversion (3%): -$29\n- You receive: ~€880\n- Total fees: ~12%\n\nOption C - Payoneer:\n- Payoneer fee (2%): -$20\n- Conversion (1.5%): -$15\n- You receive: ~€895\n- Total fees: ~10.5%\n```\n\n**Recommendation:** Payoneer typically best for international creators\n\n---\n\n**TAX REQUIREMENTS**\n\n**Non-US creators must submit:**\n- **W-8BEN form** (Certificate of Foreign Status)\n- Tax ID from your country\n- Claim tax treaty benefits (if applicable)\n\n**US Withholding:**\n- Default: 30% withheld from earnings\n- Tax treaties: Reduce to 0-15%\n- Complete W-8BEN to claim treaty rate\n\n**Your country's taxes:**\n- Report earnings as self-employment income\n- Tax obligations vary by country\n- Consult local tax professional\n\n---\n\n**SETUP STEPS:**\n\n1. Settings → Payments → Add International Payment\n2. Select your country\n3. Choose available payment method\n4. Provide required information\n5. Verify as instructed\n6. Settings → Tax → Submit W-8BEN\n7. Claim tax treaty (if applicable)\n\n**Support for international creators:**\nHelp → International Creator Guide",
+      "confidence_score": 0.96,
+      "tags": ["international", "global-payments", "non-us", "currency-conversion", "payoneer"],
+      "related_qa_ids": ["qa_pay_003", "qa_pay_005"],
+      "suggested_actions": [
+        {
+          "label": "Add International Payment",
+          "action": "navigate",
+          "url": "/settings/payments/add?type=international"
+        },
+        {
+          "label": "Submit W-8BEN",
+          "action": "navigate",
+          "url": "/settings/tax/w8ben"
+        },
+        {
+          "label": "International Creator Guide",
+          "action": "open_help",
+          "help_id": "international-payments"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "payment_method_reminder",
+      "trigger_name": "Add Payment Method Reminder",
+      "condition": {
+        "user_state": {
+          "account_verified": true,
+          "payment_method_added": false,
+          "earnings_balance": {"$gte": 10}
+        }
+      },
+      "message": "💰 You're earning money! Add a payment method now so you can receive your first payout.",
+      "action_buttons": [
+        {
+          "label": "Add Payment Method",
+          "action": "navigate",
+          "url": "/settings/payments/add"
+        },
+        {
+          "label": "Learn More",
+          "action": "open_help",
+          "help_id": "qa_pay_003"
+        },
+        {
+          "label": "Remind Me Later",
+          "action": "snooze",
+          "duration": 86400
+        }
+      ],
+      "priority": 9,
+      "frequency": "daily_max_1",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "first_payout_celebration",
+      "trigger_name": "First Payout Success Celebration",
+      "condition": {
+        "user_state": {
+          "payouts_received_count": 1,
+          "time_since_last_payout": {"$lte": 86400}
+        }
+      },
+      "message": "🎉 Congratulations on your first payout! You're officially earning on CougarFanz! Keep up the great work!",
+      "action_buttons": [
+        {
+          "label": "View Earnings",
+          "action": "navigate",
+          "url": "/analytics/earnings"
+        },
+        {
+          "label": "Share Success",
+          "action": "share",
+          "share_type": "milestone"
+        }
+      ],
+      "priority": 8,
+      "frequency": "once",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "minimum_payout_not_met",
+      "trigger_name": "Below Minimum Payout Warning",
+      "condition": {
+        "user_state": {
+          "current_balance": {"$gte": 10, "$lt": 20},
+          "days_until_payout": {"$lte": 3}
+        }
+      },
+      "message": "⚠️ Your balance is $${balance} - just $${needed} away from the $20 minimum payout! Post more content to reach the threshold before payout date.",
+      "action_buttons": [
+        {
+          "label": "Upload Content",
+          "action": "navigate",
+          "url": "/upload"
+        },
+        {
+          "label": "View Balance",
+          "action": "navigate",
+          "url": "/analytics/earnings"
+        }
+      ],
+      "priority": 7,
+      "frequency": "once_per_payout_cycle",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "tax_info_required",
+      "trigger_name": "Tax Information Required",
+      "condition": {
+        "user_state": {
+          "lifetime_earnings": {"$gte": 500},
+          "tax_info_submitted": false
+        }
+      },
+      "message": "📋 Important: You're approaching $600 in earnings. Add your tax information now to avoid payout delays!",
+      "action_buttons": [
+        {
+          "label": "Add Tax Info",
+          "action": "navigate",
+          "url": "/settings/tax"
+        },
+        {
+          "label": "Why Is This Needed?",
+          "action": "open_help",
+          "help_id": "qa_pay_005"
+        }
+      ],
+      "priority": 9,
+      "frequency": "weekly_max_1",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "payment_failed_alert",
+      "trigger_name": "Payment Failed - Action Required",
+      "condition": {
+        "user_state": {
+          "last_payout_status": "failed",
+          "time_since_failed_payout": {"$lte": 172800}
+        }
+      },
+      "message": "❌ Your recent payout failed. Please update your payment method to receive your earnings!",
+      "action_buttons": [
+        {
+          "label": "Fix Payment Method",
+          "action": "navigate",
+          "url": "/settings/payments"
+        },
+        {
+          "label": "View Details",
+          "action": "navigate",
+          "url": "/payments/history?filter=failed"
+        },
+        {
+          "label": "Contact Support",
+          "action": "navigate",
+          "url": "/support?category=payments"
+        }
+      ],
+      "priority": 10,
+      "frequency": "always",
+      "user_types": ["creator"]
+    }
+  ],
+  "common_errors": [
+    {
+      "error_code": "PAY_ERR_001",
+      "error_message": "Payout failed - Invalid bank account",
+      "user_friendly_explanation": "Your bank account information is incorrect or the account is closed.",
+      "solution_steps": [
+        "Go to Settings → Payments",
+        "Remove old payment method",
+        "Add new payment method with correct information",
+        "Verify routing and account numbers carefully",
+        "We'll automatically retry the payout",
+        "Or contact support to manually retry"
+      ]
+    },
+    {
+      "error_code": "PAY_ERR_002",
+      "error_message": "Below minimum payout threshold",
+      "user_friendly_explanation": "You must earn at least $20 to receive a payout. Your current balance will roll over to the next payout period.",
+      "solution_steps": [
+        "Continue creating content to earn more",
+        "Check Dashboard → Earnings for current balance",
+        "Funds will accumulate until you reach $20",
+        "Then payout will be sent automatically",
+        "No action needed - funds are safe and accumulating"
+      ]
+    },
+    {
+      "error_code": "PAY_ERR_003",
+      "error_message": "Tax information required",
+      "user_friendly_explanation": "You've earned $600+ and must provide tax information to receive payouts.",
+      "solution_steps": [
+        "Go to Settings → Tax Information",
+        "Complete W-9 (US) or W-8BEN (International)",
+        "Provide SSN/EIN or foreign tax ID",
+        "Submit form",
+        "Payouts will resume within 24-48 hours after verification"
+      ]
+    },
+    {
+      "error_code": "PAY_ERR_004",
+      "error_message": "Payment method verification failed",
+      "user_friendly_explanation": "We couldn't verify your bank account or payment method.",
+      "solution_steps": [
+        "Try instant verification again with bank login",
+        "Or use micro-deposits method (wait 1-3 days)",
+        "Ensure account name matches your verified identity",
+        "Check with your bank that account accepts ACH",
+        "Try alternative payment method (PayPal, etc.)",
+        "Contact support if issue persists"
+      ]
+    }
+  ],
+  "contextual_help": {
+    "page_triggers": {
+      "/settings/payments": "Guide on adding and verifying payment methods",
+      "/analytics/earnings": "Explain earnings breakdown and how to maximize revenue",
+      "/payments/history": "How to read payment history and troubleshoot issues",
+      "/settings/tax": "Tax requirements and how to complete forms",
+      "/payments/schedule": "Explain payout schedule and when to expect money"
+    },
+    "action_triggers": {
+      "first_earnings": "payment_method_reminder",
+      "payout_received": "first_payout_celebration",
+      "approaching_payout_date": "minimum_payout_not_met",
+      "approaching_600_earnings": "tax_info_required",
+      "payout_failed": "payment_failed_alert"
+    }
+  }
+}

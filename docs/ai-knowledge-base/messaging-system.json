@@ -1,0 +1,456 @@
+{
+  "feature_id": "messaging-system",
+  "feature_name": "Direct Messages & Communication",
+  "version": "1.0.0",
+  "last_updated": "2025-11-16",
+  "platforms": ["all"],
+  "user_types": ["creator", "fan"],
+  "qa_pairs": [
+    {
+      "id": "qa_msg_001",
+      "question": "How do I send a direct message?",
+      "question_variations": [
+        "How can I send a DM?",
+        "How to message someone?",
+        "Send private message",
+        "How do I chat with someone?",
+        "Message a creator",
+        "DM instructions"
+      ],
+      "answer": "To send a direct message:\n\n1. Go to the user's profile you want to message\n2. Click the 'Message' button (chat bubble icon)\n3. Type your message in the text box\n4. Optionally attach photos/videos using the attachment icon\n5. Click 'Send'\n\n**Pro Tip:** Creators - Respond within 1 hour for 90% satisfaction rates and 40% higher earnings!\n\n**For Fans:** If messaging a creator, they may have paid message unlocks enabled. You'll see the unlock price before sending.",
+      "confidence_score": 0.98,
+      "tags": ["messaging", "dm", "communication", "basics"],
+      "related_qa_ids": ["qa_msg_003", "qa_msg_005"],
+      "suggested_actions": [
+        {
+          "label": "View Messaging Tutorial",
+          "action": "open_tutorial",
+          "url": "/tutorials/messaging-101"
+        },
+        {
+          "label": "Go to Messages",
+          "action": "navigate",
+          "url": "/messages"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_002",
+      "question": "How do mass messages work?",
+      "question_variations": [
+        "Send message to all fans",
+        "Bulk messaging",
+        "Message all subscribers",
+        "Mass DM feature",
+        "Send to multiple fans",
+        "Broadcast message"
+      ],
+      "answer": "Mass messages let you send one message to all your fans at once:\n\n**How to Send:**\n1. Go to Messages → 'Mass Message' tab\n2. Write your message (supports text, photos, videos)\n3. Set unlock price (optional, $3-$20 recommended)\n4. Choose audience: 'All Fans' or 'Active Subscribers Only'\n5. Review and click 'Send to All Fans'\n\n**Best Practices:**\n- Send 2-3 mass messages per week (more = spam complaints)\n- Best time: 7-10 PM EST (40% higher open rates)\n- Include preview image to increase opens by 60%\n- Use paid unlocks strategically (not every message)\n\n**Pricing Strategy:**\n- Teaser content: Free\n- Photos (3-5): $5-$10\n- Short video (1-5 min): $10-$15\n- Long/exclusive video: $15-$30",
+      "confidence_score": 0.97,
+      "tags": ["mass-message", "bulk", "broadcast", "marketing"],
+      "related_qa_ids": ["qa_msg_004", "qa_msg_006"],
+      "suggested_actions": [
+        {
+          "label": "Send Mass Message",
+          "action": "navigate",
+          "url": "/messages/mass"
+        },
+        {
+          "label": "View Pricing Guide",
+          "action": "open_help",
+          "help_id": "pricing-strategies"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_003",
+      "question": "What are paid message unlocks?",
+      "question_variations": [
+        "Charge for messages",
+        "Paid DM feature",
+        "How to make money from messages?",
+        "Message unlock pricing",
+        "Paywall messages",
+        "Locked message content"
+      ],
+      "answer": "Paid message unlocks let you charge fans to view your messages:\n\n**How It Works:**\n1. Fan receives notification of your message\n2. They see a blurred preview\n3. They pay your set price to unlock\n4. Full message content is revealed\n5. You earn 80% (platform keeps 20%)\n\n**Enable Paid Messages:**\n- Settings → Messages → Toggle 'Paid Message Unlocks'\n- Set default price or customize per message\n\n**Recommended Pricing:**\n- Text only: Free (build relationship)\n- 1-3 photos: $3-$5\n- 5-10 photos: $8-$15\n- Video under 5 min: $10-$20\n- Video 5-15 min: $20-$40\n- Custom content: $40-$100+\n\n**Strategy Tips:**\n- Mix free and paid (70% free, 30% paid)\n- Preview value in notification text\n- Higher prices = exclusive content only\n- Regular fans expect some free interaction",
+      "confidence_score": 0.96,
+      "tags": ["paid-messages", "monetization", "unlock", "pricing"],
+      "related_qa_ids": ["qa_msg_002", "qa_msg_007"],
+      "suggested_actions": [
+        {
+          "label": "Enable Paid Messages",
+          "action": "navigate",
+          "url": "/settings/messages"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_004",
+      "question": "How do I create message templates?",
+      "question_variations": [
+        "Save message templates",
+        "Quick replies",
+        "Saved responses",
+        "Message shortcuts",
+        "Template messages",
+        "Canned responses"
+      ],
+      "answer": "Message templates save time by storing frequently used messages:\n\n**Create Template:**\n1. Go to Messages → Settings → 'Templates'\n2. Click '+ New Template'\n3. Name your template (e.g., 'Welcome New Fan')\n4. Write your message\n5. Save\n\n**Use Template:**\n1. In any message conversation, click the template icon (document)\n2. Select your template from the list\n3. Edit if needed\n4. Send\n\n**Recommended Templates:**\n- **Welcome Message:** 'Hi! Thanks for subscribing! I post new content 3x/week...'\n- **Custom Request:** 'I'd love to create custom content for you! My rates start at...'\n- **Thank You:** 'Thank you so much for your support! It means the world to me!'\n- **Renewal Reminder:** 'Your subscription expires soon! Renew to keep access to...'\n- **Exclusive Offer:** 'Special offer just for you! Get 20% off my next bundle if you...'\n\n**Pro Tip:** Personalize templates with {name} variable to auto-insert fan's name!",
+      "confidence_score": 0.95,
+      "tags": ["templates", "automation", "efficiency", "saved-messages"],
+      "related_qa_ids": ["qa_msg_001", "qa_msg_002"],
+      "suggested_actions": [
+        {
+          "label": "Create Template",
+          "action": "navigate",
+          "url": "/messages/templates"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_005",
+      "question": "Can I attach photos and videos to messages?",
+      "question_variations": [
+        "Send images in DM",
+        "Attach video to message",
+        "Media in messages",
+        "How to send photos via DM?",
+        "Message attachments",
+        "Send files in chat"
+      ],
+      "answer": "Yes! You can attach media to both direct messages and mass messages:\n\n**Supported Formats:**\n- Photos: JPG, PNG, GIF (up to 20MB each)\n- Videos: MP4, MOV, WebM (up to 500MB)\n- Multiple attachments: Up to 10 files per message\n\n**How to Attach:**\n1. Click the attachment icon (paperclip/image) in message compose\n2. Select files from your device or drag & drop\n3. Wait for upload (progress bar shows status)\n4. Set unlock price if desired\n5. Send message\n\n**Best Practices:**\n- Compress large videos before uploading\n- Use thumbnails that tease content value\n- Caption your media for context\n- Test on mobile before sending to all fans\n\n**For Creators:**\nAttached media can have separate unlock prices from the message itself. Example: Free message text + $10 video unlock.\n\n**For Fans:**\nSome creators charge for media unlocks. You'll see the price before viewing.",
+      "confidence_score": 0.97,
+      "tags": ["attachments", "media", "photos", "videos", "files"],
+      "related_qa_ids": ["qa_msg_003", "qa_msg_006"],
+      "suggested_actions": [
+        {
+          "label": "Send Media Message",
+          "action": "navigate",
+          "url": "/messages"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_006",
+      "question": "How do I manage my message inbox?",
+      "question_variations": [
+        "Organize messages",
+        "Archive conversations",
+        "Delete messages",
+        "Filter DMs",
+        "Message management",
+        "Inbox organization"
+      ],
+      "answer": "Keep your message inbox organized with these tools:\n\n**Filters & Tabs:**\n- **All Messages:** Every conversation\n- **Unread:** New messages needing response\n- **Active Fans:** Conversations with subscribers\n- **Paid Unlocks:** Messages with pending payments\n- **Archived:** Hidden conversations\n\n**Actions:**\n1. **Star Important:** Click star icon to mark VIP conversations\n2. **Archive:** Swipe left or click archive to hide (not delete)\n3. **Delete:** Long-press → Delete (permanent, use carefully)\n4. **Mark Unread:** To remind yourself to respond later\n5. **Block User:** Prevent future messages from specific user\n\n**Search:**\nUse the search bar to find conversations by name or keyword.\n\n**Settings:**\n- Auto-archive after 30 days of inactivity\n- Notifications for new messages (toggle on/off)\n- Sort by: Recent, Unread First, or Top Fans\n\n**Creator Pro Tip:**\nRespond to paid message fans first - they're your highest value customers!",
+      "confidence_score": 0.94,
+      "tags": ["inbox", "organization", "management", "archive", "filters"],
+      "related_qa_ids": ["qa_msg_001", "qa_msg_008"],
+      "suggested_actions": [
+        {
+          "label": "Go to Messages",
+          "action": "navigate",
+          "url": "/messages"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_007",
+      "question": "What are custom requests and how do they work?",
+      "question_variations": [
+        "Custom content requests",
+        "How to handle custom orders?",
+        "Fan requests for content",
+        "Custom video pricing",
+        "Special requests",
+        "Commissioned content"
+      ],
+      "answer": "Custom requests let fans order personalized content from you:\n\n**How It Works:**\n1. Fan sends you a custom request via DM\n2. You discuss details (type, length, specifics)\n3. You quote a price\n4. Fan pays upfront via 'Custom Order' button\n5. You create and deliver content\n6. Fan receives and unlocks it\n\n**Pricing Guidelines:**\n- **Photo set (10-20 photos):** $50-$150\n- **Short video (5-10 min):** $100-$300\n- **Long video (15-30 min):** $300-$800\n- **Video call (30 min):** $200-$500\n- **Complex/niche requests:** $500-$2,000+\n\n**Best Practices:**\n- Always get payment BEFORE creating content\n- Set clear boundaries in your bio\n- Under-promise, over-deliver\n- Delivery timeline: 3-7 days typical\n- Watermark custom content\n\n**Template Response:**\n'I'd love to create that for you! Custom [video/photoset] like that is [price]. If you're interested, I can create a custom order for you to purchase, then I'll get started right away! Delivery in [timeframe].'",
+      "confidence_score": 0.96,
+      "tags": ["custom-requests", "custom-content", "pricing", "commissioned"],
+      "related_qa_ids": ["qa_msg_003", "qa_msg_004"],
+      "suggested_actions": [
+        {
+          "label": "Create Custom Order",
+          "action": "navigate",
+          "url": "/custom-orders/create"
+        },
+        {
+          "label": "View Pricing Guide",
+          "action": "open_help",
+          "help_id": "custom-content-pricing"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_008",
+      "question": "How do notifications work for messages?",
+      "question_variations": [
+        "Message notifications",
+        "DM alerts",
+        "Turn off message notifications",
+        "Push notifications for messages",
+        "Email alerts for DMs",
+        "Notification settings"
+      ],
+      "answer": "Control how you're notified about new messages:\n\n**Notification Types:**\n- **Push Notifications:** Instant alerts on mobile/desktop\n- **Email:** Summary or real-time email alerts\n- **In-App:** Red badge on Messages icon\n- **SMS:** Text message alerts (premium feature)\n\n**Configure:**\n1. Go to Settings → Notifications → Messages\n2. Toggle notification types on/off\n3. Set quiet hours (e.g., 11 PM - 8 AM)\n4. Choose sound/vibration preferences\n\n**Granular Control:**\n- **All Messages:** Every new DM\n- **Paid Unlocks Only:** Only when fan pays for message\n- **Priority Only:** Starred conversations or top fans\n- **None:** Disable all (check manually)\n\n**For Creators:**\nRecommended settings:\n- Enable push for paid unlocks (don't miss revenue!)\n- Enable email digest once daily\n- Set quiet hours for work-life balance\n\n**For Fans:**\n- Enable push if you want instant creator responses\n- Disable to avoid spam from mass messages",
+      "confidence_score": 0.93,
+      "tags": ["notifications", "alerts", "settings", "push", "email"],
+      "related_qa_ids": ["qa_msg_006"],
+      "suggested_actions": [
+        {
+          "label": "Notification Settings",
+          "action": "navigate",
+          "url": "/settings/notifications"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_009",
+      "question": "Why aren't my messages being delivered?",
+      "question_variations": [
+        "Messages not sending",
+        "DM delivery failed",
+        "Messages stuck sending",
+        "Can't send messages",
+        "Message error",
+        "Delivery issues"
+      ],
+      "answer": "If your messages aren't being delivered, try these solutions:\n\n**Common Causes:**\n\n1. **You've Been Blocked**\n   - The user has blocked you\n   - Solution: Respect their decision, don't create new accounts to bypass\n\n2. **Account Restrictions**\n   - Your account is flagged for spam\n   - Solution: Contact support to review your account\n\n3. **Message Too Large**\n   - Attachments exceed 500MB\n   - Solution: Compress video or split into multiple messages\n\n4. **Network Issues**\n   - Poor connection during send\n   - Solution: Check WiFi/data, try again\n\n5. **Pending Verification**\n   - New accounts have message limits until verified\n   - Solution: Complete ID verification\n\n6. **Spam Filter**\n   - Sending too many messages too fast\n   - Solution: Slow down, wait 1 hour, resume normal pace\n\n**Troubleshooting Steps:**\n1. Check your internet connection\n2. Close and reopen the app\n3. Clear browser cache (web) or app cache (mobile)\n4. Try from different device\n5. Contact support if issue persists\n\n**If Fan Messages Aren't Reaching You:**\nCheck Settings → Privacy → Message Filtering",
+      "confidence_score": 0.91,
+      "tags": ["troubleshooting", "errors", "delivery", "blocked", "spam"],
+      "related_qa_ids": ["qa_msg_008", "qa_msg_010"],
+      "suggested_actions": [
+        {
+          "label": "Contact Support",
+          "action": "navigate",
+          "url": "/support"
+        },
+        {
+          "label": "Check Account Status",
+          "action": "navigate",
+          "url": "/settings/account"
+        }
+      ]
+    },
+    {
+      "id": "qa_msg_010",
+      "question": "How do I block or report someone?",
+      "question_variations": [
+        "Block a user",
+        "Report harassment",
+        "Stop receiving messages from someone",
+        "Report spam messages",
+        "Block and report",
+        "How to report abuse?"
+      ],
+      "answer": "Protect yourself by blocking or reporting problematic users:\n\n**To Block Someone:**\n1. Open the conversation with the user\n2. Click the 3-dot menu (⋮) in top right\n3. Select 'Block User'\n4. Confirm\n\n**What Blocking Does:**\n- They can't message you\n- They can't see your content\n- They can't subscribe to you\n- Existing subscription is cancelled (no refund to them)\n- They won't be notified they're blocked\n\n**To Report Someone:**\n1. Open the conversation\n2. Click 3-dot menu → 'Report'\n3. Select reason:\n   - Harassment or bullying\n   - Spam\n   - Inappropriate content\n   - Impersonation\n   - Other\n4. Add details (optional but helpful)\n5. Submit\n\n**What Happens:**\n- Our trust & safety team reviews (typically within 24 hours)\n- Serious violations = account suspension/ban\n- You'll receive notification of action taken\n\n**Report These Immediately:**\n- Threats of violence\n- Sharing your personal info (doxxing)\n- Illegal content\n- Underage users\n\n**You can both block AND report the same user.**",
+      "confidence_score": 0.98,
+      "tags": ["block", "report", "safety", "harassment", "spam", "abuse"],
+      "related_qa_ids": ["qa_msg_009"],
+      "suggested_actions": [
+        {
+          "label": "Safety Center",
+          "action": "navigate",
+          "url": "/safety"
+        },
+        {
+          "label": "Contact Support",
+          "action": "navigate",
+          "url": "/support"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "first_message_help",
+      "trigger_name": "First Message Welcome",
+      "condition": {
+        "page": "/messages",
+        "user_state": {
+          "messages_sent_count": 0,
+          "account_age_days": {"$lte": 7}
+        }
+      },
+      "message": "👋 Welcome to Messages! This is where you'll chat with fans and build relationships. Want a quick tour of messaging features?",
+      "action_buttons": [
+        {
+          "label": "Start Tutorial",
+          "action": "open_tutorial",
+          "tutorial_id": "messaging-101"
+        },
+        {
+          "label": "Show Me Around",
+          "action": "highlight_ui",
+          "elements": ["compose-button", "inbox-filters", "search-bar"]
+        },
+        {
+          "label": "No Thanks",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 10,
+      "frequency": "once",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "unanswered_messages_alert",
+      "trigger_name": "Unanswered Messages Reminder",
+      "condition": {
+        "page": "/dashboard",
+        "user_state": {
+          "unanswered_messages_count": {"$gte": 5},
+          "time_since_last_message_check": {"$gte": 14400}
+        }
+      },
+      "message": "📬 You have 5+ unanswered messages! Quick responses lead to 40% higher earnings. Take a moment to reply?",
+      "action_buttons": [
+        {
+          "label": "Go to Messages",
+          "action": "navigate",
+          "url": "/messages?filter=unread"
+        },
+        {
+          "label": "Remind Me in 1 Hour",
+          "action": "snooze",
+          "duration": 3600
+        }
+      ],
+      "priority": 8,
+      "frequency": "daily_max_1",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "mass_message_suggestion",
+      "trigger_name": "Mass Message Suggestion",
+      "condition": {
+        "user_state": {
+          "days_since_last_mass_message": {"$gte": 7},
+          "active_subscribers": {"$gte": 10},
+          "content_posted_this_week": {"$gte": 1}
+        }
+      },
+      "message": "💡 You posted new content this week but haven't sent a mass message in 7+ days. Send a message to boost engagement by 60%!",
+      "action_buttons": [
+        {
+          "label": "Send Mass Message",
+          "action": "navigate",
+          "url": "/messages/mass"
+        },
+        {
+          "label": "Not Now",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 6,
+      "frequency": "weekly_max_1",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "slow_response_warning",
+      "trigger_name": "Slow Response Time Alert",
+      "condition": {
+        "page": "/messages",
+        "user_state": {
+          "average_response_time_hours": {"$gte": 24},
+          "paid_message_unlocks_this_week": {"$gte": 3}
+        }
+      },
+      "message": "⚠️ Your average response time is 24+ hours. Fans who pay for messages expect faster replies. Respond within 1 hour for best results!",
+      "action_buttons": [
+        {
+          "label": "See Pending Messages",
+          "action": "navigate",
+          "url": "/messages?filter=paid-unlocks"
+        },
+        {
+          "label": "Tips for Fast Responses",
+          "action": "open_help",
+          "help_id": "response-time-tips"
+        }
+      ],
+      "priority": 9,
+      "frequency": "weekly_max_2",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "template_suggestion",
+      "trigger_name": "Message Template Suggestion",
+      "condition": {
+        "page": "/messages",
+        "user_state": {
+          "messages_sent_count": {"$gte": 20},
+          "templates_created": 0
+        }
+      },
+      "message": "💼 You've sent 20+ messages! Save time by creating message templates for common responses. Create your first template?",
+      "action_buttons": [
+        {
+          "label": "Create Template",
+          "action": "navigate",
+          "url": "/messages/templates"
+        },
+        {
+          "label": "Learn More",
+          "action": "open_help",
+          "help_id": "qa_msg_004"
+        },
+        {
+          "label": "Dismiss",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 5,
+      "frequency": "once",
+      "user_types": ["creator"]
+    }
+  ],
+  "common_errors": [
+    {
+      "error_code": "MSG_ERR_001",
+      "error_message": "Message failed to send",
+      "user_friendly_explanation": "Your message couldn't be delivered. This usually happens due to network issues or if the recipient has blocked you.",
+      "solution_steps": [
+        "Check your internet connection",
+        "Try sending again in a few minutes",
+        "If the issue persists, the user may have blocked you",
+        "Contact support if you believe this is an error"
+      ]
+    },
+    {
+      "error_code": "MSG_ERR_002",
+      "error_message": "File too large",
+      "user_friendly_explanation": "Your attachment exceeds the 500MB limit for videos or 20MB for images.",
+      "solution_steps": [
+        "Compress your video using a video compression tool",
+        "Reduce image resolution or quality",
+        "Split large content into multiple messages",
+        "For very large files, consider uploading as regular content instead"
+      ]
+    },
+    {
+      "error_code": "MSG_ERR_003",
+      "error_message": "Rate limit exceeded",
+      "user_friendly_explanation": "You're sending messages too quickly. This protection prevents spam.",
+      "solution_steps": [
+        "Wait 1 hour before sending more messages",
+        "Reduce your messaging frequency",
+        "If you're a legitimate creator, contact support to review your limits"
+      ]
+    }
+  ],
+  "contextual_help": {
+    "page_triggers": {
+      "/messages": "Show messaging basics and navigation help",
+      "/messages/mass": "Highlight mass message best practices and pricing",
+      "/messages/templates": "Guide on creating effective templates",
+      "/messages/settings": "Explain notification and privacy settings"
+    },
+    "action_triggers": {
+      "compose_first_message": "first_message_help",
+      "mass_message_page_visit": "mass_message_suggestion",
+      "template_page_visit": "template_suggestion"
+    }
+  }
+}

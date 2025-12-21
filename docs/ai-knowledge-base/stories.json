@@ -1,0 +1,276 @@
+{
+  "feature_id": "stories",
+  "feature_name": "Stories",
+  "description": "Comprehensive knowledge base for Stories feature, including creation, interactive stickers, highlights, analytics, and engagement strategies for temporary content.",
+  "last_updated": "2025-01-18",
+  "version": "1.0.0",
+  "platform": "PLATFORM_NAME",
+
+  "qa_pairs": [
+    {
+      "id": "qa_stories_001",
+      "question": "What are Stories and how do they work?",
+      "answer": "**Stories Explained:**\n\n**What are Stories?**\nStories are temporary posts that disappear after 24 hours. They appear at the top of your profile and in a dedicated Stories feed.\n\n---\n\n**Key Differences from Regular Posts:**\n\n| Feature | Regular Posts | Stories |\n|---------|--------------|--------|\n| **Duration** | Permanent | 24 hours |\n| **Format** | Any orientation | Vertical (9:16) |\n| **Location** | Main feed | Top of profile/Stories feed |\n| **Engagement** | Likes, comments, shares | Views, reactions, replies |\n| **Analytics** | Detailed stats | Views + engagement |\n| **Editing** | Can edit anytime | Can't edit after posting |\n\n---\n\n**How Stories Work:**\n\n**For Creators:**\n\n1. **Create story**: Photo, video, or text\n2. **Add enhancements**: Stickers, text, filters, music\n3. **Set privacy**: Public, subscribers only, VIP only\n4. **Post**: Story goes live immediately\n5. **Expires**: Disappears after 24 hours (unless saved to highlights)\n\n**For Viewers:**\n\n1. **See story ring**: Colorful ring around creator's profile picture\n2. **Tap to view**: Stories play in full-screen vertical format\n3. **Navigate**: Tap right/left to move between stories\n4. **Interact**: React with emojis, reply, answer polls\n5. **Swipe**: Swipe to next creator's stories or down to exit\n\n---\n\n**Why Use Stories?**\n\n**For Creators:**\n\n✅ **Casual, authentic content**\n- Show personality without perfection\n- Behind-the-scenes moments\n- No pressure for polished content\n\n✅ **Increase engagement**\n- Interactive polls, questions, quizzes\n- Direct replies from viewers\n- Higher view rates than posts\n\n✅ **Drive traffic**\n- Promote new posts\n- Announce live streams\n- Share milestones\n- Drive subscriptions\n\n✅ **Monetization**\n- Tips on stories\n- Promote tip menu\n- Subscriber-only exclusive stories\n- Cross-sell content\n\n✅ **Stay top-of-mind**\n- Appear at top of app\n- Daily connection with audience\n- Remind subscribers you're active\n\n---\n\n**How to Create Your First Story:**\n\n**Desktop:**\n1. Click your profile icon\n2. Click **+ Add Story**\n3. Upload or create content\n4. Add text, stickers, etc.\n5. Click **Post to Story**\n\n**Mobile:**\n1. Tap **Camera icon** (top left) or **Your story circle**\n2. Take photo/video or select from gallery\n3. Edit with tools\n4. Tap **Your Story** to post\n\n---\n\n**Story Features:**\n\n**Content Types:**\n- Photos (any from gallery or camera)\n- Videos (up to 60 seconds)\n- Text-only (choose background color)\n- Boomerangs (looping short videos)\n\n**Interactive Stickers:**\n- **Polls**: Ask viewers to vote\n- **Questions**: Let fans ask you anything\n- **Quizzes**: Test knowledge\n- **Countdowns**: Build anticipation\n- **Music**: Add songs\n- **Links**: Drive traffic (verified creators)\n- **Mentions**: Tag other creators\n- **Location**: Tag where you are\n\n**Editing Tools:**\n- Text overlays (multiple fonts)\n- Drawing/doodling\n- Filters and effects\n- Stickers and GIFs\n- Crop and rotate\n\n---\n\n**Story Analytics:**\n\n**Track performance:**\n1. Open your story\n2. Swipe up to see views\n3. Tap **Insights** for details:\n   - Total views\n   - Unique viewers\n   - Reactions\n   - Replies\n   - Poll/quiz responses\n   - Profile visits\n   - Completion rate\n\n---\n\n**Story Highlights:**\n\n**Preserve stories permanently:**\n- Save favorite stories to highlights\n- Appear below bio on profile\n- Organized by theme (FAQ, BTS, Q&A, etc.)\n- Customize covers for branding\n- New subscribers see your best content\n\n**How to create:**\n1. Open your story\n2. Tap **Highlight** button\n3. Select or create new highlight\n4. Story saved permanently\n\n---\n\n**Best Practices:**\n\n**Posting Frequency:**\n- 1-3 stories per day recommended\n- More than 5/day can overwhelm viewers\n- Post during peak hours (6-9 PM best)\n\n**Content Mix:**\n- 40% Personal/authentic moments\n- 30% Interactive (polls, questions)\n- 20% Promotional (new posts, tips)\n- 10% Educational/tips\n\n**Storytelling:**\n- First frame must grab attention\n- Create story arcs (hook → build → payoff)\n- Use cliffhangers to keep viewers coming back\n- Be authentic - imperfect is perfect\n\n**Monetization:**\n- Use public stories to attract subscribers\n- Subscriber-only stories add subscription value\n- Promote tips and tip menu\n- Announce new paid content\n- Drive traffic to live streams\n\n---\n\n**Story Specs:**\n\n**Technical:**\n- Recommended: 1080 x 1920 pixels (9:16 ratio)\n- Max video: 500 MB, 60 seconds\n- Max photo: 50 MB\n- Supported formats: JPG, PNG, MP4, MOV\n- Expires after 24 hours\n\n---\n\n**Common Questions:**\n\n**Can non-subscribers see my stories?**\n- Yes, if you set privacy to \"Public\"\n- Great for attracting new subscribers\n- Can also limit to subscribers only\n\n**Can I edit a story after posting?**\n- No, stories can't be edited once posted\n- Can delete and repost if needed\n- Preview carefully before posting\n\n**Do I get notified when someone views my story?**\n- You can see full list of viewers\n- Settings to get notifications for views/reactions\n- Swipe up on your story to see who viewed\n\n**Can I save my stories?**\n- Yes, automatically saved to archive\n- Can download to device before expiring\n- Save to highlights for permanent display\n\n---\n\n**Pro Tips:**\n\n🎯 Post 1-3 stories daily to stay top-of-mind\n🎯 Use interactive stickers to boost engagement\n🎯 First frame is crucial - make it eye-catching\n🎯 Mix promotional and personal content\n🎯 Respond to story replies to build relationships\n🎯 Save best stories to highlights\n🎯 Check analytics to learn what works\n🎯 Use stories to drive traffic to posts and streams\n\n**Stories are one of the highest-engagement features!** Use them daily to build a loyal, active community.",
+      "question_variations": [
+        "what are stories",
+        "how do stories work",
+        "explain stories feature",
+        "how to use stories",
+        "what's the difference between stories and posts",
+        "stories vs posts",
+        "how long do stories last",
+        "do stories disappear"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_stories_002",
+        "qa_stories_003",
+        "qa_stories_004"
+      ],
+      "tags": ["stories", "getting-started", "basics", "temporary-content", "engagement"]
+    },
+    {
+      "id": "qa_stories_002",
+      "question": "How do I create a story?",
+      "answer": "**Step-by-Step: Creating Your Story**\n\n**Method 1: Desktop**\n\n**Step 1: Access Stories**\n1. Click your **profile icon** at top of screen\n2. Click **+ Add Story** button\n\n**Step 2: Choose Content**\n- **Upload photo/video**: Click gallery icon, select file\n- **Use webcam**: Click camera icon, take photo\n- **Create text story**: Click \"Aa\" icon, type message, choose background\n\n**Step 3: Edit & Enhance**\n- **Add text**: Click text tool, type, choose font/color\n- **Add stickers**: Click sticker icon, browse and select\n- **Draw**: Click pen icon, draw freehand\n- **Add filters**: Apply beauty filters, color adjustments\n- **Add music**: Click music icon, search and select song\n\n**Step 4: Set Privacy**\nChoose who can see:\n- **Public**: Anyone (even non-subscribers)\n- **All Subscribers**: Only your subscribers\n- **VIP Subscribers**: Only VIP tier\n- **Custom**: Select specific subscribers\n\n**Step 5: Post**\n1. Review your story\n2. Click **Post to Story**\n3. Story goes live immediately\n4. Notification sent to subscribers (if enabled)\n\n---\n\n**Method 2: Mobile App**\n\n**Quick Create:**\n1. Tap **Camera icon** (top left) or **Your story circle** at top of feed\n2. Options:\n   - **Capture**: Tap button for photo, hold for video\n   - **Gallery**: Swipe up to select existing photo/video\n   - **Text**: Tap \"Aa\" for text-only story\n\n**Camera Features:**\n- Switch camera: Flip icon (front/back)\n- Flash: Lightning bolt icon\n- Timer: Clock icon (3 or 10 second delay)\n- Filters: Swipe left/right before capturing\n- Boomerang: Select mode for looping video\n\n**Editing:**\n- **Text**: Tap \"Aa\", type, drag to position\n- **Stickers**: Tap sticker icon, select, pinch to resize\n- **Drawing**: Tap pen icon, choose color, draw\n- **Music**: Tap music note, search song, select 15-second clip\n\n**Post:**\n1. Tap **Your Story** button (bottom)\n2. Story posts immediately\n3. Appears in story ring on your profile\n\n---\n\n**Content Type Options:**\n\n**1. Photo Story**\n- Take photo with camera or upload\n- Best for: Moments, outfits, locations\n- Quick and easy\n\n**2. Video Story**\n- Record up to 60 seconds\n- Tap for photo, hold for video\n- Can record hands-free (tap once to start/stop)\n- Best for: Talking to camera, showing process, tours\n\n**3. Text-Only Story**\n- Click \"Aa\" or text icon\n- Type your message\n- Choose background color (solid or gradient)\n- Adjust font style and size\n- Best for: Quotes, announcements, thoughts\n\n**4. Boomerang**\n- Select Boomerang mode\n- Record 1-3 seconds\n- Loops forward and backward automatically\n- Best for: Fun, dynamic moments\n\n**5. Multi-Frame Story**\n- Post multiple stories in sequence\n- Create first → post → immediately create next\n- Up to 10 frames in one session\n- Best for: Tutorials, photo series, longer narratives\n\n---\n\n**Interactive Stickers to Add:**\n\n**Poll Sticker:**\n1. Tap sticker icon → Poll\n2. Write question: \"What should I post next?\"\n3. Add two options: \"Photos\" | \"Videos\"\n4. Place on story\n5. Viewers tap to vote\n\n**Question Sticker:**\n1. Tap sticker icon → Question\n2. Default: \"Ask me anything\" (or customize)\n3. Place on story\n4. Viewers type questions\n5. You receive all questions to answer\n\n**Quiz Sticker:**\n1. Tap sticker icon → Quiz\n2. Write question and 2-4 answers\n3. Mark correct answer\n4. Viewers test their knowledge\n\n**Countdown Sticker:**\n1. Tap sticker icon → Countdown\n2. Name event: \"New content dropping!\"\n3. Set end date/time\n4. Automatically counts down\n\n**Music Sticker:**\n1. Tap sticker icon → Music\n2. Search song library\n3. Select song and 15-second clip\n4. Position on story\n\n**Link Sticker** (verified creators):\n1. Tap sticker icon → Link\n2. Enter URL\n3. Customize link text\n4. Drives traffic to external sites or posts\n\n**Mention Sticker:**\n1. Type @username or tap mention sticker\n2. Search creator\n3. Select to tag them\n4. They receive notification\n\n**Location Sticker:**\n1. Tap sticker icon → Location\n2. Search for place\n3. Select from results\n4. Tags your location\n\n---\n\n**Editing Tools:**\n\n**Text:**\n- Multiple fonts available\n- Color picker for text\n- Background options (none, solid, outlined)\n- Alignment (left, center, right)\n- Drag to reposition\n\n**Drawing:**\n- Pen tool (solid line)\n- Highlighter (transparent)\n- Neon effect\n- Multiple colors\n- Size adjustment\n- Eraser tool\n\n**Filters:**\n- Beauty filters (smooth skin, enhance features)\n- Color filters (vintage, black & white, warm, cool)\n- Brightness/contrast adjustments\n\n**Stickers & GIFs:**\n- Thousands of stickers available\n- Search by keyword\n- Animated GIFs\n- Emojis\n- Drag to position, pinch to resize\n\n---\n\n**Privacy Settings:**\n\n**Who can see this story:**\n\n**Public:**\n- Anyone can see, even non-subscribers\n- Great for attracting new audience\n- Appears in public story feed\n\n**All Subscribers:**\n- Only people subscribed to you\n- Any subscription tier\n\n**VIP Subscribers:**\n- Only specific tier(s)\n- Premium content for top supporters\n- Adds value to VIP subscription\n\n**Custom:**\n- Select specific individuals\n- Create custom lists\n- For targeted content\n\n**Hide from specific users:**\n- Settings → Privacy → Hide Story From\n- Select users to block from seeing stories\n- They won't know they're hidden\n\n---\n\n**Before Posting Checklist:**\n\n☑ **First frame grabs attention** (if multi-frame)\n☑ **Text is readable** (high contrast with background)\n☑ **Interactive stickers added** (poll, question, etc.)\n☑ **Privacy setting correct** (public vs. subscriber-only)\n☑ **Proofread** text for typos\n☑ **Music/links working** properly\n☑ **Preview** how story looks\n\n---\n\n**Advanced Tips:**\n\n**Story Templates:**\n- Use pre-made templates for professional look\n- Click Templates → Browse categories\n- Customize with your content\n- Faster creation, consistent branding\n\n**Add to Highlight:**\n- Before posting, toggle \"Add to Highlight\"\n- Choose existing or create new highlight\n- Story permanently saved to profile\n\n**Schedule Stories** (if available on platform):\n- Create story in advance\n- Schedule posting time\n- Auto-posts at designated time\n\n**Collaborate:**\n- Mention other creators for cross-promotion\n- Tag locations for discoverability\n- Use trending music/sounds\n\n---\n\n**Common Mistakes to Avoid:**\n\n❌ **Poor lighting**: Use natural light or ring light\n❌ **Too much text**: Keep text brief and readable\n❌ **Wrong orientation**: Always shoot vertical (9:16)\n❌ **Cluttered**: Don't overuse stickers/text\n❌ **No interaction**: Add at least one interactive sticker\n❌ **Boring first frame**: Hook viewers immediately\n❌ **Forgetting CTA**: Include call-to-action (subscribe, tip, etc.)\n\n---\n\n**Technical Specs:**\n\n**Recommended:**\n- **Dimensions**: 1080 x 1920 pixels (9:16 ratio)\n- **Video**: Max 500 MB, 60 seconds\n- **Photo**: Max 50 MB\n- **Formats**: JPG, PNG, MP4, MOV\n\n---\n\n**After Posting:**\n\n**Monitor Performance:**\n- Swipe up on your story to see views\n- Tap Insights for detailed analytics\n- Check reactions and replies\n\n**Respond to Replies:**\n- Story replies go to DMs\n- Respond within 24 hours for best engagement\n- Build relationships with engaged viewers\n\n**Save to Highlight:**\n- If story performs well, add to highlight\n- Preserves beyond 24 hours\n- New subscribers can see it\n\n**Download:**\n- Tap ••• → Download\n- Saves to device before expiring\n- Keep for records or reuse later\n\n---\n\n**Quick Start:**\n\n**Your First Story (5 minutes):**\n1. Open camera/select photo\n2. Add text: \"Hey! Just testing out stories! 👋\"\n3. Add poll sticker: \"Do you like seeing stories from me?\" (Yes/No)\n4. Set privacy: Public (to get more views)\n5. Post!\n6. Check views after 1-2 hours\n\n**Simple and done!** You'll improve with each story you create.",
+      "question_variations": [
+        "how to create a story",
+        "how to post a story",
+        "create my first story",
+        "how do I make a story",
+        "post story on platform",
+        "add story",
+        "upload story",
+        "story creation tutorial"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_stories_001",
+        "qa_stories_003",
+        "qa_stories_005"
+      ],
+      "tags": ["story-creation", "how-to", "tutorial", "posting", "content-creation"]
+    },
+    {
+      "id": "qa_stories_003",
+      "question": "What are Story Highlights and how do I create them?",
+      "answer": "**Story Highlights Explained:**\n\n**What are Highlights?**\n\nStory Highlights preserve your stories **permanently** on your profile, even after the 24-hour expiration.\n\n**Key Features:**\n- Stories normally disappear after 24 hours\n- Highlights save them forever\n- Appear below your bio on profile\n- Displayed as circles with custom covers\n- Organized by theme/topic\n- Fans tap to view saved stories\n\n**Where they appear:**\n- Profile page (below bio section)\n- As circular thumbnails in a row\n- Scrollable if you have many highlights\n\n---\n\n**Why Create Highlights?**\n\n**For Creators:**\n\n✅ **Preserve best content**\n- Save your best stories beyond 24 hours\n- Create evergreen content library\n- No more disappearing valuable content\n\n✅ **Showcase personality**\n- New subscribers see who you are\n- First impression for profile visitors\n- Shows content style and vibe\n\n✅ **Organize by theme**\n- FAQ highlight: Common questions answered\n- Behind-the-scenes: BTS content\n- Tips & tutorials: Educational content\n- Q&As: Past Q&A sessions\n\n✅ **Reduce repetitive questions**\n- Create FAQ highlight\n- Direct fans to it for common questions\n- Saves time answering same questions\n\n✅ **Professional presentation**\n- Custom covers for branding\n- Organized, clean profile\n- Shows you're established and professional\n\n✅ **Monetization**\n- Testimonials highlight: Fan reviews\n- Tip menu highlight: Show offerings\n- Subscriber benefits: What they get\n\n---\n\n**How to Create Highlights:**\n\n**Method 1: During Story Creation (Easiest)**\n\n**Before posting story:**\n1. Create your story as normal\n2. Before clicking \"Post,\" toggle **Add to Highlight**\n3. Choose:\n   - **Existing highlight**: Select from dropdown\n   - **New highlight**: Create new one\n4. Name highlight if new (e.g., \"FAQ\", \"Behind the Scenes\")\n5. Post story\n6. Story automatically saved to selected highlight\n\n**Method 2: From Active Story (Within 24 Hours)**\n\n**While story is still live:**\n1. Go to your profile\n2. Tap your **story ring** to view stories\n3. Navigate to story frame you want to highlight\n4. Tap **Highlight** button (usually star icon)\n5. Select existing highlight or create new\n6. Name new highlight if creating\n7. Tap **Add** or **Done**\n8. Story saved to highlight\n\n**Method 3: From Story Archive (After Expiration)**\n\n**After story expired:**\n1. Go to **Profile → Settings → Archive → Stories**\n2. Browse archived stories\n3. Find story frame(s) you want\n4. Tap story\n5. Tap **Highlight** button\n6. Select or create highlight\n7. Add to highlight\n\n**Even expired stories can be recovered from archive and added to highlights!**\n\n---\n\n**Organizing Highlights by Theme:**\n\n**Popular Highlight Categories:**\n\n**FAQ** 📋\n- Frequently asked questions\n- Common inquiries answered\n- Pricing, services, availability\n\n**Behind the Scenes** 🎬\n- Content creation process\n- Photoshoot setups\n- Daily routines\n- Equipment and workspace\n\n**Tips & Tutorials** 💡\n- How-to content\n- Advice for fans\n- Educational content\n- Industry insights\n\n**Q&As** 💬\n- Past Q&A sessions\n- Answered questions from fans\n- Get-to-know-me content\n\n**Testimonials** ⭐\n- Fan reviews and feedback\n- Positive comments\n- Success stories\n- Social proof\n\n**Day in the Life** 📅\n- Daily routines\n- Morning/evening rituals\n- Typical day content\n\n**Throwbacks** 📸\n- Old photos and memories\n- Before/after content\n- Journey and growth\n\n**Announcements** 📢\n- Important updates\n- Platform changes\n- New offerings\n- Milestones\n\n**Tip Menu** 💰\n- Custom content offerings\n- Pricing for services\n- What fans can request\n\n**About Me** 👋\n- Introduction\n- Hobbies and interests\n- Personal information\n- Getting to know you\n\n---\n\n**Customizing Highlight Covers:**\n\n**Option 1: Use Story Frame as Cover**\n\n1. Tap and hold highlight\n2. Select **Edit Highlight**\n3. Tap **Edit Cover**\n4. Swipe through story frames in that highlight\n5. Select which frame to use as cover\n6. Tap **Done**\n\n**Pros:**\n- Quick and easy\n- Authentic look\n- No design work needed\n\n**Cons:**\n- May not be cohesive branding\n- Quality depends on story frame\n\n---\n\n**Option 2: Upload Custom Cover (Recommended)**\n\n**Design custom covers for professional look:**\n\n**Specs:**\n- **Dimensions**: 1080 x 1920 pixels (same as stories)\n- **Format**: JPG or PNG\n- **Design**: Icon or text representing highlight theme\n\n**Design Tips:**\n\n**Consistent Branding:**\n- Use same background color for all covers\n- Consistent font for text labels\n- Matching style/aesthetic\n- Professional appearance\n\n**Clear Labels:**\n- Simple text: \"FAQ\", \"BTS\", \"Q&A\"\n- Icons representing theme (lightbulb for tips, speech bubble for Q&A)\n- Easy to understand at a glance\n\n**High Contrast:**\n- Text readable even in small circular thumbnail\n- Dark text on light background or vice versa\n- Not too busy or cluttered\n\n**Example Color Scheme:**\n- All covers: Soft pink background\n- White text labels\n- Simple icons in white\n- Cohesive, branded look\n\n**Design Tools:**\n- Canva (has Story Highlight templates)\n- Adobe Express\n- Over app\n- Unfold app\n- Photoshop (if experienced)\n\n**How to Upload Custom Cover:**\n1. Design cover (1080x1920px)\n2. Save to device\n3. Tap and hold highlight → Edit\n4. Tap **Edit Cover**\n5. Scroll left to **Add from Gallery**\n6. Select your custom cover image\n7. Position (cover shows as circular, so center important elements)\n8. Tap **Done**\n\n---\n\n**Managing Highlights:**\n\n**Edit Highlight:**\n\n1. Tap and hold highlight on profile\n2. Select **Edit Highlight**\n3. Options:\n   - **Rename**: Change highlight name\n   - **Change Cover**: Select new cover image\n   - **Add Stories**: Browse archive and add more\n   - **Remove Stories**: Uncheck stories to remove\n   - **Reorder Stories**: Drag to change sequence\n4. Tap **Done** to save\n\n**Delete Highlight:**\n\n1. Tap and hold highlight\n2. Select **Delete Highlight**\n3. Confirm deletion\n4. **Note**: Stories not deleted, just removed from highlight\n5. Stories remain in archive, can be re-added later\n\n**Reorder Highlights:**\n\n1. Tap and hold highlight\n2. Select **Reorder**\n3. Drag highlights to change position\n4. Order you set is how they appear on profile\n5. **Recommended order**: Most important first (FAQ, About Me)\n\n**Archive Highlight:**\n\nSome platforms allow \"archiving\" highlights:\n- Removes from profile without deleting\n- Can restore later\n- Settings → Highlights → Archive\n\n---\n\n**Highlight Strategy:**\n\n**Recommended Highlight Structure:**\n\n**For New Creators (Start with 3-5):**\n1. **About Me** - Introduction to who you are\n2. **FAQ** - Common questions answered\n3. **Content Preview** - Examples of your content\n4. **Tip Menu** - What fans can request\n5. **Testimonials** - Social proof (if you have any)\n\n**For Established Creators (5-10):**\n1. About Me\n2. FAQ\n3. Behind the Scenes\n4. Q&As\n5. Tips & Tutorials\n6. Day in the Life\n7. Tip Menu\n8. Testimonials\n9. Announcements\n10. Fun/Personal\n\n**Don't Overdo It:**\n- Too many highlights looks cluttered\n- 5-8 is ideal\n- Quality over quantity\n- Archive old/outdated highlights\n\n---\n\n**What to Include in Each Highlight:**\n\n**FAQ Highlight:**\n- Subscription pricing\n- What subscribers get\n- Custom content availability\n- Posting schedule\n- Response times\n- Boundaries and policies\n\n**About Me Highlight:**\n- Introduction and welcome\n- Hobbies and interests\n- Fun facts\n- Why you're on the platform\n- What makes you unique\n\n**Behind the Scenes Highlight:**\n- Content creation process\n- Equipment you use\n- Setting up photoshoots\n- Editing process\n- Workspace/studio\n\n**Q&A Highlight:**\n- Best questions from past Q&A sessions\n- Personal answers\n- Fun rapid-fire Q&As\n- \"Ask me anything\" responses\n\n**Testimonials Highlight:**\n- Screenshots of fan compliments\n- Positive feedback\n- Five-star reviews\n- Success stories\n- \"Thank you\" messages from fans\n\n---\n\n**Updating Highlights:**\n\n**Keep highlights fresh:**\n- Review every 1-3 months\n- Remove outdated information\n- Add new stories that performed well\n- Update covers if rebranding\n- Remove highlights no longer relevant\n\n**Seasonal Updates:**\n- Holiday-themed highlights (temporarily)\n- Special events\n- Limited-time offerings\n- Archive after season ends\n\n---\n\n**Highlights for Monetization:**\n\n**Subscriber Conversion:**\n\nCreate highlights that convert visitors to subscribers:\n\n1. **Teaser Highlight**:\n   - Preview subscriber-only content\n   - \"See more when you subscribe!\"\n   - Show value without giving everything away\n\n2. **Testimonials**:\n   - Happy subscriber feedback\n   - Value propositions\n   - Social proof\n\n3. **Benefits Highlight**:\n   - What subscribers get\n   - Exclusive perks\n   - Subscriber-only content examples\n\n4. **Tip Menu**:\n   - Custom content offerings\n   - Clear pricing\n   - Examples of fulfilled requests\n\n---\n\n**Technical Tips:**\n\n**Story Auto-Archive:**\n- Settings → Stories → Archive\n- Toggle ON to automatically save all stories\n- Access archived stories anytime\n- Add to highlights even after expiration\n\n**Download Before Highlighting:**\n- If story frame is particularly good, download it\n- Backup in case of technical issues\n- Can reuse in other content\n\n**Multiple Stories Per Highlight:**\n- Each highlight can contain many story frames\n- No strict limit (but keep manageable, 10-20 per highlight max)\n- Viewers tap through like regular stories\n\n---\n\n**Common Questions:**\n\n**Can I add someone else's story to my highlights?**\n- No, only your own stories\n- Can screenshot and repost (with permission)\n\n**Do highlights expire?**\n- No, they stay permanently until you delete\n\n**Can I see who views my highlights?**\n- No, highlight views aren't tracked like active story views\n- Only active 24-hour stories show viewer lists\n\n**Can I move stories between highlights?**\n- Yes, edit highlight and remove from one, add to another\n- Or story can exist in multiple highlights\n\n---\n\n**Quick Action Plan:**\n\n**This Week:**\n1. Create \"About Me\" highlight with 3-5 story frames introducing yourself\n2. Create \"FAQ\" highlight answering 5-10 common questions\n3. Design 2 custom covers for these highlights (or use Canva templates)\n\n**This Month:**\n4. Add 2-3 more highlights (Behind the Scenes, Testimonials, Tips)\n5. Consistently add good stories to relevant highlights\n6. Review and update highlight covers for consistent branding\n\n**Ongoing:**\n7. Every time you post a story that performs well or has evergreen value, add to highlight\n8. Review highlights monthly and remove outdated content\n9. Keep 5-8 active highlights on profile\n\n**Highlights transform your profile from temporary to permanent content showcase!**",
+      "question_variations": [
+        "what are story highlights",
+        "how to create highlights",
+        "how do highlights work",
+        "save stories permanently",
+        "story highlights tutorial",
+        "add story to highlight",
+        "organize story highlights",
+        "custom highlight covers"
+      ],
+      "confidence_score": 0.99,
+      "related_questions": [
+        "qa_stories_001",
+        "qa_stories_002",
+        "qa_stories_004"
+      ],
+      "tags": ["highlights", "story-preservation", "organization", "branding", "profile"]
+    },
+    {
+      "id": "qa_stories_004",
+      "question": "How can I use stories to get more engagement and subscribers?",
+      "answer": "**Using Stories to Boost Engagement & Subscribers:**\n\n**Why Stories Drive Engagement:**\n\n- **Appear at top of app** (prime real estate)\n- **Interactive features** built-in (polls, questions, quizzes)\n- **Lower barrier** than posts (casual, quick consumption)\n- **FOMO** (disappear after 24 hours)\n- **Higher view rates** than posts (50-80% of subscribers view stories)\n- **Direct replies** start conversations\n\n**Average story views: 50-80% of subscriber count**\n**Average post views: 20-40% of subscriber count**\n\n**Stories get 2-3x more views than posts!**\n\n---\n\n**Strategy 1: Interactive Stickers (Highest Engagement)**\n\n**Poll Stickers:**\n\n**Examples that drive engagement:**\n\n- \"What content should I create next?\" (Photos | Videos)\n- \"Which outfit?\" (Option A | Option B)\n- \"When should I go live?\" (Tonight | Tomorrow)\n- \"Rate this photo:\" (Fire 🔥 | Meh 😐)\n\n**Why polls work:**\n- One-tap participation (easy)\n- Instant gratification (see results)\n- Fans feel involved in decisions\n- Creates investment in your content\n\n**Best practices:**\n- Ask genuine questions (actually use feedback)\n- Share results: \"You chose photos! New set dropping tonight!\"\n- Follow through on poll outcomes\n\n---\n\n**Question Stickers:**\n\n**Examples:**\n\n- \"Ask me anything! 👇\"\n- \"What do you want to know about me?\"\n- \"Questions for my next Q&A?\"\n- \"Advice question? Send them!\"\n- \"What content are you hoping to see?\"\n\n**Why question stickers work:**\n- Fans love being heard\n- Creates personal connection\n- Generates content ideas\n- Shows you care about their input\n\n**Follow-up strategy:**\n1. Collect questions throughout day\n2. Answer best 5-10 in new stories\n3. Tag the person who asked: \"Great question from @username!\"\n4. Creates gratitude and more engagement\n\n---\n\n**Quiz Stickers:**\n\n**Examples:**\n\n- \"How well do you know me? 🤔\"\n- \"Where was this photo taken?\"\n- \"What year did I start creating content?\"\n- \"Guess my favorite [food/color/movie]?\"\n\n**Why quizzes work:**\n- Gamification increases participation\n- Fans want to test knowledge\n- Share correct answers = social status\n- Fun, light-hearted engagement\n\n**Pro tip:**\n- Easy questions (80% get right) make fans feel smart\n- Reveal fun facts in correct answers\n\n---\n\n**Countdown Stickers:**\n\n**Examples:**\n\n- \"Going live in...\" ⏰\n- \"New content dropping...\" 📅\n- \"Special announcement...\" 🎉\n- \"Sale ends in...\" 💸\n\n**Why countdowns work:**\n- Build anticipation\n- Create urgency\n- Fans can set reminders\n- FOMO drives action\n\n**Best for:**\n- Live stream announcements (countdown to start)\n- New content releases\n- Limited-time promotions\n- Special events\n\n---\n\n**Strategy 2: Posting Frequency & Timing**\n\n**Optimal Frequency:**\n\n| Goal | Stories/Day | Strategy |\n|------|------------|----------|\n| **Build Awareness** | 3-5 | More visibility, stay top-of-mind |\n| **Drive Engagement** | 2-3 | Quality over quantity, higher completion |\n| **Subscriber Growth** | 3-4 | Mix promotional + personal |\n\n**More than 5/day:**\n- Viewer fatigue\n- Lower completion rates\n- Overwhelming\n\n**Less than 1/day:**\n- Out of sight, out of mind\n- Competitors stay visible\n- Miss engagement opportunities\n\n**Sweet spot: 2-3 stories per day**\n\n---\n\n**Best Posting Times:**\n\n**Data-backed optimal times:**\n\n**Weekdays:**\n- **Morning** (7-9 AM): 30% engagement rate\n- **Lunch** (12-1 PM): 40% engagement rate\n- **Evening** (6-9 PM): 🔥 **60% engagement rate** (BEST)\n- **Night** (9-11 PM): 50% engagement rate\n\n**Weekends:**\n- **Late morning** (10 AM-12 PM): 55% engagement\n- **Afternoon** (2-4 PM): 45% engagement\n- **Evening** (7-10 PM): 60% engagement\n\n**Peak time: 6-9 PM every day**\n\n**Strategy:**\n- Post 1 story in morning (teaser/greeting)\n- Post 1-2 stories in evening (main content + interaction)\n- Spread throughout day for maximum reach\n\n---\n\n**Strategy 3: Content Mix (40/30/20/10 Rule)**\n\n**40% Personal/Authentic:**\n- Behind-the-scenes\n- Daily life moments\n- Unfiltered, casual content\n- Pet/hobby content\n- Coffee/meal moments\n- \"Real talk\" moments\n\n**Why:** Builds connection, makes you relatable, fans feel they \"know\" you\n\n**30% Interactive:**\n- Polls\n- Questions\n- Quizzes\n- \"This or that\"\n- Rating requests\n- Advice questions\n\n**Why:** Directly drives engagement, creates two-way conversation\n\n**20% Promotional:**\n- New post announcements\n- Live stream reminders\n- Tip menu highlights\n- Subscription promotions\n- New content teasers\n\n**Why:** Drives revenue and traffic to monetized content\n\n**10% Educational/Value:**\n- Tips and tricks\n- Industry insights\n- How-to content\n- Advice for fans\n- Learning content\n\n**Why:** Positions you as expert, adds value beyond entertainment\n\n**Balance is key!** Too much promotional = unfollows. Too little = missed revenue.\n\n---\n\n**Strategy 4: Subscriber Conversion (Public Stories)**\n\n**Use public stories to attract subscribers:**\n\n**Step 1: Set story privacy to \"Public\"**\n- Non-subscribers can view\n- Wider reach\n- Discovery opportunity\n\n**Step 2: Create teaser content**\n\nExamples:\n- Photo with blur/crop: \"Full photo for subscribers only! 😏\"\n- Video clip: \"This is just a taste... subscribe for full videos!\"\n- Behind-the-scenes: \"Subscribers get to see the final result!\"\n\n**Step 3: Clear CTA (Call-to-Action)**\n\n\"Swipe up to subscribe!\" (with link if available)\n\"Link in bio to join! 💕\"\n\"Tap profile to subscribe and see more!\"\n\n**Step 4: Show value**\n\n\"Subscribers get:\n✅ 10+ posts per week\n✅ Exclusive DM access\n✅ Behind-the-scenes content\n✅ Early access to new content\n\nOnly $X/month!\"\n\n**Step 5: Social proof**\n\n\"Join X,XXX happy subscribers! ⭐\"\n\"95% renewal rate - subscribers love it!\"\nScreenshot testimonials from fans\n\n---\n\n**Strategy 5: Story Highlights for New Visitors**\n\n**Optimize highlights to convert profile visitors:**\n\n**Essential highlights:**\n\n1. **About Me** (First impression)\n   - Who you are\n   - What you offer\n   - Why subscribe\n\n2. **Subscriber Benefits** (Value proposition)\n   - What they get\n   - Exclusive perks\n   - Pricing\n\n3. **Testimonials** (Social proof)\n   - Fan reviews\n   - Positive feedback\n   - Happy subscribers\n\n4. **FAQ** (Answer objections)\n   - Common questions\n   - Clear policies\n   - What to expect\n\n5. **Content Preview** (Show quality)\n   - Example posts (blurred/teased)\n   - Behind-the-scenes\n   - Your content style\n\n**New visitor journey:**\nVisit profile → See highlights → Understand value → Subscribe\n\n---\n\n**Strategy 6: Respond to All Story Replies**\n\n**Why response rate matters:**\n\n- Fans who get responses engage 3x more\n- Creates personal connection\n- Builds loyalty\n- Increases likelihood of tips/subscriptions\n- Word-of-mouth marketing (\"She actually responds!\")\n\n**Response strategy:**\n\n**Within 1-2 hours:**\n- High-engagement fans (frequent commenters)\n- Potential tippers/subscribers\n- Thoughtful/long messages\n\n**Within 24 hours:**\n- All other replies\n- Even simple reactions deserve acknowledgment\n\n**Response templates:**\n\nSimple reply: \"Thank you! 💕\"\nPoll response: \"Great choice! That's what we're doing!\"\nQuestion: Thoughtful answer + follow-up question\nCompliment: \"You're so sweet! Made my day! 😊\"\n\n**Pro tip:** Responding quickly trains fans to keep replying to your stories.\n\n---\n\n**Strategy 7: Drive Traffic to Posts & Live Streams**\n\n**For new posts:**\n\n**Story 1** (Morning): \"New post dropping at 8 PM tonight! Who's excited? 🙋\"\n**Story 2** (6 PM): \"2 hours until new post! Setting reminder... ⏰\"\n**Story 3** (8 PM): \"NEW POST IS LIVE! 🔥 Link in bio! Go check it out!\"\n**Story 4** (Next day): \"Did you see yesterday's post? Go check it if you missed it!\"\n\n**Result:** 2-3x more views/engagement on post\n\n**For live streams:**\n\n**Day before:** \"Going live tomorrow at 8 PM! What should we talk about?\" (poll)\n**Day of (morning):** \"Live stream tonight at 8! Can't wait to see you there!\"\n**1 hour before:** Countdown sticker + \"Starting soon!\"\n**Going live:** \"GOING LIVE NOW! Join me!\" (with link)\n\n**Result:** 3-5x more live stream viewers\n\n---\n\n**Strategy 8: Storytelling & Cliffhangers**\n\n**Keep viewers coming back:**\n\n**Example story arc:**\n\n**Frame 1:** \"You won't believe what happened today...\"\n**Frame 2:** \"So I was at the store and...\"\n**Frame 3:** \"...then this happened!\" (show event)\n**Frame 4:** \"Part 2 coming in my next story! 👀\"\n\n**Later:**\n**Frame 5:** \"Okay, here's part 2...\"\n**Frame 6:** (Resolution + CTA) \"If you liked this story, subscribe for more daily content!\"\n\n**Why it works:**\n- Creates anticipation\n- Viewers check back for updates\n- Increases story views\n- More opportunities to see CTAs\n\n---\n\n**Strategy 9: Cross-Promote Other Content**\n\n**Mention other platforms:**\n- \"Also on Instagram/TikTok @username\"\n- \"Check out my YouTube for longer videos!\"\n- \"Twitter for quick updates\"\n\n**Benefits:**\n- Grow all platforms simultaneously\n- Diversify audience\n- Funnel traffic to highest-earning platform\n\n---\n\n**Strategy 10: Track & Optimize**\n\n**Analyze story performance:**\n\n**Metrics to track:**\n1. **View count** (aim for 50-80% of subscribers)\n2. **Completion rate** (aim for 60%+)\n3. **Replies** (aim for 5%+)\n4. **Poll responses** (aim for 20-30%)\n5. **Profile visits from stories** (conversion indicator)\n6. **Swipe-ups/link clicks** (if available)\n\n**A/B Testing:**\n\n**Test 1: Timing**\n- Week 1: Post at 8 AM\n- Week 2: Post at 8 PM\n- Compare engagement\n\n**Test 2: Content Type**\n- Day 1: Photo story\n- Day 2: Video story\n- Day 3: Text story\n- Compare completion rates\n\n**Test 3: Sticker Type**\n- Story 1: Poll\n- Story 2: Question\n- Story 3: Quiz\n- Compare response rates\n\n**Double down on what works!**\n\n---\n\n**Quick Action Plan:**\n\n**This Week:**\n1. Post 2-3 stories daily (morning + evening)\n2. Include at least 1 interactive sticker per day\n3. Create 1 public story to attract subscribers\n4. Respond to ALL story replies within 24 hours\n5. Check analytics to see what performs best\n\n**This Month:**\n6. Build story highlights (About, FAQ, Testimonials)\n7. Use stories to promote every new post\n8. Run 1 poll per day for 7 days straight\n9. Test different posting times\n10. Track subscriber growth from stories\n\n**Ongoing:**\n11. Maintain 2-3 stories/day consistency\n12. 40/30/20/10 content mix\n13. Always include CTA for subscriptions/tips\n14. Engage with every reply\n15. Analyze and optimize monthly\n\n**Stories are your secret weapon for growth!** Use them consistently and strategically to build loyal, engaged community.",
+      "question_variations": [
+        "how to get more engagement with stories",
+        "use stories to grow subscribers",
+        "story engagement strategies",
+        "get more story views",
+        "convert followers to subscribers with stories",
+        "story best practices for growth",
+        "increase story engagement"
+      ],
+      "confidence_score": 0.98,
+      "related_questions": [
+        "qa_stories_001",
+        "qa_stories_002",
+        "qa_stories_003"
+      ],
+      "tags": ["engagement", "growth", "subscribers", "strategy", "conversion", "monetization"]
+    }
+  ],
+
+  "proactive_triggers": [
+    {
+      "trigger_id": "never_posted_story",
+      "condition": "account_age > 7_days AND total_stories_posted == 0",
+      "message": "📱 **Try Stories to Boost Engagement!**\n\nYou haven't posted a story yet. Stories get 2-3x more views than regular posts!\n\n**Why use stories:**\n- Appear at top of app (prime visibility)\n- Interactive features (polls, questions, quizzes)\n- Build daily connection with subscribers\n- Drive traffic to posts and live streams\n- Casual, authentic content\n\n**Quick start:**\n1. Tap camera icon → Take photo or select from gallery\n2. Add text: \"Hey! Testing out stories! 👋\"\n3. Add poll: \"Do you like seeing stories?\" (Yes/No)\n4. Post!\n\n[Create First Story] [Watch Tutorial] [Dismiss]",
+      "priority": "medium",
+      "frequency": "once_per_user",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "low_story_completion_rate",
+      "condition": "stories_posted_last_30_days > 10 AND avg_completion_rate < 0.50",
+      "message": "📊 **Your Story Completion Rate is Low**\n\nOnly [X]% of viewers watch your stories to the end (average: 60%+).\n\n**Why viewers drop off:**\n- Too many stories at once (keep to 3-5 max)\n- Boring first frame (hook attention immediately)\n- No interactive elements (add polls, questions)\n- Poor timing (post during peak hours: 6-9 PM)\n\n**Quick fixes:**\n✅ Make first frame eye-catching\n✅ Add interactive stickers\n✅ Post 2-3 stories instead of 10+\n✅ Check analytics for best posting times\n\n[View Story Insights] [See Best Practices] [Dismiss]",
+      "priority": "medium",
+      "frequency": "every_30_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "no_story_highlights",
+      "condition": "account_age > 30_days AND total_stories_posted > 20 AND story_highlights_count == 0",
+      "message": "⭐ **Save Your Best Stories to Highlights!**\n\nYou've posted [X] stories but they all disappeared after 24 hours.\n\n**Story Highlights preserve stories permanently on your profile.**\n\n**Benefits:**\n- New subscribers see your best content\n- Create FAQ, About Me, Behind the Scenes highlights\n- Professional profile presentation\n- Reduce repetitive questions\n\n**Quick setup:**\n1. Open any of your active stories\n2. Tap \"Highlight\" button\n3. Create new highlight (e.g., \"About Me\")\n4. Add story to it\n5. Done! It stays on your profile forever.\n\n[Create First Highlight] [Watch Tutorial] [Dismiss]",
+      "priority": "medium",
+      "frequency": "once_per_user",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "not_using_interactive_stickers",
+      "condition": "stories_posted_last_7_days > 5 AND interactive_stickers_used == 0",
+      "message": "💡 **Boost Engagement with Interactive Stickers!**\n\nYou've posted stories but haven't used interactive stickers yet.\n\n**Interactive stickers get 3-5x more engagement!**\n\n**Try these:**\n\n**Poll:** \"What content should I post next?\" (Photos | Videos)\n**Question:** \"Ask me anything! 👇\"\n**Quiz:** \"How well do you know me?\"\n**Countdown:** \"Going live in...\" ⏰\n\n**Why they work:**\n- Easy one-tap participation\n- Fans feel involved\n- Creates conversation\n- Drives replies and reactions\n\n**Next story:** Add a poll or question sticker!\n\n[See Sticker Guide] [Create Story] [Dismiss]",
+      "priority": "high",
+      "frequency": "every_14_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "stories_not_driving_subscribers",
+      "condition": "stories_posted_last_30_days > 20 AND new_subscribers_from_stories < 5",
+      "message": "📈 **Use Stories to Grow Subscribers!**\n\nYou're posting stories but not converting viewers to subscribers.\n\n**Strategy:**\n\n1. **Set some stories to \"Public\"** (non-subscribers can see)\n2. **Tease subscriber content**: \"Full photo for subscribers only!\"\n3. **Clear CTA**: \"Link in bio to subscribe!\"\n4. **Show value**: List what subscribers get\n5. **Social proof**: Share testimonials\n\n**Example public story:**\n- Photo (partially cropped/blurred)\n- Text: \"Subscribers see the full version! 😏 Only $X/month\"\n- Poll: \"Would you subscribe for exclusive content?\" (Yes | Maybe)\n\n**Creators using this strategy get 20-40 new subs/month from stories!**\n\n[See Examples] [Create Public Story] [Dismiss]",
+      "priority": "high",
+      "frequency": "every_30_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "not_responding_to_story_replies",
+      "condition": "story_replies_received_last_7_days > 10 AND response_rate < 0.50",
+      "message": "💬 **Respond to Story Replies!**\n\nYou have [X] unanswered story replies from the past week.\n\n**Why responding matters:**\n- Fans who get responses engage 3x more\n- Builds personal connection and loyalty\n- Increases likelihood of tips/subscriptions\n- Word-of-mouth: \"She actually responds!\"\n\n**Aim to respond within 24 hours to all replies.**\n\n**Quick responses:**\n- Simple reactions: \"Thank you! 💕\"\n- Poll responses: \"Great choice!\"\n- Questions: Thoughtful answer + follow-up\n- Compliments: \"You're so sweet! Made my day!\"\n\n[View Pending Replies] [Dismiss]",
+      "priority": "high",
+      "frequency": "every_7_days",
+      "audience": "creators"
+    },
+    {
+      "trigger_id": "story_posted_off_peak_hours",
+      "condition": "last_story_posted_at_hour < 6 OR last_story_posted_at_hour > 23",
+      "message": "⏰ **Post Stories During Peak Hours!**\n\nYour last story was posted at [X AM/PM] when most subscribers are asleep/inactive.\n\n**Best posting times for maximum engagement:**\n\n🔥 **Weekdays: 6-9 PM** (60% engagement rate)\n⭐ **Weekends: 7-10 PM** (60% engagement rate)\n✅ **Lunch: 12-1 PM** (40% engagement rate)\n✅ **Morning: 7-9 AM** (30% engagement rate)\n\n**Posting at peak times gets 2-3x more views!**\n\n**Tip:** Check your Analytics → Subscriber Activity to see when YOUR subscribers are most active.\n\n[View Analytics] [Dismiss]",
+      "priority": "low",
+      "frequency": "every_14_days",
+      "audience": "creators"
+    }
+  ],
+
+  "glossary": [
+    {
+      "term": "Story",
+      "definition": "Temporary post that disappears after 24 hours, displayed vertically in full-screen format at the top of profiles and in dedicated Stories feed."
+    },
+    {
+      "term": "Story Highlight",
+      "definition": "Permanent collection of saved stories displayed on profile below bio, organized by theme with custom covers."
+    },
+    {
+      "term": "Interactive Sticker",
+      "definition": "Engagement tools added to stories including polls, questions, quizzes, countdowns, music, links, and mentions."
+    },
+    {
+      "term": "Story Ring",
+      "definition": "Colorful circle around profile picture indicating active stories; viewers tap to watch stories."
+    },
+    {
+      "term": "Story Reply",
+      "definition": "Direct message response to a story that appears in creator's DMs, enabling one-on-one conversation."
+    },
+    {
+      "term": "Story Reaction",
+      "definition": "Quick emoji response (heart, laughing, fire, etc.) viewers send on stories without typing a reply."
+    },
+    {
+      "term": "Completion Rate",
+      "definition": "Percentage of viewers who watch entire story sequence; average is 60%, indicates content engagement quality."
+    },
+    {
+      "term": "Story Archive",
+      "definition": "Automatic storage of expired stories accessible in settings, allowing creators to review and add to highlights later."
+    },
+    {
+      "term": "Poll Sticker",
+      "definition": "Interactive sticker allowing viewers to vote between two options, with results visible in real-time."
+    },
+    {
+      "term": "Question Sticker",
+      "definition": "Interactive sticker enabling viewers to type and submit questions, commonly used for Q&A sessions."
+    },
+    {
+      "term": "Quiz Sticker",
+      "definition": "Interactive sticker presenting multiple-choice questions where viewers test knowledge; correct answers turn green."
+    },
+    {
+      "term": "Countdown Sticker",
+      "definition": "Timer sticker building anticipation for events like live streams or content drops; viewers can set reminders."
+    },
+    {
+      "term": "Boomerang",
+      "definition": "Short 1-3 second looping video that plays forward then backward, creating dynamic effect."
+    },
+    {
+      "term": "Story Frame",
+      "definition": "Individual story segment in a multi-story sequence; viewers tap through frames like slideshow."
+    }
+  ],
+
+  "integration_points": [
+    {
+      "feature": "Live Streaming",
+      "connection": "Use stories to announce upcoming live streams with countdown stickers; drive 3-5x more viewers through story promotions."
+    },
+    {
+      "feature": "Content Upload & Organization",
+      "connection": "Stories promote main feed posts, driving 2-3x more views; use stories as teasers for new content."
+    },
+    {
+      "feature": "Tips & Tipping",
+      "connection": "Tips enabled on stories; use stories to showcase tip menu, promote custom content offerings, and announce tip goals."
+    },
+    {
+      "feature": "Subscription Tiers",
+      "connection": "Public stories attract non-subscribers while subscriber-only stories add exclusive value; stories drive subscription conversions."
+    },
+    {
+      "feature": "Analytics & Insights",
+      "connection": "Story analytics show views, completion rates, interactions; track performance to optimize timing and content strategy."
+    },
+    {
+      "feature": "Direct Messaging",
+      "connection": "Story replies funnel to DMs, starting conversations; respond to replies to build relationships and engagement."
+    },
+    {
+      "feature": "Notification Preferences",
+      "connection": "Configure notifications for story views, replies, reactions; subscribers set preferences for creator story notifications."
+    },
+    {
+      "feature": "Content Scheduling",
+      "connection": "Some platforms allow scheduling stories in advance; use with content calendar for consistent daily presence."
+    }
+  ],
+
+  "related_documentation": [
+    "/docs/how-to/stories.md",
+    "/docs/how-to/content-upload-organization.md",
+    "/docs/how-to/live-streaming.md",
+    "/docs/how-to/analytics-insights.md"
+  ],
+
+  "support_resources": [
+    {
+      "title": "Video Tutorial: Creating Your First Story",
+      "url": "/help/tutorials/stories-basics",
+      "duration": "4 min"
+    },
+    {
+      "title": "Guide: Interactive Stickers Masterclass",
+      "url": "/help/guides/interactive-stickers",
+      "type": "article"
+    },
+    {
+      "title": "Story Highlights Design Templates",
+      "url": "/help/resources/highlight-templates",
+      "type": "download"
+    }
+  ]
+}

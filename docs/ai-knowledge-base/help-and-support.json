@@ -1,0 +1,492 @@
+{
+  "feature_id": "help-and-support",
+  "feature_name": "Help & Support System",
+  "version": "1.0.0",
+  "last_updated": "2025-11-16",
+  "platforms": ["all"],
+  "user_types": ["creator", "fan", "all"],
+  "qa_pairs": [
+    {
+      "id": "qa_help_001",
+      "question": "How do I get help?",
+      "question_variations": [
+        "Where can I find help?",
+        "How to contact support?",
+        "I need assistance",
+        "Help options",
+        "Support channels",
+        "Get help with platform"
+      ],
+      "answer": "You have multiple ways to get help:\n\n**1. AI Assistant (Instant, 24/7)**\n- Click the 💬 chat icon (bottom right)\n- Ask questions in plain English\n- Get immediate answers with links\n\n**2. Help Center (Self-Service, 24/7)**\n- Click \"Help\" in main menu\n- Search 100+ articles and guides\n- Watch video tutorials\n- Browse FAQs\n\n**3. Live Chat (Mon-Fri 9 AM-6 PM EST)**\n- Real-time help from support agents\n- Screen sharing available\n- 2-5 minute wait time\n\n**4. Support Tickets (24/7 submission, 24-48hr response)**\n- For complex issues\n- Account-specific problems\n- Payment/billing questions\n\n**5. Community Forums (24/7)**\n- Ask other users\n- Share experiences\n- Get peer advice\n\n**Start with AI Assistant** - it solves 80% of questions instantly! If it can't help, it'll direct you to the right channel.\n\n**Emergency? (Safety/Security/Fraud)**\nEmail: emergency@CougarFanz.com\nPhone: 1-800-XXX-XXXX (24/7)",
+      "confidence_score": 0.99,
+      "tags": ["help", "support", "assistance", "contact", "channels"],
+      "related_qa_ids": ["qa_help_002", "qa_help_003"],
+      "suggested_actions": [
+        {
+          "label": "Open Help Center",
+          "action": "navigate",
+          "url": "/help"
+        },
+        {
+          "label": "Start Live Chat",
+          "action": "navigate",
+          "url": "/support/chat"
+        },
+        {
+          "label": "Submit Ticket",
+          "action": "navigate",
+          "url": "/support/ticket"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_002",
+      "question": "How long does support take to respond?",
+      "question_variations": [
+        "Support response time",
+        "How fast is support?",
+        "When will support reply?",
+        "Support ticket timeline",
+        "How long to wait?",
+        "Response time expectations"
+      ],
+      "answer": "Response times vary by support channel and priority:\n\n**By Channel:**\n\n🤖 **AI Assistant:** Instant (24/7)\n\n💬 **Live Chat:**\n- Wait time: 2-5 minutes\n- Available: Mon-Fri 9 AM - 6 PM EST\n\n🎫 **Support Tickets:**\n- 🔴 Urgent: <4 hours first response, 12-24 hours resolution\n- 🟠 High: <24 hours first response, 2-3 days resolution  \n- 🟡 Normal: <48 hours first response, 3-5 days resolution\n- 🟢 Low: <72 hours first response, 5-7 days resolution\n\n👥 **Community Forums:**\n- Community: Often within minutes\n- Staff: 24-48 hours (not guaranteed)\n\n**What Affects Speed:**\n\n✅ Faster if:\n- You provide detailed information\n- Issue is urgent (safety, fraud)\n- You've tried troubleshooting\n- Professional, clear communication\n\n❌ Slower during:\n- Weekends and holidays\n- High-volume periods\n- Complex investigations\n- Missing information from you\n\n**Pro Tip:** Try AI Assistant first - 80% of questions get instant answers!",
+      "confidence_score": 0.97,
+      "tags": ["response-time", "timeline", "waiting", "sla", "speed"],
+      "related_qa_ids": ["qa_help_001", "qa_help_004"],
+      "suggested_actions": [
+        {
+          "label": "Try AI Assistant Now",
+          "action": "open_chat",
+          "chat_type": "ai"
+        },
+        {
+          "label": "Submit Ticket",
+          "action": "navigate",
+          "url": "/support/ticket"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_003",
+      "question": "How do I submit a support ticket?",
+      "question_variations": [
+        "Create support ticket",
+        "Open a ticket",
+        "Contact support via ticket",
+        "Submit ticket",
+        "File support request",
+        "How to create ticket?"
+      ],
+      "answer": "Here's how to submit an effective support ticket:\n\n**Step 1: Access Ticket System**\n- Click \"Help\" → \"Contact Support\"\n- Or visit: CougarFanz.com/support/ticket\n\n**Step 2: Select Category**\nChoose the best match:\n- Account Issues (login, verification)\n- Payment Issues (payouts, earnings)\n- Technical Bugs (features not working)\n- Content Issues (uploads, moderation)\n- Safety & Abuse (harassment, violations)\n- Billing Questions (subscriptions)\n- Feature Requests (suggestions)\n- Other\n\n**Step 3: Provide Details**\n\n✅ **Clear subject:** \"Video upload fails at 50%\" (good) vs. \"Help!\" (bad)\n\n✅ **Detailed description:**\n- What were you trying to do?\n- What happened instead?\n- When did it start?\n- Have you tried troubleshooting?\n\n✅ **For bugs, include:**\n- Steps to reproduce\n- Device/browser information\n- Screenshots of error messages\n- What you expected to happen\n\n✅ **For account issues:**\n- Username/email\n- Relevant dates\n- Transaction IDs (if applicable)\n\n**Step 4: Attach Evidence**\n- Screenshots (blur sensitive info)\n- Error messages\n- Videos showing the issue\n- Relevant documents\n\n**Step 5: Set Priority**\n- 🔴 Urgent: Safety, fraud, locked account\n- 🟠 High: Earnings, verification, critical bugs\n- 🟡 Normal: General questions\n- 🟢 Low: Feature requests, suggestions\n\n**Step 6: Submit & Track**\n- Get confirmation email with Ticket #\n- Track: Help → My Tickets\n- Respond to agent questions promptly\n\n**Example Good Ticket:**\n```\nSubject: Unable to upload videos - Error 500\n\nI'm getting an error when trying to upload videos.\n\nSteps to reproduce:\n1. Go to Upload page\n2. Select MP4 file (450MB, 1920x1080)\n3. Fill in title and description\n4. Click \"Upload\"\n5. Progress bar reaches 50%, then error \"Error 500: Upload failed\"\n\nThis started today (Nov 16, 2025 around 2 PM EST).\nI've successfully uploaded videos before.\n\nTroubleshooting attempted:\n- Cleared browser cache\n- Tried different browser (Chrome and Safari)\n- Tried smaller file (same error)\n- Checked internet connection (stable)\n\nDevice: MacBook Pro M1\nOS: macOS 14.2\nBrowser: Chrome 120.0\n\nAttached: Screenshot of error message\n\nPlease help!\n```",
+      "confidence_score": 0.98,
+      "tags": ["ticket", "submit", "create", "support-request", "how-to"],
+      "related_qa_ids": ["qa_help_004", "qa_help_005"],
+      "suggested_actions": [
+        {
+          "label": "Submit Ticket",
+          "action": "navigate",
+          "url": "/support/ticket"
+        },
+        {
+          "label": "View My Tickets",
+          "action": "navigate",
+          "url": "/support/tickets"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_004",
+      "question": "Can I use live chat support?",
+      "question_variations": [
+        "Is there live chat?",
+        "Talk to support agent",
+        "Real-time support",
+        "Chat with support",
+        "Live support hours",
+        "When is live chat available?"
+      ],
+      "answer": "Yes! Live chat is available for real-time support:\n\n**Availability:**\n- **Days:** Monday - Friday\n- **Hours:** 9:00 AM - 6:00 PM EST\n- **Holidays:** Closed (check schedule)\n\n**How to Access:**\n1. Click \"Help\" → \"Live Chat\"\n2. Or click \"Chat Now\" button when available\n3. Wait in queue (usually 2-5 minutes)\n4. Chat with a real support agent\n\n**Live Chat Features:**\n- 🖼️ Send screenshots during chat\n- 🖥️ Screen sharing (with your permission)\n- 📝 Step-by-step guidance\n- 🔗 Agent can send helpful links\n- 💾 Transcript emailed after chat\n\n**Best For:**\n✅ Quick questions needing immediate answers\n✅ Real-time troubleshooting\n✅ Guidance through complex tasks\n✅ Urgent (but not emergency) issues\n\n**Not Ideal For:**\n❌ Complex issues needing investigation\n❌ Payment disputes (use tickets)\n❌ After-hours support (use tickets or AI)\n❌ Issues requiring escalation\n\n**Outside Live Chat Hours?**\n- Use AI Assistant (24/7 instant help)\n- Submit a support ticket (24-48hr response)\n- Check Help Center for self-service\n- For emergencies: emergency@CougarFanz.com\n\n**Pro Tip:** Have your username, relevant screenshots, and any error messages ready before starting chat for fastest resolution!",
+      "confidence_score": 0.96,
+      "tags": ["live-chat", "real-time", "chat-support", "hours", "availability"],
+      "related_qa_ids": ["qa_help_001", "qa_help_002"],
+      "suggested_actions": [
+        {
+          "label": "Start Live Chat",
+          "action": "navigate",
+          "url": "/support/chat"
+        },
+        {
+          "label": "Check Chat Hours",
+          "action": "navigate",
+          "url": "/support/hours"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_005",
+      "question": "How do I check my support ticket status?",
+      "question_variations": [
+        "Track support ticket",
+        "Ticket status",
+        "Check ticket progress",
+        "Where is my ticket?",
+        "Support ticket update",
+        "View my tickets"
+      ],
+      "answer": "Track your support tickets easily:\n\n**Access Your Tickets:**\n1. Click \"Help\" → \"My Tickets\"\n2. Or visit: CougarFanz.com/support/tickets\n3. You'll see all your tickets with current status\n\n**Ticket Statuses:**\n\n🆕 **New**\n- Just submitted\n- Not yet assigned to agent\n- Typically 1-4 hours in this status\n\n👀 **In Progress**\n- Agent is actively working on it\n- Investigation underway\n- Check for updates in ticket\n\n⏸️ **Waiting on You**\n- Agent responded and needs info from you\n- **Action required:** Reply with requested information\n- Tickets auto-close after 7 days without response\n\n✅ **Resolved**\n- Agent marked issue as solved\n- Will auto-close in 48 hours\n- Reopen if issue persists\n\n🔒 **Closed**\n- Ticket completed\n- Can reopen within 7 days if needed\n- Rate support experience when prompted\n\n**Ticket Actions:**\n\n- 💬 **Reply:** Add more information\n- 📎 **Attach Files:** Upload screenshots/documents\n- ⚠️ **Mark Urgent:** Flag for priority (use sparingly!)\n- ✅ **Close:** If you solved it yourself\n- 🔄 **Reopen:** Reopen within 7 days of closing\n- ⭐ **Rate:** Give feedback on support quality\n\n**Email Notifications:**\n- You receive email when agent responds\n- Can reply to ticket via email\n- Check spam folder if not seeing updates\n\n**Pro Tips:**\n- Respond to \"Waiting on You\" tickets promptly\n- Check ticket page directly (don't rely only on email)\n- Provide requested info fully (avoids back-and-forth)\n- Mark resolved when satisfied (helps everyone)\n\n**Finding Ticket Number:**\n- In confirmation email subject: \"Ticket #12345\"\n- In My Tickets dashboard\n- In any update emails from support",
+      "confidence_score": 0.95,
+      "tags": ["ticket-status", "tracking", "check-ticket", "updates"],
+      "related_qa_ids": ["qa_help_003", "qa_help_006"],
+      "suggested_actions": [
+        {
+          "label": "View My Tickets",
+          "action": "navigate",
+          "url": "/support/tickets"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_006",
+      "question": "What if I'm not satisfied with support response?",
+      "question_variations": [
+        "Escalate support ticket",
+        "Talk to supervisor",
+        "Unhappy with support",
+        "Disagree with resolution",
+        "Support complaint",
+        "Request escalation"
+      ],
+      "answer": "If you're not satisfied with a support response, you have options:\n\n**Step 1: Request Escalation**\n\n1. Reply to your ticket with:\n   - \"I'd like to escalate this issue\"\n   - Explain why you're not satisfied\n   - Be specific about what you need\n   - Stay professional and factual\n\n2. Your ticket will be reviewed by:\n   - Senior support agent\n   - Team lead\n   - Specialist (for technical issues)\n\n3. Response time: 24-48 hours\n\n**Example Escalation Request:**\n```\nI appreciate the response, but I don't believe this solution\naddresses my issue. Specifically:\n\n1. [Explain what wasn't addressed]\n2. [What you need instead]\n3. [Why the proposed solution won't work]\n\nCould a senior agent or specialist review this case?\nThank you.\n```\n\n**Step 2: Executive Review (If Still Unsatisfied)**\n\nFor serious unresolved issues:\n1. Request \"Executive Review\" in your ticket\n2. Summarize the full situation\n3. Explain previous responses and why inadequate\n4. State your desired resolution\n\n**When Available:**\n- After escalation didn't resolve issue\n- For policy disputes\n- For significant account problems\n\n**Response:** 3-5 business days (final decision)\n\n**Step 3: Provide Feedback**\n\nAfter ticket closes:\n- Complete satisfaction survey\n- Rate support experience (1-5 stars)\n- Explain what could be improved\n\n**Your feedback helps us:**\n- Improve agent training\n- Identify process gaps\n- Enhance support quality\n\n**What NOT to Do:**\n\n❌ **Don't spam multiple tickets** - Slows everyone down\n❌ **Don't be rude to agents** - They want to help\n❌ **Don't threaten** - Doesn't improve outcomes\n❌ **Don't bypass support** - Go through proper channels\n\n**Alternative Options:**\n\n- **Community Forums:** Ask other users' opinions\n- **Help Center:** Research alternative solutions\n- **Live Chat:** Get second opinion from different agent\n\n**Remember:** Support agents genuinely want to help. Clear, respectful communication about your needs leads to better outcomes than anger or threats.",
+      "confidence_score": 0.93,
+      "tags": ["escalation", "complaint", "unsatisfied", "supervisor", "dispute"],
+      "related_qa_ids": ["qa_help_003", "qa_help_005"],
+      "suggested_actions": [
+        {
+          "label": "View My Tickets",
+          "action": "navigate",
+          "url": "/support/tickets"
+        },
+        {
+          "label": "Submit Feedback",
+          "action": "navigate",
+          "url": "/support/feedback"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_007",
+      "question": "Where can I find video tutorials?",
+      "question_variations": [
+        "Tutorial videos",
+        "How-to videos",
+        "Watch tutorials",
+        "Video guides",
+        "Learning videos",
+        "Tutorial library"
+      ],
+      "answer": "Access our comprehensive video tutorial library:\n\n**How to Find:**\n1. Click \"Help\" → \"Video Tutorials\"\n2. Or visit: CougarFanz.com/tutorials\n3. Also on our YouTube channel: [Link]\n\n**Tutorial Categories:**\n\n### 🚀 Quick Start (5 videos - 20 min total)\n- Creating Your Account (3 min)\n- Profile Setup & Verification (4 min)\n- Your First Upload (5 min)\n- Setting Up Pricing (4 min)\n- Getting Your First Subscribers (4 min)\n\n### 💼 Creator Essentials (15 videos)\n- Content Upload Masterclass (15 min)\n- Pricing Strategy Guide (12 min)\n- Mass Messaging for Growth (10 min)\n- Analytics Deep Dive (18 min)\n- Maximizing Earnings (20 min)\n- Profile Optimization (10 min)\n- And more...\n\n### 👥 Fan Guide (8 videos)\n- How to Subscribe & Support (5 min)\n- Navigating the Feed (4 min)\n- DM Etiquette (6 min)\n- And more...\n\n### 🔧 Troubleshooting (10 videos)\n- Upload Issues (8 min)\n- Payment Problems (7 min)\n- Account Recovery (6 min)\n- And more...\n\n**Video Features:**\n- 📱 Watch on any device\n- ⏱️ Timestamps (jump to sections)\n- 📝 Closed captions (10 languages)\n- 🔖 Bookmark favorites\n- 💬 Comment & ask questions\n- 📥 Download for offline (mobile app)\n\n**Interactive Tutorials:**\n\nIn-platform guided walkthroughs:\n- Upload Your First Post (5 steps)\n- Set Up Your Profile (7 steps)\n- Master Analytics (10 steps)\n- Create Mass Message (6 steps)\n\nAccess: Help → Interactive Tutorials\n\n**Learning Paths:**\n\nFollow curated playlists:\n- New Creator Bootcamp (45 min)\n- Monetization Mastery (60 min)\n- Advanced Analytics (40 min)\n- Safety & Privacy (25 min)\n\n**Pro Tip:** Start with the Quick Start series if you're new. Watch at 1.5x speed to save time!",
+      "confidence_score": 0.97,
+      "tags": ["tutorials", "videos", "learning", "how-to", "guides"],
+      "related_qa_ids": ["qa_help_001"],
+      "suggested_actions": [
+        {
+          "label": "Browse Tutorials",
+          "action": "navigate",
+          "url": "/tutorials"
+        },
+        {
+          "label": "Quick Start Series",
+          "action": "navigate",
+          "url": "/tutorials/quick-start"
+        },
+        {
+          "label": "Interactive Tutorials",
+          "action": "navigate",
+          "url": "/tutorials/interactive"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_008",
+      "question": "How do I report a bug?",
+      "question_variations": [
+        "Report technical issue",
+        "Submit bug report",
+        "Something is broken",
+        "Feature not working",
+        "Report problem",
+        "File bug report"
+      ],
+      "answer": "Report bugs to help us improve the platform:\n\n**Step 1: Confirm It's a Bug**\n\n✅ **Likely a bug if:**\n- Feature suddenly stopped working\n- Error messages appear\n- Unexpected behavior\n- Crashes or freezes\n- Content missing or corrupted\n\n❌ **Not a bug if:**\n- You don't understand how to use feature (check Help Center)\n- Feature works differently than you expected\n- You disagree with a policy or design choice\n\n**Step 2: Gather Information**\n\nBefore reporting:\n- **Try basic troubleshooting:**\n  - Clear cache/cookies\n  - Try different browser\n  - Update app to latest version\n  - Restart device\n  - Check system status page\n\n- **Collect details:**\n  - What were you trying to do?\n  - What happened instead?\n  - When did it start?\n  - How often does it happen?\n  - Can you reproduce it?\n\n- **System information:**\n  - Device (iPhone 14, MacBook Pro, etc.)\n  - OS version (iOS 17.2, macOS 14.2)\n  - Browser (Chrome 120, Safari 17)\n  - App version (if mobile app)\n\n**Step 3: Report the Bug**\n\n**Option A: Support Ticket (Recommended)**\n1. Help → Contact Support\n2. Category: \"Technical Bugs\"\n3. Detailed description with:\n   - Steps to reproduce\n   - Expected vs actual behavior\n   - Screenshots/videos\n   - System information\n\n**Option B: Community Forums**\n1. Community → Technical Help\n2. Search if already reported\n3. Post with title: \"[BUG] Brief description\"\n4. Include same details as ticket\n\n**Option C: In-App Bug Reporter** (if available)\n1. Shake device (mobile) or Cmd/Ctrl + Shift + B\n2. Fill out quick form\n3. Auto-includes system info\n4. Screenshot automatically attached\n\n**Example Bug Report:**\n```\nTitle: [BUG] Video upload fails at 50%\n\nDescription:\nWhen uploading videos over 400MB, upload consistently\nfails at exactly 50% progress.\n\nSteps to Reproduce:\n1. Go to Upload page\n2. Select video file >400MB (MP4, 1080p)\n3. Fill in title/description\n4. Click Upload\n5. Watch progress bar\n6. At 50%, error appears: \"Upload failed (Error 500)\"\n\nExpected: Video should upload completely\nActual: Fails at 50% every time\n\nFrequency: 100% (tried 5 times)\nStarted: Nov 16, 2025 around 2 PM EST\n\nSystem:\n- Device: MacBook Pro M1 (2023)\n- OS: macOS 14.2\n- Browser: Chrome 120.0.6099.109\n- Internet: 100 Mbps (stable, tested)\n\nTroubleshooting Attempted:\n- Cleared browser cache ✗\n- Tried Safari ✗ (same error)\n- Tried smaller file (350MB) ✓ (worked!)\n- Different network ✗ (same error)\n\nAttachments:\n- Screenshot of error\n- Screen recording of upload attempt\n- Console log (if requested)\n```\n\n**What Happens Next:**\n\n1. **Bug Triaged** (1-2 days)\n   - Confirmed as bug\n   - Assigned priority\n   - Added to development queue\n\n2. **Investigation** (varies)\n   - Engineers reproduce issue\n   - Identify root cause\n   - Develop fix\n\n3. **Fix Deployed** (varies)\n   - Critical bugs: Hours to days\n   - High priority: Days to weeks\n   - Low priority: Weeks to months\n\n4. **You're Notified**\n   - When fix is deployed\n   - Release notes mention bug fix\n   - Thank you for reporting!\n\n**Priority Levels:**\n\n🔴 **Critical:** Platform down, data loss, security holes\n→ Fixed immediately (hours)\n\n🟠 **High:** Core features broken, affecting many users\n→ Fixed within days\n\n🟡 **Medium:** Minor features broken, workarounds exist\n→ Fixed within weeks\n\n🟢 **Low:** Cosmetic issues, rare edge cases\n→ Fixed when possible\n\n**Pro Tips:**\n- Report bugs early (helps more users)\n- Detailed reports get fixed faster\n- Check if already reported (Community Forums)\n- Include workarounds if you find any",
+      "confidence_score": 0.96,
+      "tags": ["bug-report", "technical-issues", "broken-feature", "errors"],
+      "related_qa_ids": ["qa_help_003"],
+      "suggested_actions": [
+        {
+          "label": "Report Bug",
+          "action": "navigate",
+          "url": "/support/ticket?category=technical"
+        },
+        {
+          "label": "Check System Status",
+          "action": "navigate",
+          "url": "/status"
+        },
+        {
+          "label": "Community Forums",
+          "action": "navigate",
+          "url": "/community/technical"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_009",
+      "question": "What is the AI Assistant and how does it work?",
+      "question_variations": [
+        "AI chatbot",
+        "AI help",
+        "Chat assistant",
+        "AI support",
+        "How does AI work?",
+        "About AI helper"
+      ],
+      "answer": "The AI Assistant is your 24/7 smart helper:\n\n**What It Is:**\n- AI-powered chatbot trained on our complete documentation\n- Available instantly, anytime, anywhere\n- Understands natural language (no keywords needed)\n- Provides contextual, personalized help\n\n**How to Access:**\n\n1. **Chat Widget:** Click 💬 icon (bottom right on any page)\n2. **Help Menu:** Help → Ask AI Assistant\n3. **Keyboard:** Ctrl/Cmd + /\n4. **Voice:** \"Hey [Platform]\" (mobile app)\n\n**What It Can Do:**\n\n✅ **Answer Questions**\nAsk anything in plain English:\n- \"How do I upload a video?\"\n- \"Why is my payout delayed?\"\n- \"How do I verify my account?\"\n- \"What's the best way to price content?\"\n\n✅ **Provide Step-by-Step Guidance**\n- Walks you through processes\n- Shows you where to click\n- Offers to open relevant pages\n- Adapts to your experience level\n\n✅ **Troubleshoot Issues**\n- \"My video won't upload\" → Suggests solutions\n- \"I can't log in\" → Checks common causes\n- Provides specific fixes based on context\n\n✅ **Contextual Help**\n- Knows what page you're on\n- Offers proactive tips\n- Suggests relevant features\n- Highlights new updates\n\n✅ **Quick Actions**\n- Open specific pages for you\n- Fill in forms\n- Apply settings\n- Start tutorials\n\n**Smart Features:**\n\n🧠 **Context-Aware**\n- Remembers your conversation\n- Knows your user type (creator/fan)\n- Understands what you're trying to do\n- Provides personalized suggestions\n\n💬 **Natural Language**\n- Talk like you would to a person\n- No need for exact keywords\n- Understands slang and abbreviations\n- Multiple ways to ask same question\n\n📚 **Comprehensive Knowledge**\n- Trained on 100+ help articles\n- Knows all platform features\n- Updated with new features\n- Access to FAQs and guides\n\n🎯 **Proactive Assistance**\nOffers help before you ask:\n- \"I noticed you're on the upload page. Need help?\"\n- \"Looks like you've been here 30 seconds. Can I assist?\"\n- \"This is a new feature! Want a quick tour?\"\n\n**Example Conversations:**\n\n**Simple Question:**\n```\nYou: How do I change my username?\n\nAI: You can change your username in Settings!\n\n1. Click your profile picture (top right)\n2. Select \"Settings\"\n3. Go to \"Account\" tab\n4. Click \"Edit\" next to username\n5. Enter new username\n6. Click \"Save\"\n\nNote: You can only change your username once every 30 days.\n\n[Open Settings] [Learn More]\n```\n\n**Complex Issue:**\n```\nYou: My video upload keeps failing\n\nAI: I can help troubleshoot that! A few questions:\n\n1. What file format is your video?\n2. How large is the file?\n3. What error message do you see?\n\nYou: MP4, about 800MB, says \"Upload failed\"\n\nAI: Got it! Here are some solutions to try:\n\n✓ Clear your browser cache\n✓ Try a different browser\n✓ Compress video to under 500MB\n✓ Check your internet connection\n\nWhich would you like to try first?\n\n[Clear Cache Guide] [Compression Tutorial] [Contact Support]\n```\n\n**When AI Can't Help:**\n\nIf the AI doesn't know the answer (rare):\n- It suggests relevant Help Center articles\n- Offers to create support ticket for you\n- Connects you to live chat (if available)\n- Escalates to human support automatically\n\n**Privacy & Security:**\n- Conversations are private\n- Not shared with other users\n- Used to improve AI (anonymized)\n- Can opt out of data collection\n\n**Pro Tips:**\n- Ask follow-up questions - AI remembers context\n- Be specific for better answers\n- Try rephrasing if answer isn't quite right\n- Use it first before submitting tickets (saves time!)\n\n**Accuracy:**\n- 95%+ accuracy on common questions\n- Constantly improving from feedback\n- Backed by human-written documentation\n- Escalates when uncertain",
+      "confidence_score": 0.98,
+      "tags": ["ai-assistant", "chatbot", "ai-help", "smart-helper"],
+      "related_qa_ids": ["qa_help_001", "qa_help_007"],
+      "suggested_actions": [
+        {
+          "label": "Try AI Assistant",
+          "action": "open_chat",
+          "chat_type": "ai"
+        },
+        {
+          "label": "AI Assistant Guide",
+          "action": "open_help",
+          "help_id": "ai-assistant-guide"
+        }
+      ]
+    },
+    {
+      "id": "qa_help_010",
+      "question": "Is there a community forum?",
+      "question_variations": [
+        "User forums",
+        "Community discussion",
+        "Talk to other users",
+        "User community",
+        "Forums available?",
+        "Community help"
+      ],
+      "answer": "Yes! Join our active community forums:\n\n**Access:** CougarFanz.com/community or Help → Community\n\n**Forum Categories:**\n\n### 🆕 New User Questions\n- Getting started help\n- Basic feature questions\n- Friendly beginner environment\n- No \"dumb questions\" here!\n\n### 💼 Creator Tips & Strategies\n- Share success stories\n- Growth strategies\n- Monetization tips\n- Networking with other creators\n- Ask for advice\n\n### 🔧 Technical Help\n- Troubleshooting assistance\n- Bug reports & workarounds\n- Tips and tricks\n- Community solutions\n\n### 💡 Feature Requests\n- Suggest new features\n- Vote on others' ideas\n- Discuss improvements\n- See what's coming\n\n### 📢 Platform Updates\n- Official announcements\n- New feature releases\n- Scheduled maintenance\n- Policy changes\n- Product roadmap\n\n**Community Benefits:**\n\n📢 **Collective Knowledge**\n- Learn from experienced users\n- Real-world use cases\n- Creative solutions\n- Best practices\n\n🚀 **Fast Responses**\n- Community often answers in minutes\n- Multiple perspectives\n- 24/7 availability\n- No wait times\n\n💡 **Creative Ideas**\n- See how others solve problems\n- Discover new strategies\n- Get inspiration\n- Learn advanced techniques\n\n🤝 **Networking**\n- Connect with other creators\n- Collaboration opportunities\n- Make friends\n- Build support network\n\n🏆 **Recognition**\n- Earn badges for helping others\n- Build reputation\n- Become community expert\n- Get noticed by platform team\n\n**How to Use Forums:**\n\n**Before Posting:**\n1. ✓ Search existing posts (might be answered)\n2. ✓ Read category guidelines\n3. ✓ Choose correct category\n\n**Creating a Post:**\n1. Click \"New Post\"\n2. Select category\n3. Write clear title: \"How to schedule posts?\" (good) vs. \"Help!\" (bad)\n4. Provide context in description\n5. Add tags for discoverability\n6. Post!\n\n**After Posting:**\n- Monitor for replies\n- Mark helpful answers as \"Solution\"\n- Thank helpful users\n- Update if you solve it yourself\n- Close when resolved\n\n**Forum Rules:**\n\n✓ **Be Respectful** - Treat others kindly\n✓ **Stay On Topic** - Post in appropriate category\n✓ **Search First** - Don't duplicate posts\n✓ **No Spam** - No ads or self-promotion\n✓ **Mark Solutions** - Help others find answers\n✓ **No Illegal Content** - Follow platform rules\n✓ **Be Patient** - Responses are voluntary\n\n**Community Roles:**\n\n🆕 **New Member** - Just joined\n👤 **Member** - Regular participant\n⭐ **Contributor** - Helpful member (10+ solutions)\n🏆 **Expert** - Community leader (50+ solutions)\n🛡️ **Moderator** - Volunteer moderator\n👔 **Staff** - Official platform team\n\n**Staff Participation:**\n\n- Official announcements posted here\n- Staff occasionally answer questions\n- Feature requests reviewed by product team\n- Bug reports escalated to engineering\n- Response time: 24-48 hours (not guaranteed)\n\n**Notifications:**\n\nGet notified when:\n- Someone replies to your post\n- Your answer is marked as solution\n- You earn a badge\n- Official announcements in categories you follow\n\n**Pro Tips:**\n\n- Search before posting (80% of questions answered)\n- Tag your posts appropriately\n- Upload screenshots for clarity\n- Follow interesting topics\n- Help others when you can (karma!)\n- Vote up helpful posts\n\n**Mobile App:**\n\n- Full forum access on mobile\n- Push notifications\n- Easy posting with photos\n- Follow conversations on the go",
+      "confidence_score": 0.96,
+      "tags": ["community", "forums", "discussion", "user-help", "peer-support"],
+      "related_qa_ids": ["qa_help_001", "qa_help_008"],
+      "suggested_actions": [
+        {
+          "label": "Browse Community",
+          "action": "navigate",
+          "url": "/community"
+        },
+        {
+          "label": "New User Questions",
+          "action": "navigate",
+          "url": "/community/new-users"
+        },
+        {
+          "label": "Creator Tips",
+          "action": "navigate",
+          "url": "/community/creator-tips"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "help_widget_intro",
+      "trigger_name": "Introduce Help Widget to New Users",
+      "condition": {
+        "user_state": {
+          "account_age_days": {"$lte": 3},
+          "help_widget_opened": false,
+          "time_on_platform_minutes": {"$gte": 5}
+        }
+      },
+      "message": "👋 Need help? Click the 💬 icon anytime to ask questions! Our AI Assistant is here 24/7.",
+      "action_buttons": [
+        {
+          "label": "Try It Now",
+          "action": "open_chat",
+          "chat_type": "ai"
+        },
+        {
+          "label": "Browse Help Center",
+          "action": "navigate",
+          "url": "/help"
+        },
+        {
+          "label": "Dismiss",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 6,
+      "frequency": "once",
+      "user_types": ["all"]
+    },
+    {
+      "trigger_id": "stuck_on_page",
+      "trigger_name": "Offer Help When User Seems Stuck",
+      "condition": {
+        "user_state": {
+          "time_on_current_page": {"$gte": 120},
+          "actions_taken_on_page": {"$eq": 0}
+        }
+      },
+      "message": "Looks like you might be stuck. Need help with this page?",
+      "action_buttons": [
+        {
+          "label": "Yes, Help Me",
+          "action": "open_chat",
+          "chat_type": "ai"
+        },
+        {
+          "label": "I'm Good",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 7,
+      "frequency": "daily_max_1",
+      "user_types": ["all"]
+    },
+    {
+      "trigger_id": "repeated_error",
+      "trigger_name": "Help After Repeated Errors",
+      "condition": {
+        "user_state": {
+          "errors_last_10_min": {"$gte": 3}
+        }
+      },
+      "message": "You've encountered a few errors. Let me help troubleshoot!",
+      "action_buttons": [
+        {
+          "label": "Get Help",
+          "action": "open_chat",
+          "chat_type": "ai",
+          "pre_fill_message": "I'm getting errors and need help"
+        },
+        {
+          "label": "Report Bug",
+          "action": "navigate",
+          "url": "/support/ticket?category=technical"
+        },
+        {
+          "label": "Not Now",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 9,
+      "frequency": "always",
+      "user_types": ["all"]
+    },
+    {
+      "trigger_id": "tutorial_suggestion",
+      "trigger_name": "Suggest Tutorial for New Feature",
+      "condition": {
+        "page": "/upload",
+        "user_state": {
+          "content_uploaded_count": {"$eq": 0},
+          "upload_tutorial_completed": false
+        }
+      },
+      "message": "First time uploading? Watch our 3-minute tutorial to learn best practices!",
+      "action_buttons": [
+        {
+          "label": "Watch Tutorial",
+          "action": "open_tutorial",
+          "tutorial_id": "upload-101"
+        },
+        {
+          "label": "Browse All Tutorials",
+          "action": "navigate",
+          "url": "/tutorials"
+        },
+        {
+          "label": "Skip",
+          "action": "dismiss"
+        }
+      ],
+      "priority": 5,
+      "frequency": "once",
+      "user_types": ["creator"]
+    },
+    {
+      "trigger_id": "ticket_response_reminder",
+      "trigger_name": "Remind User to Respond to Support Ticket",
+      "condition": {
+        "user_state": {
+          "open_tickets_waiting_on_user": {"$gte": 1},
+          "hours_since_last_ticket_response": {"$gte": 48}
+        }
+      },
+      "message": "⏰ You have a support ticket waiting for your response. Reply to avoid auto-closure in 5 days.",
+      "action_buttons": [
+        {
+          "label": "View Ticket",
+          "action": "navigate",
+          "url": "/support/tickets?filter=waiting"
+        },
+        {
+          "label": "Remind Me Tomorrow",
+          "action": "snooze",
+          "duration": 86400
+        }
+      ],
+      "priority": 7,
+      "frequency": "daily_max_1",
+      "user_types": ["all"]
+    }
+  ],
+  "common_errors": [
+    {
+      "error_code": "HELP_ERR_001",
+      "error_message": "Unable to submit support ticket",
+      "user_friendly_explanation": "There was a problem submitting your support ticket. This is usually a temporary issue.",
+      "solution_steps": [
+        "Check your internet connection",
+        "Try refreshing the page",
+        "Clear your browser cache",
+        "Try submitting again in a few minutes",
+        "If issue persists, email support@CougarFanz.com directly with your issue"
+      ]
+    },
+    {
+      "error_code": "HELP_ERR_002",
+      "error_message": "Live chat unavailable",
+      "user_friendly_explanation": "Live chat is currently unavailable. This could be outside business hours or due to high volume.",
+      "solution_steps": [
+        "Check live chat hours (Mon-Fri 9 AM - 6 PM EST)",
+        "Try AI Assistant for immediate help",
+        "Submit a support ticket (24-48 hour response)",
+        "Check Community Forums for peer help",
+        "For emergencies, email emergency@CougarFanz.com"
+      ]
+    }
+  ],
+  "contextual_help": {
+    "page_triggers": {
+      "/help": "Welcome to Help Center - suggest AI Assistant or popular articles",
+      "/support/ticket": "Guide on writing effective support tickets",
+      "/support/tickets": "Explain ticket statuses and how to track",
+      "/tutorials": "Recommend tutorials based on user type and experience",
+      "/community": "Explain forum rules and how to get best answers"
+    },
+    "action_triggers": {
+      "first_help_center_visit": "help_widget_intro",
+      "idle_on_page": "stuck_on_page",
+      "multiple_errors": "repeated_error",
+      "first_upload_page_visit": "tutorial_suggestion",
+      "ticket_waiting_response": "ticket_response_reminder"
+    }
+  }
+}

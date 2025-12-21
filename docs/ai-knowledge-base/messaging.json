@@ -1,0 +1,191 @@
+{
+  "feature": "messaging",
+  "display_name": "Messaging System",
+  "category": "communication",
+  "context_triggers": {
+    "pages": ["/messages", "/inbox", "/conversations"],
+    "keywords": ["message", "chat", "DM", "inbox", "conversation", "paid message"],
+    "user_actions": ["message_failed", "slow_response", "new_subscriber"]
+  },
+  "knowledge_entries": [
+    {
+      "id": "msg-001",
+      "question": "How do I send a message?",
+      "answer": "Click Messages in the navigation, select a conversation (or start a new one), type your message in the input field, and hit Send or press Enter. That's it! Your message is delivered instantly with read receipts.",
+      "related_topics": ["messaging", "communication", "getting_started"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "msg-002",
+      "question": "What are paid messages?",
+      "answer": "Paid messages let you monetize exclusive content! Toggle 'Charge for this message' ON, set your price ($3-50 recommended), add your exclusive photo/video/text, and send. Fans must pay to unlock and view. You earn immediately! Perfect for custom content, exclusives, and premium interactions.",
+      "related_topics": ["monetization", "paid_content", "earnings"],
+      "difficulty": "beginner",
+      "pro_tip": true
+    },
+    {
+      "id": "msg-003",
+      "question": "How much should I charge for paid messages?",
+      "answer": "Pricing guide: Text ($3-10), Photos ($5-20), Videos ($15-50), Custom requests ($50-200+). Our AI suggests optimal pricing based on your content type, subscriber count, and what similar creators charge. Start lower and increase as demand grows!",
+      "related_topics": ["pricing", "monetization", "strategy"],
+      "difficulty": "intermediate",
+      "pro_tip": true
+    },
+    {
+      "id": "msg-004",
+      "question": "Can I send the same message to multiple fans?",
+      "answer": "Yes! Use Mass Messaging: Go to Messages → Mass Message, write your message, choose your audience (all subscribers, active only, VIP, etc.), and send or schedule. Perfect for announcements, promotions, or thank-yous. Best practice: 1-2x per week maximum to avoid overwhelming fans.",
+      "related_topics": ["mass_messaging", "bulk", "announcements"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "msg-005",
+      "question": "How do I use message templates?",
+      "answer": "Save time with templates! Go to Settings → Messages → Templates → New Template. Write your message with variables like {name} or {username}. To use: Type '/' in any message to see your templates, click one, and it auto-fills with the fan's info. Great for welcome messages, thank-yous, and FAQs!",
+      "related_topics": ["templates", "automation", "efficiency"],
+      "difficulty": "intermediate",
+      "quick_action": {
+        "label": "Create Template",
+        "action": "navigate",
+        "target": "/settings/messages/templates"
+      }
+    },
+    {
+      "id": "msg-006",
+      "question": "What's an auto-responder?",
+      "answer": "Auto-responder sends automatic replies when you're offline! Set it up in Settings → Messages → Auto-Responder. Write your away message (e.g., 'I'll respond within 24 hours!'), set a schedule if needed, and save. Fans know you'll get back to them, and your response rate stays high.",
+      "related_topics": ["automation", "away_message", "response_time"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "msg-007",
+      "question": "Why is response time important?",
+      "answer": "Fast responses build trust and loyalty! Aim to respond within 24 hours (ideal: under 4 hours). Benefits: Higher creator rating, better fan satisfaction, increased renewal rates, more tips. Fans appreciate quick replies and engage more when they know you're active!",
+      "related_topics": ["best_practices", "engagement", "ratings"],
+      "difficulty": "beginner",
+      "pro_tip": true
+    },
+    {
+      "id": "msg-008",
+      "question": "How do I send photos or videos in messages?",
+      "answer": "Click the photo icon (📷) or video icon (🎬) next to the message input. Select your file, add an optional caption, set pricing if you want to charge (great for exclusives!), and send. Files up to 100MB supported. Pro tip: Preview before sending to ensure quality!",
+      "related_topics": ["media", "photos", "videos"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "msg-009",
+      "question": "Can I schedule messages to send later?",
+      "answer": "Yes! Write your message, click the clock icon ⏰, select date and time, and it sends automatically. Perfect for different time zones, birthday wishes, or maintaining a consistent posting schedule. Schedule as many as you want!",
+      "related_topics": ["scheduling", "automation", "time_management"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "msg-010",
+      "question": "What are Smart Reply suggestions?",
+      "answer": "Our AI analyzes incoming messages and suggests 3 quick responses! For example, if a fan asks 'Do you do customs?', you'll see suggestions like 'Yes! Starting at $X, what did you have in mind?' You can send as-is or customize. Saves tons of time!",
+      "related_topics": ["ai_features", "efficiency", "responses"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "msg-011",
+      "question": "How can I see message analytics?",
+      "answer": "Go to Dashboard → Analytics → Messages. You'll see: response time average, messages sent/received, revenue per conversation, fan engagement scores, and most active hours. Use this data to optimize your messaging strategy and increase earnings!",
+      "related_topics": ["analytics", "metrics", "optimization"],
+      "difficulty": "intermediate",
+      "quick_action": {
+        "label": "View Analytics",
+        "action": "navigate",
+        "target": "/analytics/messages"
+      }
+    },
+    {
+      "id": "msg-012",
+      "question": "What should I do if a fan is being inappropriate?",
+      "answer": "Your safety comes first! Click the '...' menu on the conversation, select 'Report' or 'Block'. Blocking prevents all future contact. Reporting alerts our moderation team who will investigate. We have zero tolerance for harassment, threats, or violations. You control your experience!",
+      "related_topics": ["safety", "blocking", "reporting"],
+      "difficulty": "beginner",
+      "troubleshooting": true
+    },
+    {
+      "id": "msg-013",
+      "question": "My messages aren't sending",
+      "answer": "Check: Internet connection, file size (max 100MB), recipient not blocked, platform status. Try: Refresh page, clear cache, different browser, wait 1 minute and retry. If issue persists after 5 minutes, contact support with error details.",
+      "related_topics": ["troubleshooting", "technical", "errors"],
+      "difficulty": "beginner",
+      "troubleshooting": true
+    },
+    {
+      "id": "msg-014",
+      "question": "How do I maximize revenue from messaging?",
+      "answer": "Top strategies: 1) Tease free content, charge for full ($3-10), 2) Bundle deals (3 for price of 2), 3) VIP fan discounts for loyalty, 4) Upsell custom content from questions, 5) Use scarcity ('Only 5 can unlock this!'). Track what works in analytics and double down!",
+      "related_topics": ["monetization", "strategy", "revenue"],
+      "difficulty": "advanced",
+      "pro_tip": true
+    },
+    {
+      "id": "msg-015",
+      "question": "Should I message fans first or wait for them to message me?",
+      "answer": "Be proactive! Message new subscribers within 24 hours with a welcome. Check in with top fans regularly. Ask for feedback. Share exclusive previews. Fans love when creators initiate! It builds stronger relationships and increases renewals. Aim for 2-3 proactive messages per week to VIPs.",
+      "related_topics": ["engagement", "strategy", "retention"],
+      "difficulty": "intermediate",
+      "pro_tip": true
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "condition": "new_subscriber_no_message_24hrs",
+      "message": "💬 You have a new subscriber! Want me to help you write a welcoming first message?",
+      "action": "suggest_welcome_template"
+    },
+    {
+      "condition": "response_time_slow_48hrs",
+      "message": "⏰ Your response time is slower than usual. Want to set up an auto-responder?",
+      "action": "offer_autoresponder_setup"
+    },
+    {
+      "condition": "low_message_revenue",
+      "message": "💡 Did you know you can charge for exclusive messages? I can show you how to maximize earnings!",
+      "action": "tutorial_paid_messages"
+    },
+    {
+      "condition": "fan_asks_custom_content",
+      "message": "This looks like a custom content request! Here's a pricing template for custom work.",
+      "action": "suggest_custom_pricing"
+    },
+    {
+      "condition": "mass_message_never_used",
+      "message": "📢 You have 50+ subscribers but haven't used Mass Messaging yet. Want to see how it works?",
+      "action": "demo_mass_messaging"
+    }
+  ],
+  "suggested_actions": [
+    {
+      "label": "Create Message Template",
+      "icon": "template",
+      "action": "navigate",
+      "target": "/settings/messages/templates",
+      "priority": "high"
+    },
+    {
+      "label": "View Message Analytics",
+      "icon": "chart",
+      "action": "navigate",
+      "target": "/analytics/messages",
+      "priority": "medium"
+    },
+    {
+      "label": "Set Up Auto-Responder",
+      "icon": "auto",
+      "action": "navigate",
+      "target": "/settings/messages/auto-responder",
+      "priority": "low"
+    }
+  ],
+  "related_documentation": [
+    "/how-to/messaging.md",
+    "/how-to/monetization.md",
+    "/how-to/fan-engagement.md"
+  ],
+  "last_updated": "2025-11-15",
+  "version": "1.0"
+}

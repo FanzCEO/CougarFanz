@@ -1,0 +1,372 @@
+{
+  "feature_id": "notifications",
+  "feature_name": "Notifications & Alerts",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "description": "AI knowledge base for notification and alert management",
+  "qa_pairs": [
+    {
+      "id": "qa_notif_001",
+      "question": "How do I enable notifications?",
+      "question_variations": [
+        "How do I turn on notifications?",
+        "I'm not getting notifications",
+        "How do I get notified about tips?",
+        "How do I enable push notifications?",
+        "Why am I not receiving notifications?",
+        "How do I set up alerts?",
+        "How do notifications work?"
+      ],
+      "answer": "**Enable Notifications:**\n\n**Step 1: Platform Settings**\n\n1. Go to **Settings → Notifications**\n2. Review notification categories\n3. Enable the notifications you want:\n\n**Revenue (Highly Recommended):**\n- ✅ New Subscriptions\n- ✅ Tips Received\n- ✅ Content Purchases\n- ✅ Custom Requests\n- ✅ Payout Notifications\n\n**Engagement:**\n- ✅ New Messages\n- ✅ Comments\n- Optional: Likes, Followers\n\n**Security (Always Enabled):**\n- ✅ Login Alerts\n- ✅ Account Changes\n- ✅ Suspicious Activity\n\n**Step 2: Enable Push Notifications**\n\n**Mobile (iOS):**\n1. Install app from App Store\n2. Open app\n3. Allow notifications when prompted\n4. If you denied: Settings → [App Name] → Notifications → Allow\n\n**Mobile (Android):**\n1. Install app from Google Play\n2. Open app  \n3. Allow notifications when prompted\n4. If denied: Settings → Apps → [App Name] → Notifications → Enable\n\n**Desktop (Browser):**\n1. Visit platform in browser\n2. Click bell icon when prompted\n3. Click \"Allow\" in browser popup\n\n**Step 3: Verify Email Notifications**\n\n1. Settings → Notifications → Email\n2. Verify your email address is correct\n3. Choose notification frequency\n4. Check spam folder for test email\n5. Add platform to safe senders\n\n**Step 4: Optional SMS**\n\n1. Settings → Notifications → SMS\n2. Add & verify phone number\n3. Enable for critical alerts only (recommended)\n\n**Test Your Setup:**\n\nHave a friend:\n- Subscribe or tip\n- Send you a message\n- Verify you receive notification\n\n**Still Not Working?**\n\n- Check Do Not Disturb isn't on\n- Verify app is up to date\n- Try logging out and back in\n- Reinstall app if needed\n- Contact support if still having issues",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/notifications.md"
+      ],
+      "tags": ["notifications", "alerts", "push notifications", "email", "settings"],
+      "suggested_actions": [
+        {
+          "action": "open_notification_settings",
+          "label": "Open Notification Settings",
+          "path": "/settings/notifications"
+        },
+        {
+          "action": "test_notifications",
+          "label": "Send Test Notification",
+          "path": "/settings/notifications/test"
+        }
+      ]
+    },
+    {
+      "id": "qa_notif_002",
+      "question": "I'm getting too many notifications, how do I reduce them?",
+      "question_variations": [
+        "How do I stop getting so many notifications?",
+        "Too many alerts",
+        "How do I reduce notification spam?",
+        "Can I turn off some notifications?",
+        "How do I customize which notifications I get?",
+        "Notification fatigue",
+        "How do I mute notifications?"
+      ],
+      "answer": "**Reduce Notification Volume:**\n\n**Quick Fixes:**\n\n**1. Enable Quiet Hours** ⏰\n\nGo to Settings → Notifications → Quiet Hours\n\n```\nStart: 10:00 PM\nEnd: 8:00 AM\n```\n\nNo notifications during these hours (except critical security alerts)\n\n**2. Switch to Batching** 📦\n\nInstead of instant notifications, batch them:\n\n- **Messages**: Hourly digest instead of each one\n- **Comments**: Daily summary instead of each comment\n- **Likes**: Weekly summary or disable entirely\n\n**Settings → Notifications → Frequency:**\n```\nMessages: Batched (Hourly)\nComments: Batched (Daily)\nLikes: Summary (Weekly) or OFF\n```\n\n**3. Increase Thresholds** 💰\n\nOnly notify for high-value events:\n\n**Tips:**\n- Only notify for tips over $25\n- Settings → Notifications → Tips → Minimum Amount: $25\n\n**4. Disable Low-Priority Notifications** 🔕\n\n**Consider Turning OFF:**\n- ❌ Individual likes (too many!)\n- ❌ Every new follower\n- ❌ Marketing emails\n- ❌ Feature tips\n\n**Keep ON:**\n- ✅ Revenue notifications (subscriptions, tips, purchases)\n- ✅ Custom requests\n- ✅ Messages (batched)\n- ✅ Security alerts\n\n**5. Reduce Notification Channels** 📱\n\nDon't need Push + Email + SMS for everything:\n\n**Revenue:**\n- Push + Email ✅\n\n**Messages:**\n- Push only ✅\n\n**Comments:**\n- Daily email summary ✅\n\n**Likes:**\n- Weekly summary or OFF ✅\n\n---\n\n**Recommended Settings for High-Volume Creators:**\n\n```\n💰 REVENUE\nNew Subscriptions ............. [✓] Push [✓] Email [ ] SMS\nTips over $50 .................. [✓] Push [✓] Email [ ] SMS\nTips under $50 ................. [✓] Push [ ] Email [ ] SMS\nCustom Requests ................ [✓] Push [✓] Email [ ] SMS\nPayouts ........................ [✓] Push [✓] Email [ ] SMS\n\n💬 ENGAGEMENT  \nMessages ....................... [✓] Push (Hourly Batch)\nComments ....................... [ ] Push [✓] Email (Daily Summary)\nLikes .......................... [ ] Disabled (too many!)\nNew Followers .................. [ ] Disabled\n\n🔒 SECURITY (Cannot disable)\nAll security alerts ............ [✓] Push [✓] Email [✓] SMS\n\n🔔 SYSTEM\nFeature updates ................ [ ] Push [✓] Email\nMarketing ...................... [ ] All OFF\n```\n\n---\n\n**Visual Indicator of Notification Volume:**\n\nIf you're getting:\n- 50+ notifications per day = Time to reduce\n- 100+ per day = Definitely too many\n- 10-30 per day = Good balance\n\n**Pro Tip:**\n\nStart by disabling everything except:\n1. Revenue notifications\n2. Custom requests\n3. Security alerts\n\nThen slowly add back only what you need.\n\n**The Goal:**\n\nOnly get notifications for things that require action or are important to your business!",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/notifications.md"
+      ],
+      "tags": ["notifications", "too many", "reduce", "quiet hours", "batching"],
+      "suggested_actions": [
+        {
+          "action": "set_quiet_hours",
+          "label": "Set Quiet Hours",
+          "path": "/settings/notifications/quiet-hours"
+        },
+        {
+          "action": "batch_settings",
+          "label": "Configure Batching",
+          "path": "/settings/notifications/batching"
+        },
+        {
+          "action": "disable_low_priority",
+          "label": "Disable Low-Priority Alerts",
+          "path": "/settings/notifications/categories"
+        }
+      ]
+    },
+    {
+      "id": "qa_notif_003",
+      "question": "What notifications should I enable as a new creator?",
+      "question_variations": [
+        "Which notifications are most important?",
+        "What notifications do I need?",
+        "Best notification settings for beginners",
+        "Which alerts should I turn on?",
+        "Recommended notification settings",
+        "What notifications matter most?",
+        "Essential notifications for creators"
+      ],
+      "answer": "**Essential Notifications for New Creators:**\n\n**MUST ENABLE (Critical):** 🔴\n\nThese directly impact your income and business:\n\n**1. Revenue Notifications** 💰\n```\n✅ New Subscriptions\n   Why: Your bread and butter income\n   Response: Welcome new subscriber within 12 hours\n\n✅ Tips Received  \n   Why: Bonus income + shows fan appreciation\n   Response: Thank tipper within 1 hour\n\n✅ Content Purchases (PPV)\n   Why: Direct content sales revenue\n   Response: Thank buyer, engage with them\n\n✅ Custom Requests\n   Why: Premium revenue opportunity\n   Response: Respond within 24 hours\n\n✅ Payout Notifications\n   Why: Know when money hits your account\n   Response: Verify amount, check for issues\n```\n\n**Channels:** Push + Email for all revenue\n\n---\n\n**2. Security Alerts** 🔒\n```\n✅ Login Alerts (Auto-enabled)\n   Why: Know if someone accessed your account\n   Response: Immediate - change password if suspicious\n\n✅ Account Changes (Auto-enabled)\n   Why: Unauthorized changes = security breach  \n   Response: Immediate - verify or revert changes\n\n✅ Suspicious Activity (Auto-enabled)\n   Why: Protect your account and earnings\n   Response: Immediate - review and secure account\n```\n\n**Channels:** Push + Email + SMS (if available)\n\n---\n\n**HIGHLY RECOMMENDED:** 🟠\n\nImportant for engagement and growth:\n\n**3. Direct Messages** 💬\n```\n✅ New Messages\n   Why: Build relationships with fans\n   Response: Reply within 4-24 hours\n   Setting: Push notifications\n\nNote: As you grow, switch to hourly batching\n```\n\n**4. Comments** 💭\n```\n✅ Comments on Posts\n   Why: Engagement drives the algorithm\n   Response: Reply to build community\n   Setting: Push or daily summary\n```\n\n**5. Content Performance** 📊\n```\n✅ Content Trending\n   Why: Know what's working\n   Response: Create similar content, engage with comments\n\n✅ Content Flagged\n   Why: Address issues immediately\n   Response: Review and appeal if needed\n```\n\n---\n\n**OPTIONAL (Nice to Have):** 🟡\n\n**6. Engagement Metrics**\n```\n⚪ New Followers\n   Why: Track growth\n   Setting: Milestone only (every 10, 25, 50)\n\n⚪ Likes on Posts\n   Why: Shows engagement\n   Setting: Daily or weekly summary (not individual!)\n\n⚪ Milestones\n   Why: Celebrate achievements\n   Setting: Push notification\n```\n\n---\n\n**DON'T NEED (Can Disable):** ⚪\n\n```\n❌ Individual Likes (too many notifications!)\n❌ Marketing Emails (can check when you want)\n❌ Feature Tips (can learn as you go)\n❌ Weekly Newsletter (optional)\n```\n\n---\n\n**RECOMMENDED SETUP FOR NEW CREATORS:**\n\n**Settings → Notifications:**\n\n```\n💰 REVENUE & EARNINGS\nNew Subscriptions .............. [✓] Push [✓] Email [ ] SMS\nSubscription Renewals .......... [✓] Push [✓] Email [ ] SMS\nTips Received .................. [✓] Push [✓] Email [ ] SMS\nContent Purchases .............. [✓] Push [✓] Email [ ] SMS\nCustom Requests ................ [✓] Push [✓] Email [ ] SMS\nPayout Notifications ........... [✓] Push [✓] Email [✓] SMS\n\n💬 MESSAGES & ENGAGEMENT\nNew Direct Messages ............ [✓] Push [ ] Email [ ] SMS\nMessage Replies ................ [✓] Push [ ] Email [ ] SMS\nComments on Posts .............. [✓] Push [ ] Email [ ] SMS\nMentions ....................... [✓] Push [ ] Email [ ] SMS\n\n❤️ ENGAGEMENT METRICS\nLikes on Posts ................. [ ] Push [ ] Email [ ] SMS\n  └─ Summary: [✓] Daily Digest\nNew Followers .................. [ ] Push [ ] Email [ ] SMS\n  └─ Milestone: [✓] Every 25 followers\n\n📊 CONTENT PERFORMANCE\nContent Trending ............... [✓] Push [✓] Email [ ] SMS\nContent Flagged ................ [✓] Push [✓] Email [✓] SMS\nUpload Complete ................ [✓] Push [ ] Email [ ] SMS\n\n🔒 SECURITY (Auto-enabled, can't disable)\nLogin Alerts ................... [✓] Push [✓] Email [✓] SMS\nAccount Changes ................ [✓] Push [✓] Email [✓] SMS\nSuspicious Activity ............ [✓] Push [✓] Email [✓] SMS\n\n🔔 SYSTEM & UPDATES\nFeature Announcements .......... [ ] Push [✓] Email [ ] SMS\nPlatform Updates ............... [ ] Push [✓] Email [ ] SMS\nTips & Best Practices .......... [ ] Push [✓] Email [ ] SMS\nMarketing Messages ............. [ ] Push [ ] Email [ ] SMS\n\n⏰ QUIET HOURS\nStart Time: 11:00 PM\nEnd Time: 8:00 AM\n[✓] Allow Critical Alerts (Security, Payment Issues)\n```\n\n---\n\n**Your Notification Strategy:**\n\n**🌅 Morning (9 AM):**\n- Check notification center\n- Review overnight activity\n- Respond to any tips/subscribers\n- Check revenue summary\n\n**🌞 Throughout Day:**\n- Respond to push notifications promptly\n- Thank tippers within 1 hour\n- Reply to messages within 4 hours\n- Engage with comments\n\n**🌙 Evening (9 PM):**\n- Final notification check\n- Welcome any new subscribers\n- Plan tomorrow based on what's working\n- Enable quiet hours\n\n---\n\n**As You Grow:**\n\nWhen you have 100+ subscribers:\n- Switch messages to hourly batching\n- Disable individual like notifications  \n- Keep revenue notifications instant\n- Adjust based on your volume\n\n**Remember:**\n\nNew creators need to be responsive to build relationships. Enable more notifications early, then optimize as you grow!",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/notifications.md",
+        "how-to/getting-started.md"
+      ],
+      "tags": ["notifications", "new creators", "essential", "recommended settings", "beginner"],
+      "suggested_actions": [
+        {
+          "action": "apply_recommended_settings",
+          "label": "Apply Recommended Settings",
+          "path": "/settings/notifications/presets/new-creator"
+        },
+        {
+          "action": "customize_settings",
+          "label": "Customize Settings",
+          "path": "/settings/notifications"
+        }
+      ]
+    },
+    {
+      "id": "qa_notif_004",
+      "question": "My notifications are going to spam, how do I fix this?",
+      "question_variations": [
+        "Notifications in spam folder",
+        "Email notifications not arriving",
+        "Why are my emails in junk?",
+        "How do I whitelist platform emails?",
+        "Notification emails blocked",
+        "Add to safe senders",
+        "Email delivery issues"
+      ],
+      "answer": "**Fix Notification Emails Going to Spam:**\n\n**Step 1: Add Platform to Safe Senders**\n\n**Gmail:**\n1. Open a platform email from spam folder\n2. Click **\"Not spam\"** at the top\n3. Click the three dots (⋮)\n4. Select **\"Filter messages like this\"**\n5. Click **\"Create filter\"**\n6. Check **\"Never send it to Spam\"**\n7. Click **\"Create filter\"**\n\n**Alternative Gmail Method:**\n1. Open Settings (gear icon)\n2. Go to **\"Filters and Blocked Addresses\"**\n3. Click **\"Create a new filter\"**\n4. From: `notifications@CougarFanz.com` or `*@CougarFanz.com`\n5. Click **\"Create filter\"**\n6. Check: **\"Never send it to Spam\"** and **\"Always mark as important\"**\n7. Click **\"Create filter\"**\n\n**Outlook/Hotmail:**\n1. Click Settings (gear icon)\n2. Select **\"View all Outlook settings\"**\n3. Go to **Mail → Junk email**\n4. Under **Safe senders and domains**, click **Add**\n5. Add: `CougarFanz.com`\n6. Click **Save**\n\n**Yahoo Mail:**\n1. Click Settings icon\n2. Click **\"More Settings\"**\n3. Select **\"Filters\"**\n4. Click **\"Add new filters\"**\n5. Filter name: \"Platform Emails\"\n6. From contains: `@CougarFanz.com`\n7. Move to folder: **Inbox**\n8. Click **Save**\n\n**Apple Mail (iCloud):**\n1. Open an email from platform\n2. Click sender's email address\n3. Select **\"Add to VIPs\"**\n4. Or: Add to Contacts\n\n---\n\n**Step 2: Verify Email Address**\n\n1. Go to **Settings → Account → Email**\n2. Verify email is correct\n3. Check for typos\n4. If wrong, update and verify new email\n\n**Verify It's Working:**\n- Platform sends verification email\n- Check spam folder for it\n- Click verification link\n\n---\n\n**Step 3: Check Email Provider Rules**\n\n**Some Providers Block Bulk Email:**\n\nIf using corporate or school email:\n- May block automated emails\n- IT department may filter platform emails\n- Consider using personal email instead\n\n**Try These Email Providers (Best Deliverability):**\n- ✅ Gmail (recommended)\n- ✅ Outlook/Hotmail  \n- ✅ Yahoo\n- ✅ iCloud\n- ⚠️ Work/School emails (may be blocked)\n- ⚠️ Custom domains (check spam settings)\n\n---\n\n**Step 4: Add to Contacts**\n\n**All Email Providers:**\n\n1. Create new contact\n2. Email: `notifications@CougarFanz.com`\n3. Name: \"[Platform] Notifications\"\n4. Save\n\n**Why This Helps:**\n- Emails from contacts rarely go to spam\n- Shows email provider you trust this sender\n- May improve delivery for all platform emails\n\n---\n\n**Step 5: Check Spam Settings**\n\n**Gmail Spam Settings:**\n1. Settings → Filters and Blocked Addresses\n2. Look for filters blocking platform\n3. Delete any blocks\n\n**Outlook Spam Settings:**\n1. Settings → Mail → Junk email\n2. Check **Blocked senders** list\n3. Remove platform if listed\n4. Set junk email filter to **Low**\n\n---\n\n**Step 6: Check Email Quota**\n\n**Full Mailbox?**\n- Delete old emails\n- Free up space\n- New emails may be bouncing\n\n**Check:**\n- Gmail: Usually 15 GB free\n- Outlook: Varies by plan\n- If full, emails won't deliver\n\n---\n\n**Step 7: Test Email Delivery**\n\n**After Setup:**\n\n1. Go to **Settings → Notifications → Email**\n2. Click **\"Send Test Email\"**\n3. Check inbox (not spam!) within 5 minutes\n4. If still in spam, repeat steps above\n\n**Or trigger a notification:**\n- Have friend tip you $1\n- Should receive tip notification email\n- Check where it lands\n\n---\n\n**Still Having Issues?**\n\n**Try Alternative Email:**\n1. Settings → Account → Email\n2. Add different email address\n3. Verify new email\n4. Set as primary\n\n**Use Multiple Channels:**\n- Don't rely only on email\n- Enable push notifications (more reliable)\n- Enable SMS for critical alerts\n- Check in-app notification center daily\n\n**Contact Support:**\n\nIf nothing works:\n1. Settings → Help → Contact Support\n2. Subject: \"Email notifications going to spam\"\n3. Include:\n   - Your email provider (Gmail, Outlook, etc.)\n   - Steps you've tried\n   - Whether test email arrived\n\n---\n\n**Prevention for the Future:**\n\n✅ Use Gmail or major email provider\n✅ Add platform to contacts immediately\n✅ Mark first email as \"Not Spam\"\n✅ Create filter rule\n✅ Check spam folder weekly\n✅ Don't ignore platform emails (reduces reputation)\n✅ Open emails regularly (shows engagement)\n\n---\n\n**Why Emails Go to Spam:**\n\n**Common Reasons:**\n- High email volume (many creators get lots of notifications)\n- Bulk email detection (automated emails)\n- Domain reputation (if platform sends millions of emails)\n- Your email provider's aggressive filtering\n- Never opened previous emails (low engagement)\n\n**The Good News:**\n\nOnce you mark as \"Not Spam\" and create filters, delivery improves significantly!\n\n**Pro Tip:**\n\nCheck your spam folder once a week for the first month to catch any missed notifications. After setting up filters properly, they should all arrive in inbox.",
+      "confidence_score": 0.98,
+      "related_articles": [
+        "how-to/notifications.md",
+        "how-to/help-and-support.md"
+      ],
+      "tags": ["notifications", "email", "spam", "delivery", "whitelist", "safe senders"],
+      "suggested_actions": [
+        {
+          "action": "send_test_email",
+          "label": "Send Test Email",
+          "path": "/settings/notifications/test-email"
+        },
+        {
+          "action": "update_email",
+          "label": "Update Email Address",
+          "path": "/settings/account/email"
+        },
+        {
+          "action": "contact_support",
+          "label": "Contact Support",
+          "path": "/help/support"
+        }
+      ]
+    },
+    {
+      "id": "qa_notif_005",
+      "question": "How do I set quiet hours for notifications?",
+      "question_variations": [
+        "How do I stop notifications at night?",
+        "Can I schedule when I get notifications?",
+        "How do I mute notifications while sleeping?",
+        "Set do not disturb for notifications",
+        "Schedule notification times",
+        "Turn off notifications during work",
+        "Notification schedule"
+      ],
+      "answer": "**Set Up Quiet Hours:**\n\n**Platform Quiet Hours:**\n\n**Step 1: Access Settings**\n\n1. Go to **Settings → Notifications**\n2. Scroll to **Quiet Hours** section\n3. Toggle **Enable Quiet Hours** to ON\n\n**Step 2: Set Your Schedule**\n\n```\n⏰ QUIET HOURS SCHEDULE\n\nStart Time: [10:00 PM] ▼\nEnd Time: [8:00 AM] ▼\n\n📅 Days:\n[✓] Monday\n[✓] Tuesday  \n[✓] Wednesday\n[✓] Thursday\n[✓] Friday\n[✓] Saturday\n[✓] Sunday\n\nOR\n\n[✓] Weekdays Only (Mon-Fri)\n[ ] Weekends Only (Sat-Sun)\n[ ] Custom Schedule\n```\n\n**Step 3: Configure Exceptions**\n\n```\n🚨 CRITICAL ALERTS (Override Quiet Hours)\n\n[✓] Security alerts (login attempts, account changes)\n[✓] Payment issues (payout failures, charge problems)\n[ ] High-value tips (over $100)\n[ ] VIP subscriber messages\n[ ] Custom request deadlines\n```\n\n**Step 4: Save Settings**\n\n- Click **Save**\n- Test by having friend message you during quiet hours\n\n---\n\n**What Happens During Quiet Hours:**\n\n**Notifications Are:**\n- ⏸️ Delayed until quiet hours end\n- 📱 Shown in notification center (but no sound/banner)\n- 📧 Emails still sent (check in morning)\n- 🔕 No push notification sounds or banners\n\n**Exceptions (Critical Alerts):**\n- 🔒 Security alerts (always come through)\n- ⚠️ Account warnings (always come through)\n- 💳 Payment failures (if enabled)\n\n**In the Morning:**\n- All delayed notifications appear at end time\n- Check notification center for overnight activity\n- Email summary of what you missed\n\n---\n\n**Common Quiet Hours Schedules:**\n\n**Sleep Schedule:**\n```\nStart: 11:00 PM\nEnd: 7:00 AM\nDays: Every day\nPerfect for: Uninterrupted sleep\n```\n\n**Work Hours:**\n```\nStart: 9:00 AM\nEnd: 5:00 PM\nDays: Weekdays only\nPerfect for: Part-time creators with day jobs\n```\n\n**Family Time:**\n```\nStart: 6:00 PM\nEnd: 9:00 PM\nDays: Every day\nPerfect for: Dinner and family time\n```\n\n**Multiple Quiet Periods:**\n\nSome platforms allow multiple quiet hour windows:\n```\nPeriod 1: 9:00 AM - 5:00 PM (Weekdays - Work)\nPeriod 2: 11:00 PM - 7:00 AM (Every day - Sleep)\n```\n\n---\n\n**Device-Level Quiet Hours (Backup):**\n\n**iPhone Do Not Disturb:**\n\n1. Settings → Focus → Do Not Disturb\n2. Set schedule\n3. **Important:** Allow notifications from platform app:\n   - Focus → Do Not Disturb → Apps\n   - Add platform app to allowed list (for critical alerts)\n\n**Android Do Not Disturb:**\n\n1. Settings → Sound → Do Not Disturb\n2. Set schedule\n3. **Important:** Allow priority apps:\n   - Do Not Disturb → Apps → Priority\n   - Add platform app\n\n**Why Set Both?**\n- Platform quiet hours: Controls what platform sends\n- Device DND: Controls what your phone shows\n- Use both for maximum peace\n\n---\n\n**Smart Quiet Hours Tips:**\n\n**1. Different Schedules for Different Notifications**\n\n```\nRevenue Notifications:\n  Quiet Hours: 11:00 PM - 7:00 AM only\n  (You want to know about money!)\n\nEngagement Notifications:\n  Quiet Hours: 9:00 PM - 9:00 AM\n  (Can wait until morning)\n\nMarketing Emails:\n  Quiet Hours: Always (disable entirely)\n```\n\n**2. Weekend vs Weekday**\n\n```\nWeekdays:\n  Quiet: 10:00 PM - 7:00 AM (work night)\n  \nWeekends:\n  Quiet: 12:00 AM - 9:00 AM (sleep in!)\n```\n\n**3. Use Batching + Quiet Hours**\n\n```\nMessages:\n  - Batch: Hourly\n  - Quiet Hours: 10:00 PM - 8:00 AM\n  - Result: 1 notification per hour during waking hours\n```\n\n---\n\n**For Creators in Different Time Zones:**\n\n**If Your Fans Are Global:**\n\nYour 3 AM might be someone's prime time:\n\n**Strategy:**\n- Set strict quiet hours (e.g., midnight - 8 AM)\n- Enable batching for messages\n- Check notifications in morning\n- Reply to overnight messages first thing\n\n**Example:**\n> \"I'm in PST, so if you message late at night your time, I'll reply when I wake up! Usually within 12 hours. 💕\"\n\n---\n\n**Testing Your Quiet Hours:**\n\n**How to Test:**\n\n1. Set quiet hours to start in 5 minutes\n2. Have friend send you message during quiet hours\n3. Verify:\n   - No sound\n   - No banner\n   - Notification appears in center (but silently)\n4. Verify you DO get critical alerts:\n   - Test security notification if possible\n\n---\n\n**Troubleshooting Quiet Hours:**\n\n**Still Getting Notifications?**\n\n✓ **Check Platform Settings**\n   - Quiet hours actually enabled?\n   - Time correct (AM/PM)?\n   - Days selected?\n\n✓ **Check Device Settings**\n   - Is platform app allowed through DND?\n   - Device time zone correct?\n\n✓ **Check Notification Type**\n   - Some critical alerts override quiet hours (by design)\n   - Security alerts always come through\n\n**Not Getting Critical Alerts?**\n\n✓ **Verify Override Settings**\n   - Critical alerts enabled to override?\n   - Security notifications on?\n   - Check device DND allows critical apps\n\n---\n\n**Recommended Setup:**\n\n```\n⏰ YOUR QUIET HOURS SETUP:\n\nPlatform Settings:\n  Enable Quiet Hours: ✅ ON\n  Sleep Schedule: 11:00 PM - 7:00 AM, Every day\n  Work Schedule (optional): 9:00 AM - 5:00 PM, Weekdays\n  \nCritical Alert Overrides:\n  ✅ Security alerts\n  ✅ Payment issues  \n  ✅ Account warnings\n  ❌ Regular tips\n  ❌ Messages\n  ❌ Comments\n\nDevice DND:\n  Schedule: Same as platform (11 PM - 7 AM)\n  Allow: Platform app (for critical alerts)\n  Allow: Phone calls (emergencies)\n```\n\n**This Setup:**\n- Protects your sleep\n- Lets through genuine emergencies\n- Batches everything else for morning\n- Reduces stress and burnout\n\n**Remember:** Your sleep and personal time are important! Fans will understand if replies take a few hours. Setting boundaries = sustainable business! 💤✨",
+      "confidence_score": 0.99,
+      "related_articles": [
+        "how-to/notifications.md"
+      ],
+      "tags": ["notifications", "quiet hours", "do not disturb", "schedule", "sleep"],
+      "suggested_actions": [
+        {
+          "action": "set_quiet_hours",
+          "label": "Set Quiet Hours",
+          "path": "/settings/notifications/quiet-hours"
+        },
+        {
+          "action": "test_quiet_hours",
+          "label": "Test Quiet Hours",
+          "path": "/settings/notifications/test"
+        }
+      ]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "notifications_all_disabled",
+      "condition": "all_notifications_disabled OR push_notifications_disabled",
+      "trigger_context": "User has disabled most notifications",
+      "message": "⚠️ **Most Notifications Are Disabled**\n\nYou might be missing important updates:\n\n**You Could Miss:**\n- New subscriptions and renewals\n- Tips and purchases (revenue!)\n- Custom requests\n- Messages from paying fans\n- Security alerts\n\n**Recommendation:**\n\nAt minimum, enable:\n✅ Revenue notifications (subscriptions, tips, purchases)\n✅ Security alerts\n✅ Custom requests\n✅ Direct messages\n\n**You can customize how you receive them:**\n- Push only\n- Email only  \n- Batched summaries\n- Quiet hours for sleep\n\nWould you like to enable essential notifications?",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "enable_essential",
+          "label": "Enable Essential Notifications",
+          "path": "/settings/notifications/presets/essential"
+        },
+        {
+          "action": "customize",
+          "label": "Customize Settings",
+          "path": "/settings/notifications"
+        }
+      ]
+    },
+    {
+      "trigger_id": "first_time_revenue_notification",
+      "condition": "first_subscription OR first_tip_received",
+      "trigger_context": "User receives their first revenue notification",
+      "message": "🎉 **You Just Got Your First {type}!**\n\nCongratulations! Here's what to do:\n\n**If Subscription:**\n1. Send welcome message within 12 hours\n2. Thank them for subscribing\n3. Ask what content they'd like to see\n4. Deliver value immediately\n\n**If Tip:**\n1. Thank them within 1 hour if possible\n2. Personal message (not template)\n3. Acknowledge their support\n4. Engage with this fan - they love your content!\n\n**Pro Tip:**\n\nFast, personal responses to your first supporters build loyalty and lead to more revenue!\n\n**You'll receive notifications for:**\n- All new subscriptions\n- All tips received\n- All content purchases\n- Custom requests\n- Payouts\n\nKeep notification sounds on so you never miss revenue opportunities! 💰",
+      "priority": "high",
+      "suggested_actions": [
+        {
+          "action": "view_notification",
+          "label": "View Details",
+          "path": "/notifications/latest"
+        },
+        {
+          "action": "send_thank_you",
+          "label": "Send Thank You Message",
+          "path": "/messages/compose/{user_id}"
+        }
+      ]
+    },
+    {
+      "trigger_id": "notification_emails_bouncing",
+      "condition": "email_bounce_rate > 50_percent",
+      "trigger_context": "User's notification emails are bouncing",
+      "message": "⚠️ **Your Notification Emails Are Bouncing**\n\nWe're unable to deliver emails to: {email_address}\n\n**Common Causes:**\n- Email inbox is full\n- Email address is incorrect\n- Email provider is blocking our emails\n- Email account was closed\n\n**You're Missing:**\n- Revenue notifications\n- Custom request alerts\n- Security alerts\n- Important platform updates\n\n**Fix This Now:**\n\n1. Verify your email address is correct\n2. Check your email inbox isn't full\n3. Add our emails to safe senders\n4. Or update to a different email address\n\n**Meanwhile:**\n- ✅ Push notifications still working\n- ✅ Check in-app notification center\n- ✅ Consider adding SMS for critical alerts\n\nDon't miss important updates - update your email now!",
+      "priority": "critical",
+      "suggested_actions": [
+        {
+          "action": "update_email",
+          "label": "Update Email Address",
+          "path": "/settings/account/email"
+        },
+        {
+          "action": "check_spam_settings",
+          "label": "Email Troubleshooting Guide",
+          "path": "/help/notifications/email-delivery"
+        },
+        {
+          "action": "enable_sms",
+          "label": "Add SMS Backup",
+          "path": "/settings/notifications/sms"
+        }
+      ]
+    },
+    {
+      "trigger_id": "high_notification_volume",
+      "condition": "notifications_per_day > 100",
+      "trigger_context": "User is getting overwhelmed with notifications",
+      "message": "📊 **You're Getting A Lot of Notifications**\n\nYou received {count} notifications yesterday!\n\n**This might lead to:**\n- Notification fatigue\n- Missing important ones\n- Ignoring notifications entirely\n- Stress and burnout\n\n**Recommendations:**\n\n**1. Enable Quiet Hours**\n- Set sleep schedule (11 PM - 8 AM)\n- Peace during personal time\n\n**2. Use Batching**\n- Messages: Hourly instead of instant\n- Comments: Daily summary\n- Likes: Weekly summary or disable\n\n**3. Disable Low-Priority**\n- Individual likes (use summary instead)\n- New followers (milestone only)\n- Marketing emails\n\n**4. Increase Thresholds**\n- Only notify for tips over $25\n- Reduces volume by 60%+\n\n**Keep Enabled:**\n✅ Revenue notifications\n✅ Custom requests\n✅ Security alerts\n\nWould you like help optimizing your settings?",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "optimize_settings",
+          "label": "Optimize Notification Settings",
+          "path": "/settings/notifications/optimize"
+        },
+        {
+          "action": "enable_batching",
+          "label": "Enable Batching",
+          "path": "/settings/notifications/batching"
+        },
+        {
+          "action": "set_quiet_hours",
+          "label": "Set Quiet Hours",
+          "path": "/settings/notifications/quiet-hours"
+        }
+      ]
+    },
+    {
+      "trigger_id": "unread_notifications_piling_up",
+      "condition": "unread_notifications > 50 AND last_checked > 7_days_ago",
+      "trigger_context": "User has many unread notifications and hasn't checked recently",
+      "message": "📬 **You Have {count} Unread Notifications**\n\nYou haven't checked notifications in {days} days.\n\n**You might have missed:**\n- New subscribers waiting for welcome message\n- Tips that need thank you replies\n- Custom requests awaiting response\n- Messages from paying fans\n- Important account updates\n\n**Quick Actions:**\n\n1. **Check Notification Center** (takes 5 min)\n   - Sort by Revenue first\n   - Thank any recent tippers\n   - Respond to custom requests\n\n2. **Clear the Backlog**\n   - Mark older ones as read\n   - Focus on revenue notifications\n   - Reply to recent messages\n\n3. **Adjust Settings**\n   - Too many notifications?\n   - Enable batching\n   - Set up daily summaries\n\n**Pro Tip:**\n\nCheck notifications at least once daily to stay on top of your business and never miss revenue opportunities!\n\nWould you like to review your unread notifications now?",
+      "priority": "medium",
+      "suggested_actions": [
+        {
+          "action": "view_notifications",
+          "label": "View Notifications",
+          "path": "/notifications"
+        },
+        {
+          "action": "mark_all_read",
+          "label": "Mark All as Read",
+          "path": "/notifications/mark-all-read"
+        },
+        {
+          "action": "adjust_settings",
+          "label": "Adjust Settings",
+          "path": "/settings/notifications"
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Push Notification",
+      "definition": "Instant alert sent to your mobile device or desktop, appears as a banner or popup"
+    },
+    {
+      "term": "Email Notification",
+      "definition": "Alert sent to your registered email address about platform activity"
+    },
+    {
+      "term": "In-App Notification",
+      "definition": "Alerts shown within the platform interface when you're logged in, visible in notification center"
+    },
+    {
+      "term": "SMS Notification",
+      "definition": "Text message sent to your phone for critical alerts"
+    },
+    {
+      "term": "Quiet Hours",
+      "definition": "Time period when non-critical notifications are silenced (e.g., during sleep)"
+    },
+    {
+      "term": "Batching",
+      "definition": "Grouping multiple notifications together and delivering them at set intervals instead of individually"
+    },
+    {
+      "term": "Notification Center",
+      "definition": "Central hub in the app where all your notifications are collected and displayed"
+    },
+    {
+      "term": "Badge",
+      "definition": "Small numbered indicator showing unread notification count (e.g., red dot with number)"
+    },
+    {
+      "term": "Critical Alert",
+      "definition": "High-priority notification that bypasses Do Not Disturb and quiet hours (security, payment issues)"
+    },
+    {
+      "term": "Read Status",
+      "definition": "Whether you've viewed/opened a notification (read) or not (unread)"
+    },
+    {
+      "term": "Notification Sound",
+      "definition": "Audio alert that plays when you receive a notification"
+    },
+    {
+      "term": "Banner Notification",
+      "definition": "Pop-up notification that appears at top of screen temporarily"
+    }
+  ],
+  "integration_points": [
+    {
+      "feature": "messaging-system",
+      "connection": "Notifications alert creators to new messages, replies, and message activity"
+    },
+    {
+      "feature": "payments-and-payouts",
+      "connection": "Revenue notifications for subscriptions, tips, purchases, and payouts"
+    },
+    {
+      "feature": "custom-requests",
+      "connection": "Alerts for new custom requests, deadlines, and delivery confirmations"
+    },
+    {
+      "feature": "content-upload",
+      "connection": "Notifications when uploads complete, fail, or when content is flagged"
+    },
+    {
+      "feature": "fan-engagement",
+      "connection": "Engagement notifications for comments, likes, followers, and mentions"
+    },
+    {
+      "feature": "subscription-management",
+      "connection": "Alerts for new subscriptions, renewals, cancellations, and milestones"
+    },
+    {
+      "feature": "profile-and-settings",
+      "connection": "Security notifications for account changes, logins, and suspicious activity"
+    },
+    {
+      "feature": "live-streaming",
+      "connection": "Notifications when stream starts, viewer milestones, and tips during streams"
+    }
+  ]
+}

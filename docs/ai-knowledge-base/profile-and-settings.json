@@ -1,0 +1,549 @@
+{
+  "feature_id": "profile-and-settings",
+  "feature_name": "Profile & Settings Management",
+  "description": "AI knowledge base for profile customization, privacy settings, verification, and account management",
+  "version": "1.0.0",
+  "last_updated": "2025-11-17",
+  "platform": "CougarFanz",
+  "qa_pairs": [
+    {
+      "id": "qa_profile_001",
+      "question": "How do I change my profile photo?",
+      "question_variations": [
+        "Upload profile picture",
+        "Change avatar",
+        "Update my photo",
+        "How to add profile image",
+        "Profile photo upload",
+        "Change profile pic"
+      ],
+      "answer": "**Upload or Change Profile Photo:**\n\n**Step 1: Go to Profile Settings**\n- Click your profile icon (top right)\n- Select **Settings** → **Profile**\n\n**Step 2: Upload Photo**\n1. Click **Change Photo** under current profile picture\n2. Choose option:\n   - Upload from device\n   - Take photo with camera\n   - Choose from previous uploads\n\n3. Crop/position your photo\n4. Click **Save**\n\n**Photo Requirements:**\n- Minimum size: 400×400 pixels\n- Maximum file size: 10 MB\n- Formats: JPG, PNG, GIF\n- Recommended: Square (1:1 ratio)\n\n**Best Practices:**\n✅ Clear, well-lit face shot\n✅ Professional quality\n✅ Smile and look approachable\n✅ High resolution\n\n**Avoid:**\n❌ Blurry or pixelated images\n❌ Group photos\n❌ Sunglasses or face coverings\n❌ Inappropriate content\n\n**Pro Tip:** Profiles with clear face photos get 3x more visits. Use professional lighting and a clean background for best results.",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Edit Profile",
+          "action": "navigate",
+          "target": "/settings/profile"
+        },
+        {
+          "label": "View Profile",
+          "action": "navigate",
+          "target": "/profile"
+        }
+      ],
+      "related_questions": ["qa_profile_002", "qa_profile_010"],
+      "tags": ["profile", "photo", "image", "avatar", "settings"]
+    },
+    {
+      "id": "qa_profile_002",
+      "question": "How do I write a good bio?",
+      "question_variations": [
+        "What should I put in my bio?",
+        "Bio tips",
+        "Profile description help",
+        "How to write profile bio",
+        "Bio examples",
+        "Profile about section"
+      ],
+      "answer": "**Creating an Effective Bio:**\n\n**Bio Formula (500 characters max):**\n\n**1. Who You Are (1-2 sentences)**\n- Your niche/content style\n- What makes you unique\n\n**2. What Subscribers Get**\n- Posting frequency\n- Content type\n- Exclusive perks\n\n**3. Call-to-Action**\n- Clear subscription offer\n- Create urgency if applicable\n\n**Example Bio:**\n\n```\nFitness & lifestyle creator 💪 Daily exclusive workouts\n\nSubscribers get:\n✅ Daily photo & video posts\n✅ Personal workout plans\n✅ Direct message access\n✅ Weekly Q&A sessions\n\nSubscribe for $9.99/month - First 100 get 50% off! 🎉\n```\n\n**What to Include:**\n\n✅ **Niche/Style** - Make it clear what you do\n✅ **Posting Schedule** - \"Daily posts\" \"3x per week\"\n✅ **Value Proposition** - What makes you different\n✅ **Call-to-Action** - \"Subscribe now!\"\n✅ **Keywords** - For search (your niche, content type)\n✅ **Personality** - Let your voice shine through\n\n**What to Avoid:**\n\n❌ Vague descriptions (\"Just me being me\")\n❌ No clear value (what do subscribers get?)\n❌ Too personal/oversharing\n❌ Negative language\n❌ All caps or excessive emojis\n❌ External payment requests\n\n**SEO Tips:**\nInclude searchable keywords:\n- Your niche (fitness, gaming, cooking)\n- Content type (photos, videos, tutorials)\n- Location if relevant (\"LA creator\")\n\n**Edit Your Bio:**\n1. Settings → Profile\n2. Edit **Bio** field (500 chars max)\n3. Preview how it looks\n4. Click **Save**\n\n**Pro Tip:** Update your bio monthly with current promotions, milestones, or seasonal content. \"Celebrating 1000 subs!\" or \"Holiday special: 50% off!\" creates urgency.",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Edit Bio",
+          "action": "navigate",
+          "target": "/settings/profile?section=bio"
+        },
+        {
+          "label": "View Bio Examples",
+          "action": "open_doc",
+          "target": "/docs/how-to/profile-and-settings.md#bio--description"
+        }
+      ],
+      "related_questions": ["qa_profile_001", "qa_profile_003"],
+      "tags": ["bio", "description", "profile", "about", "writing"]
+    },
+    {
+      "id": "qa_profile_003",
+      "question": "How do I get verified?",
+      "question_variations": [
+        "Verification process",
+        "How to get verified badge",
+        "Get blue checkmark",
+        "Verify my account",
+        "Verification requirements",
+        "Apply for verification"
+      ],
+      "answer": "**Get Verified (Blue Checkmark ✓):**\n\n**Verification Benefits:**\n- ✓ Blue checkmark next to your name\n- ✓ Increased credibility and trust\n- ✓ Higher search ranking\n- ✓ Access to advanced features\n- ✓ Priority customer support\n\n**Eligibility Requirements:**\n\n**Must Have:**\n1. ✅ Completed profile (photo, banner, bio)\n2. ✅ At least 25 posts published\n3. ✅ Account active for 30+ days\n4. ✅ Government ID verified\n5. ✅ No community guideline violations\n\n**Verification Types:**\n\n**1. Identity Verification** (Required for Payouts)\n- Confirms you are a real person\n- Required for all creators earning money\n\n**2. Professional Verification** (Optional)\n- For public figures, influencers, brands\n- Requires 10K+ followers on other platforms\n\n**How to Verify Your Identity:**\n\n1. Go to **Settings** → **Verification**\n2. Click **Verify Identity**\n3. Upload documents:\n   - Government ID (driver's license, passport)\n   - Selfie holding your ID\n   - Proof of address (for some regions)\n\n4. Wait for approval (1-3 business days)\n\n**Required Documents:**\n- Clear photo of ID (all corners visible)\n- ID must be current (not expired)\n- Selfie showing your face + ID clearly\n- Good lighting, no glare\n\n**Professional Verification:**\n\nIf you're a public figure:\n1. Settings → Verification → **Professional Verification**\n2. Provide:\n   - Social media (10K+ followers)\n   - Press mentions or Wikipedia\n   - Reason for verification\n3. Submit application (5-10 day review)\n\n**Check Status:**\nSettings → Verification → **Status**\n\n**Statuses:**\n- ⏳ Pending - Under review\n- ✓ Verified - Approved!\n- ❌ Rejected - Did not meet requirements (reapply in 30 days)\n\n**Common Rejection Reasons:**\n- ID photo not clear/readable\n- Selfie doesn't match ID\n- Account too new (less than 30 days)\n- Insufficient posts (need 25+)\n- Community guideline violations\n\n**If Rejected:**\n1. Check rejection email for specific reason\n2. Fix the issue\n3. Wait 30 days to reapply\n\n**Pro Tip:** Verified creators see 40% higher trust and conversion rates. Complete verification as soon as you meet the requirements!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Start Verification",
+          "action": "navigate",
+          "target": "/settings/verification"
+        },
+        {
+          "label": "Check Requirements",
+          "action": "navigate",
+          "target": "/settings/verification?tab=requirements"
+        },
+        {
+          "label": "View Verification Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/profile-and-settings.md#verification-process"
+        }
+      ],
+      "related_questions": ["qa_profile_008", "qa_profile_009"],
+      "tags": ["verification", "verified", "badge", "checkmark", "identity"]
+    },
+    {
+      "id": "qa_profile_004",
+      "question": "How do I enable two-factor authentication?",
+      "question_variations": [
+        "Set up 2FA",
+        "Enable two-factor auth",
+        "2FA setup",
+        "Two-step verification",
+        "Secure my account with 2FA",
+        "Add authentication app"
+      ],
+      "answer": "**Enable Two-Factor Authentication (2FA):**\n\n**Why Enable 2FA:**\n- ✅ Prevents unauthorized account access\n- ✅ Protects your earnings and content\n- ✅ Required for accounts earning $1000+/month\n- ✅ Adds extra security layer beyond password\n\n**How to Enable 2FA:**\n\n**Step 1: Go to Security Settings**\n1. Settings → **Security**\n2. Click **Two-Factor Authentication**\n\n**Step 2: Choose Method**\n\n**Option A: Authenticator App** (Recommended)\n- Most secure method\n- Works offline\n- Faster than SMS\n\n**Setup:**\n1. Download authenticator app:\n   - Google Authenticator (iOS/Android)\n   - Authy (iOS/Android/Desktop)\n   - Microsoft Authenticator\n\n2. In platform settings, click **Setup Authenticator**\n3. Scan QR code with authenticator app\n4. Enter 6-digit code from app\n5. Save backup codes (IMPORTANT!)\n6. Confirm setup\n\n**Option B: SMS Text Message**\n1. Click **Setup SMS Authentication**\n2. Enter phone number\n3. Verify phone with code sent via text\n4. Save backup codes\n5. Confirm setup\n\n**Option C: Email**\n1. Click **Setup Email Authentication**\n2. Codes sent to your verified email\n3. Less secure but works if no phone access\n\n**Step 3: Save Backup Codes**\n\n⚠️ **CRITICAL:** Write down and securely store backup codes!\n\n- Used if you lose phone/app access\n- Each code works once\n- Store in password manager or safe place\n\n**Login with 2FA Enabled:**\n\n1. Enter username and password\n2. Open authenticator app\n3. Enter current 6-digit code\n4. Access granted\n\n**Lost Access to 2FA?**\n\n**If you have backup codes:**\n1. Use backup code to login\n2. Disable and re-setup 2FA\n\n**If you lost backup codes:**\n1. Click \"Lost access to 2FA?\"\n2. Verify identity (may take 24-48 hours)\n3. Support will reset 2FA\n\n**Manage 2FA:**\n\nSettings → Security → **Two-Factor Authentication**\n\n- View authentication method\n- Regenerate backup codes\n- Switch methods (SMS to app)\n- Disable 2FA (requires password)\n\n**Pro Tip:** Use an authenticator app instead of SMS for better security. SMS can be intercepted, but app-based codes cannot. Also works when traveling internationally!",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Enable 2FA",
+          "action": "navigate",
+          "target": "/settings/security?action=enable_2fa"
+        },
+        {
+          "label": "Download Google Authenticator",
+          "action": "open_external",
+          "target": "https://apps.apple.com/app/google-authenticator/id388497605"
+        },
+        {
+          "label": "Security Guide",
+          "action": "open_doc",
+          "target": "/docs/how-to/profile-and-settings.md#two-factor-authentication-2fa"
+        }
+      ],
+      "related_questions": ["qa_profile_008", "qa_profile_009"],
+      "tags": ["2FA", "security", "authentication", "two-factor", "safety"]
+    },
+    {
+      "id": "qa_profile_005",
+      "question": "How do I change my username?",
+      "question_variations": [
+        "Change my handle",
+        "Update username",
+        "New username",
+        "Rename my account",
+        "Can I change my @name",
+        "Username change"
+      ],
+      "answer": "**Change Your Username:**\n\n**Important Limitations:**\n- ⚠️ Can only change once every **60 days**\n- ⚠️ Changes your profile URL: CougarFanz.com/@newusername\n- ⚠️ Must update external links (social media bios, etc.)\n\n**Username Requirements:**\n- 3-20 characters\n- Lowercase letters, numbers, underscores only\n- No spaces or special characters\n- Must be unique (not taken by another user)\n\n**How to Change:**\n\n1. Go to **Settings** → **Profile**\n2. Click on **Username** field\n3. Enter new username\n4. Click **Check Availability**\n   - ✅ Green checkmark = Available\n   - ❌ Red X = Already taken\n\n5. If available, click **Save Changes**\n6. Enter your password to confirm\n7. Username updated!\n\n**What Changes:**\n- ✅ Your profile URL\n- ✅ Your @handle in posts/messages\n- ✅ How people tag/mention you\n\n**What Doesn't Change:**\n- Your display name (visible name on profile)\n- Your content, subscribers, or earnings\n- Your verification status\n\n**After Changing:**\n\n**Update External Links:**\n- Instagram bio\n- Twitter/X bio\n- TikTok bio\n- Link tree or other link services\n- Business cards or promotional materials\n\n**Old URL Behavior:**\n- Old username redirects to new one for 30 days\n- After 30 days, old username becomes available for others\n\n**Check When You Can Change:**\nSettings → Profile → **Username**\n\nWill show: \"Next change available: [date]\"\n\n**Username Already Taken?**\n\n**Try Variations:**\n- Add numbers: @username123\n- Add underscores: @user_name\n- Add your niche: @username_fitness\n- Add location: @username_nyc\n\n**Impersonation:**\nIf someone is impersonating you:\n1. Report their profile\n2. Provide proof you're the original\n3. Support may free up the username\n\n**Pro Tip:** Choose a username that's:\n- Easy to spell and remember\n- Consistent with your other social media\n- Represents your brand/niche\n- Professional (avoid numbers if possible)\n\nOnce you have a good username, avoid changing it frequently - consistency helps with branding and searchability!",
+      "confidence_score": 0.97,
+      "suggested_actions": [
+        {
+          "label": "Change Username",
+          "action": "navigate",
+          "target": "/settings/profile?section=username"
+        },
+        {
+          "label": "Check Availability",
+          "action": "navigate",
+          "target": "/settings/profile?action=check_username"
+        },
+        {
+          "label": "Report Impersonation",
+          "action": "navigate",
+          "target": "/help/report/impersonation"
+        }
+      ],
+      "related_questions": ["qa_profile_002", "qa_profile_010"],
+      "tags": ["username", "handle", "rename", "profile", "change"]
+    },
+    {
+      "id": "qa_profile_006",
+      "question": "How do I make my profile private?",
+      "question_variations": [
+        "Private account",
+        "Hide my profile",
+        "Make profile private",
+        "Privacy settings",
+        "Who can see my profile?",
+        "Private mode"
+      ],
+      "answer": "**Make Your Profile Private:**\n\n**Public vs. Private Profile:**\n\n**Public Profile** (Default)\n- ✅ Anyone can view your profile\n- ✅ Shows in search results\n- ✅ Appears in recommendations\n- ✅ Shows profile photo, banner, bio\n- ❌ Subscriber content still protected\n\n**Private Profile**\n- ✅ Only approved followers see profile\n- ✅ You manually approve each request\n- ✅ Hidden from search engines\n- ✅ More exclusive/selective\n- ❌ Harder to grow audience\n\n**How to Make Profile Private:**\n\n1. Go to **Settings** → **Privacy**\n2. Toggle **Private Profile** to ON\n3. Save changes\n\n**What Happens:**\n- Profile hidden from public\n- People must request to follow\n- You approve/decline each request\n- Only approved followers can:\n  - View your profile\n  - See your posts\n  - Subscribe\n\n**Managing Follow Requests:**\n\nGo to **Profile** → **Follow Requests**\n\n**For Each Request:**\n- **Approve** - They can view profile and subscribe\n- **Decline** - They cannot view profile\n- View their profile before deciding\n\n**Additional Privacy Settings:**\n\n**Search Engine Visibility:**\nSettings → Privacy → **Allow Search Engines**\n- ON: Profile appears in Google searches\n- OFF: Only accessible via direct link\n\n**Recommendations:**\nSettings → Privacy → **Appear in Recommendations**\n- ON: Your profile shown to potential subscribers\n- OFF: Only accessible via direct link or search\n\n**Who Can Message You:**\nSettings → Privacy → **Message Settings**\n- Everyone\n- Subscribers Only (recommended for privacy)\n- No One\n\n**Story Privacy:**\nSettings → Privacy → **Story Viewers**\n- All Subscribers\n- Select Subscribers (choose manually)\n- VIP/Premium Tier Only\n\n**Best Use Cases:**\n\n**Public Profile Best For:**\n- New creators building audience\n- Maximum growth potential\n- Broad appeal content\n- Want to appear in search/recommendations\n\n**Private Profile Best For:**\n- Exclusive/niche content\n- Want to manually vet subscribers\n- Concerned about privacy\n- Quality over quantity approach\n\n**Hybrid Approach:**\n- Keep profile public\n- Turn off search engines\n- Turn off recommendations\n- Set messaging to \"Subscribers Only\"\n\nResult: Discoverable but more private\n\n**Pro Tip:** Most successful creators keep profiles public but use other privacy settings for control. Private profiles make growth much slower. Consider public profile with \"Subscribers Only\" messaging as a middle ground.",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Privacy Settings",
+          "action": "navigate",
+          "target": "/settings/privacy"
+        },
+        {
+          "label": "View Follow Requests",
+          "action": "navigate",
+          "target": "/profile/followers?tab=requests"
+        },
+        {
+          "label": "Message Settings",
+          "action": "navigate",
+          "target": "/settings/privacy?section=messaging"
+        }
+      ],
+      "related_questions": ["qa_profile_007", "qa_profile_009"],
+      "tags": ["privacy", "private", "profile", "visibility", "settings"]
+    },
+    {
+      "id": "qa_profile_007",
+      "question": "How do I block someone?",
+      "question_variations": [
+        "Block a user",
+        "How to block",
+        "Stop someone from seeing my profile",
+        "Blocking users",
+        "Get rid of annoying user",
+        "Prevent user from contacting me"
+      ],
+      "answer": "**Block a User:**\n\n**What Blocking Does:**\n\n When you block someone:\n- ❌ They CANNOT view your profile\n- ❌ They CANNOT message you\n- ❌ They CANNOT comment on your posts\n- ❌ They CANNOT subscribe or renew\n- ❌ Existing subscription is canceled (no refund)\n- ℹ️ They're NOT notified they've been blocked\n\n**How to Block:**\n\n**Option 1: From Their Profile**\n1. Go to the user's profile\n2. Click ⋯ (three dots) menu\n3. Select **Block User**\n4. Confirm block\n\n**Option 2: From a Message**\n1. Open message conversation\n2. Click ⋯ menu at top\n3. Select **Block User**\n4. Confirm\n\n**Option 3: From a Comment**\n1. Find their comment\n2. Click ⋯ on comment\n3. Select **Block User**\n4. Confirm\n\n**View Blocked Users:**\n\nSettings → Privacy → **Blocked Users**\n\n- See list of everyone you've blocked\n- Unblock users if needed\n- View when you blocked them\n\n**Unblock a User:**\n\n1. Settings → Privacy → **Blocked Users**\n2. Find user in list\n3. Click **Unblock** next to their name\n4. Confirm\n\n**After Unblocking:**\n- They CAN view your profile again\n- They CAN message you\n- They CAN subscribe\n- Previous subscription NOT restored (must resubscribe)\n\n**Block vs. Restrict:**\n\n**Block** (Complete cutoff)\n- They cannot see or interact at all\n- Use for: Harassment, spam, serious issues\n\n**Restrict** (Softer option)\n- They can still view profile\n- Their comments go to \"pending\"\n- Messages go to \"requests\" not inbox\n- They don't see when you're online\n- Use for: Annoying but not abusive users\n\n**How to Restrict:**\n1. User's profile → ⋯ menu\n2. Select **Restrict**\n3. Confirm\n\n**Reporting vs. Blocking:**\n\n**Block:** Immediate personal protection\n**Report:** Alerts platform moderators\n\n**Do Both If:**\n- User is harassing you\n- Sharing illegal content\n- Violating community guidelines\n- Impersonating someone\n- Spamming\n\n**How to Report:**\n1. User's profile → ⋯ menu\n2. Select **Report User**\n3. Choose reason (harassment, spam, illegal, etc.)\n4. Provide details\n5. Submit\n\n**What Happens When You Report:**\n- Moderation team reviews (24-48 hours)\n- User may be warned, suspended, or banned\n- You're notified of outcome\n- Reporting does NOT auto-block (block separately)\n\n**Pro Tip:** Block liberally to protect your mental health and safety. You don't owe anyone access to your profile or content. If someone makes you uncomfortable, block them immediately - no explanation needed.",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "View Blocked Users",
+          "action": "navigate",
+          "target": "/settings/privacy?tab=blocked"
+        },
+        {
+          "label": "Report a User",
+          "action": "navigate",
+          "target": "/help/report/user"
+        },
+        {
+          "label": "Privacy Settings",
+          "action": "navigate",
+          "target": "/settings/privacy"
+        }
+      ],
+      "related_questions": ["qa_profile_006", "qa_profile_009"],
+      "tags": ["block", "blocking", "restrict", "report", "privacy", "safety"]
+    },
+    {
+      "id": "qa_profile_008",
+      "question": "How do I change my password?",
+      "question_variations": [
+        "Update password",
+        "Change my password",
+        "Reset password",
+        "New password",
+        "Forgot password",
+        "Password change"
+      ],
+      "answer": "**Change Your Password:**\n\n**If You're Logged In:**\n\n1. Go to **Settings** → **Account**\n2. Click **Change Password**\n3. Enter current password\n4. Enter new password\n5. Confirm new password\n6. Click **Save**\n\n**Password Requirements:**\n- Minimum 8 characters\n- At least one uppercase letter\n- At least one lowercase letter\n- At least one number\n- Special characters recommended (!@#$%)\n- Cannot reuse last 3 passwords\n\n**Example Strong Password:**\n- `MyDog$Fluffy2025`\n- `Coffee&Sunshine!42`\n- `Blue#Sky$Morning7`\n\n**If You Forgot Your Password:**\n\n1. Go to login page\n2. Click **Forgot Password?**\n3. Enter your email address\n4. Check email for reset link\n5. Click link in email (valid for 1 hour)\n6. Create new password\n7. Confirm new password\n8. Login with new password\n\n**Didn't Receive Reset Email?**\n\n- Check spam/junk folder\n- Verify you entered correct email\n- Wait 5 minutes and try again\n- Add support@CougarFanz.com to contacts\n- Contact support if still no email\n\n**Password Security Best Practices:**\n\n**Do:**\n- ✅ Use unique password (not used elsewhere)\n- ✅ Use password manager (1Password, LastPass, Bitwarden)\n- ✅ Change password every 90 days\n- ✅ Enable two-factor authentication\n- ✅ Use long, complex passwords\n\n**Don't:**\n- ❌ Use same password as other sites\n- ❌ Share password with anyone\n- ❌ Use personal info (birthday, pet name)\n- ❌ Use common passwords (Password123)\n- ❌ Write password where others can find it\n\n**Signs Your Password May Be Compromised:**\n\n⚠️ **Check Login History:**\nSettings → Security → **Login History**\n\n**Red Flags:**\n- Logins from unknown locations\n- Login attempts you don't recognize\n- Failed login attempts at odd hours\n- Unfamiliar devices or browsers\n\n**If Compromised:**\n\n1. **Change password immediately**\n2. **Enable 2FA** (Settings → Security)\n3. **Log out all sessions** (Settings → Security → Log Out All Devices)\n4. **Review account activity** for unauthorized changes\n5. **Contact support** if you see suspicious activity\n\n**Account Recovery:**\n\nIf you can't access account:\n1. Use \"Forgot Password\" flow\n2. If email compromised too, contact support\n3. Provide:\n   - Username\n   - Email on account\n   - Government ID for verification\n   - Recent transaction info\n\n**Response time:** 24-48 hours for account recovery\n\n**Pro Tip:** Use a password manager like 1Password or Bitwarden to generate and store strong, unique passwords. Enable 2FA for extra security. Change your password if you ever use public WiFi or shared computers to access your account.",
+      "confidence_score": 0.99,
+      "suggested_actions": [
+        {
+          "label": "Change Password",
+          "action": "navigate",
+          "target": "/settings/account?action=change_password"
+        },
+        {
+          "label": "Reset Password",
+          "action": "open_external",
+          "target": "/auth/forgot-password"
+        },
+        {
+          "label": "View Login History",
+          "action": "navigate",
+          "target": "/settings/security?tab=login_history"
+        },
+        {
+          "label": "Enable 2FA",
+          "action": "navigate",
+          "target": "/settings/security?action=enable_2fa"
+        }
+      ],
+      "related_questions": ["qa_profile_004", "qa_profile_009"],
+      "tags": ["password", "security", "account", "login", "reset"]
+    },
+    {
+      "id": "qa_profile_009",
+      "question": "How do I view my login history?",
+      "question_variations": [
+        "Check login activity",
+        "See who accessed my account",
+        "Login history",
+        "Account activity",
+        "View active sessions",
+        "Check if account was hacked"
+      ],
+      "answer": "**View Login History & Active Sessions:**\n\n**Check Login History:**\n\n1. Go to **Settings** → **Security**\n2. Click **Login History**\n\n**What You'll See (Last 30 Days):**\n\n- 📅 **Login Date/Time**\n- 🌍 **IP Address**\n- 📱 **Device Type** (iPhone, Android, Desktop)\n- 🌐 **Browser** (Chrome, Safari, Firefox)\n- 📍 **Location** (City, Country - approximate)\n- ✅/❌ **Status** (Successful or Failed)\n\n**Example Entry:**\n```\n✅ Nov 17, 2025 2:30 PM\nIP: 192.168.1.1\nDevice: iPhone 14 Pro\nBrowser: Safari\nLocation: Los Angeles, CA\n```\n\n**View Active Sessions:**\n\nSettings → Security → **Active Sessions**\n\n**Shows:**\n- Devices currently logged in\n- When they logged in\n- Last activity time\n- Browser/app used\n\n**Example:**\n```\n🖥️ Current Session (This Device)\nMacBook Pro • Chrome\nLast active: Just now\n\n📱 iPhone\niOS App\nLast active: 2 hours ago\n[End Session]\n```\n\n**Log Out Specific Device:**\n- Click **End Session** next to device\n- That device is immediately logged out\n- Use if you left yourself logged in somewhere\n\n**Log Out All Devices:**\n\n1. Settings → Security\n2. Click **Log Out All Sessions**\n3. Confirms logout of EVERY device except current one\n4. You'll need to re-login on all devices\n\n**Use when:**\n- You think account was compromised\n- You used public/shared computer\n- You see suspicious sessions\n\n**Identifying Suspicious Activity:**\n\n**🚩 Red Flags:**\n\n❌ **Unknown Locations**\n- Logins from countries you haven't visited\n- Cities you don't recognize\n\n❌ **Unfamiliar Devices**\n- Devices you don't own\n- Browsers you don't use\n\n❌ **Odd Times**\n- Login attempts at 3 AM when you were sleeping\n- Activity when you know you weren't online\n\n❌ **Failed Login Attempts**\n- Multiple failed attempts\n- Especially from unknown IPs\n\n**If You See Suspicious Activity:**\n\n**Immediate Actions:**\n\n1. **Change Password Immediately**\n   - Settings → Account → Change Password\n   - Use strong, unique password\n\n2. **Enable Two-Factor Authentication**\n   - Settings → Security → Enable 2FA\n   - Use authenticator app (most secure)\n\n3. **Log Out All Sessions**\n   - Settings → Security → Log Out All Sessions\n   - Kicks out any unauthorized access\n\n4. **Review Account Changes**\n   - Check profile settings\n   - Verify payment methods\n   - Check email/phone on account\n   - Look for unauthorized posts\n\n5. **Contact Support**\n   - Help → Contact Support\n   - Report unauthorized access\n   - Provide login history screenshots\n\n**Prevent Future Issues:**\n\n✅ **Enable 2FA** (most important!)\n✅ **Use strong, unique password**\n✅ **Don't share login credentials**\n✅ **Log out on shared/public devices**\n✅ **Avoid public WiFi for account access**\n✅ **Check login history weekly**\n\n**Understanding IP Addresses:**\n\n**Your IP May Change:**\n- Different locations (home, work, coffee shop)\n- VPN usage\n- Mobile network changes\n- ISP reassignment\n\n**Normal to see multiple IPs if you:**\n- Use VPN\n- Access from phone + computer\n- Travel frequently\n- Use mobile data + WiFi\n\n**Pro Tip:** Check your login history weekly. Set a reminder every Monday to review for anything suspicious. If you enable 2FA, even if someone gets your password, they still can't access your account without the second factor!",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "View Login History",
+          "action": "navigate",
+          "target": "/settings/security?tab=login_history"
+        },
+        {
+          "label": "View Active Sessions",
+          "action": "navigate",
+          "target": "/settings/security?tab=sessions"
+        },
+        {
+          "label": "Log Out All Devices",
+          "action": "navigate",
+          "target": "/settings/security?action=logout_all"
+        },
+        {
+          "label": "Enable 2FA",
+          "action": "navigate",
+          "target": "/settings/security?action=enable_2fa"
+        }
+      ],
+      "related_questions": ["qa_profile_004", "qa_profile_008"],
+      "tags": ["security", "login", "history", "sessions", "activity", "hacked"]
+    },
+    {
+      "id": "qa_profile_010",
+      "question": "How do I download my data?",
+      "question_variations": [
+        "Export my data",
+        "Download all my content",
+        "Get copy of my data",
+        "Data download",
+        "Backup my account",
+        "Export account data"
+      ],
+      "answer": "**Download Your Account Data:**\n\n**What's Included in Data Download:**\n\n- 📸 **All Your Posts** (photos, videos, text)\n- 💬 **Messages** (sent and received)\n- 📊 **Analytics Data** (views, earnings, subscribers)\n- ⚙️ **Account Information** (profile, settings, preferences)\n- 💰 **Transaction History** (earnings, payouts)\n- 👤 **Follower/Subscriber Lists**\n- 📝 **Comments** (given and received)\n\n**How to Request Data Download:**\n\n1. Go to **Settings** → **Privacy & Data**\n2. Click **Download Your Data**\n3. Select what to include:\n   - ☑️ Posts and media\n   - ☑️ Messages\n   - ☑️ Analytics\n   - ☑️ Account info\n   - ☑️ All of the above (recommended)\n\n4. Choose format:\n   - **JSON** (machine-readable, for developers)\n   - **HTML** (human-readable, browse in web browser)\n   - **Both** (recommended)\n\n5. Click **Request Download**\n6. Enter password to confirm\n7. Submitted!\n\n**Processing Time:**\n- Small accounts (< 1000 posts): 2-6 hours\n- Medium accounts (1000-5000 posts): 12-24 hours\n- Large accounts (5000+ posts): 24-48 hours\n\n**You'll Receive Email:**\n\"Your data is ready for download!\"\n\n**Download Your Archive:**\n\n1. Click link in email\n   - Or go to Settings → Privacy → Download Data\n2. Click **Download Archive**\n3. Saves as ZIP file to your device\n\n**Archive Available For:**\n- 7 days after creation\n- After 7 days, request new archive\n\n**Archive Contents:**\n\n```\nYour_[Platform]_Data.zip\n├── index.html (start here)\n├── posts/\n│   ├── photos/\n│   ├── videos/\n│   └── posts.json\n├── messages/\n│   └── conversations.json\n├── analytics/\n│   └── data.json\n└── account/\n    └── profile.json\n```\n\n**How to View:**\n\n1. Extract ZIP file\n2. Open `index.html` in web browser\n3. Browse your data offline\n4. All media files included\n\n**Why Download Your Data:**\n\n**Backup:**\n- Protect against accidental deletion\n- Keep offline copy of content\n- Portfolio archive\n\n**Migration:**\n- Moving to different platform\n- Creating personal website\n- Reusing content elsewhere\n\n**Legal/Tax:**\n- Record of earnings for taxes\n- Evidence for disputes\n- Business records\n\n**Analysis:**\n- Analyze your content performance\n- Track growth over time\n- Data science projects\n\n**Recommended Backup Schedule:**\n\n- **Monthly:** For active creators (1+ posts/day)\n- **Quarterly:** For regular creators (2-4 posts/week)\n- **Annually:** For occasional creators\n\n**Important Notes:**\n\n⚠️ **Data Download ≠ Account Deletion**\n- Downloading data doesn't delete your account\n- Account remains active\n- You can download multiple times\n\n⚠️ **Privacy:**\n- Archive contains ALL your data\n- Store securely (encrypted drive recommended)\n- Don't share archive (contains personal info)\n\n⚠️ **Size:**\n- Large archives (5+ GB possible for active creators)\n- Ensure sufficient storage space\n- May take time to download\n\n**Delete Account After Download:**\n\nIf you want to delete account:\n1. Download data first\n2. Wait for archive download\n3. Settings → Account → **Delete Account**\n4. 30-day grace period (can cancel deletion)\n5. After 30 days, permanent deletion\n\n**Pro Tip:** Download your data quarterly as a backup. If you ever lose content or need records for taxes, you'll have an archive. Store the ZIP file in cloud storage (Google Drive, Dropbox) and/or external hard drive for redundancy.",
+      "confidence_score": 0.98,
+      "suggested_actions": [
+        {
+          "label": "Request Data Download",
+          "action": "navigate",
+          "target": "/settings/privacy?action=download_data"
+        },
+        {
+          "label": "View Download Status",
+          "action": "navigate",
+          "target": "/settings/privacy?tab=data_download"
+        },
+        {
+          "label": "Privacy Settings",
+          "action": "navigate",
+          "target": "/settings/privacy"
+        }
+      ],
+      "related_questions": ["qa_profile_006", "qa_profile_009"],
+      "tags": ["data", "download", "export", "backup", "privacy", "GDPR"]
+    }
+  ],
+  "proactive_triggers": [
+    {
+      "trigger_id": "incomplete_profile_reminder",
+      "trigger_name": "Incomplete Profile Setup",
+      "message": "⚠️ **Your profile is incomplete**\n\nProfiles with photos and bios get 5x more subscribers!\n\n**Missing:**\n{missing_items}\n\n[Complete Profile Now]",
+      "condition": {
+        "page": "/dashboard",
+        "user_state": {
+          "profile_complete": false,
+          "missing_fields": ["photo", "bio", "banner"]
+        }
+      },
+      "priority": "high",
+      "display_type": "alert",
+      "dismissible": true,
+      "show_once": false,
+      "cooldown_days": 3
+    },
+    {
+      "trigger_id": "verification_eligible",
+      "trigger_name": "Eligible for Verification",
+      "message": "🎉 **You're eligible for verification!**\n\nGet the blue checkmark ✓ to build trust and increase conversions.\n\n**Requirements met:**\n✅ 25+ posts\n✅ 30+ days active\n✅ Complete profile\n\n[Start Verification]",
+      "condition": {
+        "user_state": {
+          "is_verified": false,
+          "posts_count": {
+            "greater_than": 25
+          },
+          "account_age_days": {
+            "greater_than": 30
+          },
+          "profile_complete": true
+        }
+      },
+      "priority": "medium",
+      "display_type": "celebration",
+      "dismissible": true,
+      "show_once": true
+    },
+    {
+      "trigger_id": "2fa_recommendation",
+      "trigger_name": "Enable 2FA Security",
+      "message": "🔒 **Protect your account with 2FA**\n\nYou're earning money - enable two-factor authentication for extra security!\n\n**Takes 2 minutes to setup**\n\n[Enable 2FA Now] [Learn More]",
+      "condition": {
+        "user_state": {
+          "2fa_enabled": false,
+          "total_earnings": {
+            "greater_than": 100
+          }
+        }
+      },
+      "priority": "high",
+      "display_type": "banner",
+      "dismissible": true,
+      "show_once": false,
+      "cooldown_days": 14
+    },
+    {
+      "trigger_id": "suspicious_login_alert",
+      "trigger_name": "Suspicious Login Detected",
+      "message": "⚠️ **Unusual login detected**\n\nWe noticed a login from {location} at {time}.\n\n**Was this you?**\n\n[Yes, That Was Me] [No, Secure My Account]",
+      "condition": {
+        "security_event": {
+          "type": "suspicious_login",
+          "confidence": "high"
+        }
+      },
+      "priority": "critical",
+      "display_type": "modal",
+      "dismissible": false,
+      "show_immediately": true
+    },
+    {
+      "trigger_id": "bio_optimization_tip",
+      "trigger_name": "Bio Optimization Suggestion",
+      "message": "💡 **Optimize your bio for better conversions**\n\nYour bio is short ({char_count} characters). Longer bios with clear value propositions convert 40% better!\n\n**Include:**\n✅ What subscribers get\n✅ Posting frequency\n✅ Call-to-action\n\n[View Bio Tips] [Edit Bio]",
+      "condition": {
+        "page": "/settings/profile",
+        "user_state": {
+          "bio_length": {
+            "less_than": 100
+          },
+          "total_subscribers": {
+            "less_than": 50
+          }
+        }
+      },
+      "priority": "low",
+      "display_type": "tip",
+      "dismissible": true,
+      "show_once": false,
+      "cooldown_days": 30
+    }
+  ],
+  "common_errors": [
+    {
+      "error_code": "PHOTO_TOO_LARGE",
+      "error_message": "Photo file size exceeds 10 MB",
+      "solution": "Compress your photo before uploading. Use online tools like TinyPNG or Squoosh. Recommended: Keep photos under 5 MB for faster uploads.",
+      "help_link": "/docs/how-to/profile-and-settings.md#profile-photo-guidelines"
+    },
+    {
+      "error_code": "USERNAME_TAKEN",
+      "error_message": "This username is already in use",
+      "solution": "Try variations: add numbers (@username123), underscores (@user_name), or your niche (@username_fitness). If someone is impersonating you, report their profile.",
+      "help_link": "/docs/how-to/profile-and-settings.md#username-already-taken"
+    },
+    {
+      "error_code": "USERNAME_CHANGE_LIMIT",
+      "error_message": "You can only change your username once every 60 days",
+      "solution": "You recently changed your username. Check Settings → Profile to see when you can change it again. Next change available: {date}.",
+      "help_link": "/docs/how-to/profile-and-settings.md#how-to-change-username"
+    },
+    {
+      "error_code": "VERIFICATION_REJECTED",
+      "error_message": "Verification application was rejected",
+      "solution": "Common reasons: unclear ID photo, selfie doesn't match ID, account too new, or guideline violations. Review rejection email for specific reason. You can reapply in 30 days after fixing the issue.",
+      "help_link": "/docs/how-to/profile-and-settings.md#if-rejected"
+    },
+    {
+      "error_code": "2FA_CODE_INVALID",
+      "error_message": "Two-factor authentication code is invalid or expired",
+      "solution": "Codes expire after 30 seconds. Generate a new code in your authenticator app. Ensure your device time is accurate. If using SMS, request a new code.",
+      "help_link": "/docs/how-to/profile-and-settings.md#lost-access-to-2fa"
+    },
+    {
+      "error_code": "PASSWORD_TOO_WEAK",
+      "error_message": "Password does not meet security requirements",
+      "solution": "Password must be at least 8 characters with uppercase, lowercase, and numbers. Example: MyDog$Fluffy2025. Use a password manager to generate strong passwords.",
+      "help_link": "/docs/how-to/profile-and-settings.md#password-requirements"
+    },
+    {
+      "error_code": "BIO_TOO_LONG",
+      "error_message": "Bio exceeds 500 character limit",
+      "solution": "Your bio is {current_length} characters (max: 500). Remove {excess_chars} characters. Be concise - focus on key value proposition and call-to-action.",
+      "help_link": "/docs/how-to/profile-and-settings.md#bio--description"
+    }
+  ],
+  "related_features": [
+    "subscription-management",
+    "content-upload",
+    "dashboard-analytics",
+    "help-and-support",
+    "content-moderation"
+  ],
+  "glossary": [
+    {
+      "term": "2FA",
+      "definition": "Two-Factor Authentication - Security feature requiring password + second verification (code from app or SMS)"
+    },
+    {
+      "term": "Verification Badge",
+      "definition": "Blue checkmark (✓) indicating confirmed identity and trusted account"
+    },
+    {
+      "term": "Private Profile",
+      "definition": "Profile setting requiring manual approval for viewers/subscribers"
+    },
+    {
+      "term": "Block",
+      "definition": "Completely prevent a user from viewing profile or interacting"
+    },
+    {
+      "term": "Restrict",
+      "definition": "Limit user interaction without full block (comments hidden, messages to requests)"
+    },
+    {
+      "term": "Username",
+      "definition": "Unique @handle used in URL and for tagging (e.g., @username)"
+    },
+    {
+      "term": "Display Name",
+      "definition": "Visible name shown on profile and posts (can include spaces/special chars)"
+    },
+    {
+      "term": "Bio",
+      "definition": "Profile description (max 500 characters) explaining who you are and what subscribers get"
+    }
+  ],
+  "integration_points": {
+    "pages": [
+      "/settings/profile",
+      "/settings/privacy",
+      "/settings/security",
+      "/settings/account",
+      "/settings/verification",
+      "/settings/notifications"
+    ],
+    "components": [
+      "ProfileEditForm",
+      "ProfilePhotoUploader",
+      "BioEditor",
+      "PrivacySettings",
+      "SecuritySettings",
+      "VerificationFlow",
+      "TwoFactorSetup",
+      "BlockedUsersList"
+    ],
+    "apis": [
+      "/api/profile/update",
+      "/api/profile/upload-photo",
+      "/api/privacy/update-settings",
+      "/api/security/enable-2fa",
+      "/api/verification/submit",
+      "/api/users/block",
+      "/api/users/restrict",
+      "/api/account/change-password"
+    ]
+  }
+}
