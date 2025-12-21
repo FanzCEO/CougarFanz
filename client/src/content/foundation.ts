@@ -51,12 +51,11 @@ companionship during difficult times, reminding us that every creature deserves 
   ],
 
   funding: {
-    adRevenue: {
-      percentage: 30,
-      description: "30% of all advertising revenue from Fanz ecosystem platforms is automatically donated to The Wittle Bear Foundation."
+    profitSharing: {
+      description: "A significant portion of all profits from Fanz ecosystem platforms is donated to The Wittle Bear Foundation. We believe in giving back substantially - not just ad revenue, but a meaningful share of everything we earn."
     },
     creatorDonations: {
-      description: "Creators can optionally donate a portion (0-100%) of their ad revenue share to further support the foundation.",
+      description: "Creators can optionally donate a portion of their earnings to further support the foundation.",
       default: 0
     },
     directDonations: {
@@ -90,7 +89,7 @@ companionship during difficult times, reminding us that every creature deserves 
     },
     {
       question: "How is the foundation funded?",
-      answer: "30% of all advertising revenue from Fanz ecosystem platforms automatically goes to the foundation. Creators can also donate a portion of their earnings, and we accept direct donations."
+      answer: "A large portion of all profits from Fanz ecosystem platforms is donated to the foundation - not just ad revenue, but a meaningful share of everything we earn. Creators can also donate a portion of their earnings, and we accept direct donations."
     },
     {
       question: "Why focus on LGBTQ+ youth?",
@@ -102,7 +101,7 @@ companionship during difficult times, reminding us that every creature deserves 
     },
     {
       question: "Can creators choose to donate more?",
-      answer: "Yes! Creators can choose to donate 0-100% of their ad revenue share to the foundation through their publisher dashboard settings."
+      answer: "Yes! Creators can choose to donate a portion of their earnings to the foundation through their dashboard settings."
     },
     {
       question: "What percentage of donations go to programs?",
@@ -139,7 +138,7 @@ Founded in loving memory of Wittle Bear, a beloved yorkie, this foundation was c
 - Foster family programs
 
 ## How We're Funded
-- 30% of all Fanz ecosystem advertising revenue
+- A large portion of all Fanz ecosystem profits
 - Creator voluntary donations
 - Direct public donations
 - Corporate partnerships
@@ -152,11 +151,11 @@ Every day, we help LGBTQ+ youth find safe housing and support, while also ensuri
       slug: "fanz-foundation-support",
       content: `# How Fanz Platforms Support The Wittle Bear Foundation
 
-## Automatic Ad Revenue Sharing
-Every Fanz ecosystem platform (BoyFanz, GirlFanz, TransFanz, PupFanz, and more) automatically donates 30% of all advertising revenue to The Wittle Bear Foundation.
+## Profit Sharing
+Every Fanz ecosystem platform (BoyFanz, GirlFanz, TransFanz, PupFanz, and more) donates a large portion of all profits to The Wittle Bear Foundation. This isn't just advertising revenue - it's a meaningful share of everything we earn as a company.
 
 ## Creator Donations
-Creators who monetize through our ad network can choose to donate a portion of their 70% share to the foundation. This is completely optional and can be set from 0-100%.
+Creators can choose to donate a portion of their earnings to the foundation. This is completely optional and set by each creator.
 
 ## Platform Integration
 The foundation is integrated throughout all Fanz platforms:
@@ -167,7 +166,7 @@ The foundation is integrated throughout all Fanz platforms:
 
 ## Transparency
 We publish quarterly reports showing:
-- Total ad revenue generated
+- Total profits generated
 - Amount donated to foundation
 - Programs funded
 - Impact metrics

@@ -1,3 +1,4 @@
+import mediaHubRoutes from "./routes/mediaHubRoutes";
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { WebSocketServer, WebSocket } from "ws";
@@ -1702,6 +1703,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.status(500).json({ message: "Failed to fetch user rank" });
     }
   });
+
+  // FanzMediaHub - Chunked Uploads & DMCA Protection
+  app.use("/api/mediahub", mediaHubRoutes);
 
   const httpServer = createServer(app);
 

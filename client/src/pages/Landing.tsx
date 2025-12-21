@@ -344,11 +344,11 @@ export default function Landing() {
 
           <div className="text-center bg-gradient-to-r from-pink-500/10 via-purple-500/10 to-amber-500/10 rounded-2xl p-8 border border-pink-500/20">
             <p className="text-lg text-gray-200 mb-4">
-              <span className="font-semibold text-pink-300">30% of all ad revenue</span> from CougarFanz
-              is automatically donated to The Wittle Bear Foundation.
+              <span className="font-semibold text-pink-300">A large portion of our profits</span> from CougarFanz
+              is donated to The Wittle Bear Foundation.
             </p>
             <p className="text-gray-400 mb-6">
-              Creators can also choose to donate a portion of their ad earnings to further support these causes.
+              Creators can also choose to donate a portion of their earnings to further support these causes.
             </p>
             <div className="flex items-center justify-center gap-2 text-sm text-pink-300/80">
               <Heart className="h-4 w-4 text-pink-500 fill-pink-500" />
