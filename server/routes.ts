@@ -1,4 +1,5 @@
 import mediaHubRoutes from "./routes/mediaHubRoutes";
+import aiGatewayRoutes from "./routes/aiGatewayRoutes";
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { WebSocketServer, WebSocket } from "ws";
@@ -1706,6 +1707,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   // FanzMediaHub - Chunked Uploads & DMCA Protection
   app.use("/api/mediahub", mediaHubRoutes);
+  app.use("/api/ai", aiGatewayRoutes);
 
   const httpServer = createServer(app);
 
